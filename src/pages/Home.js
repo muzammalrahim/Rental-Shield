@@ -1,6 +1,13 @@
 import React, { Component } from "react";
-import Header from '../components/Header';
 import Footer  from '../components/Footer';
+import HomeBanner from '../components/Banners/HomeBanner';
+import Association from '../components/Clients/Association';
+import WelcomeFuture from '../components/WelcomeFuture';
+import Registration from '../components/RegistrationForm/Registration';
+import AssociationFooter from '../components/Clients/AssociationFooter';
+import AccSteps from '../components/AccSteps';
+import HomeUpdate from '../components/Updates/HomeUpdate';
+
 
 
 
@@ -9,12 +16,37 @@ class Home extends Component {
         return (
                 <div className="home-mian">
 
-                    {/* header */}
-                    <div className="header">
-                        <Header/>
-                    </div>   
-                    {/* header */}
+                    
 
+                    {/* Home Banner */}
+                    <div className="home-banner">
+                        <HomeBanner/>
+                    </div>
+                    {/* Home Banner */}
+
+                    {/* Clients */}
+                    <Association/>
+                    {/* Clients */}
+
+                    {/* Future Banner */}
+                    <WelcomeFuture/>
+                    {/* Future Banner */}
+
+                    {/* Signup Steps */}
+                    <AccSteps/>
+                    {/* Signup Steps */}
+
+                    {/* Updates */}
+                    <HomeUpdate/>
+                    {/* Updates */}
+
+                    {/* Footer Clients */}
+                    <AssociationFooter/>
+                    {/* Footer Clients */}
+
+                    {/* Registration */}
+                    <Registration/>
+                    {/* Registration */}
 
                     {/* Footer */}
                     <div className="footer">

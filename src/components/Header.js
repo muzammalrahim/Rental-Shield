@@ -12,8 +12,8 @@ import {Link} from 'react-router-dom'
 export default class Header extends Component {
     render() {
         return (
-            <div className="header-main px-5">
-                <Navbar  expand="lg">
+            <div className="header-main px-5 pt-3">
+                <Navbar  expand="lg" className="p-0">
                     {/* logo */}
                     <Navbar.Brand href="#home">
                         <img src={logo} alt="logo"/>
@@ -32,12 +32,12 @@ export default class Header extends Component {
 
                         {/* Right Options */}
                         <Form inline>
-                            <Button className="bttn"><div className="bg-gray-500">I'm a Landlord</div></Button>
-                            <Button variant="outline-success" className="border-4">I'm a Tenant</Button>
-                            <Link><div className="text-gray-700 text-lg ml-3 mr-1">Login</div></Link>/
-                            <Link><div className="text-gray-700 text-lg ml-1">Sign Up</div></Link>
+                            <Button className="bttn mr-3"><div className="text-gray-500">I'm a Landlord</div></Button>
+                            <Button className="bttn  px-3">I'm a Tenant</Button>
+                            <Link className="logins"><div className="text-gray-700 text-lg ml-3 mr-1">Login</div></Link>/
+                            <Link className="logins"><div className="text-gray-700 text-lg ml-1">Sign Up</div></Link>
                             <img className="mx-3" src={Enter} alt="enter"></img>
-                            <select>
+                            <select className="bg-gray">
                                 <option>UK</option>
                                 <option>Ar</option>
                             </select>

@@ -5,6 +5,109 @@
 @tailwind utilities;
 
 
-    .social-links li{
-        display: inline-block;
-    }
+    
+   
+/* Headeer */
+.logins{
+    color: #606060 !important;
+}
+.bttn{
+    background: none !important;
+    color: #606060 !important;
+    border: 1px solid #606060 !important;
+    border-radius: 30px !important;
+    font-weight: 500 !important;
+}
+select{
+    background: none !important;
+}
+/* Headeer */
+
+/* Home Banner */
+.left-side{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: -70px;
+
+}
+.right-inner{
+    padding-top: 20%;
+    text-align: left;
+    padding-left: 26%;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+    position: relative;
+}
+/* Home Banner */
+
+/* Clients */
+.client-row{
+    align-items: center;
+}
+.clients ul li{
+    display: inline-block;
+}
+/* Clients */
+
+/* Future Banner */
+.future-row{
+    align-items: center;
+}
+.img-area img{
+    float: right;
+}
+/* Future Banner */
+
+/* Acc Steps */
+.step-row{
+    align-items: center;
+}
+.line{
+    height: 75px;
+}
+
+.step-inner ul li{
+    display: inline-block;
+}
+.step-inner ul{
+    display: inline-flex;
+    align-items: center;
+}
+/* Acc Steps */
+
+
+/* Updates */
+.main h4{
+    width: 100%;
+}
+.update-main img{
+    width: 50%;
+    margin: 0 auto;
+}
+/* Updates */
+
+/* Footer Clients */
+.Association-f-main .clients{
+    padding: 12rem 0 5rem 0;
+}
+/* Footer Clients */ 
+
+/* Registration */
+.from-main{
+    position: relative;
+    padding: 20px 0 160px 0;
+    overflow: hidden;
+}
+.from-main img{
+    position: absolute;
+    left: 29%;
+}
+
+
+/* Footer */
+.social-links li{
+    display: inline-block;
+}
+/* Footer */
