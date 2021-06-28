@@ -1,5 +1,14 @@
 {
     "welcome": {
         "title": "Welcome to {{framework}}"
+    },
+    "header" :{
+        "landlord" : "I'm a Landlord"
+    },
+    "banner" :{
+        "rent" : "Rent."
+    },
+    "pay" :{
+        "pay" : "Pay."
     }
 }

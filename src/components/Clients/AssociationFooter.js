@@ -9,7 +9,7 @@ export default class AssociationFooter extends Component {
         return (
             <div className="Association-f-main">
                         
-                        <div className="clients" style={{ backgroundImage:`url(${ClientBg})` }}>
+                        <div className="clients bg-auto bg-no-repeat bg-cover" style={{ backgroundImage:`url(${ClientBg})` }}>
                         <p>In association with</p>
                             <ul className="m-0">
                                 <li>

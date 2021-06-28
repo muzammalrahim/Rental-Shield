@@ -1,11 +1,7 @@
 import './App.css';
 import "tailwindcss/tailwind.css"
-
-
-
-
-//Translation
-import {useTranslation} from "react-i18next";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 

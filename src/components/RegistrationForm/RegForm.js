@@ -36,7 +36,7 @@ function RegistrationForm(props) {
                     </div>
                     <button 
                         type="submit" 
-                        className="btn btn-primary"
+                        className=""
                     >
                         Register
                     </button>

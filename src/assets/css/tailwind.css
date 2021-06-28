@@ -23,22 +23,40 @@ select{
 }
 /* Headeer */
 
+
+/* .home-banner-main{
+    background: url(../images/home-banner1.png) no-repeat left top, url(../images/bannerr-right.png) no-repeat right top;
+    position: relative;
+    top: -64px;
+    z-index: -1;
+} */
+
 /* Home Banner */
+.home-banner-main{
+    position: relative;
+    top: -64px;
+    z-index: -1;
+}
 .left-side{
     width: 100%;
     background-repeat: no-repeat;
-    height: 400px;
-    margin-top: -70px;
+    height: 55em;
+    /* padding: 0 0 25rem 0; */
+    background-size: 100%;
+    /* margin-top: -70px; */
+    background-position: -35px -8px;
 
 }
 .right-inner{
-    padding-top: 20%;
     text-align: left;
-    padding-left: 26%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right top;
     z-index: -1;
     position: relative;
+     background-size: 55%;
+}
+.inner{
+    padding-top: 70% !important;
 }
 /* Home Banner */
 
@@ -57,6 +75,8 @@ select{
 }
 .img-area img{
     float: right;
+    margin-right: 50px;
+    width: 50%;
 }
 /* Future Banner */
 
@@ -88,6 +108,43 @@ select{
 }
 /* Updates */
 
+
+/* FAQ */
+.faq-main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 0 17% 0;
+}
+.faq-row-wrapper.styles_faq-row-wrapper__3vA1D {
+    background: none !important;
+}
+/* FAQ */
+
+/* Know More */
+.know-inner{
+    padding-bottom: 30em;
+}
+.para1{
+    position: relative;
+    left: 53%;
+}
+.para2{
+    position: relative;
+    top: -16%;
+    left: 32%;
+}
+.para3{
+    position: relative;
+    left: 23%;
+    top: 204%;
+}
+.para4{
+    position: relative;
+    top: 272%;
+}
+
+/* Know More */
+
 /* Footer Clients */
 .Association-f-main .clients{
     padding: 12rem 0 5rem 0;
@@ -111,3 +168,13 @@ select{
     display: inline-block;
 }
 /* Footer */
+
+
+
+
+
+
+
+@media screen and (mix-width: 1991px) {
+
+}

@@ -6,10 +6,10 @@ export default class Association extends Component {
         return (
             <div className="client-t-main p-5">
                 <Row className="client-row">
-                    <Col sm="12" md="3">
+                    <Col sm="12" md="12" lg="3">
                         <p>Association With</p>
                     </Col>
-                    <Col sm="12" md="9">
+                    <Col sm="12" md="12" lg="9">
                         <div className="clients">
                             <ul>
                                 <li>

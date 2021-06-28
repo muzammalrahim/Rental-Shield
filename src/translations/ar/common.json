@@ -1,5 +1,15 @@
 {
     "welcome": {
         "title": "مرحبا {{framework}}"
+    },
+    "header" :{
+        "landlord" : "أنا مالك"
+    },
+    "banner" :{
+        "rent" : ".أجرة"
+    },
+    "pay" :{
+        "pay" : ".يدفع"
     }
+    
 }

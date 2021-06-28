@@ -7,7 +7,10 @@ import Registration from '../components/RegistrationForm/Registration';
 import AssociationFooter from '../components/Clients/AssociationFooter';
 import AccSteps from '../components/AccSteps';
 import HomeUpdate from '../components/Updates/HomeUpdate';
-
+import TestimonialSlider from '../components/Sliders/TestimonialSlider';
+import Header from '../components/Header';
+import Faq from '../components/FAQ/Faq';
+import KnowMore from '../components/More/KnowMore';
 
 
 
@@ -17,6 +20,11 @@ class Home extends Component {
                 <div className="home-mian">
 
                     
+                    {/* header */}
+                    <div className="header">
+                         <Header/>
+                    </div>   
+                    {/* header */}
 
                     {/* Home Banner */}
                     <div className="home-banner">
@@ -39,6 +47,18 @@ class Home extends Component {
                     {/* Updates */}
                     <HomeUpdate/>
                     {/* Updates */}
+
+                    {/* FAQ */}
+                    <Faq/>
+                    {/* FAQ */}
+
+                    {/* Know More */}
+                    <KnowMore/>
+                    {/* Know More */}
+
+                    {/* Testimonal Slider */}
+                    <TestimonialSlider/>
+                    {/* Testimonal Slider */}
 
                     {/* Footer Clients */}
                     <AssociationFooter/>
