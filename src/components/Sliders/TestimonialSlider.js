@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import NextArrowSlick from '../../assets/images/enter.svg';
+import NextArrowSlick from '../../assets/images/next-arrow.png';
 
 
 function SampleNextArrow(props) {

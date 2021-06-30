@@ -15,7 +15,7 @@ function Header({ t, i18n }) {
     // const {t, i18n} = useTranslation('common');
 
         return (
-            <div className="header-main px-5 pt-3">
+            <div className="header-main px-5  pt-3">
                 <Navbar  expand="lg" className="p-0">
                     {/* logo */}
                     <Navbar.Brand href="#home">
@@ -27,7 +27,7 @@ function Header({ t, i18n }) {
                     <Navbar.Collapse id="basic-navbar-nav">
                         {/* Menu Links */}
                         <Nav className="mr-auto">
-                            <Nav.Link href="#link"><div className="text-gray text-lg">About</div></Nav.Link>
+                            <Nav.Link href="/landlord"><div className="text-gray text-lg">{t('header.about')}</div></Nav.Link>
                             <Nav.Link href="#link"><div className="text-gray text-lg">FAQ's</div></Nav.Link>
                             <Nav.Link href="#link"><div className="text-gray text-lg">More</div></Nav.Link>
                         </Nav>

@@ -38,7 +38,10 @@ const styles = {
     // bgColor: 'white',
     titleTextColor: "#606060",
     rowTitleColor: "#606060",
-    background: "red",
+    rowContentColor:"#606060",
+    rowContentTextAlign:"left",
+    arrowIcon:"",
+    arrowColor:"#606060",
     // rowContentColor: 'grey',
     // arrowColor: "red",
 };
@@ -52,17 +55,17 @@ const config = {
 export default function FAQMain() {
 
     return (
-        <div className="faq-main no-repeat" style={{ backgroundImage:`url(${FaqBg})` }}>
+        <div className="faq-main faq-bg no-repeat" style={{ backgroundImage:`url(${FaqBg})` }}>
             <Container>
-                <Row>
-                    <Col md="6" className="">
-                        <div className="text-left text-gray">
-                            <h3>Frequently</h3>
-                            <h3>Asked</h3>
-                            <h3>Questions</h3>
+                <Row className ="items-center">
+                    <Col lg="6" md="12" sm="12"  className="">
+                        <div className="text-gray faq-heading md:faq-heading">
+                            <h3 className="font-normal md:text-left text-lg lg:text-6xl">Frequently</h3>
+                            <h3 className="font-normal md:text-left text-lg lg:text-6xl">Asked</h3>
+                            <h3 className="font-normal md:text-left text-lg lg:text-6xl">Questions</h3>
                         </div> 
                     </Col>
-                    <Col md="6">
+                    <Col lg="6" md="12" sm="12" className="text-center lg:text-left md:faq-content">
                         <Faq
                             data={data}
                             styles={styles}

@@ -12,10 +12,10 @@ export default class HomeUpdate extends Component {
                     <Row  className=" main d-flex justify-content-center">
                         <Col md="12">
                         <div>
-                            <h4>No ifs, buts or games</h4>
+                            <h4 className="text-5xl text-gray font-normal"> No ifs, buts or games</h4>
                         </div>
                         <br/>
-                        <p>
+                        <p className="text-xl text-gray font-normal pb-4">
                             Want to get a more detailed overview of how it works? 
                             <br/>
                             please watch our animation video below

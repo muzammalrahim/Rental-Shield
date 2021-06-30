@@ -3,13 +3,41 @@
         "title": "مرحبا {{framework}}"
     },
     "header" :{
-        "landlord" : "أنا مالك"
+        "landlord" : "أنا مالك",
+        "about": "حول",
+        "faqs": "حولالتعليمات",
+        "more": "أكثر"
     },
     "banner" :{
         "rent" : ".أجرة"
     },
     "pay" :{
         "pay" : ".يدفع"
-    }
+    },
+
+    "Header-4": {
+        "I'm a Landlord": "أنا مالك"
+    },
+
     
+"Header-5": {
+    "I'm a Tenant": "أنا مستأجر"
+},
+
+
+"Header-6": {
+    "Login": "تسجيل الدخول"
+},
+
+
+"Header-7": {
+    "Sign Up": "اشتراك"
+}
+
+
+
+
+
+
+
 }

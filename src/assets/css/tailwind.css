@@ -17,6 +17,7 @@
     border: 1px solid #606060 !important;
     border-radius: 30px !important;
     font-weight: 500 !important;
+    
 }
 select{
     background: none !important;
@@ -32,22 +33,30 @@ select{
 } */
 
 /* Home Banner */
-.home-banner-main{
+.sm\:home-banner-main{
     position: relative;
     top: -64px;
     z-index: -1;
 }
-.left-side{
+/* .sm\:left-side{
     width: 100%;
     background-repeat: no-repeat;
     height: 55em;
-    /* padding: 0 0 25rem 0; */
     background-size: 100%;
-    /* margin-top: -70px; */
     background-position: -35px -8px;
 
+} */
+
+.sm\:left-side {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 45em;
+    /* padding: 0 0 25rem 0; */
+    background-size: contain;
+    /* margin-top: -70px; */
+    background-position: -35px -8px;
 }
-.right-inner{
+.sm\:right-inner{
     text-align: left;
     background-repeat: no-repeat;
     background-position: right top;
@@ -55,9 +64,10 @@ select{
     position: relative;
      background-size: 55%;
 }
-.inner{
-    padding-top: 70% !important;
+.lg\:inner{
+    padding-top: 30%;
 }
+
 /* Home Banner */
 
 /* Clients */
@@ -76,7 +86,7 @@ select{
 .img-area img{
     float: right;
     margin-right: 50px;
-    width: 50%;
+    /* width: 50%; */
 }
 /* Future Banner */
 
@@ -95,6 +105,15 @@ select{
     display: inline-flex;
     align-items: center;
 }
+/* .bg-line{
+    position: relative;
+} */
+.bg-line{
+    position: relative;
+    top:-166px;
+     right:-328px;
+     z-index: -1;
+}
 /* Acc Steps */
 
 
@@ -103,17 +122,20 @@ select{
     width: 100%;
 }
 .update-main img{
-    width: 50%;
+    /* width: 50%; */
     margin: 0 auto;
 }
 /* Updates */
 
 
 /* FAQ */
+
+
 .faq-main{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20% 0 17% 0;
+    margin-top: -146px;
 }
 .faq-row-wrapper.styles_faq-row-wrapper__3vA1D {
     background: none !important;
@@ -125,22 +147,22 @@ select{
     padding-bottom: 30em;
 }
 .para1{
-    position: relative;
+    position: absolute;
     left: 53%;
 }
 .para2{
-    position: relative;
+    position: absolute;
     top: -16%;
     left: 32%;
 }
-.para3{
-    position: relative;
-    left: 23%;
-    top: 204%;
+.para3 {
+    position: absolute;
+    left: 53%;
+    top: 366px;
 }
 .para4{
-    position: relative;
-    top: 272%;
+    position: absolute;
+    top: 366px;
 }
 
 /* Know More */
@@ -151,15 +173,54 @@ select{
 }
 /* Footer Clients */ 
 
+
+/* Even More */
+.even-inner{
+    /* padding-top: 418px; */
+    padding-bottom: 100px;
+}
+
+/* TenantsSteps */
+.tenant-main img{
+    margin: 0 auto;
+}
+/* TenantsSteps */
+
+
 /* Registration */
+.registration-main{
+    padding-bottom: 35px;
+}
+.from-main input{
+    border: 0;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+    padding-left:0 ;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+
+}
+
+.card{
+    min-width: 45% !important;
+    padding: 0 45px !important;
+    margin-top: 50px;
+}
+
+.from-main input::placeholder{
+    color: black;
+}
 .from-main{
     position: relative;
-    padding: 20px 0 160px 0;
+    padding: 20px 0 87px 0;
     overflow: hidden;
+    top: 35px;
 }
 .from-main img{
     position: absolute;
-    left: 29%;
+    left: 40%;
+    top: 0;
+    height: 100%;
 }
 
 
@@ -167,14 +228,137 @@ select{
 .social-links li{
     display: inline-block;
 }
+.footer-inner{
+    grid-template-columns: 30% auto auto auto auto auto auto;
+}
 /* Footer */
 
 
-
-
-
-
-
-@media screen and (mix-width: 1991px) {
-
+/* ------------------Talent Page----------------------- */
+.talent-bg{
+    background-position: right;
 }
+.tanent-banner-main{
+    background-position: right;
+    margin-top: -64px;
+    z-index: -1;
+    height: 100%;
+}
+.talent-bg-img{
+    z-index: 1;
+    top: 15%;
+}
+.banner-content {
+    padding-top: 100px;
+}
+.talent-haeding{
+    padding-top: 80px;
+}
+.talent-cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+.update-bg{
+    padding-top: 270px;
+    padding-bottom: 50px;
+}
+.update-inner-bg{
+    margin-top: -239px;
+}
+/* ------------------Talent Page----------------------- */
+/* .landlord-bg{
+    height: 500px;
+    margin-top: 20px;
+} */
+
+@media (min-width: 320px) and (max-width: 639px) {
+   .xs\:home-banner-main .row{
+       background: #F3FDEA;
+   }
+    .xs\:right-inner {
+        background-image: none !important;
+        
+    }
+    .xs\:left-side{
+        background-image: none !important;
+        height:0;
+    }
+    .xs\:inner{
+        padding-top: 20%;
+        z-index: 99 !important;
+    }
+    .xs\:right-inner {
+        z-index: 9;
+    }
+    .md\:faq-heading {
+        padding-top: 100px !important;
+    }
+    .md\:faq-content {
+        padding-bottom: 52px;
+    }
+    
+}
+
+
+@media (min-width: 640px) {
+    .sm\:home-banner-main{
+        display: block;
+    }
+    
+}
+@media (min-width: 640px) and (max-width: 991px) {
+    .sm\:home-banner-main{
+        display: block;
+    }
+    .sm\:inner{
+        padding-top: 20% !important;
+        z-index: 99 !important;
+    }
+    .sm\:left-side{
+        background-position: top left;
+        height: 39em;
+    }
+    /* .sm\#basic-navbar-nav {
+        background: #fff;
+        position: absolute;
+        top: 47px;
+        right: -28px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+     */
+     .md\:img-area img{
+        float: none;
+        margin: 0 auto;
+        /* margin-right: 0; */
+        /* width: 50%; */
+    }
+    .md\:faq-heading {
+        padding-top: 30px !important;
+    }
+    .footer-inner{
+        grid-template-columns: 100%;
+    }
+    .footer-logo{
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .form-text{
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 1280px) {
+    .lg\:left-side{
+        height: 100%;
+    }
+    .lg\:inner {
+        padding-top: 50%;
+        padding-bottom: 23%;
+    }
+    .footer-inner{
+        grid-template-columns: 100%;
+    }
+}
+

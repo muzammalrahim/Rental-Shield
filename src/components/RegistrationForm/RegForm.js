@@ -6,40 +6,47 @@ function RegistrationForm(props) {
   return(
         <div className="from-main">
             <img src={GirlImg} alt="bg-img"/>
-            <div className="card col-12 col-lg-4 login-card mt-2 hv-center">
+            <div className="card col-12 col-lg-4 login-card hv-center bg-pale">
+                <h1 className="text-black text-3xl text-left px-3 py-4">Registration</h1>
                 <form>
                     <div className="form-group text-left">
-                    <label htmlFor="exampleInputEmail1">Email address</label>
-                    <input type="email" 
+                    {/* <label htmlFor="exampleInputEmail1" className="text-black font-normal text-lg">Name</label> */}
+                    <input type="text" 
                         className="form-control" 
-                        id="email" 
+                        id="" 
                         aria-describedby="emailHelp" 
-                        placeholder="Enter email"
+                        placeholder="Name"
+
                     />
-                    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                
                     </div>
                     <div className="form-group text-left">
-                        <label htmlFor="exampleInputPassword1">Password</label>
-                        <input type="password" 
+                        {/* <label htmlFor="exampleInputPassword1" className="text-black font-normal text-lg">Phone</label> */}
+                        <input type="text" 
                             className="form-control" 
-                            id="password" 
-                            placeholder="Password"
+                            id="" 
+                            placeholder="Phone"
                         />
                     </div>
                     <div className="form-group text-left">
-                        <label htmlFor="exampleInputPassword1">Confirm Password</label>
-                        <input type="password" 
+                        {/* <label htmlFor="exampleInputPassword1" className="text-black font-normal text-lg">Email</label> */}
+                        <input type="text" 
                             className="form-control" 
-                            id="confirmPassword" 
-                            placeholder="Confirm Password"
+                            id="" 
+                            placeholder="E-mail"
                         />
                     </div>
-                    <button 
-                        type="submit" 
-                        className=""
-                    >
-                        Register
-                    </button>
+                    <div className="form-group text-left">
+                        {/* <label htmlFor="exampleInputPassword1" className="text-black font-normal text-lg">Address</label> */}
+                        <input type="password" 
+                            className="form-control" 
+                            id="" 
+                            placeholder="Address"
+                        />
+                    </div>
+                    
+                    <button class="bg-black rounded-full px-5 mb-5 mt-3 py-1.5 text-xl text-white font-bold">Continue</button>
+                    
                 </form>
             </div>
         </div>

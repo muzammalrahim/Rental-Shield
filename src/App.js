@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 //Import Component
 import Home from '../src/pages/Home';
+import Tanents from '../src/pages/Tanents';
+import LandLord from '../src/pages/LandLord';
 
 
 
@@ -31,11 +33,28 @@ function App() {
       <section className="route-section">
         <Router>
           <Switch>
+            
               <Route
+              exact
                   path="/"
                   component={Home}
-              /> 
-              {/* <Route exact path="/" component={Home} /> */}
+              >
+                </Route> 
+              
+              <Route
+              exact
+                  path="/tanents"
+                  component={Tanents}
+              >
+              </Route> 
+
+              <Route
+              exact
+                  path="/landlord"
+                  component={LandLord}
+              >
+              </Route> 
+              
           </Switch>
         </Router>
         

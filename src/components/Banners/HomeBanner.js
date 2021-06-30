@@ -9,22 +9,22 @@ class HomeBanner extends Component {
     render() {
         const { t } = this.props;
         return (
-            <div className="home-banner-main">
+            <div className="sm:home-banner-main   xs:home-banner-main">
                 <Row className="no-gutters">
-                <Col md="8">
-                    <div className="left-side" style={{ backgroundImage:`url(${Homebanner})` }}>
+                <Col xs="3" sm="5" md="7" lg="7">
+                    <div className="xs:left-side lg:left-side sm:left-side bg-local" style={{ backgroundImage:`url(${Homebanner})` }}>
 
                     </div>
                 </Col>
-                <Col md="4">
-                    <div className="right-inner" style={{ backgroundImage:`url(${RightBg})` }}>
-                        <div className="inner">
-                            <h2 className="text-green text-6xl font-normal">
+                <Col xs="9" sm="7" md="5" lg="5">
+                    <div className="sm:right-inner pb-5  xs:right-inner inner bg-local" style={{ backgroundImage:`url(${RightBg})` }}>
+                        <div className="sm:inner xs:inner md:inner-pt-5 lg:inner">
+                            <h2 className="text-green text-xl md:text-4xl lg:text-6xl font-normal">
                                 {t('pay.pay')}
                                 <br/>{t('banner.rent')}
                                 <br/>Monthly.
                             </h2>
-                            <p className="text-gray pt-3 leading-5">
+                            <p className="text-gray pt-3 pb-2 text-lg md:text-2xl leading-6">
                             Sign up today and change<br/> the way you rent... forever
                             </p>
                         

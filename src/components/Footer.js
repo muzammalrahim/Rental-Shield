@@ -15,11 +15,11 @@ export default class Footer extends Component {
                 <div className="footer-top">
                     <Row>
                         <Col xl="6" md="12" xs="12" className="">
-                            <img className="" src={logo} alt="logo"/>
+                            <img className="footer-logo" src={logo} alt="logo"/>
                         </Col>
                         <Col xl="6" md="12" xs="12">
                             <div className="social-links">
-                                <ul className="list-none float-right">
+                                <ul className="list-none md:text-center lg:text-right">
                                     <li className="pr-3">
                                         <img src={process.env.PUBLIC_URL + '/img/twit.svg'} alt="twitter"/>
                                     </li>
@@ -45,7 +45,7 @@ export default class Footer extends Component {
                 <hr></hr>
 
                 <div className="footer-bottom">
-                    <Row>
+                    {/* <Row>
                         <Col md="6 text-left">
                             <ul className="text-left">
                                 <li>
@@ -111,7 +111,78 @@ export default class Footer extends Component {
                                 <li className="text-sm text-gray font-medium">Site Map</li>
                             </ul>
                         </Col>
-                    </Row>
+                    </Row> */}
+
+
+
+
+                    <div className="footer-inner grid">
+                        <div className="footer-adress text-left">
+                            <ul className="text-left">
+                                <li>
+                                    <Link href="tel:123-456-7890" className="text-base text-gray font-medium">123-456-7890 </Link>
+                                </li>
+                                <li className="mb-4">
+                                    <Link className="text-base text-gray font-medium">info@depositshield.com</Link>
+                                </li>
+                                <li className="text-base text-gray font-medium">Adu Dhabi Global Markets
+                                    <br></br> Al Maryah Island 
+                                    <br></br>bu Dhabi, U.A.E.</li>
+                            </ul>
+                        </div>
+                        <div className=" text-left">
+                            <h4 className="text-gray text-base font-bold">About us</h4>
+                            <ul>
+                                <li className="text-sm text-gray font-medium pb-1">Our team</li>
+                                <li className="text-sm text-gray font-medium pb-1">Adjucicatiors</li>
+                                <li className="text-sm text-gray font-medium pb-1"> Careers</li>
+                                <li className="text-sm text-gray font-medium pb-1">Contact us</li>
+                                <li className="text-sm text-gray font-medium pb-1">Investors</li>
+                                <li className="text-sm text-gray font-medium pb-4">CSR </li>
+                                <li className="text-sm text-gray font-medium">FAQ's</li>
+                            </ul>
+                        </div>
+                        <div className=" text-left">
+                            <h4 className="text-gray text-base font-bold">I'm a Landlord</h4>
+                            <ul>
+                                <li className="text-sm text-gray font-medium pb-2">Landlords</li>
+                                <li className="text-sm text-gray font-medium pb-2">Agents</li>
+                                <li className="text-sm text-gray font-medium pb-2"> Ternats</li>
+                                <li className="text-sm">More</li>
+                            </ul>
+                        </div>
+                        <div className=" text-left">
+                            <h4 className="text-gray text-base font-bold">Blog</h4>
+                            <ul>
+                                <li className="text-sm text-gray font-medium pb-2">Latest</li>
+                                <li className="text-sm text-gray font-medium "> Important</li>
+                            </ul>
+                        </div>
+                        <div className=" text-left">
+                            <h4 className="text-gray text-base font-bold">Account</h4>
+                            <ul>
+                                <li className="text-sm text-gray font-medium pb-2">Manage Account</li>
+                                <li className="text-sm text-gray font-medium pb-2">Settings</li>
+                                <li className="text-sm text-gray font-medium"> Support</li>
+                            </ul>
+                        </div>
+                        <div className=" text-left">
+                            <h4 className="text-gray text-base font-bold">Princing</h4>
+                            <ul>
+                                <li className="text-sm text-gray font-medium pb-2">Privacy Policy</li>
+                            </ul>
+                        </div>
+                        <div className=" text-left">
+                            <h4 className="text-gray text-base font-bold">Terms & Conditions</h4>
+                            <ul>
+                                <li className="text-sm text-gray font-medium pb-2">Privacy Policy</li>
+                                <li className="text-sm text-gray font-medium pb-2">Legal</li>
+                                <li className="text-sm text-gray font-medium pb-2"> Cockie Policy</li>
+                                <li className="text-sm text-gray font-medium pb-2">Terms of use</li>
+                                <li className="text-sm text-gray font-medium">Site Map</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

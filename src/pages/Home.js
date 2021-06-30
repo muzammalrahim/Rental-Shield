@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import Footer  from '../components/Footer';
+import Header from '../components/Header';
 import HomeBanner from '../components/Banners/HomeBanner';
 import Association from '../components/Clients/Association';
 import WelcomeFuture from '../components/WelcomeFuture';
-import Registration from '../components/RegistrationForm/Registration';
 import AssociationFooter from '../components/Clients/AssociationFooter';
 import AccSteps from '../components/AccSteps';
 import HomeUpdate from '../components/Updates/HomeUpdate';
 import TestimonialSlider from '../components/Sliders/TestimonialSlider';
-import Header from '../components/Header';
 import Faq from '../components/FAQ/Faq';
 import KnowMore from '../components/More/KnowMore';
+import Registration from '../components/RegistrationForm/Registration';
+import Footer  from '../components/Footer';
 
 
 
@@ -41,7 +41,9 @@ class Home extends Component {
                     {/* Future Banner */}
 
                     {/* Signup Steps */}
-                    <AccSteps/>
+                    <div className="mt-5">
+                        <AccSteps/>
+                    </div>
                     {/* Signup Steps */}
 
                     {/* Updates */}
@@ -49,23 +51,19 @@ class Home extends Component {
                     {/* Updates */}
 
                     {/* FAQ */}
-                    <Faq/>
+                     <Faq/>
                     {/* FAQ */}
 
-                    {/* Know More */}
-                    <KnowMore/>
-                    {/* Know More */}
-
                     {/* Testimonal Slider */}
-                    <TestimonialSlider/>
-                    {/* Testimonal Slider */}
+                     <TestimonialSlider/>
+                    {/* Testimonal Slider */}  
 
                     {/* Footer Clients */}
                     <AssociationFooter/>
                     {/* Footer Clients */}
 
                     {/* Registration */}
-                    <Registration/>
+                     <Registration/>
                     {/* Registration */}
 
                     {/* Footer */}
@@ -73,6 +71,11 @@ class Home extends Component {
                         <Footer/>
                     </div>
                     {/* Footer */}
+
+
+                    
+
+                    
                 </div>
             );
         }

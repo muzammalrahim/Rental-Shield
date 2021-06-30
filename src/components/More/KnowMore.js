@@ -12,10 +12,11 @@ export default class KnowMore extends Component {
                 <p className="text-gray text-xl font-normal pb-5">
                     Which category do you fall under. Click below to know more.
                 </p>
-                <div className="know-inner bg-no-repeat bg-top pt-100" style={{ backgroundImage:`url(${KnowBg})` }}>
+                <div className="">
                     <Container>
+                    <div className="know-inner bg-no-repeat bg-top pt-100 bg-cover" style={{ backgroundImage:`url(${KnowBg})` }}>
                         <Row>
-                            <Col md="6">
+                            <Col md="6" className="relative">
                             <div className="para1 text-left">
                                 <h1 className="text-gray font-bold text-3xl">I'm a Landlord</h1>
                                 <p className="text-gray text-lg font-normla">
@@ -74,6 +75,7 @@ export default class KnowMore extends Component {
                             </div>
                             </Col>
                         </Row>
+                        </div>
                     </Container>
                     {/* <div>
                         <h1 className="text-gray font-bold text-3xl">I'm a Landlord</h1>

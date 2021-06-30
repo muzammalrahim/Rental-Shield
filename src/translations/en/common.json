@@ -3,7 +3,8 @@
         "title": "Welcome to {{framework}}"
     },
     "header" :{
-        "landlord" : "I'm a Landlord"
+        "landlord" : "I'm a Landlord",
+        "about": "About"
     },
     "banner" :{
         "rent" : "Rent."

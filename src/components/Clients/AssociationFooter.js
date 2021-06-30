@@ -11,7 +11,7 @@ export default class AssociationFooter extends Component {
                         
                         <div className="clients bg-auto bg-no-repeat bg-cover" style={{ backgroundImage:`url(${ClientBg})` }}>
                         <p>In association with</p>
-                            <ul className="m-0">
+                            <ul className="m-0 grid grid-cols-5 pl-3">
                                 <li>
                                     <img src={process.env.PUBLIC_URL + '/img/fc1.png'} alt="client"/>
                                 </li>
