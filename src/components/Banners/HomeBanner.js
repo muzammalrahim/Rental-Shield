@@ -20,15 +20,15 @@ class HomeBanner extends Component {
                     <div className="sm:right-inner pb-5  xs:right-inner inner bg-local" style={{ backgroundImage:`url(${RightBg})` }}>
                         <div className="sm:inner xs:inner md:inner-pt-5 lg:inner">
                             <h2 className="text-green text-xl md:text-4xl lg:text-6xl font-normal">
-                                {t('pay.pay')}
+                                {t('banner.pay')}
                                 <br/>{t('banner.rent')}
-                                <br/>Monthly.
+                                <br/>{t('banner.monthly')}
                             </h2>
                             <p className="text-gray pt-3 pb-2 text-lg md:text-2xl leading-6">
-                            Sign up today and change<br/> the way you rent... forever
+                            {t('banner.banner-details-1')}<br/>{t('banner.banner-details-2')}
                             </p>
                         
-                            <button className="bg-green rounded-full px-4 py-1.5 text-xl text-white font-bold">Read more</button>
+                            <button className="bg-green rounded-full px-4 py-1.5 text-xl text-white font-bold">{t('banner.readmore')}</button>
                         </div>
                         
                     </div>

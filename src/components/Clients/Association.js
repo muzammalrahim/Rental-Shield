@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import {Row, Col} from 'react-bootstrap';
 
-export default class Association extends Component {
+//Translation
+import { withTranslation } from 'react-i18next';
+
+class Association extends Component {
     render() {
+        const { t, i18n } = this.props;
         return (
             <div className="client-t-main px-5">
                 <Row className="client-row">
                     <Col sm="12" md="12" lg="2">
-                        <p>Association With</p>
+                        <p>{t('association-slide.association')}</p>
                     </Col>
                     <Col sm="12" md="12" lg="10">
                         <div className="clients text-center">
@@ -36,3 +40,4 @@ export default class Association extends Component {
         )
     }
 }
+export default withTranslation(['common'])(Association);

@@ -3,11 +3,13 @@ import {Row, Col} from 'react-bootstrap'
 import logo from '../assets/images/logo.svg'
 import {Link} from 'react-router-dom'
 
+//Translation
+import { withTranslation } from 'react-i18next';
 
 
-
-export default class Footer extends Component {
+class Footer extends Component {
     render() {
+        const { t, i18n } = this.props;
         return (
             <div className="footer-main px-5 mt-5">
 
@@ -120,26 +122,26 @@ export default class Footer extends Component {
                         <div className="footer-adress text-left">
                             <ul className="text-left">
                                 <li>
-                                    <Link href="tel:123-456-7890" className="text-base text-gray font-medium">123-456-7890 </Link>
+                                    <Link href="tel:123-456-7890" className="text-base text-gray font-medium">{t('footer.number')} </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link className="text-base text-gray font-medium">info@depositshield.com</Link>
+                                    <Link className="text-base text-gray font-medium">{t('footer.email')}</Link>
                                 </li>
-                                <li className="text-base text-gray font-medium">Adu Dhabi Global Markets
-                                    <br></br> Al Maryah Island 
-                                    <br></br>bu Dhabi, U.A.E.</li>
+                                <li className="text-base text-gray font-medium">{t('footer.address')}
+                                    <br></br>  {t('footer.address-1')}
+                                    <br></br>{t('footer.address-2')}</li>
                             </ul>
                         </div>
                         <div className=" text-left">
-                            <h4 className="text-gray text-base font-bold">About us</h4>
+                            <h4 className="text-gray text-base font-bold">{t('footer.aboutus')}</h4>
                             <ul>
-                                <li className="text-sm text-gray font-medium pb-1">Our team</li>
-                                <li className="text-sm text-gray font-medium pb-1">Adjucicatiors</li>
-                                <li className="text-sm text-gray font-medium pb-1"> Careers</li>
-                                <li className="text-sm text-gray font-medium pb-1">Contact us</li>
-                                <li className="text-sm text-gray font-medium pb-1">Investors</li>
-                                <li className="text-sm text-gray font-medium pb-4">CSR </li>
-                                <li className="text-sm text-gray font-medium">FAQ's</li>
+                                <li className="text-sm text-gray font-medium pb-1">{t('footer.ourteam')}</li>
+                                <li className="text-sm text-gray font-medium pb-1">{t('footer.adjucicatiors')}</li>
+                                <li className="text-sm text-gray font-medium pb-1">{t('footer.careers')}</li>
+                                <li className="text-sm text-gray font-medium pb-1">{t('footer.contactus')}</li>
+                                <li className="text-sm text-gray font-medium pb-1">{t('footer.investors')}</li>
+                                <li className="text-sm text-gray font-medium pb-4">{t('footer.csr')}</li>
+                                <li className="text-sm text-gray font-medium">{t('footer.faqs')}</li>
                             </ul>
                         </div>
                         <div className=" text-left">
@@ -188,3 +190,4 @@ export default class Footer extends Component {
         )
     }
 }
+export default withTranslation(['common'])(Footer);

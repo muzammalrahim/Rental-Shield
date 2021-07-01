@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import NextArrowSlick from '../../assets/images/next-arrow.png';
 
+//Translation
+import { withTranslation } from 'react-i18next';
+
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -25,8 +28,9 @@ function SamplePrevArrow(props) {
   );
 }
 
-export default class TestimonialSlide extends Component {
+class TestimonialSlide extends Component {
   render() {
+    const { t, i18n } = this.props;
     const settings = {
       dots: false,
       infinite: true,
@@ -65,60 +69,60 @@ export default class TestimonialSlide extends Component {
     
     return (
       <div className="px-5">
-        <h2 className="text-6xl font-normal text-gray py-5">What people say</h2>
+        <h2 className="text-6xl font-normal text-gray py-5">{t('testimonial.wps')}</h2>
         <Slider {...settings}>
           <div className="px-5 text-center">
             <h3 className="text-gray font-bold text-2xl text-left">
-                "lorem ipsum dolor 
+                {t('testimonial.details-1')} 
                 <br/>
-                the we're is the posicion
+                {t('testimonial.details-2')} 
                 <br/>
-                dolor the is”.
+                {t('testimonial.details-3')} 
               </h3>     
           </div>
           <div>
             <h3 className="text-gray font-bold text-5xl text-left">
-                "lorem ipsum dolor 
+                {t('testimonial.details-1')} 
                 <br/>
-                the we're is the posicion
+                {t('testimonial.details-2')} 
                 <br/>
-                dolor the is”.
+                {t('testimonial.details-3')} 
               </h3>
           </div>
           <div>
             <h3 className="text-gray font-bold text-2xl text-left">
-                "lorem ipsum dolor 
+                {t('testimonial.details-1')} 
                 <br/>
-                the we're is the posicion
+                {t('testimonial.details-2')} 
                 <br/>
-                dolor the is”.
+                {t('testimonial.details-3')} 
               </h3>
           </div>
           <div>
             <h3 className="text-gray font-bold text-5xl text-left">
-                "lorem ipsum dolor 
+                {t('testimonial.details-1')} 
                 <br/>
-                the we're is the posicion
+                {t('testimonial.details-2')} 
                 <br/>
-                dolor the is”.
+                {t('testimonial.details-3')} 
               </h3>
           </div>
           <div>
             <h3 className="text-gray font-bold text-2xl text-left">
-                "lorem ipsum dolor 
+                {t('testimonial.details-1')} 
                 <br/>
-                the we're is the posicion
+                {t('testimonial.details-2')} 
                 <br/>
-                dolor the is”.
+                {t('testimonial.details-3')} 
               </h3>
           </div>
           <div>
             <h3 className="text-gray font-bold text-2xl text-left">
-                "lorem ipsum dolor 
+                {t('testimonial.details-1')} 
                 <br/>
-                the we're is the posicion
+                {t('testimonial.details-2')} 
                 <br/>
-                dolor the is”.
+                {t('testimonial.details-3')} 
               </h3>
           </div>
         </Slider>
@@ -126,3 +130,4 @@ export default class TestimonialSlide extends Component {
     );
   }
 }
+export default withTranslation(['common'])(TestimonialSlide);

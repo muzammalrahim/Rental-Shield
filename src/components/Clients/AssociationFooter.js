@@ -2,15 +2,18 @@ import React, { Component } from 'react';
 import {Row, Col} from 'react-bootstrap';
 import ClientBg from '../../assets/images/client-bg.png';
 
+//Translation
+import { withTranslation } from 'react-i18next';
 
 
-export default class AssociationFooter extends Component {
+class AssociationFooter extends Component {
     render() {
+        const { t, i18n } = this.props;
         return (
             <div className="Association-f-main">
                         
                         <div className="clients bg-auto bg-no-repeat bg-cover" style={{ backgroundImage:`url(${ClientBg})` }}>
-                        <p>In association with</p>
+                        <p>{t('association-footer.association-f')} </p>
                             <ul className="m-0 grid grid-cols-5 pl-3">
                                 <li>
                                     <img src={process.env.PUBLIC_URL + '/img/fc1.png'} alt="client"/>
@@ -33,3 +36,4 @@ export default class AssociationFooter extends Component {
         )
     }
 }
+export default withTranslation(['common'])(AssociationFooter);

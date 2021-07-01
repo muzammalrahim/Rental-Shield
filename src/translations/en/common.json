@@ -4,12 +4,120 @@
     },
     "header" :{
         "landlord" : "I'm a Landlord",
-        "about": "About"
+        "about": "About",
+        "faqs" : "FAQ's",
+        "more": "More",
+        "tenat": "I'm a Tenat",
+        "login": "Login",
+        "signup": "Sign Up"
+
+
     },
     "banner" :{
-        "rent" : "Rent."
+        "rent" : "Rent.",
+        "pay" : "Pay.",
+        "monthly": "Monthly.",
+        "banner-details-1" : "Sign up today and change",
+        "banner-details-2" : "the way you rent... forever",
+        "readmore" : "Read more"
     },
-    "pay" :{
-        "pay" : "Pay."
+    "tanetb" :{
+        "welcome" : "Welcome",
+        "to-future" : "to future",
+        "tanetb-detail-1" : "We believe the key to aplying monthly rental",
+        "tanetb-detail-2" : "payments, lies with the management of the",
+        "tanetb-detail-3" : "security rental deposits",
+        "tanetb-detail-4" : "See More"
+
+    },
+    "association-slide" :{
+        "association" : "Association With"
+    },
+    "ac-steps" :{
+        "one": "01",
+        "create": "Create an",
+        "ac": "account",
+        "create-detail-1": "Sign up with us. have all your questions",
+        "create-detail-2": "from A-Z answered. Then proceed to",
+        "create-detail-3": "input your details.",
+        "two": "02",
+        "sign": "Sign",
+        "paperwork": "Paperwork",
+        "paperwork-detail-1": "In order to protect both the tenants and the",
+        "paperwork-detail-2": "landlords interests, it is imperative that you both",
+        "paperwork-detail-3": "sign and agree to our online terms and",
+        "paperwork-detail-4": "conditions.",
+        "three" : "03",
+        "check-in" : "Check-in",
+        "check-in-details-1": "There's an App for everything these days.",
+        "check-in-details-2": "Why would class app to check in tenants and",
+        "check-in-details-3": "ensure that they are ready for handover.",
+        "four" : "04",
+        "pom" : "Peace of Mind",
+        "pom-detail-1" : "Can I add any holes in the walls? What if I damage something?",
+        "pom-detail-2" : "Rent Hassle free when you go through our simple documents helping",
+        "pom-detail-3" : "both tenants and landlords understand what are their options.",
+        "five" : "05",
+        "check-out" : "Check-Out",
+        "check-out-detail-1" : "This is whre we really come in.",
+        "check-out-detail-2" : "At this point both the landlords and tenants",
+        "check-out-detail-3" : "will be very glad they choose our service.",
+        "six" : "06",
+        "receive-vour" : "Receive vour",
+        "deposit-back" : "deposit back",
+        "receive-vour-detail" : "Even if you have left the country"
+
+
+    },
+    "homeupdate" :{
+        "detail-head" : " No ifs, buts or games",
+        "detail-1" : "Want to get a more detailed overview of how it works?",
+        "detail-2" : "please watch our animation video below"
+    },
+    "testimonial" :{
+        "wps" : "What people say",
+        "details-1" : "lorem ipsum dolor",
+        "details-2" : "the we're is the posicion",
+        "details-3" : "dolor the is."
+    },
+    "association-footer" :{
+        "association-f" : "In association with"
+    },
+    "footer" :{
+        "number" : "123-456-7890",
+        "email" : "info@depositshield.com",
+        "address" : "Adu Dhabi Global Markets",
+        "address-1" : "Al Maryah Island",
+        "address-2" : "bu Dhabi, U.A.E.",
+        "aboutus" : "About us",
+        "ourteam" : "Our team",
+        "adjucicatiors" : "Adjucicatiors",
+        "careers" : "Careers",
+        "contactus" : "Contact us",
+        "investors" : "Investors",
+        "csr" : "CSR",
+        "ial" : "I'm a Landlord",
+        "landlords" : "Landlords",
+        "agents" : "Agents",
+        "ternats" : "Ternats",
+        "more" : "More",
+        "blog" : "Blog",
+        "latest" : "Latest",
+        "important" : "Important",
+        "account" : "Account",
+        "manage-account" : "Manage Account",
+        "settings" : "Settings",
+        "support" : "Support",
+        "princing" : "Princing",
+        "privacy-policy" : "Privacy Policy",
+        "terms-conditions" : "Terms & Conditions",
+        "privacy-policy-2" : "Privacy Policy",
+        "legal" : "Legal",
+        "cockie-policy" : "Cockie Policy",
+        "terms-of-use" : "Terms of use",
+        "site-map" : "Site Map",
+        "faqs" : "FAQ's"
+
     }
+
 }

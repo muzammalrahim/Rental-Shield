@@ -28,17 +28,17 @@ function Header({ t, i18n }) {
                         {/* Menu Links */}
                         <Nav className="mr-auto">
                             <Nav.Link href="/landlord"><div className="text-gray text-lg">{t('header.about')}</div></Nav.Link>
-                            <Nav.Link href="#link"><div className="text-gray text-lg">FAQ's</div></Nav.Link>
-                            <Nav.Link href="#link"><div className="text-gray text-lg">More</div></Nav.Link>
+                            <Nav.Link href="#link"><div className="text-gray text-lg">{t('header.faqs')}</div></Nav.Link>
+                            <Nav.Link href="#link"><div className="text-gray text-lg">{t('header.more')}</div></Nav.Link>
                         </Nav>
                         {/* Menu Links */}
 
                         {/* Right Options */}
                         <Form inline>
                             <Button className="bttn mr-3"><div className="text-gray">{t('header.landlord')}</div></Button>
-                            <Button className="bttn  px-3">I'm a Tenant</Button>
-                            <Link className="logins"><div className="text-gray text-lg ml-3 mr-1">Login</div></Link>/
-                            <Link className="logins"><div className="text-gray text-lg ml-1">Sign Up</div></Link>
+                            <Button className="bttn  px-3">{t('header.tenat')}</Button>
+                            <Link className="logins"><div className="text-gray text-lg ml-3 mr-1">{t('header.login')}</div></Link>/
+                            <Link className="logins"><div className="text-gray text-lg ml-1">{t('header.signup')}</div></Link>
                             <img className="mx-3" src={Enter} alt="enter"></img>
                             <select className="bg-gray" onChange={(e) => i18n.changeLanguage(e.target.value)}>
                                 <option value="en">UK</option>

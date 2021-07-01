@@ -5,6 +5,7 @@ import FaqBg from '../../assets/images/123.png'
 
 
 
+
 const data = {
     title: "",
     rows: [
