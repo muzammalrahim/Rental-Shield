@@ -32,7 +32,7 @@ export default class LandLordSteps extends Component {
                                 input your details.</p>
                             </div>
                         </Col>
-                        <Col lg={{span:6, order: 1}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
+                        <Col lg={{span:6, order: 2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img className="" src={Step1} alt="step1"/>
                         </Col>
                         {/* <div className="bg-line">
