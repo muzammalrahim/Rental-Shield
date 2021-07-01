@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import Header from '../components/Header';
+import LandLordBanner from '../components/Banners/LandLordBanner';
 import Registration from '../components/RegistrationForm/Registration';
-import Footer  from '../components/Footer'
-import Bg from '../assets/images/landlorg-br.png';
-import MoreQuestions from '../components/MoreQuestions'
+import Footer  from '../components/Footer';
+import MoreQuestions from '../components/MoreQuestions';
+import EveryThing from '../components/Rules/EveryThing';
+import LandLordSteps from '../components/Steps/LandLordSteps';
+import Video from '../components/Updates/Video';
 
 
 
@@ -16,8 +19,16 @@ export default class LandLord extends Component {
                          <Header/>
                 </div>   
                 {/* header */}
-               <div className="landlord-bg bg-cover bg-no-repeat"  style={{ backgroundImage:`url(${Bg})` }}></div>
-                
+              
+                {/* Banner */}
+                <LandLordBanner/>
+                 {/* Banner */}
+
+                <LandLordSteps/>
+                 <EveryThing/>
+
+                 <Video/>
+
                 <MoreQuestions/>
 
                 {/* Registration */}

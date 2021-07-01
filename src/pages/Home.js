@@ -4,7 +4,7 @@ import HomeBanner from '../components/Banners/HomeBanner';
 import Association from '../components/Clients/Association';
 import WelcomeFuture from '../components/WelcomeFuture';
 import AssociationFooter from '../components/Clients/AssociationFooter';
-import AccSteps from '../components/AccSteps';
+import AccSteps from '../components/Steps/AccSteps';
 import HomeUpdate from '../components/Updates/HomeUpdate';
 import TestimonialSlider from '../components/Sliders/TestimonialSlider';
 import Faq from '../components/FAQ/Faq';
