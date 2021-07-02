@@ -29,7 +29,7 @@ export default class EveryThing extends Component {
                     
                     
                     <Row className="step-row1 pt-5 pl-5 items-center no-gutters">
-                        <Col lg={{span:6, order:1}} sm="6" xs={{span:12, order:2}} className="d-flex justify-content-center">
+                        <Col lg={{span:6, order:1}} sm="6" xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
                                 <ul className="">
                                     <li>
@@ -127,7 +127,7 @@ export default class EveryThing extends Component {
                     {/* step3 */}
                     <Row className="step-row pt-5 pl-5 items-center no-gutters">
                         
-                        <Col lg={{span:6, order:1}} sm="6" xs={{span:12, order:2}} className="d-flex justify-content-center">
+                        <Col lg={{span:6, order:1}} sm="6" xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
                                 <ul className="">
                                     <li>
