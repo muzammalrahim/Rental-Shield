@@ -12,7 +12,7 @@ function RegistrationForm(props) {
                     <div className="form-group text-left">
                     {/* <label htmlFor="exampleInputEmail1" className="text-black font-normal text-lg">Name</label> */}
                     <input type="text" 
-                        className="form-control" 
+                        className="form-control bg-pale" 
                         id="" 
                         aria-describedby="emailHelp" 
                         placeholder="Name"
@@ -23,7 +23,7 @@ function RegistrationForm(props) {
                     <div className="form-group text-left">
                         {/* <label htmlFor="exampleInputPassword1" className="text-black font-normal text-lg">Phone</label> */}
                         <input type="text" 
-                            className="form-control" 
+                            className="form-control bg-pale" 
                             id="" 
                             placeholder="Phone"
                         />
@@ -31,7 +31,7 @@ function RegistrationForm(props) {
                     <div className="form-group text-left">
                         {/* <label htmlFor="exampleInputPassword1" className="text-black font-normal text-lg">Email</label> */}
                         <input type="text" 
-                            className="form-control" 
+                            className="form-control bg-pale" 
                             id="" 
                             placeholder="E-mail"
                         />
@@ -39,7 +39,7 @@ function RegistrationForm(props) {
                     <div className="form-group text-left">
                         {/* <label htmlFor="exampleInputPassword1" className="text-black font-normal text-lg">Address</label> */}
                         <input type="password" 
-                            className="form-control" 
+                            className="form-control bg-pale" 
                             id="" 
                             placeholder="Address"
                         />

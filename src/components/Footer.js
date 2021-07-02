@@ -44,7 +44,7 @@ export default class Footer extends Component {
 
                 <hr></hr>
 
-                <div className="footer-bottom">
+                <div className="footer-bottom pt-5">
                     {/* <Row>
                         <Col md="6 text-left">
                             <ul className="text-left">
@@ -117,7 +117,7 @@ export default class Footer extends Component {
 
 
                     <div className="footer-inner grid">
-                        <div className="footer-adress text-left">
+                        <div className="footer-adress text-left pb-3">
                             <ul className="text-left">
                                 <li>
                                     <Link href="tel:123-456-7890" className="text-base text-gray font-medium">123-456-7890 </Link>
@@ -130,50 +130,50 @@ export default class Footer extends Component {
                                     <br></br>bu Dhabi, U.A.E.</li>
                             </ul>
                         </div>
-                        <div className=" text-left">
-                            <h4 className="text-gray text-base font-bold">About us</h4>
+                        <div className=" text-left pb-3">
+                            <h4 className="text-gray text-base font-bold pb-4">About us</h4>
                             <ul>
-                                <li className="text-sm text-gray font-medium pb-1">Our team</li>
-                                <li className="text-sm text-gray font-medium pb-1">Adjucicatiors</li>
-                                <li className="text-sm text-gray font-medium pb-1"> Careers</li>
-                                <li className="text-sm text-gray font-medium pb-1">Contact us</li>
-                                <li className="text-sm text-gray font-medium pb-1">Investors</li>
+                                <li className="text-sm text-gray font-medium pb-2">Our team</li>
+                                <li className="text-sm text-gray font-medium pb-2">Adjucicatiors</li>
+                                <li className="text-sm text-gray font-medium pb-2"> Careers</li>
+                                <li className="text-sm text-gray font-medium pb-2">Contact us</li>
+                                <li className="text-sm text-gray font-medium pb-2">Investors</li>
                                 <li className="text-sm text-gray font-medium pb-4">CSR </li>
                                 <li className="text-sm text-gray font-medium">FAQ's</li>
                             </ul>
                         </div>
-                        <div className=" text-left">
-                            <h4 className="text-gray text-base font-bold">I'm a Landlord</h4>
+                        <div className=" text-left pb-3">
+                            <h4 className="text-gray text-base font-bold pb-4">I'm a Landlord</h4>
                             <ul>
-                                <li className="text-sm text-gray font-medium pb-2">Landlords</li>
-                                <li className="text-sm text-gray font-medium pb-2">Agents</li>
-                                <li className="text-sm text-gray font-medium pb-2"> Ternats</li>
-                                <li className="text-sm">More</li>
+                                <li className="text-sm text-gray font-medium pb-3">Landlords</li>
+                                <li className="text-sm text-gray font-medium pb-3">Agents</li>
+                                <li className="text-sm text-gray font-medium  pb-3"> Ternats</li>
+                                <li className="text-sm text-gray font-medium ">More</li>
                             </ul>
                         </div>
-                        <div className=" text-left">
-                            <h4 className="text-gray text-base font-bold">Blog</h4>
+                        <div className=" text-left pb-3">
+                            <h4 className="text-gray text-base font-bold pb-4">Blog</h4>
                             <ul>
-                                <li className="text-sm text-gray font-medium pb-2">Latest</li>
+                                <li className="text-sm text-gray font-medium pb-3">Latest</li>
                                 <li className="text-sm text-gray font-medium "> Important</li>
                             </ul>
                         </div>
-                        <div className=" text-left">
-                            <h4 className="text-gray text-base font-bold">Account</h4>
+                        <div className=" text-left pb-3">
+                            <h4 className="text-gray text-base font-bold pb-4">Account</h4>
                             <ul>
-                                <li className="text-sm text-gray font-medium pb-2">Manage Account</li>
-                                <li className="text-sm text-gray font-medium pb-2">Settings</li>
+                                <li className="text-sm text-gray font-medium pb-3">Manage Account</li>
+                                <li className="text-sm text-gray font-medium pb-3">Settings</li>
                                 <li className="text-sm text-gray font-medium"> Support</li>
                             </ul>
                         </div>
-                        <div className=" text-left">
-                            <h4 className="text-gray text-base font-bold">Princing</h4>
+                        <div className=" text-left pb-3">
+                            <h4 className="text-gray text-base font-bold pb-4">Princing</h4>
                             <ul>
                                 <li className="text-sm text-gray font-medium pb-2">Privacy Policy</li>
                             </ul>
                         </div>
                         <div className=" text-left">
-                            <h4 className="text-gray text-base font-bold">Terms & Conditions</h4>
+                            <h4 className="text-gray text-base font-bold pb-4">Terms & Conditions</h4>
                             <ul>
                                 <li className="text-sm text-gray font-medium pb-2">Privacy Policy</li>
                                 <li className="text-sm text-gray font-medium pb-2">Legal</li>

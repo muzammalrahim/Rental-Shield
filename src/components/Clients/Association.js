@@ -7,7 +7,7 @@ export default class Association extends Component {
             <div className="client-t-main px-5">
                 <Row className="client-row">
                     <Col sm="12" md="12" lg="2">
-                        <p>Association With</p>
+                        <p className="text-lg font-body text-gray font-normal">Association With</p>
                     </Col>
                     <Col sm="12" md="12" lg="10">
                         <div className="clients text-center">

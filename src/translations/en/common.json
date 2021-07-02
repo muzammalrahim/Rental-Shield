@@ -11,5 +11,13 @@
     },
     "pay" :{
         "pay" : "Pay."
+    },
+
+
+
+    "tanetb" :{
+        "welcome" : "Welcome",
+        "to-future" : "to future"
+
     }
 }

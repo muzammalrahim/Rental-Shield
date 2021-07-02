@@ -75,7 +75,7 @@ export default class LandLordSteps extends Component {
 
                     {/* step3 */}
                     <Row className="step-row ">
-                        <Col lg={{span:6, order:1}} sm="6" xs={{span:12, order:2}} className="d-flex justify-content-center">
+                        <Col lg={{span:6, order:1}} sm={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center">
                             <div className="step-inner">
                                 <ul>
                                     <li>
@@ -95,7 +95,7 @@ export default class LandLordSteps extends Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={{span:6, order:2}}  sm="6"  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
+                        <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img src={Step3} alt="step1"/>
                         </Col>
                     </Row>

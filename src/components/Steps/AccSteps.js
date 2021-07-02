@@ -35,7 +35,7 @@ export default class AccSteps extends Component {
                                 input your details.</p>
                             </div>
                         </Col>
-                        <Col lg={{span:6, order: 1}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
+                        <Col lg={{span:6, order: 2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img className="" src={Step1} alt="step1"/>
                         </Col>
                         {/* <div className="bg-line">
@@ -63,7 +63,7 @@ export default class AccSteps extends Component {
                                         <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Sign <br/> Paperwork</h3>
                                     </li>
                                 </ul>
-                                <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
                                 In order to protect both the tenants and the<br/> 
                                 landlords interests, it is imperative that you both<br/> 
                                 sign and agree to our online terms and<br/> 
@@ -78,7 +78,7 @@ export default class AccSteps extends Component {
 
                     {/* step3 */}
                     <Row className="step-row ">
-                        <Col lg={{span:6, order:1}} sm="6" xs={{span:12, order:2}} className="d-flex justify-content-center">
+                        <Col lg={{span:6, order:1}} sm={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center">
                             <div className="step-inner">
                                 <ul>
                                     <li>
@@ -98,7 +98,7 @@ export default class AccSteps extends Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={{span:6, order:2}}  sm="6"  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
+                        <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img src={Step3} alt="step1"/>
                         </Col>
                     </Row>
@@ -122,9 +122,9 @@ export default class AccSteps extends Component {
                                         <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Peace of Mind</h3>
                                     </li>
                                 </ul>
-                                <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
-                                Can I add any holes in the walls? What if I damage something?<br/>
-                                Rent Hassle free when you go through our simple documents helping<br/> 
+                                <p className="text-left text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                Can I add holes in walls? if damage something?<br/>
+                                Rent Hassle free when you go through our simple documents helping
                                 both tenants and landlords understand what are their options.
                                 </p>
                             </div>
@@ -135,7 +135,7 @@ export default class AccSteps extends Component {
 
                     {/* step5 */}
                     <Row className="step-row ">
-                        <Col lg={{span:6, order:1}} sm="6" xs={{span:12, order:2}} className="d-flex justify-content-center">
+                        <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center">
                             <div className="step-inner">
                                 <ul>
                                     <li>
@@ -155,7 +155,7 @@ export default class AccSteps extends Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={{span:6, order:2}}  sm="6"  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
+                        <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img src={Step5} alt="step1"/>
                         </Col>
                     </Row>

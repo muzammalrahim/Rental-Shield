@@ -33,7 +33,7 @@ export default class EvenMore extends Component {
                     
                     
                     <Row className="step-row1 pt-5 pl-5 items-center no-gutters">
-                        <Col lg={{span:6, order:1}} sm="6" xs={{span:12, order:2}} className="d-flex justify-content-center">
+                        <Col lg={{span:6, order:1}}  md={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center">
                             <div className="step-inner">
                                 <ul className="">
                                     <li>
@@ -71,7 +71,7 @@ export default class EvenMore extends Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={{span:6, order:2}}  sm="6"  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
+                        <Col lg={{span:6, order:2}} md={{span:12, order:1}} sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img className="relative left-12" src={Talent1} alt="step1"/>
                         </Col>
                     </Row>
@@ -131,7 +131,7 @@ export default class EvenMore extends Component {
                     {/* step3 */}
                     <Row className="step-row pt-5 pl-5 items-center no-gutters">
                         
-                        <Col lg={{span:6, order:1}} sm="6" xs={{span:12, order:2}} className="d-flex justify-content-center">
+                        <Col lg={{span:6, order:1}} md={{span:12, order:2}} sm={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center">
                             <div className="step-inner">
                                 <ul className="">
                                     <li>
@@ -169,7 +169,7 @@ export default class EvenMore extends Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={{span:6, order:2}}  sm="6"  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
+                        <Col lg={{span:6, order:2}} md={{span:12, order:1}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img className="relative left-12" src={Talent3} alt="step1"/>
                         </Col>
                     </Row>

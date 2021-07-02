@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import NextArrowSlick from '../../assets/images/next-arrow.png';
+import Avatar from '../../assets/images/ava.png';
 
 
-function SampleNextArrow(props) {
+function SlickArrowLeft(props) {
   const { className, style, onClick } = props;
   return (
     <div
@@ -19,7 +20,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background:'red', color:'#8a8a8a'}}
+      style={{ ...style, display: "block", color:'#8a8a8a'}}
       onClick={onClick}
     />
   );
@@ -29,10 +30,12 @@ export default class TestimonialSlide extends Component {
   render() {
     const settings = {
       dots: false,
+      centerMode: true,
+      centerPadding: '60px',
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
-      nextArrow: <SampleNextArrow />,
+      nextArrow: <SlickArrowLeft />,
       prevArrow: <SamplePrevArrow />,
       responsive: [
         {
@@ -47,9 +50,9 @@ export default class TestimonialSlide extends Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            initialSlide: 3
           }
         },
         {
@@ -65,62 +68,101 @@ export default class TestimonialSlide extends Component {
     
     return (
       <div className="px-5">
-        <h2 className="text-6xl font-normal text-gray py-5">What people say</h2>
+        <h2 className="text-6xl font-normal text-gray py-5 font-body">What people say</h2>
+
         <Slider {...settings}>
+
+          {/* Slide 1 */}
+          <div className=" text-center">
+              <h3 className="text-gray font-bold text-2xx text-left">
+            “The best experience 
+                <br/>
+                to rent a house!”.
+              </h3>
+            <ul className="flex items-center">
+              <li>
+                <div className='img-wrap'>
+                  <img className="rounded-full" src={Avatar} alt="avatar"/>
+                </div>
+              </li>
+              <li>
+                <p className="text-gray font-body text-lg text-left pl-3">Mohamed Kahled
+                  <br/>
+                    Marketing
+                </p>
+              </li>  
+            </ul>  
+          </div>
+          {/* Slide 1 */}
+
+
+          {/* Slide 2 */}
           <div className="px-5 text-center">
-            <h3 className="text-gray font-bold text-2xl text-left">
-                "lorem ipsum dolor 
+              <h3 className="text-gray font-bold text-2xx text-left">
+            “The best experience 
                 <br/>
-                the we're is the posicion
-                <br/>
-                dolor the is”.
-              </h3>     
-          </div>
-          <div>
-            <h3 className="text-gray font-bold text-5xl text-left">
-                "lorem ipsum dolor 
-                <br/>
-                the we're is the posicion
-                <br/>
-                dolor the is”.
+                to rent a house!”.
               </h3>
+            <ul className="flex items-center">
+              <li>
+                <div className='img-wrap'>
+                  <img className="rounded-full" src={Avatar} alt="avatar"/>
+                </div>
+              </li>
+              <li>
+                <p className="text-gray font-body text-lg text-left pl-4">Mohamed Kahled
+                  <br/>
+                    Marketing
+                </p>
+              </li>  
+            </ul>  
           </div>
-          <div>
-            <h3 className="text-gray font-bold text-2xl text-left">
-                "lorem ipsum dolor 
+          {/* Slide 2 */}
+
+          {/* Slide 3 */}
+          <div className="px-5 text-center">
+              <h3 className="text-gray font-bold text-2xx text-left">
+            “The best experience 
                 <br/>
-                the we're is the posicion
-                <br/>
-                dolor the is”.
+                to rent a house!”.
               </h3>
+            <ul className="flex items-center">
+              <li>
+                <div className='img-wrap'>
+                  <img className="rounded-full" src={Avatar} alt="avatar"/>
+                </div>
+              </li>
+              <li>
+                <p className="text-gray font-body text-lg text-left pl-4">Mohamed Kahled
+                  <br/>
+                    Marketing
+                </p>
+              </li>  
+            </ul>  
           </div>
-          <div>
-            <h3 className="text-gray font-bold text-5xl text-left">
-                "lorem ipsum dolor 
+
+          {/* Slide 4 */}
+          <div className="px-5 text-center">
+              <h3 className="text-gray font-bold text-2xx text-left">
+            “The best experience 
                 <br/>
-                the we're is the posicion
-                <br/>
-                dolor the is”.
+                to rent a house!”.
               </h3>
+            <ul className="flex items-center">
+              <li>
+                <div className='img-wrap'>
+                  <img className="rounded-full" src={Avatar} alt="avatar"/>
+                </div>
+              </li>
+              <li>
+                <p className="text-gray font-body text-lg text-left pl-4">Mohamed Kahled
+                  <br/>
+                    Marketing
+                </p>
+              </li>  
+            </ul>  
           </div>
-          <div>
-            <h3 className="text-gray font-bold text-2xl text-left">
-                "lorem ipsum dolor 
-                <br/>
-                the we're is the posicion
-                <br/>
-                dolor the is”.
-              </h3>
-          </div>
-          <div>
-            <h3 className="text-gray font-bold text-2xl text-left">
-                "lorem ipsum dolor 
-                <br/>
-                the we're is the posicion
-                <br/>
-                dolor the is”.
-              </h3>
-          </div>
+          {/* Slide 4 */}
         </Slider>
       </div>
     );
