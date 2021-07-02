@@ -62,7 +62,7 @@ export default class TenantsSteps extends Component {
                     {/* step 2 */}
                     <Row className="items-center">
                         
-                        <Col lg={{span:6, order:1}} md={{span:12, order:2}} sm={{span:12, order:2}} xs={{span:12, order:2}}>
+                        <Col lg={{span:6, order:1}} md={{span:12, order:2}} sm={{span:12, order:2}} xs={{span:12, order:2}}  className="lg:order-1">
                             <h1 className="5xl text-gray font-light text-left pb-4">Peace of mind</h1>
                             <p className="text-gray text-xl text-left font-light pb-3">
                             Ever worried about what this deposit money will be used for. 

@@ -82,7 +82,7 @@ class AccSteps extends Component {
 
                     {/* step3 */}
                     <Row className="step-row ">
-                        <Col lg={{span:6, order:1}} sm={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center">
+                        <Col lg={{span:6, order:1}} sm={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
                                 <ul>
                                     <li>
@@ -139,7 +139,7 @@ class AccSteps extends Component {
 
                     {/* step5 */}
                     <Row className="step-row ">
-                        <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center">
+                        <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
                                 <ul>
                                     <li>
