@@ -6,7 +6,11 @@
         "landlord" : "أنا مالك",
         "about": "حول",
         "faqs": "حولالتعليمات",
-        "more": "أكثر"
+        "more": "أكثر",
+        "tenat": "أنا مستأجر",
+        "login": "تسجيل الدخول",
+        "signup": "اشتراك"
+
     },
 
 
@@ -17,30 +21,124 @@
 
     },
     "banner" :{
-        "rent" : ".أجرة"
+        "rent" : ".أجرة",
+        "pay" : ".يدفع",
+        "monthly" : ".شهريا",
+        "banner-details-1" : "سجل اليوم وغيّر",
+        "banner-details-2" : "الطريقة التي تستأجر بها ... إلى الأبد",
+        "readmore" : "اقرأ أكثر"
     },
-    "pay" :{
-        "pay" : ".يدفع"
+    "tanetb" :{
+        "welcome": "مرحبا",
+        "to-future": "مرحبا بكم في المستقبل",
+        "tanetb-detail-1" : "نحن نؤمن بمفتاح التقديم على الإيجار الشهري",
+        "tanetb-detail-2" : "المدفوعات ، وتقع على عاتق إدارة",
+        "tanetb-detail-3" : "ودائع إيجار الضمان",
+        "tanetb-detail-4" : "شاهد المزيد"
+
     },
 
-    "Header-4": {
-        "I'm a Landlord": "أنا مالك"
+    "association-slide" :{
+        "association" : "بالاشتراك مع"
     },
+    "ac-steps" :{
+        "one": "٠١",
+        "create": "يخترع",
+        "ac": "الحساب",
+        "create-detail-1": "سجل معنا. لديك كل أسئلتك",
+        "create-detail-2": "أجاب من الألف إلى الياء. ثم انتقل إلى",
+        "create-detail-3": "أدخل التفاصيل الخاصة بك.",
+        "two": "٠٢",
+        "sign": "لافتة",
+        "paperwork": "ورقة العمل",
+        "paperwork-detail-1": "من أجل حماية كل من المستأجرين و",
+        "paperwork-detail-2": "أصحاب المصالح ، فمن الضروري أن كلا منكما",
+        "paperwork-detail-3": "قم بالتوقيع والموافقة على شروطنا عبر الإنترنت و",
+        "paperwork-detail-4": "الظروف.",
+        "three" : "٠٣",
+        "check-in" : "تحقق في",
+        "check-in-details-1": "يوجد تطبيق لكل شيء هذه الأيام",
+        "check-in-details-2": "لماذا قد فئة التطبيق للتحقق في المستأجرين و",
+        "check-in-details-3": "تأكد من أنها جاهزة للتسليم",
+        "four" : "٠٤",
+        "pom" : "راحة البال",
+        "pom-detail-1" : "هل يمكنني إضافة أي ثقوب في الجدران؟ ماذا لو أتلفت شيئًا ما؟",
+        "pom-detail-2" : "استأجر بدون متاعب عندما تذهب من خلال مساعدتنا للمستندات البسيطة",
+        "pom-detail-3" : "يفهم كل من المستأجرين والملاك ما هي خياراتهم.",
+        "five" : "٠٥",
+        "check-out" : "الدفع",
+        "check-out-detail-1" : "هذا هو المكان الذي نأتي إليه حقًا",
+        "check-out-detail-2" : "في هذه المرحلة كلا من الملاك والمستأجرين",
+        "check-out-detail-3" : "سيكونون سعداء للغاية لاختيار خدمتنا",
+        "six" : "٠٦",
+        "receive-vour" : "تلقي فور",
+        "deposit-back" : "الإيداع مرة أخرى",
+        "receive-vour-detail" : "حتى لو غادرت البلد"
+
+    },
+    "homeupdate" :{
+        "detail-head" : " لا ، تحفظات أو ألعاب",
+        "detail-1" : "هل تريد الحصول على نظرة عامة أكثر تفصيلاً حول كيفية عملها؟",
+        "detail-2" : "يرجى مشاهدة فيديو الرسوم المتحركة لدينا أدناه"
+    },
+    "testimonial" :{
+        "wps" : "ماذا يقول الناس",
+        "details-1" : "هناك حقيقة مثبتة منذ زمن طويل",
+        "details-2" : "هناك حقيقة مثبتة منذ زمن طويل",
+        "details-3" : "الفقرات في يقرأها."
+    },
+    "association-footer" :{
+        "association-f" : "بمشاركة"
+    },
+    "footer" :{
+        "number" : "123-456-7890",
+        "email" : "info@depositshield.com",
+        "address" : "Adu Dhabi Global Markets",
+        "address-1" : "Al Maryah Island",
+        "address-2" : "bu Dhabi, U.A.E.",
+        "aboutus" : "About us",
+        "ourteam" : "Our team",
+        "adjucicatiors" : "Adjucicatiors",
+        "careers" : "Careers",
+        "contactus" : "Contact us",
+        "investors" : "Investors",
+        "csr" : "CSR",
+        "ial" : "I'm a Landlord",
+        "landlords" : "Landlords",
+        "agents" : "Agents",
+        "ternats" : "Ternats",
+        "more" : "More",
+        "blog" : "Blog",
+        "latest" : "Latest",
+        "important" : "Important",
+        "account" : "Account",
+        "manage-account" : "Manage Account",
+        "settings" : "Settings",
+        "support" : "Support",
+        "princing" : "Princing",
+        "privacy-policy" : "Privacy Policy",
+        "terms-conditions" : "Terms & Conditions",
+        "privacy-policy-2" : "Privacy Policy",
+        "legal" : "Legal",
+        "cockie-policy" : "Cockie Policy",
+        "terms-of-use" : "Terms of use",
+        "site-map" : "Site Map",
+        "faqs" : "FAQ's"
+
+    }
+
+
+
+
+
 
     
-"Header-5": {
-    "I'm a Tenant": "أنا مستأجر"
-},
 
 
-"Header-6": {
-    "Login": "تسجيل الدخول"
-},
 
 
-"Header-7": {
-    "Sign Up": "اشتراك"
-}
+
+
 
 
 

@@ -3,6 +3,9 @@ import Slider from "react-slick";
 import NextArrowSlick from '../../assets/images/next-arrow.png';
 import Avatar from '../../assets/images/ava.png';
 
+//Translation
+import { withTranslation } from 'react-i18next';
+
 
 function SlickArrowLeft(props) {
   const { className, style, onClick } = props;
@@ -26,8 +29,9 @@ function SamplePrevArrow(props) {
   );
 }
 
-export default class TestimonialSlide extends Component {
+class TestimonialSlide extends Component {
   render() {
+    const { t, i18n } = this.props;
     const settings = {
       dots: false,
       centerMode: true,
@@ -168,3 +172,4 @@ export default class TestimonialSlide extends Component {
     );
   }
 }
+export default withTranslation(['common'])(TestimonialSlide);

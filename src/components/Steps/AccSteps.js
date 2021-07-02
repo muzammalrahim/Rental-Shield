@@ -9,8 +9,12 @@ import Step5 from '../../assets/images/step-55.png';
 import Step6 from '../../assets/images/step-66.png';
 // import LineBG from '../../ assets/images/line-bg.png';
 
-export default class AccSteps extends Component {
+//Translation
+import { withTranslation } from 'react-i18next';
+
+class AccSteps extends Component {
     render() {
+        const { t, i18n } = this.props;
         return (
             <div className="acc-step-main pt-5">
                 <Container>
@@ -21,18 +25,18 @@ export default class AccSteps extends Component {
                             <div className="step-inner">
                                 <ul className="">
                                     <li>
-                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">01 </h4>
+                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">{t('ac-steps.one')}</h4>
                                     </li>
                                     <li>
                                         <img className="md:h-30 " src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Create an<br/> account</h3>
+                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.create')}<br/>{t('ac-steps.ac')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">Sign up with us. have all your questions<br/> 
-                                from A-Z answered. Then proceed to<br/> 
-                                input your details.</p>
+                                <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">{t('ac-steps.create-detail-1')}<br/> 
+                                {t('ac-steps.create-detail-2')}<br/> 
+                                {t('ac-steps.create-detail-3')}</p>
                             </div>
                         </Col>
                         <Col lg={{span:6, order: 2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
@@ -54,20 +58,20 @@ export default class AccSteps extends Component {
                             <div className="step-inner">
                                 <ul>
                                     <li>
-                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">02 </h4>
+                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">{t('ac-steps.two')} </h4>
                                     </li>
                                     <li>
                                         <img src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Sign <br/> Paperwork</h3>
+                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.sign')}<br/>{t('ac-steps.paperwork')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-left text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
-                                In order to protect both the tenants and the<br/> 
-                                landlords interests, it is imperative that you both<br/> 
-                                sign and agree to our online terms and<br/> 
-                                conditions.
+                                <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                {t('ac-steps.paperwork-detail-1')}<br/> 
+                                {t('ac-steps.paperwork-detail-2')}<br/> 
+                                {t('ac-steps.paperwork-detail-3')}<br/> 
+                                {t('ac-steps.paperwork-detail-4')}
                                 </p>
                             </div>
                         </Col>
@@ -82,19 +86,19 @@ export default class AccSteps extends Component {
                             <div className="step-inner">
                                 <ul>
                                     <li>
-                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">03 </h4>
+                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">{t('ac-steps.three')}</h4>
                                     </li>
                                     <li>
                                         <img src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">  Check-in</h3>
+                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.check-in')}</h3>
                                     </li>
                                 </ul>
                                 <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
-                                    There's an App for everything these days.<br/> 
-                                    Why would class app to check in tenants and<br/> 
-                                    ensure that they are ready for handover. 
+                                    {t('ac-steps.check-in-details-1')}<br/> 
+                                    {t('ac-steps.check-in-details-2')}<br/> 
+                                    {t('ac-steps.check-in-details-3')} 
                                 </p>
                             </div>
                         </Col>
@@ -113,19 +117,19 @@ export default class AccSteps extends Component {
                             <div className="step-inner">
                                 <ul>
                                     <li>
-                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">04 </h4>
+                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">{t('ac-steps.four')}</h4>
                                     </li>
                                     <li>
                                         <img src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Peace of Mind</h3>
+                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.pom')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-left text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
-                                Can I add holes in walls? if damage something?<br/>
-                                Rent Hassle free when you go through our simple documents helping
-                                both tenants and landlords understand what are their options.
+                                <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                {t('ac-steps.pom-detail-1')}<br/>
+                                {t('ac-steps.pom-detail-2')}<br/> 
+                                {t('ac-steps.pom-detail-3')}
                                 </p>
                             </div>
                         </Col>
@@ -139,19 +143,19 @@ export default class AccSteps extends Component {
                             <div className="step-inner">
                                 <ul>
                                     <li>
-                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">05 </h4>
+                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">{t('ac-steps.five')}</h4>
                                     </li>
                                     <li>
                                         <img src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Check-Out</h3>
+                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.check-out')}</h3>
                                     </li>
                                 </ul>
                                 <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
-                                    This is whre we really come in.<br/>
-                                    At this point both the landlords and tenants<br/> 
-                                    will be very glad they choose our service.
+                                    {t('ac-steps.check-out-detail-1')}<br/>
+                                    {t('ac-steps.check-out-detail-2')}<br/> 
+                                    {t('ac-steps.check-out-detail-3')}
                                 </p>
                             </div>
                         </Col>
@@ -170,17 +174,17 @@ export default class AccSteps extends Component {
                             <div className="step-inner">
                                 <ul>
                                     <li>
-                                    <h4 className="text-gray font-light lg:text-5xl md:text-3xl">06 </h4>
+                                    <h4 className="text-gray font-light lg:text-5xl md:text-3xl">{t('ac-steps.six')}</h4>
                                     </li>
                                     <li>
                                         <img src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Receive vour <br/> deposit back</h3>
+                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.receive-vour')}<br/> {t('ac-steps.deposit-back')}</h3>
                                     </li>
                                 </ul>
                                 <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
-                                    Even if you have left the country
+                                    {t('ac-steps.receive-vour-detail')}
                                 </p>
                             </div>
                         </Col>
@@ -192,3 +196,5 @@ export default class AccSteps extends Component {
         )
     }
 }
+
+export default withTranslation(['common'])(AccSteps);
