@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from '../src/pages/Home';
 import Tanents from '../src/pages/Tanents';
 import LandLord from '../src/pages/LandLord';
+import About from '../src/pages/About';
 
 
 
@@ -52,6 +53,13 @@ function App() {
               exact
                   path="/landlord"
                   component={LandLord}
+              >
+              </Route> 
+
+              <Route
+              exact
+                  path="/about"
+                  component={About}
               >
               </Route> 
               

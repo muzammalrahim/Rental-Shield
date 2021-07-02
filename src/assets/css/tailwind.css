@@ -283,6 +283,17 @@ select{
 }
 /* ------------------LandLord Page----------------------- */
 
+
+/* About Page */
+.aim-inner{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.aim-inner p{
+    line-height: 70px;
+}
+
 @media (min-width: 320px) and (max-width: 639px) {
    .xs\:home-banner-main .row{
        background: #F3FDEA;
