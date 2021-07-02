@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cd2703c.chunk.css",
-    "main.js": "/static/js/main.ab714a00.chunk.js",
-    "main.js.map": "/static/js/main.ab714a00.chunk.js.map",
+    "main.css": "/static/css/main.3cdaef2c.chunk.css",
+    "main.js": "/static/js/main.c211ca7e.chunk.js",
+    "main.js.map": "/static/js/main.c211ca7e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.386f6816.js",
     "runtime-main.js.map": "/static/js/runtime-main.386f6816.js.map",
-    "static/css/2.37414635.chunk.css": "/static/css/2.37414635.chunk.css",
-    "static/js/2.283541fb.chunk.js": "/static/js/2.283541fb.chunk.js",
-    "static/js/2.283541fb.chunk.js.map": "/static/js/2.283541fb.chunk.js.map",
+    "static/css/2.30fa631d.chunk.css": "/static/css/2.30fa631d.chunk.css",
+    "static/js/2.cd66cc4d.chunk.js": "/static/js/2.cd66cc4d.chunk.js",
+    "static/js/2.cd66cc4d.chunk.js.map": "/static/js/2.cd66cc4d.chunk.js.map",
     "static/js/3.fc93aee2.chunk.js": "/static/js/3.fc93aee2.chunk.js",
     "static/js/3.fc93aee2.chunk.js.map": "/static/js/3.fc93aee2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.37414635.chunk.css.map": "/static/css/2.37414635.chunk.css.map",
-    "static/css/main.0cd2703c.chunk.css.map": "/static/css/main.0cd2703c.chunk.css.map",
-    "static/js/2.283541fb.chunk.js.LICENSE.txt": "/static/js/2.283541fb.chunk.js.LICENSE.txt",
+    "static/css/2.30fa631d.chunk.css.map": "/static/css/2.30fa631d.chunk.css.map",
+    "static/css/main.3cdaef2c.chunk.css.map": "/static/css/main.3cdaef2c.chunk.css.map",
+    "static/js/2.cd66cc4d.chunk.js.LICENSE.txt": "/static/js/2.cd66cc4d.chunk.js.LICENSE.txt",
     "static/media/Rental-2.a968ba8a.png": "/static/media/Rental-2.a968ba8a.png",
     "static/media/Rental-3.cc3aa6ef.png": "/static/media/Rental-3.cc3aa6ef.png",
     "static/media/Rental-4.6483711e.png": "/static/media/Rental-4.6483711e.png",
     "static/media/add-img.b1e93d9d.png": "/static/media/add-img.b1e93d9d.png",
+    "static/media/ava.7891cab9.png": "/static/media/ava.7891cab9.png",
     "static/media/calendar 1.d704e9b2.png": "/static/media/calendar 1.d704e9b2.png",
     "static/media/enter.950287ce.svg": "/static/media/enter.950287ce.svg",
     "static/media/future1.21439506.png": "/static/media/future1.21439506.png",
@@ -44,9 +45,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.386f6816.js",
-    "static/css/2.37414635.chunk.css",
-    "static/js/2.283541fb.chunk.js",
-    "static/css/main.0cd2703c.chunk.css",
-    "static/js/main.ab714a00.chunk.js"
+    "static/css/2.30fa631d.chunk.css",
+    "static/js/2.cd66cc4d.chunk.js",
+    "static/css/main.3cdaef2c.chunk.css",
+    "static/js/main.c211ca7e.chunk.js"
   ]
 }
