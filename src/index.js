@@ -12,7 +12,7 @@ import { initReactI18next } from "react-i18next";
 
 
 import '../src/assets/css/tailwind.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 i18next.use(initReactI18next)
