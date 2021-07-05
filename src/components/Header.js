@@ -15,7 +15,7 @@ function Header({ t, i18n }) {
     // const {t, i18n} = useTranslation('common');
 
         return (
-            <div className="header-main px-5  pt-3">
+            <div className="header-main px-5  pt-3 relative z-10">
                 <Navbar  expand="lg" className="p-0">
                     {/* logo */}
                     <Navbar.Brand href="/">
