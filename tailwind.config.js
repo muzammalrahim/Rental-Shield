@@ -23,9 +23,14 @@ module.exports = {
     },
     colors: {
       gray: '#606060',
+      lightgray:'#8C8B8B',
       green: '#72C92A',
       pale: '#F3FDEA',
-      black:'#000000'
+      black:'#000000',
+      green2:{
+        400: '#609732',
+        500: '#87ED31'
+      }
     },
 
     fontFamily: {

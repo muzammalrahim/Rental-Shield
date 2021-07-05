@@ -7,7 +7,8 @@ import Step3 from '../../assets/images/step-33.png';
 import Step4 from '../../assets/images/step-44.png';
 import Step5 from '../../assets/images/step-55.png';
 import Step6 from '../../assets/images/step-66.png';
-// import LineBG from '../../ assets/images/line-bg.png';
+import LineBG from '../../assets/images/line-bg.png';
+import LineBG2 from '../../assets/images/bg-line2.png';
 
 //Translation
 import { withTranslation } from 'react-i18next';
@@ -19,7 +20,7 @@ class AccSteps extends Component {
             <div className="acc-step-main pt-5">
                 <Container>
                     {/* step1 */}
-                    <Row className="step-row pt-5">
+                    <Row className="step-row pt-5 relative">
                         
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
@@ -45,12 +46,12 @@ class AccSteps extends Component {
                         {/* <div className="bg-line">
                             
                         </div> */}
-                        {/* <img className="bg-line" src={LineBG}  alt="img"/> */}
+                        <img className="bg-line" src={LineBG}  alt="img"/>
                     </Row>
                     {/* step1 */}
 
                     {/* step2 */}
-                    <Row className="step-row ">
+                    <Row className="step-row relative">
                         <Col sm="6" className="d-flex justify-content-center">
                             <img src={Step2} alt="step1"/>
                         </Col>
@@ -75,13 +76,13 @@ class AccSteps extends Component {
                                 </p>
                             </div>
                         </Col>
-                        
+                        <img className="bg-line2" src={LineBG2}  alt="img"/>
                     </Row>
                     {/* step2 */}
 
 
                     {/* step3 */}
-                    <Row className="step-row ">
+                    <Row className="step-row relative">
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
                                 <ul>
@@ -105,11 +106,12 @@ class AccSteps extends Component {
                         <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img src={Step3} alt="step1"/>
                         </Col>
+                        <img className="bg-line3" src={LineBG}  alt="img"/>
                     </Row>
                     {/* step3 */}
 
                     {/* step4 */}
-                    <Row className="step-row ">
+                    <Row className="step-row relative">
                         <Col sm="6" className="d-flex justify-content-center">
                             <img src={Step4} alt="step1"/>
                         </Col>
@@ -133,12 +135,13 @@ class AccSteps extends Component {
                                 </p>
                             </div>
                         </Col>
-                        
+                        <img className="bg-line4" src={LineBG2}  alt="img"/>
+                    
                     </Row>
                     {/* step4 */}
 
                     {/* step5 */}
-                    <Row className="step-row ">
+                    <Row className="step-row relative">
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
                                 <ul>
@@ -162,6 +165,7 @@ class AccSteps extends Component {
                         <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img src={Step5} alt="step1"/>
                         </Col>
+                        <img className="bg-line" src={LineBG}  alt="img"/>
                     </Row>
                     {/* step5 */}
 

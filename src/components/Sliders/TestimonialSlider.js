@@ -71,8 +71,8 @@ class TestimonialSlide extends Component {
 
     
     return (
-      <div className="px-5">
-        <h2 className="text-6xl font-normal text-gray py-5 font-body">What people say</h2>
+      <div className="px-5 pt-5 mt-20">
+        <h2 className="text-6xl font-normal text-gray py-5 font-body pt-5 mt-5">What people say</h2>
 
         <Slider {...settings}>
 

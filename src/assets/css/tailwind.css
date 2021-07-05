@@ -113,11 +113,30 @@ select{
     position: relative;
 } */
 .bg-line{
-    position: relative;
-    top:-166px;
-     right:-328px;
-     z-index: -1;
+    position: absolute;
+    top: 259px;
+    right: 33%;
+    z-index: -1;
 }
+.bg-line2{
+    position: absolute;
+    top: 259px;
+    right: 28%;
+    z-index: -1;
+}
+.bg-line3 {
+    position: absolute;
+    top: 259px;
+    right: 27%;
+    z-index: -1;
+}
+.bg-line4 {
+    position: absolute;
+    top: 295px;
+    right: 29%;
+    z-index: -1;
+}
+
 /* Acc Steps */
 
 
@@ -148,7 +167,7 @@ select{
 
 /* Know More */
 .know-inner{
-    padding-bottom: 30em;
+    padding-bottom: 43em;
 }
 .para1{
     position: absolute;
@@ -162,11 +181,12 @@ select{
 .para3 {
     position: absolute;
     left: 53%;
-    top: 366px;
+    top: 519px;
 }
 .para4{
     position: absolute;
-    top: 366px;
+    top: 627px;
+    left: 23%;
 }
 
 /* Know More */

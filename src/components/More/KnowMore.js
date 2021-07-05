@@ -50,10 +50,9 @@ export default class KnowMore extends Component {
                         <Row>
                             <Col md="6">
                             <div className="para3 text-center">
-                                <h1 className="text-gray font-bold text-3xl">I'm an Agent</h1>
-                                <p className="text-gray text-lg font-normla">
+                                <h1 className="text-gray font-bold text-3xl ">I'm an Agent</h1>
+                                <p className="text-gray text-lg font-normal ">
                                 Make this your. Add images, text and links, or
-                                <br/>
                                 connect data from your collection.
                                 </p>
                                 <button className="bg-green rounded-full px-4 py-1.5 text-xl text-white font-bold">
@@ -64,7 +63,7 @@ export default class KnowMore extends Component {
                             <Col md="6">
                             <div className="para4 text-center">
                                 <h1 className="text-gray font-bold text-3xl">I'm a Tenant</h1>
-                                <p className="text-gray text-lg font-normla">
+                                <p className="text-gray text-lg font-normalt">
                                     Make this your. Add images, text and links, or
                                     <br/>
                                     connect data from your collection.
