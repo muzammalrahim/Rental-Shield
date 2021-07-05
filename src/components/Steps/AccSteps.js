@@ -68,7 +68,7 @@ class AccSteps extends Component {
                                         <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.sign')}<br/>{t('ac-steps.paperwork')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-gray text-left font-light lg:text-2xl md:text-xl lg:pr-5 ">
                                 {t('ac-steps.paperwork-detail-1')}<br/> 
                                 {t('ac-steps.paperwork-detail-2')}<br/> 
                                 {t('ac-steps.paperwork-detail-3')}<br/> 
@@ -128,7 +128,7 @@ class AccSteps extends Component {
                                         <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.pom')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-right text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray font-light lg:text-2xl md:text-xl lg:pr-5 ">
                                 {t('ac-steps.pom-detail-1')}<br/>
                                 {t('ac-steps.pom-detail-2')}<br/> 
                                 {t('ac-steps.pom-detail-3')}
