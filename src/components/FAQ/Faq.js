@@ -60,7 +60,7 @@ export default function FAQMain() {
             <Container>
                 <Row className ="items-center">
                     <Col lg="6" md="12" sm="12"  className="">
-                        <div className="text-gray faq-heading md:faq-heading">
+                        <div className="text-gray-500 faq-heading md:faq-heading">
                             <h3 className="font-normal md:text-left text-lg lg:text-6xl">Frequently</h3>
                             <h3 className="font-normal md:text-left text-lg lg:text-6xl">Asked</h3>
                             <h3 className="font-normal md:text-left text-lg lg:text-6xl">Questions</h3>

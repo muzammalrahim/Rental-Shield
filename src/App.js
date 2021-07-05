@@ -10,6 +10,7 @@ import Home from '../src/pages/Home';
 import Tanents from '../src/pages/Tanents';
 import LandLord from '../src/pages/LandLord';
 import About from '../src/pages/About';
+import Faq from '../src/pages/Faq';
 
 
 
@@ -60,6 +61,13 @@ function App() {
               exact
                   path="/about"
                   component={About}
+              >
+              </Route> 
+
+              <Route
+              exact
+                  path="/faq"
+                  component={Faq}
               >
               </Route> 
               

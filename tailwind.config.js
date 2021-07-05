@@ -6,6 +6,13 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    minWidth: {
+      '0': '0',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      'full': '100%',
+     },
     fontSize:{
       'base': '1rem',
       'lg':'1.125rem',
@@ -22,10 +29,26 @@ module.exports = {
       
     },
     colors: {
-      gray: '#606060',
-      green: '#72C92A',
-      pale: '#F3FDEA',
-      black:'#000000'
+      
+      black:'#000000',
+      lightgreen:'#DFF8C9',
+      green:{
+        400: '#609732',
+        500: '#87ED31',
+        600: '#72C92A',
+        700: '#DFF8C9',
+        800: '#F3FDEA',
+        900:'#72C92A'
+
+      },
+      gray:{
+        400: '#8C8B8B',
+        500: '#606060',
+        600:'#F9F9F9',
+      },
+      silver:{
+        100:'#E6E7E8',
+      }
     },
 
     fontFamily: {
