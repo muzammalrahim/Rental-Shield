@@ -22,14 +22,19 @@ module.exports = {
       
     },
     colors: {
-      gray: '#606060',
-      lightgray:'#8C8B8B',
-      green: '#72C92A',
-      pale: '#F3FDEA',
+      
       black:'#000000',
-      green2:{
+      green:{
         400: '#609732',
-        500: '#87ED31'
+        500: '#87ED31',
+        600: '#72C92A',
+        700: '#DFF8C9',
+        800: '#F3FDEA'
+      },
+      gray:{
+        400: '#8C8B8B',
+        500: '#606060',
+        600:'#F9F9F9'
       }
     },
 

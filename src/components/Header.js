@@ -27,9 +27,9 @@ function Header({ t, i18n }) {
                     <Navbar.Collapse id="basic-navbar-nav">
                         {/* Menu Links */}
                         <Nav className="mr-auto">
-                            <Nav.Link href="/about"><div className="text-gray text-lg">{t('header.about')}</div></Nav.Link>
-                            <Nav.Link href="#link"><div className="text-gray text-lg">{t('header.faqs')}</div></Nav.Link>
-                            <Nav.Link href="#link"><div className="text-gray text-lg">{t('header.more')}</div></Nav.Link>
+                            <Nav.Link href="/about"><div className="text-gray-500 text-lg">{t('header.about')}</div></Nav.Link>
+                            <Nav.Link href="#link"><div className="text-gray-500 text-lg">{t('header.faqs')}</div></Nav.Link>
+                            <Nav.Link href="#link"><div className="text-gray-500 text-lg">{t('header.more')}</div></Nav.Link>
                         </Nav>
                         {/* Menu Links */}
 
@@ -37,20 +37,20 @@ function Header({ t, i18n }) {
                         <Form inline>
                             <Button className="bttn mr-3 p-0">
                                 <Nav.Link href="/landlord">
-                                <div className="text-gray">
+                                <div className="text-gray-500">
                                     {t('header.landlord')}
                                 </div>
                                 </Nav.Link>
                             </Button>
                             <Button className="bttn px-3 p-0">
                                 <Nav.Link href="/tanents">
-                                <div className="text-gray">
+                                <div className="text-gray-500">
                                     {t('header.tenat')}
                                 </div>
                                 </Nav.Link>
                             </Button>
-                            <Link className="logins"><div className="text-gray text-lg ml-3 mr-1">{t('header.login')}</div></Link>/
-                            <Link className="logins"><div className="text-gray text-lg ml-1">{t('header.signup')}</div></Link>
+                            <Link className="logins"><div className="text-gray-500 text-lg ml-3 mr-1">{t('header.login')}</div></Link>/
+                            <Link className="logins"><div className="text-gray-500 text-lg ml-1">{t('header.signup')}</div></Link>
                             <img className="mx-3" src={Enter} alt="enter"></img>
                             <select className="bg-gray" onChange={(e) => i18n.changeLanguage(e.target.value)}>
                                 <option value="en">UK</option>
