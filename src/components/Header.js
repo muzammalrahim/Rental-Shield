@@ -27,7 +27,7 @@ function Header({ t, i18n }) {
                     <Navbar.Collapse id="basic-navbar-nav">
                         {/* Menu Links */}
                         <Nav className="mr-auto">
-                            <Nav.Link href="/landlord"><div className="text-gray text-lg">{t('header.about')}</div></Nav.Link>
+                            <Nav.Link href="/about"><div className="text-gray text-lg">{t('header.about')}</div></Nav.Link>
                             <Nav.Link href="#link"><div className="text-gray text-lg">{t('header.faqs')}</div></Nav.Link>
                             <Nav.Link href="#link"><div className="text-gray text-lg">{t('header.more')}</div></Nav.Link>
                         </Nav>
@@ -35,8 +35,20 @@ function Header({ t, i18n }) {
 
                         {/* Right Options */}
                         <Form inline>
-                            <Button className="bttn mr-3"><div className="text-gray">{t('header.landlord')}</div></Button>
-                            <Button className="bttn  px-3">{t('header.tenat')}</Button>
+                            <Button className="bttn mr-3 p-0">
+                                <Nav.Link href="/landlord">
+                                <div className="text-gray">
+                                    {t('header.landlord')}
+                                </div>
+                                </Nav.Link>
+                            </Button>
+                            <Button className="bttn px-3 p-0">
+                                <Nav.Link href="/tanents">
+                                <div className="text-gray">
+                                    {t('header.tenat')}
+                                </div>
+                                </Nav.Link>
+                            </Button>
                             <Link className="logins"><div className="text-gray text-lg ml-3 mr-1">{t('header.login')}</div></Link>/
                             <Link className="logins"><div className="text-gray text-lg ml-1">{t('header.signup')}</div></Link>
                             <img className="mx-3" src={Enter} alt="enter"></img>
