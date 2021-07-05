@@ -18,7 +18,7 @@ function Header({ t, i18n }) {
             <div className="header-main px-5  pt-3">
                 <Navbar  expand="lg" className="p-0">
                     {/* logo */}
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                         <img src={logo} alt="logo"/>
                     </Navbar.Brand>
                     {/* logo */}
