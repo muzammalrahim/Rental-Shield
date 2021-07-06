@@ -33,12 +33,13 @@ module.exports = {
       black:'#000000',
       lightgreen:'#DFF8C9',
       green:{
+        200: '#7fc940',
         400: '#609732',
         500: '#87ED31',
         600: '#72C92A',
         700: '#DFF8C9',
         800: '#F3FDEA',
-        900:'#72C92A'
+        900:'#72C92A',
 
       },
       gray:{
@@ -47,6 +48,7 @@ module.exports = {
         600:'#F9F9F9',
       },
       silver:{
+        50:'#E5E7EB',
         100:'#E6E7E8',
       }
     },

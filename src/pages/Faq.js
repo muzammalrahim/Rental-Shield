@@ -28,8 +28,8 @@ export default class Faq extends Component {
                  <FaqCategories/>
                 {/* categories */}
 
-    {/* FAQ */}
-    <FaqAccordion/>
+                 {/* FAQ */}
+                 <FaqAccordion/>
                     {/* FAQ */} 
 
                   {/* Footer */}
