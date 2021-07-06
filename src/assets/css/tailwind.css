@@ -39,8 +39,12 @@ select{
 /* Home Banner */
 .sm\:home-banner-main{
     position: relative;
-    top: -64px;
+    top: -100px;
     z-index: -1;
+}
+.banner-inner{
+    display: grid;
+    grid-template-columns: 60% auto;
 }
 /* .sm\:left-side{
     width: 100%;
@@ -54,11 +58,11 @@ select{
 .sm\:left-side {
     width: 100%;
     background-repeat: no-repeat;
-    height: 45em;
+    height: 42em;
     /* padding: 0 0 25rem 0; */
     background-size: contain;
     /* margin-top: -70px; */
-    background-position: -35px -8px;
+    /* background-position: -35px -8px; */
 }
 .sm\:right-inner{
     text-align: left;
@@ -69,7 +73,10 @@ select{
      background-size: 55%;
 }
 .lg\:inner{
-    padding-top: 34%;
+    padding-top: 37%;
+}
+.header-btn{
+    width: 175px;
 }
 
 /* Home Banner */
@@ -88,9 +95,10 @@ select{
     align-items: center;
 }
 .img-area img{
-    float: right;
-    margin-right: 50px;
-    /* width: 50%; */
+    /* float: right;
+    margin-right: 50px; */
+    margin: 0 auto;
+    width: 70%;
 }
 /* Future Banner */
 
@@ -113,11 +121,30 @@ select{
     position: relative;
 } */
 .bg-line{
-    position: relative;
-    top:-166px;
-     right:-328px;
-     z-index: -1;
+    position: absolute;
+    top: 259px;
+    right: 33%;
+    z-index: -1;
 }
+.bg-line2{
+    position: absolute;
+    top: 259px;
+    right: 28%;
+    z-index: -1;
+}
+.bg-line3 {
+    position: absolute;
+    top: 259px;
+    right: 27%;
+    z-index: -1;
+}
+.bg-line4 {
+    position: absolute;
+    top: 295px;
+    right: 29%;
+    z-index: -1;
+}
+
 /* Acc Steps */
 
 
@@ -136,19 +163,22 @@ select{
 
 
 .faq-main{
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20% 0 17% 0;
-    margin-top: -146px;
+    margin-top: -120px;
 }
 .faq-row-wrapper.styles_faq-row-wrapper__3vA1D {
     background: none !important;
+}
+.row-content-text{
+    text-align: left;
+}
+.row-title{
+    padding: 5px 0 !important;
 }
 /* FAQ */
 
 /* Know More */
 .know-inner{
-    padding-bottom: 30em;
+    padding-bottom: 43em;
 }
 .para1{
     position: absolute;
@@ -162,11 +192,12 @@ select{
 .para3 {
     position: absolute;
     left: 53%;
-    top: 366px;
+    top: 519px;
 }
 .para4{
     position: absolute;
-    top: 366px;
+    top: 627px;
+    left: 23%;
 }
 
 /* Know More */
@@ -183,7 +214,13 @@ select{
     /* padding-top: 418px; */
     padding-bottom: 100px;
 }
-
+.even-more-t-bg{
+    margin-top: -175px;
+}
+.g-line{
+    z-index: -117px;
+    top: -127px;
+}
 /* TenantsSteps */
 .tenant-main img{
     margin: 0 auto;
@@ -280,6 +317,25 @@ select{
 }
 .landlord-bg p{
     padding-top: 20%;  
+}
+
+.bg-line5 {
+    position: absolute;
+    top: 422px;
+    right: 29%;
+    z-index: -1;
+}
+.bg-line6{
+    position: absolute;
+    top: 276px;
+    right: 36%;
+    z-index: -1;
+}
+.bg-line7{
+    position: absolute;
+    top: 319px;
+    right: 15%;
+    z-index: -1;
 }
 /* ------------------LandLord Page----------------------- */
 
@@ -390,7 +446,7 @@ select{
 }
 .slick-slide:not(.slick-current) img{
     /* Make slides other than the current one translucent */
-    width: 90%;
+    width: 80%;
 }
 .slick-slide:not(.slick-current) p{
     /* Make slides other than the current one translucent */
@@ -399,7 +455,7 @@ select{
 
   .slick-current h3{
     /* Make slides other than the current one translucent */
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center !important;
   }
   .slick-current ul{
@@ -427,3 +483,23 @@ select{
     top: 67px !important;
 }
 .slick-prev:before{}
+.from-main input:focus{
+    background-color: #F3FDEA;
+}
+
+
+/* youtube */
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }

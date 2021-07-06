@@ -54,6 +54,8 @@ class Home extends Component {
                      <Faq/>
                     {/* FAQ */}
 
+                    {/* KnowMore */}
+                    <KnowMore/>
                     
 
                     {/* Testimonal Slider */}
