@@ -6,13 +6,13 @@ function RegistrationForm(props) {
   return(
         <div className="from-main">
             <img src={GirlImg} alt="bg-img"/>
-            <div className="card col-12 col-lg-4 login-card hv-center bg-green-700">
+            <div className="card col-12 col-lg-4 login-card hv-center bg-green-800">
                 <h1 className="text-black  text-3xl text-left pt-5 py-4">Registration</h1>
                 <form>
                     <div className="form-group text-left">
                     {/* <label htmlFor="exampleInputEmail1" className="text-black font-normal text-lg">Name</label> */}
                     <input type="text" 
-                        className="form-control bg-green-700" 
+                        className="form-control bg-green-800" 
                         id="" 
                         aria-describedby="emailHelp" 
                         placeholder="Name"
@@ -23,7 +23,7 @@ function RegistrationForm(props) {
                     <div className="form-group text-left">
                         {/* <label htmlFor="exampleInputPassword1" className="text-black font-normal text-lg">Phone</label> */}
                         <input type="text" 
-                            className="form-control bg-green-700" 
+                            className="form-control bg-green-800" 
                             id="" 
                             placeholder="Phone"
                         />
@@ -31,7 +31,7 @@ function RegistrationForm(props) {
                     <div className="form-group text-left">
                         {/* <label htmlFor="exampleInputPassword1" className="text-black font-normal text-lg">Email</label> */}
                         <input type="text" 
-                            className="form-control bg-green-700" 
+                            className="form-control bg-green-800" 
                             id="" 
                             placeholder="E-mail"
                         />
@@ -39,7 +39,7 @@ function RegistrationForm(props) {
                     <div className="form-group text-left">
                         {/* <label htmlFor="exampleInputPassword1" className="text-black font-normal text-lg">Address</label> */}
                         <input type="password" 
-                            className="form-control bg-green-700" 
+                            className="form-control bg-green-800" 
                             id="" 
                             placeholder="Address"
                         />
