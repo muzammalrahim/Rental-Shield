@@ -171,6 +171,9 @@ select{
 .row-content-text{
     text-align: left;
 }
+.row-title{
+    padding: 5px 0 !important;
+}
 /* FAQ */
 
 /* Know More */
@@ -211,7 +214,13 @@ select{
     /* padding-top: 418px; */
     padding-bottom: 100px;
 }
-
+.even-more-t-bg{
+    margin-top: -175px;
+}
+.g-line{
+    z-index: -117px;
+    top: -127px;
+}
 /* TenantsSteps */
 .tenant-main img{
     margin: 0 auto;
@@ -308,6 +317,25 @@ select{
 }
 .landlord-bg p{
     padding-top: 20%;  
+}
+
+.bg-line5 {
+    position: absolute;
+    top: 422px;
+    right: 29%;
+    z-index: -1;
+}
+.bg-line6{
+    position: absolute;
+    top: 276px;
+    right: 36%;
+    z-index: -1;
+}
+.bg-line7{
+    position: absolute;
+    top: 319px;
+    right: 15%;
+    z-index: -1;
 }
 /* ------------------LandLord Page----------------------- */
 
@@ -458,3 +486,20 @@ select{
 .from-main input:focus{
     background-color: #F3FDEA;
 }
+
+
+/* youtube */
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }

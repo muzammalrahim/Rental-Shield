@@ -24,15 +24,15 @@ export default class TanentsBanner extends Component {
                                 
                                 </Col>
                                 <Col sm="6" className="text-left banner-content pb-5">
-                                    <h3 className="text-green text-6xl">
+                                    <h3 className="text-green-500 text-6xl">
                                         Welcome 
                                         <br/>
                                         to Tenants
                                     </h3>
-                                    <h3 className="text-2xl text-gray py-3">
+                                    <h3 className="text-2xl text-gray-500 py-3">
                                         To the future of renting...
                                     </h3>
-                                    <p>
+                                    <p className="text-gray-500">
                                         Join us today on the real estate revolution
                                         <br/>
                                          to change the way you rent today.  We 
@@ -42,27 +42,27 @@ export default class TanentsBanner extends Component {
                                           questions you may have below.
                                           <ul className="text-left">
                                               <li>
-                                                  <p>
+                                                <p className="text-gray-500">
                                                   What if my landlord doesn't want 
                                                   <br/>
                                                   to join the scheme? ​
                                                   </p>
                                               </li>
                                               <li>
-                                                  <p>
+                                                <p className="text-gray-500">
                                                       Is my money protected?
 
                                                   </p>
                                               </li>
                                               <li>
-                                                  <p>
+                                                <p className="text-gray-500">
                                                   Do you really have my best 
                                                   <br/>
                                                   interest at heart?
                                                   </p>
                                               </li>
                                               <li>
-                                                  <p>
+                                                <p className="text-gray-500">
                                                   What if I want to dispute
                                                   <br/>
                                                    the case?

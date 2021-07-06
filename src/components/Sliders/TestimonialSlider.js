@@ -35,7 +35,7 @@ class TestimonialSlide extends Component {
     const settings = {
       dots: false,
       centerMode: true,
-      centerPadding: '60px',
+      // centerPadding: '60px',
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -71,7 +71,7 @@ class TestimonialSlide extends Component {
 
     
     return (
-      <div className="px-5 pt-5 mt-20">
+      <div className="px-5 pt-5 mt-20" style={{width:'90%', margin:'0 auto'}}>
         <h2 className="text-6xl font-normal text-gray-500 py-5 font-body pt-5 mt-5">What people say</h2>
 
         <Slider {...settings}>

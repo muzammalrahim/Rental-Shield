@@ -133,9 +133,9 @@ class Footer extends Component {
                             </ul>
                         </div>
                         <div className=" text-left pb-3">
-                            <h4 className="text-gray-500 text-base font-bold">{t('footer.aboutus')}</h4>
+                            <h4 className="text-gray-500 text-base font-bold pb-4">{t('footer.aboutus')}</h4>
                             <ul>
-                                <li className="text-sm text-gray-500font-medium pb-1">{t('footer.ourteam')}</li>
+                                <li className="text-sm text-gray-500 font-medium pb-1">{t('footer.ourteam')}</li>
                                 <li className="text-sm text-gray-500 font-medium pb-1">{t('footer.adjucicatiors')}</li>
                                 <li className="text-sm text-gray-500 font-medium pb-1">{t('footer.careers')}</li>
                                 <li className="text-sm text-gray-500 font-medium pb-1">{t('footer.contactus')}</li>

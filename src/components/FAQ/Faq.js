@@ -65,7 +65,7 @@ const styles = {
 
 const config = {
     // animate: true,
-    // arrowIcon: "V",
+    arrowIcon: "+",
     // tabFocus: true
 };
 
@@ -86,7 +86,7 @@ export default function FAQMain() {
                                 <h3 className="font-normal md:text-left text-lg lg:text-6xl">Questions</h3>
                             </div> 
                         </Col>
-                        <Col lg="6" md="12" sm="12" className="text-center lg:text-left md:faq-content">
+                        <Col lg="6" md="12" sm="12" className="text-center pb-5 lg:text-left md:faq-content">
                             <Faq
                                 data={data}
                                 styles={styles}

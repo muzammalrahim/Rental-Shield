@@ -20,8 +20,8 @@ export default class EveryThing extends Component {
                     
                     <Row className="no-gutters">
                         <Col sm="12">
-                            <h1 className="text-gray text-6xl font-normal">Even more?</h1>
-                            <p className="text-gray text-xl font-normal">​No believe it or not there is more...</p>
+                            <h1 className="text-gray-500 text-6xl font-normal pt-52">Even more?</h1>
+                            <p className="text-gray-500 text-xl font-normal">​No believe it or not there is more...</p>
                         </Col>
                         
                         

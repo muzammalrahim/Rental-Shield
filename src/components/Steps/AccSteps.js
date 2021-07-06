@@ -40,7 +40,7 @@ class AccSteps extends Component {
                                         <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.create')}<br/>{t('ac-steps.ac')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-right text-gray-500 font-light lg:text-2xl leading-7 font-body md:text-xl lg:pr-5 ">{t('ac-steps.create-detail-1')}<br/> 
+                                <p className="text-left text-gray-500 font-light lg:text-2xl leading-7 font-body md:text-xl lg:pr-5 ">{t('ac-steps.create-detail-1')}<br/> 
                                 {t('ac-steps.create-detail-2')}<br/> 
                                 {t('ac-steps.create-detail-3')}</p>
                             </div>
@@ -113,7 +113,7 @@ class AccSteps extends Component {
                                         <h3 className="text-gray-500 font-light font-body text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.check-in')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-right text-gray-500 font-body leading-7 font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-body leading-7 font-light lg:text-2xl md:text-xl lg:pr-5 ">
                                     {t('ac-steps.check-in-details-1')}<br/> 
                                     {t('ac-steps.check-in-details-2')}<br/> 
                                     {t('ac-steps.check-in-details-3')} 
@@ -173,7 +173,7 @@ class AccSteps extends Component {
                                         <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.check-out')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-right text-gray-500  font-body leading-7 font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500  font-body leading-7 font-light lg:text-2xl md:text-xl lg:pr-5 ">
                                     {t('ac-steps.check-out-detail-1')}<br/>
                                     {t('ac-steps.check-out-detail-2')}<br/> 
                                     {t('ac-steps.check-out-detail-3')}
