@@ -9,14 +9,14 @@ export default class FaqCategories extends Component {
   render() {
     return (
       <div>
-        <div className="bg-lightgreen">
+        <div className="bg-lightgreen py-32">
           <Container>
             <br />
             <h2>Categories</h2>
             <br /> <br />
-            <Row className="items-center">
-              <Col lg="4" md="4" sm="12" className="min-h-screen">
-                <div className="m-auto bg-no-repeat bg-center faq-bg no-repeat min-h-screen relative">
+            <Row className="items-center py-16">
+              <Col lg="4" md="4" sm="12" className="">
+                <div className="m-auto bg-no-repeat bg-center faq-bg no-repeat  relative">
                   <img
                     class="m-auto"
                     src={Landlords}
@@ -30,13 +30,13 @@ export default class FaqCategories extends Component {
                     Landlords
                   </button>
                   <div
-                    class=" md:mx-auto lg:ml-32  mt-12
+                    class="lg:ml-36 ml-14  mt-12
                   rounded-full h-12 w-12 flex items-center justify-center bg-white border-8 border-solid  border-green-200  "
                   ></div>
                 </div>
               </Col>
-              <Col lg="4" md="4" sm="12" className="min-h-screen">
-                <div className="m-auto bg-contain bg-no-repeat bg-center faq-bg no-repeat min-h-screen">
+              <Col lg="4" md="4" sm="12" className="">
+                <div className="m-auto bg-contain bg-no-repeat bg-center faq-bg no-repeat ">
                   <img
                     class="m-auto"
                     src={Tenants}
@@ -57,9 +57,9 @@ export default class FaqCategories extends Component {
                   ></div>
                 </div>
               </Col>
-              <Col lg="1" md="1" sm="12" className="min-h-screen"></Col>
-              <Col lg="3" md="3" sm="12" className="min-h-screen">
-                <div className="m-auto bg-contain bg-no-repeat bg-center faq-bg no-repeat min-h-screen">
+              <Col lg="1" md="1" sm="12" className=""></Col>
+              <Col lg="3" md="3" sm="12" className="">
+                <div className="m-auto bg-contain bg-no-repeat bg-center faq-bg no-repeat ">
                   <img
                     class="m-auto pl-2 pt-16"
                     src={General}
