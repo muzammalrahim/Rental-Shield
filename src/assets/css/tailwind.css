@@ -455,3 +455,6 @@ select{
     top: 67px !important;
 }
 .slick-prev:before{}
+.from-main input:focus{
+    background-color: #F3FDEA;
+}
