@@ -19,7 +19,12 @@
         "monthly": "Monthly.",
         "banner-details-1" : "Sign up today and change",
         "banner-details-2" : "the way you rent... forever",
-        "readmore" : "Read more"
+        "readmore" : "Read more" ,
+        "banner-Title-1" : "Frequently Asked Questions",
+        "banner-Heading-1" : "Welcome to the FAQ’s page",
+        "banner-Para-1" : "We believe that 99% of your questions will be answered in our table below. However if you truly feel that your question hasn't been listed below then kindly visit our contact us page here.  "
+
+
     },
     "tanetb" :{
         "welcome" : "Welcome to",

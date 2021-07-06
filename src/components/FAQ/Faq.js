@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
+
 import {Container, Row, Col} from 'react-bootstrap'
 
 
@@ -105,3 +106,4 @@ export default function FAQMain() {
         </div>
     );
 }
+
