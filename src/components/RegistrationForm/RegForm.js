@@ -7,12 +7,12 @@ function RegistrationForm(props) {
         <div className="from-main">
             <img src={GirlImg} alt="bg-img"/>
             <div className="card col-12 col-lg-4 login-card hv-center bg-pale">
-                <h1 className="text-black text-3xl text-left px-3 py-4">Registration</h1>
+                <h1 className="text-black  text-3xl text-left pt-5 py-4">Registration</h1>
                 <form>
                     <div className="form-group text-left">
                     {/* <label htmlFor="exampleInputEmail1" className="text-black font-normal text-lg">Name</label> */}
                     <input type="text" 
-                        className="form-control bg-pale" 
+                        className="form-control bg-green-700" 
                         id="" 
                         aria-describedby="emailHelp" 
                         placeholder="Name"

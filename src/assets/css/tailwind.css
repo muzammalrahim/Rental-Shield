@@ -39,8 +39,12 @@ select{
 /* Home Banner */
 .sm\:home-banner-main{
     position: relative;
-    top: -64px;
+    top: -100px;
     z-index: -1;
+}
+.banner-inner{
+    display: grid;
+    grid-template-columns: 60% auto;
 }
 /* .sm\:left-side{
     width: 100%;
@@ -54,11 +58,11 @@ select{
 .sm\:left-side {
     width: 100%;
     background-repeat: no-repeat;
-    height: 45em;
+    height: 42em;
     /* padding: 0 0 25rem 0; */
     background-size: contain;
     /* margin-top: -70px; */
-    background-position: -35px -8px;
+    /* background-position: -35px -8px; */
 }
 .sm\:right-inner{
     text-align: left;
@@ -69,7 +73,10 @@ select{
      background-size: 55%;
 }
 .lg\:inner{
-    padding-top: 34%;
+    padding-top: 37%;
+}
+.header-btn{
+    width: 175px;
 }
 
 /* Home Banner */
@@ -88,9 +95,10 @@ select{
     align-items: center;
 }
 .img-area img{
-    float: right;
-    margin-right: 50px;
-    /* width: 50%; */
+    /* float: right;
+    margin-right: 50px; */
+    margin: 0 auto;
+    width: 70%;
 }
 /* Future Banner */
 
@@ -155,13 +163,13 @@ select{
 
 
 .faq-main{
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20% 0 17% 0;
-    margin-top: -146px;
+    margin-top: -120px;
 }
 .faq-row-wrapper.styles_faq-row-wrapper__3vA1D {
     background: none !important;
+}
+.row-content-text{
+    text-align: left;
 }
 /* FAQ */
 
@@ -410,7 +418,7 @@ select{
 }
 .slick-slide:not(.slick-current) img{
     /* Make slides other than the current one translucent */
-    width: 90%;
+    width: 80%;
 }
 .slick-slide:not(.slick-current) p{
     /* Make slides other than the current one translucent */
@@ -419,7 +427,7 @@ select{
 
   .slick-current h3{
     /* Make slides other than the current one translucent */
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center !important;
   }
   .slick-current ul{

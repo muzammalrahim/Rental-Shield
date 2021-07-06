@@ -16,12 +16,12 @@ export default class Registration extends Component {
                         </Col>
                         <Col lg={{span:3, order:2}} md={{span:12, order:1}} xs={{span:12, order:1}}>
                             <div className="reg-text text-right text-white py-5">
-                                <p className="text-2xl font-normal md:text-center">I,ve heard enough</p>
-                                <h3 className="text-5xl font-normal md:text-center">Sign me<br/> up now</h3>
-                                <p className="text-base font-normal md:text-center lg:text-right">Protect youself today. We can help your
+                                <p className="text-2xl font-normal lg:text-right md:text-center">I,ve heard enough</p>
+                                <h3 className="text-5xl font-normal lg:text-right md:text-center pb-3">Sign me<br/> up now</h3>
+                                <p className="text-base font-normal md:text-center lg:text-right font-body leading-5">Protect youself today. We can help your
                                 
                                 Landlords to sign up.</p>
-                                <p className="text-base font-normal md:text-center lg:text-right"> Our services are<br/>
+                                <p className="text-base font-normal  font-body leading-5  md:text-center lg:text-right"> Our services are<br/>
                                 regulated by the financial<b/> authorities. This is a win/win<br/> 
                                 situation for all parties.</p>
                             </div>

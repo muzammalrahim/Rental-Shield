@@ -15,11 +15,11 @@ function Header({ t, i18n }) {
     // const {t, i18n} = useTranslation('common');
 
         return (
-            <div className="header-main px-5  pt-3 relative z-10">
+            <div className="header-main px-5  pt-4 relative z-10">
                 <Navbar  expand="lg" className="p-0">
                     {/* logo */}
                     <Navbar.Brand href="/">
-                        <img src={logo} alt="logo"/>
+                        <img className="" src={logo} alt="logo"/>
                     </Navbar.Brand>
                     {/* logo */}
 
@@ -27,9 +27,21 @@ function Header({ t, i18n }) {
                     <Navbar.Collapse id="basic-navbar-nav">
                         {/* Menu Links */}
                         <Nav className="mr-auto">
-                            <Nav.Link href="/about"><div className="text-gray-500 text-lg">{t('header.about')}</div></Nav.Link>
-                            <Nav.Link href="#link"><div className="text-gray-500 text-lg">{t('header.faqs')}</div></Nav.Link>
-                            <Nav.Link href="#link"><div className="text-gray-500 text-lg">{t('header.more')}</div></Nav.Link>
+                            <Nav.Link href="/about">
+                                <div className="text-gray-500 text-lg pl-3">
+                                    {t('header.about')}
+                                </div>
+                            </Nav.Link>
+                            <Nav.Link href="#link">
+                                <div className="text-gray-500 text-lg pl-4">
+                                    {t('header.faqs')}
+                                    </div>
+                            </Nav.Link>
+                            <Nav.Link href="#link">
+                                <div className="text-gray-500 text-lg pl-4">
+                                    {t('header.more')}
+                                </div>
+                            </Nav.Link>
                         </Nav>
                         {/* Menu Links */}
 
@@ -49,8 +61,17 @@ function Header({ t, i18n }) {
                                 </div>
                                 </Nav.Link>
                             </Button>
-                            <Link className="logins"><div className="text-gray-500 text-lg ml-3 mr-1">{t('header.login')}</div></Link>/
-                            <Link className="logins"><div className="text-gray-500 text-lg ml-1">{t('header.signup')}</div></Link>
+                            <Link className="logins">
+                                <div className="text-gray-500 text-lg ml-3 mr-1">
+                                    {t('header.login')}
+                                </div>
+                            </Link>
+                            /
+                            <Link className="logins">
+                                <div className="text-gray-500 text-lg ml-1">
+                                    {t('header.signup')}
+                                </div>
+                            </Link>
                             <img className="mx-3" src={Enter} alt="enter"></img>
                             <select className="bg-gray" onChange={(e) => i18n.changeLanguage(e.target.value)}>
                                 <option value="en">UK</option>

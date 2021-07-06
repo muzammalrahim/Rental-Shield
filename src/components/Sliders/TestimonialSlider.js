@@ -72,13 +72,13 @@ class TestimonialSlide extends Component {
     
     return (
       <div className="px-5 pt-5 mt-20">
-        <h2 className="text-6xl font-normal text-gray py-5 font-body pt-5 mt-5">What people say</h2>
+        <h2 className="text-6xl font-normal text-gray-500 py-5 font-body pt-5 mt-5">What people say</h2>
 
         <Slider {...settings}>
 
           {/* Slide 1 */}
           <div className=" text-center">
-              <h3 className="text-gray font-bold text-2xx text-left">
+              <h3 className="text-gray-500 font-bold text-xl text-left">
             “The best experience 
                 <br/>
                 to rent a house!”.
@@ -90,7 +90,7 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray font-body text-lg text-left pl-3">Mohamed Kahled
+                <p className="text-gray-500 font-body text-base text-left pl-3 pt-3">Mohamed Kahled
                   <br/>
                     Marketing
                 </p>
@@ -102,7 +102,7 @@ class TestimonialSlide extends Component {
 
           {/* Slide 2 */}
           <div className="px-5 text-center">
-              <h3 className="text-gray font-bold text-2xx text-left">
+              <h3 className="text-gray-500 font-bold text-xl text-left">
             “The best experience 
                 <br/>
                 to rent a house!”.
@@ -114,7 +114,7 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray font-body text-lg text-left pl-4">Mohamed Kahled
+                <p className="text-gray-500 font-body  text-base text-left pl-3 pt-3">Mohamed Kahled
                   <br/>
                     Marketing
                 </p>
@@ -125,7 +125,7 @@ class TestimonialSlide extends Component {
 
           {/* Slide 3 */}
           <div className="px-5 text-center">
-              <h3 className="text-gray font-bold text-2xx text-left">
+              <h3 className="text-gray-500 font-bold text-xl text-left">
             “The best experience 
                 <br/>
                 to rent a house!”.
@@ -137,7 +137,7 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray font-body text-lg text-left pl-4">Mohamed Kahled
+                <p className="text-gray-500 font-body  text-base text-left pl-3 pt-3">Mohamed Kahled
                   <br/>
                     Marketing
                 </p>
@@ -147,7 +147,7 @@ class TestimonialSlide extends Component {
 
           {/* Slide 4 */}
           <div className="px-5 text-center">
-              <h3 className="text-gray font-bold text-2xx text-left">
+              <h3 className="text-gray-500 font-bold text-xl text-left">
             “The best experience 
                 <br/>
                 to rent a house!”.
@@ -159,7 +159,7 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray font-body text-lg text-left pl-4">Mohamed Kahled
+                <p className="text-gray-500 font-body  text-base text-left pl-3 pt-3">Mohamed Kahled
                   <br/>
                     Marketing
                 </p>
