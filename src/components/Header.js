@@ -52,14 +52,14 @@ function Header({ t, i18n }) {
                         {/* Right Options */}
                         <Form inline>
                             <Button className="bttn mr-3 p-0">
-                                <Nav.Link href="/landlord">
+                                <Nav.Link className="py-1.5" href="/landlord">
                                 <div className="text-gray-500 font-medium font-body">
                                     {t('header.landlord')}
                                 </div>
                                 </Nav.Link>
                             </Button>
                             <Button className="bttn px-3 p-0">
-                                <Nav.Link href="/tanents">
+                                <Nav.Link className="py-1.5" href="/tanents">
                                 <div className="text-gray-500 font-medium font-body">
                                     {t('header.tenat')}
                                 </div>

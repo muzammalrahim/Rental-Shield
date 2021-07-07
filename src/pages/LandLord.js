@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../components/Header';
 import LandLordBanner from '../components/Banners/LandLordBanner';
-import EveryThing from '../components/Rules/EveryThing';
+import EvenMoreLandLard from '../components/Rules/EvenMoreLandLard';
 import LandLordSteps from '../components/Steps/LandLordSteps';
 import Video from '../components/Updates/Video';
 import MoreQuestions from '../components/MoreQuestions';
@@ -25,7 +25,7 @@ export default class LandLord extends Component {
                  {/* Banner */}
 
                 <LandLordSteps/>
-                 <EveryThing/>
+                 <EvenMoreLandLard/>
 
                  <Video/>
 

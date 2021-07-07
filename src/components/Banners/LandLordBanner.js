@@ -30,9 +30,9 @@ export default class LandLordBanner extends Component {
                            </Row>
                         </Container> 
                   </div>
-                  <div>
+                  {/* <div>
                       <img className='w-full' src={Bgimg} alt=""/>
-                  </div>
+                  </div> */}
 
             </div>
         )

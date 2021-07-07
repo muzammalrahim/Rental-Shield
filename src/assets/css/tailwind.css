@@ -206,7 +206,7 @@ select{
 }
 .para2{
     position: absolute;
-    top: -45% !important;
+    top: -40px;
     left: 32%;
 }
 .para3 {
@@ -239,7 +239,7 @@ select{
 }
 .g-line{
     z-index: -117px;
-    top: -127px;
+    /* top: -127px; */
 }
 /* TenantsSteps */
 .tenant-main img{
@@ -247,6 +247,11 @@ select{
 }
 /* TenantsSteps */
 
+ /* Youtube Video */
+ .video-responsive{
+     border-radius: 10px;
+ }
+/* Youtube Video */
 
 /* Registration */
 .registration-main{
@@ -374,6 +379,7 @@ select{
 /* More Questions */
 .more-border-1{
     left: -80px;
+    top:55px;
 }
 .more-border-2 img{
     right: 230px;

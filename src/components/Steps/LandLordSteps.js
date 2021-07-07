@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import {Container, Row, Col} from 'react-bootstrap'; 
-import Line from '../../assets/images/line.png';
+// import Line from '../../assets/images/line.png';
+import Line2 from '../../assets/images/headng-line-2.png';
 import Step1 from '../../assets/images/Rental-2.png';
 import Step2 from '../../assets/images/Rental-3.png';
 import Step3 from '../../assets/images/Rental-4.png';
 import LineBG from '../../assets/images/line-bg.png';
 import LineBG2 from '../../assets/images/bg-line2.png';
+
 
 
 export default class LandLordSteps extends Component {
@@ -22,11 +24,13 @@ export default class LandLordSteps extends Component {
                                     <li>
                                         <h4 className="text-gray-500 font-body font-light lg:text-5xl md:text-3xl"> </h4>
                                     </li>
-                                    <li>
-                                        <img className="md:h-30 " src={Line} alt="Line"/>
-                                    </li>
+                                    
                                     <li>
                                         <h3 className="text-gray-500 leading-10 font-body font-light text-5xl lg:text-5xl md:text-3xl">Monthly <br/>Payments</h3>
+                                    </li>
+
+                                    <li>
+                                        <img className="md:h-30 " src={Line2} alt="Line"/>
                                     </li>
                                 </ul>
                                 <p className="text-left leading-7 font-body text-gray-500 font-light lg:text-2xl md:text-xl lg:pr-5 ">
@@ -66,18 +70,26 @@ export default class LandLordSteps extends Component {
                                     <li>
                                         <h4 className="text-gray-500  font-light lg:text-5xl md:text-3xl"></h4>
                                     </li>
-                                    <li>
-                                        <img src={Line} alt="Line"/>
-                                    </li>
+                                    
                                     <li>
                                         <h3 className="text-gray-500 leading-10 font-light text-5xl lg:text-5xl md:text-3xl">Furnish <br/> the Flats</h3>
                                     </li>
+                                    <li>
+                                        <img src={Line2} alt="Line"/>
+                                    </li>
                                 </ul>
-                                <p className="text-left font-body leading-7 text-gray-500 font-light lg:text-2xl md:text-xl lg:pr-5 ">
-                                In order to protect both the tenants and the<br/> 
-                                landlords interests, it is imperative that you both<br/> 
-                                sign and agree to our online terms and<br/> 
-                                conditions.
+                                <p className="text-left font-body pb-3 leading-7 text-gray-500 font-light lg:text-2xl md:text-xl lg:pr-5">
+                                    ​Wouldn't you want to furnish your flats and attract better tenants? 
+                                    Want to stand out in a crowded market? What better way then protecting 
+                                    these assets you allow tenants to use. 
+                                </p>
+                                <p className="text-left font-body pb-3 leading-7 text-gray-500 font-light lg:text-2xl md:text-xl lg:pr-5">
+                                     We have specialist teams who deal in furniture damages and can even
+                                      advise you on best practices of how to provide tenants with a safe 
+                                      and secure home at the right budget. 
+                                </p>
+                                <p className="text-left font-body leading-7 text-gray-500 font-light lg:text-2xl md:text-xl lg:pr-5">
+                                    Again a total win/win situation for everyone. 
                                 </p>
                             </div>
                         </Col>
@@ -94,11 +106,13 @@ export default class LandLordSteps extends Component {
                                     <li>
                                         <h4 className="text-gray-500font-light lg:text-5xl md:text-3xl"> </h4>
                                     </li>
-                                    <li>
-                                        <img src={Line} alt="Line"/>
-                                    </li>
+                                    
                                     <li>
                                         <h3 className="text-gray-500  font-body font-light text-5xl lg:text-5xl md:text-3xl">  Check-in</h3>
+                                    </li>
+
+                                    <li>
+                                        <img src={Line2} alt="Line"/>
                                     </li>
                                 </ul>
                                 <p className="text-left font-body leading-7 text-gray-500 font-light lg:text-2xl md:text-xl lg:pr-5 ">

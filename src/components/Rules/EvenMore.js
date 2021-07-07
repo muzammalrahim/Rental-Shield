@@ -24,15 +24,17 @@ export default class EvenMore extends Component {
                     {/* step1 */}
                     
                     
+                   
+                    <Container>
+                        <img className="g-line relative top-48" src={BGLeft} alt="img"></img>
+                    </Container>
                     <img className="w-full even-more-t-bg" src={BGTop} alt="img"/>
                     <div className="tenant-inner bg-gray-600 pb-5">
-                        <Container>
-                            <img className="g-line relative z" src={BGLeft} alt="img"></img>
-                        </Container>
+                        
                         <Row className="no-gutters">
                             <Col sm="12">
-                                <h1 className="text-gray-500 text-6xl font-normal pt-5">Even more?</h1>
-                                <p className="text-gray text-xl font-normal">​No believe it or not there is more...</p>
+                                <h1 className="text-gray-500 text-6xl font-normal font-body pt-5">Even more?</h1>
+                                <p className="text-gray-500 text-2x font-body font-normal">​No believe it or not there is more...</p>
                             </Col>
                             
                             
@@ -42,33 +44,33 @@ export default class EvenMore extends Component {
                             <div className="step-inner">
                                 <ul className="">
                                     <li>
-                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">01 </h4>
+                                        <h4 className="text-gray-500 font-light lg:text-5xl md:text-3xl">01 </h4>
                                     </li>
                                     <li>
                                         <img className="md:h-30 " src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Fair Wear & Tear</h3>
+                                        <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">Fair Wear & Tear</h3>
                                     </li>
                                 </ul>
-                                <p className="text-left text-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 This is really what it comes down to because at the end of the day tenants want 
                                 to make sure that things are clear when they move-in and start renting? 
                                 </p>
 
-                                <p className="text-left text-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 Am I allowed to fix that curtain here, hang that photo there? What if there 
                                 are some tiles damaged when I leave? What about small scratches on doors or walls? 
                                 </p>
                                 
-                                <p className="text-left text-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 We cover all of that for you, and our experienced team has 
                                 already worked out best maintenance practice with landlords.
                                  We even get them to agree with the terms and conditions of
                                  using our scheme. 
                                  </p>
 
-                                 <p className="text-lefttext-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                 <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 And even though they are not legally bound by them, the cost 
                                 and time it would take to argue the case would almost certainly 
                                 not be in their favour. In the end, a bit of give and take can 
@@ -93,33 +95,33 @@ export default class EvenMore extends Component {
                             <div className="step-inner">
                                 <ul className="">
                                     <li>
-                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">01 </h4>
+                                        <h4 className="text-gray-500 font-light lg:text-5xl md:text-3xl">01 </h4>
                                     </li>
                                     <li>
                                         <img className="md:h-30 " src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Fair Wear & Tear</h3>
+                                        <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">Fair Wear & Tear</h3>
                                     </li>
                                 </ul>
-                                <p className="text-left text-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 This is really what it comes down to because at the end of the day tenants want 
                                 to make sure that things are clear when they move-in and start renting? 
                                 </p>
 
-                                <p className="text-left text-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 Am I allowed to fix that curtain here, hang that photo there? What if there 
                                 are some tiles damaged when I leave? What about small scratches on doors or walls? 
                                 </p>
                                 
-                                <p className="text-left text-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 We cover all of that for you, and our experienced team has 
                                 already worked out best maintenance practice with landlords.
                                  We even get them to agree with the terms and conditions of
                                  using our scheme. 
                                  </p>
 
-                                 <p className="text-lefttext-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                 <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 And even though they are not legally bound by them, the cost 
                                 and time it would take to argue the case would almost certainly 
                                 not be in their favour. In the end, a bit of give and take can 
@@ -139,33 +141,33 @@ export default class EvenMore extends Component {
                             <div className="step-inner">
                                 <ul className="">
                                     <li>
-                                        <h4 className="text-gray font-light lg:text-5xl md:text-3xl">01 </h4>
+                                        <h4 className="text-gray-500 font-light lg:text-5xl md:text-3xl">01 </h4>
                                     </li>
                                     <li>
                                         <img className="md:h-30 " src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray font-light text-5xl lg:text-5xl md:text-3xl">Fair Wear & Tear</h3>
+                                        <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">Fair Wear & Tear</h3>
                                     </li>
                                 </ul>
-                                <p className="text-left text-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 This is really what it comes down to because at the end of the day tenants want 
                                 to make sure that things are clear when they move-in and start renting? 
                                 </p>
 
-                                <p className="text-left text-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 Am I allowed to fix that curtain here, hang that photo there? What if there 
                                 are some tiles damaged when I leave? What about small scratches on doors or walls? 
                                 </p>
                                 
-                                <p className="text-left text-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 We cover all of that for you, and our experienced team has 
                                 already worked out best maintenance practice with landlords.
                                  We even get them to agree with the terms and conditions of
                                  using our scheme. 
                                  </p>
 
-                                 <p className="text-lefttext-gray font-light lg:text-xl md:text-xl lg:pr-5 ">
+                                 <p className="text-left text-gray-500 font-light lg:text-xl md:text-xl lg:pr-5 ">
                                 And even though they are not legally bound by them, the cost 
                                 and time it would take to argue the case would almost certainly 
                                 not be in their favour. In the end, a bit of give and take can 

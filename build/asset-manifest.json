@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.69792495.chunk.css",
-    "main.js": "/static/js/main.e30e7f9f.chunk.js",
-    "main.js.map": "/static/js/main.e30e7f9f.chunk.js.map",
+    "main.css": "/static/css/main.c1bc9953.chunk.css",
+    "main.js": "/static/js/main.f4ccc5e2.chunk.js",
+    "main.js.map": "/static/js/main.f4ccc5e2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a0373b77.js",
     "runtime-main.js.map": "/static/js/runtime-main.a0373b77.js.map",
-    "static/css/2.1a03f12d.chunk.css": "/static/css/2.1a03f12d.chunk.css",
+    "static/css/2.47b5c5b4.chunk.css": "/static/css/2.47b5c5b4.chunk.css",
     "static/js/2.f1fbac73.chunk.js": "/static/js/2.f1fbac73.chunk.js",
     "static/js/2.f1fbac73.chunk.js.map": "/static/js/2.f1fbac73.chunk.js.map",
     "static/js/3.28e5a0fc.chunk.js": "/static/js/3.28e5a0fc.chunk.js",
     "static/js/3.28e5a0fc.chunk.js.map": "/static/js/3.28e5a0fc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.1a03f12d.chunk.css.map": "/static/css/2.1a03f12d.chunk.css.map",
-    "static/css/main.69792495.chunk.css.map": "/static/css/main.69792495.chunk.css.map",
+    "static/css/2.47b5c5b4.chunk.css.map": "/static/css/2.47b5c5b4.chunk.css.map",
+    "static/css/main.c1bc9953.chunk.css.map": "/static/css/main.c1bc9953.chunk.css.map",
     "static/js/2.f1fbac73.chunk.js.LICENSE.txt": "/static/js/2.f1fbac73.chunk.js.LICENSE.txt",
     "static/media/FaqAccordianIcon.b74e4830.svg": "/static/media/FaqAccordianIcon.b74e4830.svg",
     "static/media/FaqAccordion.53e9d4e5.png": "/static/media/FaqAccordion.53e9d4e5.png",
@@ -24,6 +24,8 @@
     "static/media/Rental-2.a968ba8a.png": "/static/media/Rental-2.a968ba8a.png",
     "static/media/Rental-3.cc3aa6ef.png": "/static/media/Rental-3.cc3aa6ef.png",
     "static/media/Rental-4.6483711e.png": "/static/media/Rental-4.6483711e.png",
+    "static/media/Rental-bg-3.05917cdc.png": "/static/media/Rental-bg-3.05917cdc.png",
+    "static/media/Rental-bg-4.0b41079e.png": "/static/media/Rental-bg-4.0b41079e.png",
     "static/media/about-1.ce1077d3.png": "/static/media/about-1.ce1077d3.png",
     "static/media/about-2.fe4444bd.png": "/static/media/about-2.fe4444bd.png",
     "static/media/about-3.9db1e530.png": "/static/media/about-3.9db1e530.png",
@@ -60,9 +62,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a0373b77.js",
-    "static/css/2.1a03f12d.chunk.css",
+    "static/css/2.47b5c5b4.chunk.css",
     "static/js/2.f1fbac73.chunk.js",
-    "static/css/main.69792495.chunk.css",
-    "static/js/main.e30e7f9f.chunk.js"
+    "static/css/main.c1bc9953.chunk.css",
+    "static/js/main.f4ccc5e2.chunk.js"
   ]
 }
