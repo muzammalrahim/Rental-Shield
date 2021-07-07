@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 // Images
 import Line from '../../assets/images/line.png';
-import Step1 from '../../assets/images/step-11.png';
+import Step1 from '../../assets/images/h-step-1.png';
 import Step2 from '../../assets/images/step-22.png';
 import Step3 from '../../assets/images/step-33.png';
 import Step4 from '../../assets/images/step-44.png';
@@ -28,8 +28,8 @@ class AccSteps extends Component {
                     <Row className="step-row pt-5 relative pb-28">
                         
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
-                            <div className="step-inner">
-                                <ul className="text-left pr-20">
+                            <div className="step-inner text-left">
+                                <ul className="text-left">
                                     <li className="">
                                         <h4 className="text-gray-500 font-light font-body lg:text-5xl md:text-3xl">{t('ac-steps.one')}</h4>
                                     </li>
@@ -37,7 +37,11 @@ class AccSteps extends Component {
                                         <img className="md:h-30 " src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.create')}<br/>{t('ac-steps.ac')}</h3>
+                                        <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">
+                                            {t('ac-steps.create')}
+                                            <br/>
+                                            {t('ac-steps.ac')}
+                                        </h3>
                                     </li>
                                 </ul>
                                 <p className="text-left text-gray-500 font-light lg:text-2xl leading-7 font-body md:text-xl lg:pr-5 ">{t('ac-steps.create-detail-1')}<br/> 
@@ -47,7 +51,7 @@ class AccSteps extends Component {
                         </Col>
                         <Col lg={{span:6, order: 2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img className="relative" src={Step1} alt="step1"/>
-                            <div className="sing-up absolute left-80 pl-5">
+                            <div className="sing-up absolute left-80 top-16 pl-5">
                                 <div className="inline-flex">
                                     <img className="object-contain" src={Signup} alt=""/>
                                     <Link className="pl-3 text-gray-500 text-2xl font-body font-normal">Sign up</Link>
@@ -101,8 +105,8 @@ class AccSteps extends Component {
                     {/* step3 */}
                     <Row className="step-row relative pb-28">
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
-                            <div className="step-inner">
-                                <ul className="text-right pr-32">
+                            <div className="step-inner text-left">
+                                <ul className="">
                                     <li>
                                         <h4 className="text-gray-500 font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.three')}</h4>
                                     </li>
@@ -161,7 +165,7 @@ class AccSteps extends Component {
                     {/* step5 */}
                     <Row className="step-row relative pb-28">
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
-                            <div className="step-inner">
+                            <div className="step-inner text-left">
                                 <ul className="pr-28">
                                     <li>
                                         <h4 className="text-gray-500 font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.five')}</h4>
@@ -183,7 +187,7 @@ class AccSteps extends Component {
                         <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img src={Step5} alt="step1"/>
                         </Col>
-                        <img className="bg-line" src={LineBG}  alt="img"/>
+                        <img className="bg-line-end" src={LineBG}  alt="img"/>
                     </Row>
                     {/* step5 */}
 
@@ -202,7 +206,11 @@ class AccSteps extends Component {
                                         <img src={Line} alt="Line"/>
                                     </li>
                                     <li>
-                                        <h3 className="text-gray-500 font-body font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.receive-vour')}<br/> {t('ac-steps.deposit-back')}</h3>
+                                        <h3 className="text-gray-500 font-body  font-light text-5xl lg:text-5xl md:text-3xl">
+                                            {t('ac-steps.receive-vour')}
+                                            <br/> 
+                                            {t('ac-steps.deposit-back')}
+                                        </h3>
                                     </li>
                                 </ul>
                                 <p className="text-right text-gray-500 pl-36 font-body leading-7 font-light lg:text-2xl md:text-xl lg:pr-5 ">

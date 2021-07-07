@@ -6,10 +6,10 @@ export default class KnowMore extends Component {
     render() {
         return (
             <div className="know-more-mian">
-                <h1 className="text-gray-500 font-body text-6xl font-normal pb-4">
+                <h1 className="text-gray-500 font-body text-6xl font-normal pb-3 m-0">
                     I Still want to know more...
                 </h1>
-                <p className="text-gray-500  font-body text-xl font-normal pb-5">
+                <p className="text-gray-500  font-body text-xl font-normal pb-5 mb-5">
                     Which category do you fall under. Click below to know more.
                 </p>
                 <div className="">
@@ -29,20 +29,20 @@ export default class KnowMore extends Component {
                                 </button>
                             </div>
                             </Col>
-                            <Col md="6">
-                            <div className="para2 text-left">
-                                <h1 className="text-gray-500  font-body font-bold text-3xl">I'm a propert manager</h1>
-                                <p className="text-gray-500  font-body text-lg font-normla  leading-6">
-                                    Make this yours. Add images, text 
-                                    <br/>
-                                    and links, or connect  data from your
-                                    <br/>
-                                    collection.
-                                </p>
-                                <button className="bg-green-500 font-body mt-2 rounded-full px-4 py-1.5 text-xl text-white font-bold">
-                                    View more
-                                </button>
-                            </div>
+                            <Col md="6"  className="relative">
+                                <div className="para2 text-left">
+                                    <h1 className="text-gray-500  font-body font-bold text-3xl">I'm a propert manager</h1>
+                                    <p className="text-gray-500  font-body text-lg font-normla  leading-6">
+                                        Make this yours. Add images, text 
+                                        <br/>
+                                        and links, or connect  data from your
+                                        <br/>
+                                        collection.
+                                    </p>
+                                    <button className="bg-green-500 font-body mt-2 rounded-full px-4 py-1.5 text-xl text-white font-bold">
+                                        View more
+                                    </button>
+                                </div>
                             </Col>
                         </Row>
                         <Row>

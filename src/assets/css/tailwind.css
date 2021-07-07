@@ -18,7 +18,7 @@ body{
 .bttn{
     background: none !important;
     color: #606060 !important;
-    border: 1px solid #606060 !important;
+    border: 2px solid #606060 !important;
     border-radius: 30px !important;
     font-weight: 500 !important;
     
@@ -39,7 +39,7 @@ select{
 /* Home Banner */
 .sm\:home-banner-main{
     position: relative;
-    top: -100px;
+    top: -75px;
     z-index: -1;
 }
 .banner-inner{
@@ -109,7 +109,9 @@ select{
 .line{
     height: 75px;
 }
-
+.step-row h3{
+    line-height: 50px;
+}
 .step-inner ul li{
     display: inline-block;
 }
@@ -122,15 +124,16 @@ select{
 } */
 .bg-line{
     position: absolute;
-    top: 259px;
-    right: 33%;
+    top: 285px;
+    right: 28%;
     z-index: -1;
 }
 .bg-line2{
     position: absolute;
     top: 259px;
-    right: 28%;
+    right: 35%;
     z-index: -1;
+    transform: rotate(7deg);
 }
 .bg-line3 {
     position: absolute;
@@ -143,6 +146,13 @@ select{
     top: 295px;
     right: 29%;
     z-index: -1;
+}
+.bg-line-end {
+    position: absolute;
+    top: 355px;
+    right: 31%;
+    z-index: -1;
+    transform: rotate(350deg);
 }
 
 /* Acc Steps */
@@ -174,6 +184,16 @@ select{
 .row-title{
     padding: 5px 0 !important;
 }
+.row-title-text{
+    font-size: 23px;
+}
+.faq-row{
+    border-bottom: 1px solid #606060 !important;
+}
+.icon-wrapper{
+    font-size: 40px;
+    top: 0 !important;
+}
 /* FAQ */
 
 /* Know More */
@@ -186,7 +206,7 @@ select{
 }
 .para2{
     position: absolute;
-    top: -16%;
+    top: -45% !important;
     left: 32%;
 }
 .para3 {

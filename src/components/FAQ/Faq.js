@@ -62,11 +62,13 @@ const styles = {
     arrowColor:"#606060",
     // rowContentColor: 'grey',
     // arrowColor: "red",
+    rowContentText:'23'
 };
 
 const config = {
     // animate: true,
     arrowIcon: "+",
+    
     // tabFocus: true
 };
 

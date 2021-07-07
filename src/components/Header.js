@@ -32,17 +32,17 @@ function Header({ t, i18n }) {
                         {/* Menu Links */}
                         <Nav className="mr-auto">
                             <Nav.Link href="/about">
-                                <div className="text-gray-500 text-lg pl-3">
+                                <div className="text-gray-500 font-body font-normal text-lg pl-3">
                                     {t('header.about')}
                                 </div>
                             </Nav.Link>
                             <Nav.Link href="/faq">
-                                <div className="text-gray-500 text-lg pl-4">
+                                <div className="text-gray-500 font-body font-normal text-lg pl-4">
                                     {t('header.faqs')}
                                     </div>
                             </Nav.Link>
                             <Nav.Link href="#link">
-                                <div className="text-gray-500 text-lg pl-4">
+                                <div className="text-gray-500 font-body font-normal text-lg pl-4">
                                     {t('header.more')}
                                 </div>
                             </Nav.Link>
@@ -53,26 +53,26 @@ function Header({ t, i18n }) {
                         <Form inline>
                             <Button className="bttn mr-3 p-0">
                                 <Nav.Link href="/landlord">
-                                <div className="text-gray-500">
+                                <div className="text-gray-500 font-medium font-body">
                                     {t('header.landlord')}
                                 </div>
                                 </Nav.Link>
                             </Button>
                             <Button className="bttn px-3 p-0">
                                 <Nav.Link href="/tanents">
-                                <div className="text-gray-500">
+                                <div className="text-gray-500 font-medium font-body">
                                     {t('header.tenat')}
                                 </div>
                                 </Nav.Link>
                             </Button>
                             <Link className="logins">
-                                <div className="text-gray-500 text-lg ml-3 mr-1">
+                                <div className="text-gray-500 font-body font-normal text-lg ml-3 mr-1">
                                     {t('header.login')}
                                 </div>
                             </Link>
                             /
                             <Link className="logins">
-                                <div className="text-gray-500 text-lg ml-1">
+                                <div className="text-gray-500 font-body font-normal text-lg ml-1">
                                     {t('header.signup')}
                                 </div>
                             </Link>
