@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import Header from '../components/Header';
 import LandLordBanner from '../components/Banners/LandLordBanner';
-import Registration from '../components/RegistrationForm/Registration';
-import Footer  from '../components/Footer';
-import MoreQuestions from '../components/MoreQuestions';
 import EveryThing from '../components/Rules/EveryThing';
 import LandLordSteps from '../components/Steps/LandLordSteps';
 import Video from '../components/Updates/Video';
+import MoreQuestions from '../components/MoreQuestions';
+import Registration from '../components/RegistrationForm/Registration';
+import Footer  from '../components/Footer';
 
 
 

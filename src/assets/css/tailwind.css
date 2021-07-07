@@ -73,7 +73,7 @@ select{
      background-size: 55%;
 }
 .lg\:inner{
-    padding-top: 37%;
+    padding-top: 36%;
 }
 .header-btn{
     width: 175px;
@@ -134,7 +134,7 @@ select{
 }
 .bg-line3 {
     position: absolute;
-    top: 259px;
+    top: 284px;
     right: 27%;
     z-index: -1;
 }
@@ -278,10 +278,11 @@ select{
 /* ------------------Talent Page----------------------- */
 .talent-bg{
     background-position: right;
+    padding-bottom: 99px;
 }
 .tanent-banner-main{
     background-position: right;
-    margin-top: -64px;
+    margin-top: -112px;
     z-index: -1;
     height: 100%;
 }
@@ -290,7 +291,11 @@ select{
     top: 15%;
 }
 .banner-content {
-    padding-top: 100px;
+    /* padding-top: 100px; */
+}
+.banner-content {
+    position: relative;
+    top: 155px;
 }
 .talent-haeding{
     padding-top: 80px;
@@ -305,7 +310,15 @@ select{
     padding-bottom: 50px;
 }
 .update-inner-bg{
-    margin-top: -239px;
+    margin-top: -282px;
+}
+.t-icon{
+    width: 60%;
+}
+.circle{
+    height: 25px;
+  width: 25px;
+  display: inline-block;
 }
 /* ------------------Talent Page----------------------- */
 
@@ -337,10 +350,28 @@ select{
     right: 15%;
     z-index: -1;
 }
+
+/* More Questions */
+.more-border-1{
+    left: -80px;
+}
+.more-border-2 img{
+    right: 230px;
+    top: -30px;
+}
+.more-border-4 img{
+    right: 133px;
+    top: -30px;
+}
+.test li{
+    display: inline-block;
+}
+
+/* More Questions */
 /* ------------------LandLord Page----------------------- */
 
 
-/* About Page */
+/* ------------------ About Page ------------------ */
 .aim-inner{
     position: absolute;
     top: 30%;
@@ -349,6 +380,9 @@ select{
 .aim-inner p{
     line-height: 70px;
 }
+/* ------------------ About Page ------------------ */
+
+
 
 @media (min-width: 320px) and (max-width: 639px) {
    .xs\:home-banner-main .row{

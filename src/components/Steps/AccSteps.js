@@ -29,7 +29,7 @@ class AccSteps extends Component {
                         
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
-                                <ul className="text-right pl-20">
+                                <ul className="text-left pr-20">
                                     <li className="">
                                         <h4 className="text-gray-500 font-light font-body lg:text-5xl md:text-3xl">{t('ac-steps.one')}</h4>
                                     </li>
@@ -102,7 +102,7 @@ class AccSteps extends Component {
                     <Row className="step-row relative pb-28">
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
-                                <ul className="text-right pl-32">
+                                <ul className="text-right pr-32">
                                     <li>
                                         <h4 className="text-gray-500 font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.three')}</h4>
                                     </li>
@@ -162,7 +162,7 @@ class AccSteps extends Component {
                     <Row className="step-row relative pb-28">
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
-                                <ul className="pl-28">
+                                <ul className="pr-28">
                                     <li>
                                         <h4 className="text-gray-500 font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.five')}</h4>
                                     </li>

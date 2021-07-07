@@ -19,20 +19,20 @@ export default class TanentsBanner extends Component {
                     </Col>
                     <Col md="10">
                         <div className=" talent-bg bg-no-repeat"  style={{backgroundImage:`url(${TanentBg1})`}}>
-                            <Row className="no-gutters">
+                            <Row className="no-gutters pl-5">
                                 <Col sm="6">
                                 
                                 </Col>
                                 <Col sm="6" className="text-left banner-content pb-5">
-                                    <h3 className="text-green-500 text-6xl">
+                                    <h3 className="text-green-500 text-6xl font-body font-normal">
                                         Welcome 
                                         <br/>
                                         to Tenants
                                     </h3>
-                                    <h3 className="text-2xl text-gray-500 py-3">
+                                    <h3 className="text-2xl text-gray-500 font-bold font-body  py-3">
                                         To the future of renting...
                                     </h3>
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-500 text-2x font-normal font-body">
                                         Join us today on the real estate revolution
                                         <br/>
                                          to change the way you rent today.  We 
@@ -41,32 +41,43 @@ export default class TanentsBanner extends Component {
                                          <br/>
                                           questions you may have below.
                                           <ul className="text-left">
-                                              <li>
-                                                <p className="text-gray-500">
+                                              <li className="flex items-center pt-4">
+                                                <span className="circle bg-gradient-to-r from-green-400 to-green-500  mr-3 rounded-full"></span>
+                                                <p className="text-gray-500 font-body leading-7 pt-3">
+                                                    
                                                   What if my landlord doesn't want 
                                                   <br/>
                                                   to join the scheme? ​
                                                   </p>
                                               </li>
-                                              <li>
-                                                <p className="text-gray-500">
+                                              <li className="flex items-center">
+                                                <span className="circle bg-gradient-to-r from-green-400 to-green-500  mr-3 rounded-full"></span>
+                                                <p className="text-gray-500 font-body pt-3">
                                                       Is my money protected?
 
                                                   </p>
                                               </li>
-                                              <li>
-                                                <p className="text-gray-500">
+                                              <li className="flex items-center">
+                                                <span className="circle bg-gradient-to-r from-green-400 to-green-500  mr-3 rounded-full"></span>
+                                                <p className="text-gray-500 font-body pt-3 leading-7">
                                                   Do you really have my best 
                                                   <br/>
                                                   interest at heart?
                                                   </p>
                                               </li>
-                                              <li>
-                                                <p className="text-gray-500">
+                                              <li className="flex items-center">
+                                                <span className="circle bg-gradient-to-r from-green-400 to-green-500  mr-3 rounded-full"></span>
+                                                <p className="text-gray-500 font-body pt-3 leading-7">
                                                   What if I want to dispute
                                                   <br/>
                                                    the case?
                                                   </p>
+                                              </li>
+                                              <li className="flex items-center">
+                                                <span className="circle  mr-3 rounded-full"></span>
+                                                <p className="text-gray-500 font-body pt-3 pb-5 leading-7">
+                                                    Plus much much more...​ ​​
+                                                </p>
                                               </li>
                                           </ul>
 ​

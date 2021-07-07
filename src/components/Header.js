@@ -36,7 +36,7 @@ function Header({ t, i18n }) {
                                     {t('header.about')}
                                 </div>
                             </Nav.Link>
-                            <Nav.Link href="#link">
+                            <Nav.Link href="/faq">
                                 <div className="text-gray-500 text-lg pl-4">
                                     {t('header.faqs')}
                                     </div>

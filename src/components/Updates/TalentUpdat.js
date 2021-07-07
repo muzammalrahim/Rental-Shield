@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+
+
+// Images
 import AdImg from '../../assets/images/talent-img.png';
 import Doller from '../../assets/images/doller.png';
 import Idea from '../../assets/images/Idea.png';
@@ -7,6 +10,11 @@ import Chat from '../../assets/images/text.png';
 import Bg from '../../assets/images/client-bg.png'
 
 import {Container, Row, Col} from 'react-bootstrap';
+
+
+// Components
+import YoutubeEmbed from '../YoutubeVideo/Video'
+
 
 export default class TalentUpdat extends Component {
     render() {
@@ -22,26 +30,35 @@ export default class TalentUpdat extends Component {
                         <p className="text-xl text-gray font-normal pb-4">
                             W​Here's a summary and more. 
                         </p>
-                        <img src={AdImg} alt="img"/>
+                        <YoutubeEmbed embedId="rokGy0huYEA" />
                         </Col>   
                     </Row>
                     
                 </Container>
 
                 <div className=" update-inner-bg bg-no-repeat bg-cover"  style={{backgroundImage:`url(${Bg})`}}>
-                    <Container>
-                        <Row>
-                            <Col sm="12">
-                            <div className="update-bg">
-                                <div class="talent-cards">
+                    
+                            <div className="update-bg px-5">
+                                <div class="talent-cards mb-32">
+                                    {/* Box1 */}
                                     <div class="order-1">
-                                        <div class="">
-                                            <img  width="60" src={Doller} alt="img"/>
+                                        <div className="relative top-20">
+                                            <img className="bg-white p-5 rounded-full t-icon" width="" src={Doller} alt="img"/>
                                         </div>
-                                        <div class="p-8 bg-green bg-opacity-25">
-                                            <h1 class="text-xl text-gray font-bold py-4 text-left">Fees</h1>
-                                            <p class="text-base mb-10 text-gray leading-none text-left">How much will it <br/>cost me to use<br/> your services?</p>
-                                            <a href="#" class="text-sm px-14 py-2  text-gray border  bg-white 	rounded-full">View More</a>
+                                        <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
+                                            <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
+                                                Fees
+                                            </h1>
+                                            <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
+                                                How much will it 
+                                                <br/>
+                                                cost me to use
+                                                <br/> 
+                                                your services?
+                                            </p>
+                                            <a href="#" class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full">
+                                                View More
+                                            </a>
                                         </div>
                                         
                                     </div>
@@ -49,13 +66,21 @@ export default class TalentUpdat extends Component {
 
                                     {/* Box2 */}
                                     <div class="order-1">
-                                        <div class="">
-                                            <img  width="60" src={Doller} alt="img"/>
+                                        <div className="relative top-20">
+                                            <img className="bg-white p-5 rounded-full t-icon" width="" src={Idea} alt="img"/>
                                         </div>
-                                        <div class="p-8 bg-green bg-opacity-25">
-                                            <h1 class="text-xl text-gray font-bold py-4 text-left">Fees</h1>
-                                            <p class="text-base mb-10 text-gray leading-none text-left">How much will it <br/>cost me to use<br/> your services?</p>
-                                            <a href="#" class="text-sm px-14 py-2  text-gray border  bg-white 	rounded-full">View More</a>
+                                        <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
+                                            <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
+                                                Fees
+                                            </h1>
+                                            <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
+                                                How much will it 
+                                                <br/>
+                                                cost me to use
+                                                <br/> 
+                                                your services?
+                                            </p>
+                                            <a href="#" class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full">View More</a>
                                         </div>
                                         
                                     </div>
@@ -63,13 +88,21 @@ export default class TalentUpdat extends Component {
 
                                     {/* Box3 */}
                                     <div class="order-1">
-                                        <div class="">
-                                            <img  width="60" src={Doller} alt="img"/>
+                                        <div className="relative top-20">
+                                            <img className="bg-white p-5 rounded-full t-icon" width="" src={Pencil} alt="img"/>
                                         </div>
-                                        <div class="p-8 bg-green bg-opacity-25">
-                                            <h1 class="text-xl text-gray font-bold py-4 text-left">Fees</h1>
-                                            <p class="text-base mb-10 text-gray leading-none text-left">How much will it <br/>cost me to use<br/> your services?</p>
-                                            <a href="#" class="text-sm px-14 py-2  text-gray border  bg-white 	rounded-full">View More</a>
+                                        <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
+                                            <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
+                                                Fees
+                                            </h1>
+                                            <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
+                                                How much will it 
+                                                <br/>
+                                                cost me to use
+                                                <br/> 
+                                                your services?
+                                            </p>
+                                            <a href="#" class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full">View More</a>
                                         </div>
                                         
                                     </div>
@@ -78,13 +111,21 @@ export default class TalentUpdat extends Component {
 
                                     {/* Box4 */}
                                     <div class="order-1">
-                                        <div class="">
-                                            <img  width="60" src={Doller} alt="img"/>
+                                        <div className="relative top-20">
+                                            <img className="bg-white p-5 rounded-full t-icon" width="" src={Chat} alt="img"/>
                                         </div>
-                                        <div class="p-8 bg-green bg-opacity-25">
-                                            <h1 class="text-xl text-gray font-bold py-4 text-left">Fees</h1>
-                                            <p class="text-base mb-10 text-gray leading-none text-left">How much will it <br/>cost me to use<br/> your services?</p>
-                                            <a href="#" class="text-sm px-14 py-2  text-gray border  bg-white 	rounded-full">View More</a>
+                                        <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
+                                            <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
+                                                Fees
+                                            </h1>
+                                            <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
+                                                How much will it 
+                                                <br/>
+                                                cost me to use
+                                                <br/> 
+                                                your services?
+                                            </p>
+                                            <a href="#" class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full">View More</a>
                                         </div>
                                         
                                     </div>
@@ -92,9 +133,6 @@ export default class TalentUpdat extends Component {
 
                                 </div>
                             </div>
-                            </Col>
-                        </Row>
-                    </Container>
                             
                 </div>
                

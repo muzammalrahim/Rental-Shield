@@ -2,11 +2,10 @@ import React, { Component } from 'react'
 import Header from '../components/Header';
 import TenantsSteps from '../components/TenantsSteps';
 import Registration from '../components/RegistrationForm/Registration';
-import Footer  from '../components/Footer'
 import EvenMore from '../components/Rules/EvenMore';
 import TalentUpdat from '../components/Updates/TalentUpdat';
 import TanentsBanner from '../components/Banners/TanentsBanner';
-
+import Footer  from '../components/Footer'
 
 
 export default class Tanents extends Component {

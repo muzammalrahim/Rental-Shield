@@ -6,7 +6,7 @@ export default class KnowMore extends Component {
     render() {
         return (
             <div className="know-more-mian">
-                <h1 className="text-gray-500 font-body text-6xl font-normal pt-5 pb-4">
+                <h1 className="text-gray-500 font-body text-6xl font-normal pb-4">
                     I Still want to know more...
                 </h1>
                 <p className="text-gray-500  font-body text-xl font-normal pb-5">
