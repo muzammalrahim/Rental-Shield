@@ -10,8 +10,7 @@ import Home from '../src/pages/Home';
 import Tanents from '../src/pages/Tanents';
 import LandLord from '../src/pages/LandLord';
 import About from '../src/pages/About';
-
-
+import Blog from '../src/pages/Blog';
 
 
 // function HeaderComponent()
@@ -26,8 +25,19 @@ import About from '../src/pages/About';
 // </div>
 // }
 
+import {
+    useParams,
+} from "react-router-dom";
+
+/*function BlogPage() {
+    let { id } = useParams();
+    return( alert(id));
+
+}*/
+
 //Routing
 function App() {
+
   return (
     <div className="App">
       {/* <HeaderComponent/> */}
@@ -60,6 +70,14 @@ function App() {
               exact
                   path="/about"
                   component={About}
+              >
+              </Route> 
+
+
+              <Route
+              exact
+                  path="/blog"
+                  component={Blog }
               >
               </Route> 
               
