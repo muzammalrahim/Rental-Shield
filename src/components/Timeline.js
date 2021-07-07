@@ -15,7 +15,7 @@ export default class Timeline extends Component {
     render() {
         return (
             <div className="timeline-main px-5 relative bottom-44">
-                    <div className="timeline-inner relative">
+                    <div className="timeline-inner relative max-h-72">
                         {/* Step1 */}
                         <div className="relative">
                             <img src={Img1} alt="img"/>

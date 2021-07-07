@@ -13,15 +13,15 @@ export default class Card2 extends Component {
                         <Col sm="12">
                         <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 lg:ml-20">
                             <div>
-                                <h2 class="text-gray text-5xl font-light font-body text-left pb-3">
-                                    Independent
+                                <h2 class="text-gray-500 text-5xl font-light font-body text-left pb-3 pt-4">
+                                    Culture Mix
                                 </h2>
-                                <p class="mt-2 text-gray text-left text-2x font-light font-body">
+                                <p class="mt-2 text-gray-500 leading-7 text-left text-2x font-light font-body">
                                     Our business model is the same for the biggest landlord up to the 
                                     smallest tenant. This allows us to ensure freedom from any outside 
                                     interest and allow us to conduct our services transparently. 
                                 </p>
-                                <p class="mt-2 text-gray text-left text-2x font-light font-body">
+                                <p class="mt-2 text-gray-500  leading-7 text-left text-2x font-light font-body">
                                     We charge the landlord and tenants the same fees per check-in and 
                                     check-out. Ultimately benefiting both in a win-win situation. 
                                 </p>

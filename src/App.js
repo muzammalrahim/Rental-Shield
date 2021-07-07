@@ -13,6 +13,7 @@ import About from '../src/pages/About';
 import Faq from '../src/pages/Faq';
 
 
+import Blog from '../src/pages/Blog';
 
 
 // function HeaderComponent()
@@ -27,8 +28,19 @@ import Faq from '../src/pages/Faq';
 // </div>
 // }
 
+import {
+    useParams,
+} from "react-router-dom";
+
+/*function BlogPage() {
+    let { id } = useParams();
+    return( alert(id));
+
+}*/
+
 //Routing
 function App() {
+
   return (
     <div className="App">
       {/* <HeaderComponent/> */}
@@ -68,6 +80,12 @@ function App() {
               exact
                   path="/faq"
                   component={Faq}
+              >
+              </Route> 
+              <Route
+              exact
+                  path="/blog"
+                  component={Blog }
               >
               </Route> 
               
