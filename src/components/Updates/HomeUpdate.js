@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import {Container, Row, Col} from 'react-bootstrap'; 
+
+// Components
+import YoutubeEmbed from '../YoutubeVideo/Video'
+
+// Images
 import AdImg from '../../assets/images/add-img.png';
 
 //Translation
@@ -11,19 +16,22 @@ class HomeUpdate extends Component {
         const { t, i18n } = this.props;
         return (
             <div className="update-main mt-5">
+               
                 <Container>
                     <Row  className=" main d-flex justify-content-center">
                         <Col md="12">
                         <div>
-                            <h4 className="text-5xl text-gray font-normal">{t('homeupdate.detail-head')}</h4>
+                            <h4 className="text-6xl text-gray-500 font-body font-normal">
+                                {t('homeupdate.detail-head')}
+                            </h4>
                         </div>
                         <br/>
-                        <p className="text-xl text-gray font-normal pb-5">
+                        <p className=" text-gray-500 font-normal  font-body text-2xx leading-7 pb-5">
                             {t('homeupdate.detail-1')}
                             <br/>
                             {t('homeupdate.detail-2')}
                         </p>
-                        <img src={AdImg} alt="img"/>
+                        <YoutubeEmbed embedId="rokGy0huYEA" />
                         </Col>
                         
                     </Row>

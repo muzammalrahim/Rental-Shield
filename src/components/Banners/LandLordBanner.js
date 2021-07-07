@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
-import Bg from '../../assets/images/landlorg-br.png';
 import {Container, Row, Col} from 'react-bootstrap';
+
+// Image
+import Bg from '../../assets/images/landlorg-br.png';
+import Bgimg from '../../assets/images/landlorg-b.png';
+
+
 
 
 
@@ -14,7 +19,7 @@ export default class LandLordBanner extends Component {
                        <Container>
                            <Row>
                                <Col>
-                                    <p className="text-gray text-6xl font-normal text-left">
+                                    <p className="text-gray-500 text-6xl font-normal text-left">
                                         Why is this so 
                                         <br/>
                                         important as a 
@@ -25,6 +30,10 @@ export default class LandLordBanner extends Component {
                            </Row>
                         </Container> 
                   </div>
+                  {/* <div>
+                      <img className='w-full' src={Bgimg} alt=""/>
+                  </div> */}
+
             </div>
         )
     }

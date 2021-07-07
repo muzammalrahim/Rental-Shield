@@ -10,7 +10,12 @@ import Home from '../src/pages/Home';
 import Tanents from '../src/pages/Tanents';
 import LandLord from '../src/pages/LandLord';
 import About from '../src/pages/About';
+
 import Blog from '../src/pages/Blog';
+
+import Faq from '../src/pages/Faq';
+
+
 
 
 // function HeaderComponent()
@@ -78,6 +83,10 @@ function App() {
               exact
                   path="/blog"
                   component={Blog }
+              
+              exact
+                  path="/faq"
+                  component={Faq}
               >
               </Route> 
               
