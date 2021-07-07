@@ -24,10 +24,9 @@ export default class TalentUpdat extends Component {
                     <Row  className=" main d-flex justify-content-center">
                         <Col md="12">
                         <div>
-                            <h4 className="text-5xl text-gray font-normal"> ​How about a video..</h4>
+                            <h4 className="text-5xl text-gray-500 font-body font-normal"> ​How about a video..</h4>
                         </div>
-                        <br/>
-                        <p className="text-xl text-gray font-normal pb-4">
+                        <p className="text-xl text-gray-500 font-body  font-normal pb-4">
                             W​Here's a summary and more. 
                         </p>
                         <YoutubeEmbed embedId="rokGy0huYEA" />
@@ -41,7 +40,7 @@ export default class TalentUpdat extends Component {
                             <div className="update-bg px-5">
                                 <div class="talent-cards mb-32">
                                     {/* Box1 */}
-                                    <div class="order-1">
+                                    <div class="order-1 mt-5 pt-5">
                                         <div className="relative top-20">
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Doller} alt="img"/>
                                         </div>
@@ -65,7 +64,7 @@ export default class TalentUpdat extends Component {
                                     {/* Box1 */}
 
                                     {/* Box2 */}
-                                    <div class="order-1">
+                                    <div class="order-1 mt-5 pt-5">
                                         <div className="relative top-20">
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Idea} alt="img"/>
                                         </div>
@@ -87,7 +86,7 @@ export default class TalentUpdat extends Component {
                                     {/* Box2 */}
 
                                     {/* Box3 */}
-                                    <div class="order-1">
+                                    <div class="order-1 mt-5 pt-5">
                                         <div className="relative top-20">
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Pencil} alt="img"/>
                                         </div>
@@ -110,7 +109,7 @@ export default class TalentUpdat extends Component {
 
 
                                     {/* Box4 */}
-                                    <div class="order-1">
+                                    <div class="order-1 mt-5 pt-5">
                                         <div className="relative top-20">
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Chat} alt="img"/>
                                         </div>

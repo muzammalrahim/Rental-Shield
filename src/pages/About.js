@@ -5,6 +5,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import Header from '../components/Header';
 import AboutBG from '../components/Banners/AboutBanner';
 import Card1 from '../components/AboutCards/Card1';
+import Timeline from '../components/Timeline';
 import Card2 from '../components/AboutCards/Card2';
 import TeamCards from '../components/AboutCards/TeamCards';
 import Footer  from '../components/Footer';
@@ -31,8 +32,8 @@ export default class About extends Component {
                     <Container>
                         <Row>
                             <Col xs="12">
-                                <h2 className="text-gray text-6xl font-normal font-body pb-3">Our Story</h2>
-                                <p className="text-gray text-2x font-normal font-body">
+                                <h2 className="text-gray-500 text-6xl font-normal font-body pb-3">Our Story</h2>
+                                <p className="text-gray-500 text-2x font-normal font-body leading-7">
                                     Born out of a practiced & proven concept. We've designed it to 
                                     <br/>
                                     fit into this region perfectly. Our aim is to help landlords and
@@ -49,6 +50,8 @@ export default class About extends Component {
 
                 {/* Crad Section */}
                 <Card1/>
+                <Timeline/>
+
                 <Card2/>
                 {/* Crad Section */}
 
@@ -56,9 +59,9 @@ export default class About extends Component {
                 <div className="our-aim grid justify-items-center relative">
                     <img className="m-3 " src={OurAim} alt="img"/>
                     <div className="aim-inner">
-                        <p className="text-gray font-body text-6xl font-normal text-left mb-0">
+                        <p className="text-gray-500 font-body text-6xl font-normal text-left mb-0">
                             Our aim&nbsp; 
-                            <span className="text-gray font-body text-6xl font-black">
+                            <span className="text-gray-500 font-body text-6xl font-black">
                             is to...
                             </span>
                         </p>

@@ -26,7 +26,11 @@ export default class LandLordSteps extends Component {
                                     </li>
                                     
                                     <li>
-                                        <h3 className="text-gray-500 leading-10 font-body font-light text-5xl lg:text-5xl md:text-3xl">Monthly <br/>Payments</h3>
+                                        <h3 className="text-gray-500 leading-10 font-body font-light text-5xl lg:text-5xl md:text-3xl">
+                                            Monthly 
+                                            <br/>
+                                            Payments
+                                        </h3>
                                     </li>
 
                                     <li>
@@ -125,7 +129,7 @@ export default class LandLordSteps extends Component {
                         <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img src={Step3} alt="step1"/>
                         </Col>
-                        <img className="bg-line7" src={LineBG}  alt="img"/>
+                        <img className="bg-line7 pb-5 mb-" src={LineBG}  alt="img"/>
                     </Row>
                     {/* step3 */}
 
