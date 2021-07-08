@@ -193,13 +193,21 @@ class Footer extends Component {
             <div className=" text-left pb-3">
               <h4 className="text-gray-500 text-base font-bold pb-4">Blog</h4>
               <ul>
+              <Link to="/blog">
                 <li className="text-sm text-gray-500 font-medium pb-3">
+                
                   Latest
+                 
                 </li>
-                <li className="text-sm text-gray-500 font-medium ">
-                  {" "}
-                  Important
-                </li>
+                </Link>
+                
+                <Link to="/blogpost">
+                  <li className="text-sm text-gray-500 font-medium ">
+                    {" "}
+                    Important
+                  </li>
+                </Link>
+               
               </ul>
             </div>
             <div className=" text-left pb-3">
