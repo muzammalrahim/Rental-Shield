@@ -65,10 +65,10 @@ export default class About extends Component {
                             is to...
                             </span>
                         </p>
-                        <p className="text-gray font-body text-6xl font-normal mb-0">
+                        <p className="text-gray-500 font-body text-6xl font-normal mb-0">
                             Change renting
                         </p>
-                        <p className="text-gray font-body text-6xl font-black text-left mb-0">
+                        <p className="text-gray-500 font-body text-6xl font-black text-left mb-0">
                              forever...
                         </p>
                     </div>
