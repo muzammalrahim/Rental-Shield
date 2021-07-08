@@ -14,7 +14,7 @@ export default class Search extends Component {
             // </div>
 
             <div className="bg-gray-200">
-    <div className="flex pl-96">
+    <div className="flex float-right">
         <div class="relative">
             <div className="absolute top-4 left-6"> <img src={Searchicon} /> </div> 
             <input type="text" className="h-14 w-96 pl-16 pr-5 z-0 focus:outline-none border-2 border-gray-500 rounded-full" placeholder="Search..." />
