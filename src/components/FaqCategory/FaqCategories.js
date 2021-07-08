@@ -3,15 +3,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import General from "../../assets/images/FaqCategoriesGeneral.png";
 import Tenants from "../../assets/images/FaqCategoriesTenants.png";
 import Landlords from "../../assets/images/FaqCategoriesLandlords.png";
-// import SliderBg from "../../assets/images/slider-bg.png";
+ import SliderBg from "../../assets/images/team-bg-top.png";
+ import CategoryBtm from "../../assets/images/faq-category-bottom.png";
 
 export default class FaqCategories extends Component {
   render() {
     return (
       <div>
-        {/* <img className="w-full" src={SliderBg} alt=""/> */}
-        <div className="bg-green-700 py-32">
+     {/* <img className="w-full" src={SliderBg} alt=""/>  */}
+
+        <div className="pb-32 relative">
+        <div className="bg-gradient-to-b from-green-700 via-green-700 to-white">
           <Container>
+            <div className="z-30">
             <br />
             <p className="text-gray-500  lg:text-5xx md:text-4xl  font-normal 2xl font-body ">
             Categories
@@ -81,8 +85,12 @@ export default class FaqCategories extends Component {
                   ></div>
                 </div>
               </Col>
+            
             </Row>
+            </div>
           </Container>
+          </div>
+          <img style={{zIndex:"-9"}} className="w-full absolute bottom-28" src={CategoryBtm } alt=""/> 
         </div>
       </div>
     );
