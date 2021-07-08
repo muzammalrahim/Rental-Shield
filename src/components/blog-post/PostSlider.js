@@ -16,7 +16,7 @@ export default class PostSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className="slider-main">
+      <div className="blog-slider-main relative bottom-16">
         {/* <h2> Single Item</h2> */}
         <Slider {...settings}>
 
