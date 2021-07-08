@@ -35,7 +35,7 @@ class BlogPostSlider extends Component {
     const { t, i18n } = this.props;
     const settings = {
       dots: false,
-      centerMode: true,
+      centerMode: false,
       centerPadding: '60px',
       infinite: true,
       slidesToShow: 3,

@@ -54,41 +54,36 @@ function App() {
               exact
                   path="/"
                   component={Home}
-              >
-                </Route> 
+              />
               
               <Route
               exact
                   path="/tanents"
                   component={Tanents}
-              >
-              </Route> 
+              />
 
               <Route
               exact
                   path="/landlord"
                   component={LandLord}
-              >
-              </Route> 
+              />
 
               <Route
               exact
                   path="/about"
                   component={About}
-              >
-              </Route> 
-
+              />
 
               <Route
               exact
                   path="/blog"
-                  component={Blog }
-              
+                  component={Blog}
+                  />
+              <Route
               exact
                   path="/faq"
                   component={Faq}
-              >
-              </Route> 
+              />
               
           </Switch>
         </Router>
