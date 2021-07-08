@@ -12,6 +12,7 @@ import LandLord from '../src/pages/LandLord';
 import About from '../src/pages/About';
 import Blog from '../src/pages/Blog';
 import Faq from '../src/pages/Faq';
+import Shop from '../src/pages/Shop';
 
 import BlogPost from '../src/pages/BlogPost';
 
@@ -56,6 +57,7 @@ function App() {
             <Route exact path="/about" component={About}></Route>
 
             <Route exact path="/contact" component={Contact}></Route>
+            <Route exact path="/shop" component={Shop}></Route>
 
 
 
