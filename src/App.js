@@ -27,6 +27,7 @@ import Blog from "../src/pages/Blog";
 
 import { useParams } from "react-router-dom";
 import Contact from "./pages/Contact";
+import SearchResult from "./pages/SearchResult";
 
 /*function BlogPage() {
     let { id } = useParams();
@@ -39,8 +40,12 @@ function App() {
   return (
     <div className="App">
       {/* <HeaderComponent/> */}
+
       <section className="route-section">
         <Router>
+          {/* Testing */}
+          {/* <SearchResult /> */}
+
           <Switch>
             <Route exact path="/" component={Home}></Route>
 
@@ -51,9 +56,11 @@ function App() {
             <Route exact path="/about" component={About}></Route>
 
             <Route exact path="/contact" component={Contact}></Route>
+            <Route exact path="/serach" component={SearchResult}></Route>
 
             <Route exact path="/faq" component={Faq}></Route>
             <Route exact path="/blog" component={Blog}></Route>
+            <Route exact path="/search" component={SearchResult}></Route>
           </Switch>
         </Router>
       </section>
