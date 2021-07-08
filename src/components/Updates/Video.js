@@ -15,10 +15,9 @@ export default class Video extends Component {
                     <Row  className=" main d-flex justify-content-center">
                         <Col md="12">
                         <div>
-                            <h4 className="text-5xl text-gray font-normal"> ​How about a video..</h4>
+                            <h4 className="text-5xl text-gray-500 font-normal"> ​How about a video..</h4>
                         </div>
-                        <br/>
-                        <p className="text-xl text-gray font-normal pb-4">
+                        <p className="text-xl text-gray-500 font-normal pb-4">
                             ​Here's a summary and more.
                         </p>
                         <YoutubeEmbed embedId="rokGy0huYEA" />

@@ -300,6 +300,49 @@ select{
 /* Footer */
 
 
+/* Timeline */
+.timeline-inner .line1{
+    top: 77px;
+    left: 20%;
+}
+.timeline-step2{
+    top: -241px;
+    left: 30%;
+}
+.timeline-inner .line2 {
+    top: 210px;
+    left: 15%;
+    transform: rotate(45deg);
+}
+.timeline-step3 {
+    top: -226px;
+    left: 46%;
+}
+.timeline-inner .line3 {
+    top: -42px;
+    left: 17%;
+    transform: rotate(
+310deg
+);
+
+}
+.timeline-step4 {
+    top: -800px;
+    left: 72%;
+}
+.timeline-inner .line4 {
+    top: 296px;
+    transform: rotate(67deg);
+    left: 5%;
+}
+
+.timeline-step5 {
+    top: -685px;
+    left: 72%;
+}
+/* Timeline */
+
+
 /* ------------------Talent Page----------------------- */
 .talent-bg{
     background-position: right;
@@ -307,7 +350,7 @@ select{
 }
 .tanent-banner-main{
     background-position: right;
-    margin-top: -112px;
+    margin-top: -134px;
     z-index: -1;
     height: 100%;
 }
@@ -363,8 +406,8 @@ select{
 }
 .bg-line6{
     position: absolute;
-    top: 276px;
-    right: 36%;
+    top: 371px;
+    right: 37%;
     z-index: -1;
 }
 .bg-line7{
@@ -372,6 +415,10 @@ select{
     top: 319px;
     right: 15%;
     z-index: -1;
+}
+.lanlord-lin1{
+    top: 428px;
+    left: 29%;
 }
 
 /* More Questions */
@@ -540,7 +587,29 @@ select{
     right: 32px !important;
     top: 67px !important;
 }
-.slick-prev:before{}
+
+.from-main input:focus{
+    background-color: #F3FDEA;
+}
+
+
+/* youtube */
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+
 
 /* ------------------Blog Page----------------------- */
 .blog-main .slick-slide:not(.slick-current){
@@ -611,23 +680,5 @@ select{
 
 
 /* ------------------Blog Page----------------------- */
-.from-main input:focus{
-    background-color: #F3FDEA;
-}
 
 
-/* youtube */
-.video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-  }
-  
-  .video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }

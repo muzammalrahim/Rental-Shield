@@ -11,11 +11,11 @@ import RightLine from '../assets/images/right-line.png';
 export default class MoreQuestions extends Component {
     render() {
         return (
-            <div className="more-query-main mb-44">
+            <div className="more-query-main mb-4">
                 <h1 className="text-gray-500 font-body text-6xl font-normal pt-5">
                     Still have more questions?
                 </h1>
-                <p className="text-gray-500 font-body text-2x font-normal">
+                <p className="text-gray-500 font-body text-2x font-normal mb-0">
                     See below, and then check out our FAQ's page
                 </p>
                  <div class="grid grid-cols-4 py-10 px-20">

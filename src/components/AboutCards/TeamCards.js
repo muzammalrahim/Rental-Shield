@@ -23,8 +23,8 @@ export default class TeamCards extends Component {
                 </Row>
                 <Row className="px-5 bg-green-700">
                     <Col xs="12">
-                        <h1>Our Team</h1>
-                        <p>​No believe it or not there is more...</p>
+                        <h1 className="text-gray-500 font-body font-normal text-6xl">Our Team</h1>
+                        <p className="text-gray-500 font-body font-normal text-2x">​No believe it or not there is more...</p>
                     </Col>
                     
                     {/* Card 1 */}
