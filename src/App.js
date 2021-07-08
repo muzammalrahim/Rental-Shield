@@ -14,7 +14,7 @@ import Blog from '../src/pages/Blog';
 import Faq from '../src/pages/Faq';
 
 import BlogPost from '../src/pages/BlogPost';
-import Blog from '../src/pages/Blog';
+
 
 
 // function HeaderComponent()
