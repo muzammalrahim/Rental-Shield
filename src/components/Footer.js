@@ -158,7 +158,7 @@ class Footer extends Component {
                   <li className="text-sm text-gray-500 font-medium pb-1">
                     {t("footer.contactus")}
                   </li>
-                </Link>
+                </Link> 
                 <Link to="/search">
                   <li className="text-sm text-gray-500 font-medium pb-1">
                     {t("footer.investors")}
