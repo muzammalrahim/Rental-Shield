@@ -125,7 +125,9 @@ class Footer extends Component {
                                     <Link href="tel:123-456-7890" className="text-base text-gray-500 font-medium">{t('footer.number')} </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link className="text-base text-gray-500 font-medium">{t('footer.email')}</Link>
+                                    <Link className="text-base text-gray-500 font-medium">
+                                        {t('footer.email')}
+                                    </Link>
                                 </li>
                                 <li className="text-base text-gray-500 font-medium">{t('footer.address')}
                                     <br></br>  {t('footer.address-1')}
@@ -156,8 +158,18 @@ class Footer extends Component {
                         <div className=" text-left pb-3">
                             <h4 className="text-gray-500 text-base font-bold pb-4">Blog</h4>
                             <ul>
-                                <li className="text-sm text-gray-500 font-medium pb-3">Latest</li>
-                                <li className="text-sm text-gray-500 font-medium "> Important</li>
+                                <li className="pb-3">
+                                    <Link  to = "/blog"
+                                     className="text-sm text-gray-500 font-medium hover:no-underline">
+                                        Latest
+                                    </Link>
+                                </li>
+                                <li className="">
+                                    <Link  to = "/blogpost"
+                                     className="text-sm text-gray-500 font-medium hover:no-underline">
+                                        Important
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                         <div className=" text-left pb-3">

@@ -11,6 +11,7 @@ import Tanents from '../src/pages/Tanents';
 import LandLord from '../src/pages/LandLord';
 import About from '../src/pages/About';
 import Faq from '../src/pages/Faq';
+import BlogPost from '../src/pages/BlogPost';
 
 
 import Blog from '../src/pages/Blog';
@@ -86,6 +87,13 @@ function App() {
               exact
                   path="/blog"
                   component={Blog }
+              >
+              </Route> 
+
+              <Route
+              exact
+                  path="/blogpost"
+                  component={BlogPost}
               >
               </Route> 
               
