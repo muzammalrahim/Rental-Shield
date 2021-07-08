@@ -608,7 +608,34 @@ select{
     width: 100%;
     position: absolute;
   }
+/* Blog Post */
+.blog-slider-main .slick-next {
+    right: -5px !important;
+    top: 50% !important;
+}
+.blog-slider-main .slick-prev {
+    top: 50% !important;
+}
 
+.panel-heading.collapsed .fa-chevron-down,
+.panel-heading .fa-chevron-right {
+  display: none;
+}
+
+
+.panel-heading.collapsed .fa-chevron-right,
+.panel-heading .fa-chevron-down {
+  display: inline-block;
+}
+
+.fa {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.collapsed ~ .panel-body {
+  padding: 0;
+}
 
 
 /* ------------------Blog Page----------------------- */
