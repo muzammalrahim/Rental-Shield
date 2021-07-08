@@ -248,9 +248,11 @@ class Footer extends Component {
               </ul>
 
             </div>
-
-
             </div>
+
+            </div>     
+            </div>
+            
         )
     }
 }
