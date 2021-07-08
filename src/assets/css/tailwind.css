@@ -617,6 +617,10 @@ select{
     opacity: 1;
 }
 
+.blog-main .slick-slide:not(.slick-current) img {
+    width: auto;
+}
+
 .blog-banner{
     /*display: inline-block;*/
     position: relative;
@@ -676,3 +680,5 @@ select{
 
 
 /* ------------------Blog Page----------------------- */
+
+

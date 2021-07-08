@@ -35,21 +35,15 @@ module.exports = {
       
     },
     colors: {
-      
       black:'#000000',
-
-      lightgreen:'#DFF8C9',
       green:{
         200: '#7fc940',
         400: '#609732',
         500: '#87ED31',
         600: '#72C92A',
         700: '#DFF8C9',
-
         800: '#F3FDEA',
         900:'#72C92A',
-
-
         800: '#F3FDEA'
 
       },
@@ -64,34 +58,11 @@ module.exports = {
       silver:{
         50:'#E5E7EB',
         100:'#E6E7E8',
-
         600:'#F9F9F9'
 
       }
     },
-      colors: {
-
-          black:'#000000',
-          green:{
-              400: '#609732',
-              500: '#87ED31',
-              600: '#72C92A',
-              700: '#DFF8C9',
-              800: '#F3FDEA',
-              900:'#72C92A'
-          },
-          gray:{
-              400: '#8C8B8B',
-              500: '#606060',
-              600:'#F9F9F9',
-              700:'#C4C4C4'
-          },
-          silver:{
-            50:'#E5E7EB',
-            100:'#E6E7E8',
-          }
-      },
-
+   
     fontFamily: {
       'body': ['Roboto']
     },
