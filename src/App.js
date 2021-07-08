@@ -10,19 +10,11 @@ import Home from '../src/pages/Home';
 import Tanents from '../src/pages/Tanents';
 import LandLord from '../src/pages/LandLord';
 import About from '../src/pages/About';
-<<<<<<< HEAD
-
 import Blog from '../src/pages/Blog';
-
 import Faq from '../src/pages/Faq';
 
 
-=======
-import Faq from '../src/pages/Faq';
 
-
-import Blog from '../src/pages/Blog';
->>>>>>> 77704dab30e21331e1d70a0e940f6816ab61becb
 
 
 // function HeaderComponent()
