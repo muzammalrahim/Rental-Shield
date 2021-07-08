@@ -3,16 +3,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import General from "../../assets/images/FaqCategoriesGeneral.png";
 import Tenants from "../../assets/images/FaqCategoriesTenants.png";
 import Landlords from "../../assets/images/FaqCategoriesLandlords.png";
-import FaqAccordianIcon from "../../assets/images/FaqAccordianIcon.svg";
+// import SliderBg from "../../assets/images/slider-bg.png";
 
 export default class FaqCategories extends Component {
   render() {
     return (
       <div>
-        <div className="bg-lightgreen py-32">
+        {/* <img className="w-full" src={SliderBg} alt=""/> */}
+        <div className="bg-green-700 py-32">
           <Container>
             <br />
-            <h2>Categories</h2>
+            <p className="text-gray-500  lg:text-5xx md:text-4xl  font-normal 2xl font-body ">
+            Categories
+              </p>
             <br /> <br />
             <Row className="items-center py-16">
               <Col lg="4" md="4" sm="12" className="">

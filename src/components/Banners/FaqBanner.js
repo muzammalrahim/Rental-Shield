@@ -18,17 +18,16 @@ class FaqBanner extends Component {
             ></div>
           </Col>
           <Col md="4" lg="4">
-            <div className="sm:inner xs:inner md:inner-pt-5 lg:inner">
-              <h2 className="text-green text-xl md:text-4xl lg:text-6xl font-normal">
-                <br />
-                {t("banner.banner-Title-1")}
-              </h2>
+            <div className="sm:inner xs:inner md:inner-pt-5 lg:inner  z-10 relative">
 
-              <h4 className="text-gray-500 pt-3 pb-2 text-lg md:text-2xl leading-6">
+              <p className="m-auto text-green-500 pt-3 pb-2 lg:text-5xx md:text-4xl  font-bold 2xl font-body ">
+              {t("banner.banner-Title-1")}
+              </p>
+              <p className="text-gray-500 pt-3 pb-2 text-lg md:text-2xl leading-6 font-bold 3xl font-body">
                 {t("banner.banner-Heading-1")}
-              </h4>
+              </p>
 
-              <p className="text-gray-500 pt-3 pb-2 text-lg md:text-2xl leading-6">
+              <p className="text-gray-500 pt-3 pb-2 text-lg md:text-2xl leading-6 font-normal 2lx font-body">
                 {t("banner.banner-Para-1")}
               </p>
             </div>
