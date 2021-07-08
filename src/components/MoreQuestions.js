@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+
+// Images
 import Doller from '../assets/images/doller.png';
 import Bulb from '../assets/images/Idea.png';
 import Pencil from '../assets/images/pencil.png';

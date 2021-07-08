@@ -9,7 +9,7 @@ const data = {
   title: "",
   rows: [
     {
-      title: "How does this work exactly?",
+      title: " How does this work exactly?",
       content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
               ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
               In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
