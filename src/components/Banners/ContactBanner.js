@@ -38,7 +38,7 @@ function ContactBanner() {
         </div>
       </div>
       {/* social links */}
-      <div className="text-left">
+      <div className="text-left ml-1">
         <Link
           href="#"
           class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block mt-4 rounded-full"
