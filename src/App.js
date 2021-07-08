@@ -10,9 +10,12 @@ import Home from '../src/pages/Home';
 import Tanents from '../src/pages/Tanents';
 import LandLord from '../src/pages/LandLord';
 import About from '../src/pages/About';
+import Blog from '../src/pages/Blog';
 import Faq from '../src/pages/Faq';
+
 import BlogPost from '../src/pages/BlogPost';
 import Blog from '../src/pages/Blog';
+
 
 // function HeaderComponent()
 // {
@@ -43,6 +46,7 @@ function App() {
       <section className="route-section">
         <Router>
           <Switch>
+
             <Route exact path="/" component={Home}></Route>
 
             <Route exact path="/tanents" component={Tanents}></Route>
@@ -54,16 +58,18 @@ function App() {
             <Route exact path="/contact" component={Contact}></Route>
 
 
-              <Route
-              exact
-                  path="/faq"
-                  component={Faq}
-              >
-              </Route> 
+
               <Route
               exact
                   path="/blog"
-                  component={Blog }
+                  component={Blog}
+                  />
+              <Route
+              exact
+
+                  path="/faq"
+                  component={Faq}
+
               >
               </Route> 
 
