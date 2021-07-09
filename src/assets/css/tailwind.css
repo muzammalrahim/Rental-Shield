@@ -631,6 +631,17 @@ select{
 }
 
 /* ------------------Blog Page----------------------- */
+
+.blog-page-slider .slick-prev {
+        top: 50% !important;
+    
+}
+
+.blog-page-slider .slick-next {
+    right: 0px !important;
+    top: 50% !important;
+
+}
 .blog-main .slick-slide:not(.slick-current){
     /* Make slides other than the current one translucent */
     opacity: 1;
@@ -694,8 +705,11 @@ select{
     transform: scale(1.05) 
   }
 
-  
-  
+.last-section{
+    background: url(../images/wave-blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
 
 
 /* ------------------Blog Page----------------------- */
