@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //Import Component
 
+
 import Home from "../src/pages/Home";
 import Tanents from "../src/pages/Tanents";
 import LandLord from "../src/pages/LandLord";
@@ -13,6 +14,7 @@ import About from "../src/pages/About";
 import Faq from "../src/pages/Faq";
 import BlogPost from "../src/pages/BlogPost";
 import Blog from "../src/pages/Blog";
+import Shop from '../src/pages/Shop';
 
 // function HeaderComponent()
 // {
@@ -59,6 +61,9 @@ function App() {
             <Route exact path="/about" component={About}></Route>
 
             <Route exact path="/contact" component={Contact}></Route>
+
+            <Route exact path="/shop" component={Shop}></Route>
+
             <Route exact path="/serach" component={SearchResult}></Route>
 
             <Route exact path="/faq" component={Faq}></Route>
