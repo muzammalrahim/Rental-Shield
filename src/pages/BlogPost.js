@@ -6,7 +6,9 @@ import Header from '../components/Header';
 import BlogPostTop  from '../components/blog-post/BlogPostTop';
 import BlogPostBanner from '../components/Banners/BlogPostBanner';
 import BlogDetail from '../components/blog-post/BlogDetail';
+import BlogAccordian from '../components/blog-post/BlogAccordian';
 import MultiPosting from '../components/blog-post/MultiPosting';
+import Footer  from '../components/Footer';
 
 
 
@@ -37,9 +39,17 @@ export default class BlogPost extends Component {
                 <BlogDetail/>
                 {/* Blog detail */}
 
+                <BlogAccordian/>
+
                 {/* Slider */}
                 <MultiPosting/>
                 {/* Slider */}
+
+                {/* Footer */}
+                <div className="footer">
+                        <Footer/>
+                    </div>
+                    {/* Footer */}
 
             </div>
         )

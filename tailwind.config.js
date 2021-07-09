@@ -32,7 +32,9 @@ module.exports = {
       
     },
     extends: {
-      
+      zIndex: {
+        '-10': '-10',
+       }
     },
     colors: {
       black:'#000000',

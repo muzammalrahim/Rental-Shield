@@ -6,14 +6,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //Import Component
 
-import Home from '../src/pages/Home';
-import Tanents from '../src/pages/Tanents';
-import LandLord from '../src/pages/LandLord';
-import About from '../src/pages/About';
-import Blog from '../src/pages/Blog';
-import Faq from '../src/pages/Faq';
 
-import BlogPost from '../src/pages/BlogPost';
+import Home from "../src/pages/Home";
+import Tanents from "../src/pages/Tanents";
+import LandLord from "../src/pages/LandLord";
+import About from "../src/pages/About";
+import Faq from "../src/pages/Faq";
+import BlogPost from "../src/pages/BlogPost";
+import Blog from "../src/pages/Blog";
+
+
 
 
 
@@ -31,6 +33,7 @@ import BlogPost from '../src/pages/BlogPost';
 
 import { useParams } from "react-router-dom";
 import Contact from "./pages/Contact";
+import SearchResult from "./pages/SearchResult";
 
 /*function BlogPage() {
     let { id } = useParams();
@@ -43,8 +46,12 @@ function App() {
   return (
     <div className="App">
       {/* <HeaderComponent/> */}
+
       <section className="route-section">
         <Router>
+          {/* Testing */}
+          {/* <SearchResult /> */}
+
           <Switch>
 
             <Route exact path="/" component={Home}></Route>
@@ -56,22 +63,13 @@ function App() {
             <Route exact path="/about" component={About}></Route>
 
             <Route exact path="/contact" component={Contact}></Route>
+            <Route exact path="/serach" component={SearchResult}></Route>
 
 
-
-              <Route
-              exact
-                  path="/blog"
-                  component={Blog}
-                  />
-              <Route
-              exact
-
-                  path="/faq"
-                  component={Faq}
-
-              >
-              </Route> 
+            <Route exact path="/faq" component={Faq}></Route>
+            <Route exact path="/blog" component={Blog}></Route>
+            <Route exact path="/search" component={SearchResult}></Route>
+  
 
               <Route
               exact
@@ -79,7 +77,6 @@ function App() {
                   component={BlogPost}
               >
               </Route> 
-              
 
           </Switch>
         </Router>
