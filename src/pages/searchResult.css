@@ -1,0 +1,129 @@
+.searchResult__heading{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+
+/* verde escuro */
+
+color: #72C92A;
+}
+.serachResult__icon{
+    margin: 0 auto;
+}
+.searchResult__bar{
+    width: 40%;
+    margin:0 auto
+}
+.searchResult__accordion{
+    width: 55%;
+    margin: 0 auto;
+    display:flex ;
+}
+.accordion{
+    flex: 5;
+}
+.resultIcon{
+  width: 120px;
+  margin: 20px auto;
+}
+.results__items{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #606060;
+}
+.results__des{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #606060;
+
+}
+/* .products{
+    width: 80%;
+    margin: 0 auto;
+} */
+/* .products__cards{
+    display:flex ;
+    flex-wrap: wrap;
+} */
+/* .searchResultCard{
+width:auto
+} */
+.products__heading{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+/* verde escuro */
+
+color: #72C92A;
+margin-bottom: 2rem;
+}
+.product__name{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: -0.05em;
+
+color: #606060;
+}
+.product__price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: -0.05em;
+    
+    color: #606060;
+}
+.product__currency{
+    color: #606060;
+}
+.tag{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+/* line-height: 21px; */
+/* identical to box height */
+
+margin-top: -30px;
+color: #72C92A;
+}
+.blog__title{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+
+/* or 135% */
+
+text-align: left;
+color: #606060;
+}
+.blog__des{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+
+text-align: left;
+color: #606060;
+}

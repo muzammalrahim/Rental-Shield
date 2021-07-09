@@ -617,10 +617,40 @@ select{
     width: 100%;
     position: absolute;
   }
-
-
+/*------------------------------------Blog Post------------------------------------ */
+.blog-slider-main .slick-next {
+    right: -5px !important;
+    top: 50% !important;
+}
+.blog-slider-main .slick-prev {
+    top: 50% !important;
+}
+.blog-review input{
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+    border-radius: 0;
+}
+.blog-review input{
+    padding: 0; 
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+.blog-review input::placeholder{
+    color: #000000;   
+}
 
 /* ------------------Blog Page----------------------- */
+
+.blog-page-slider .slick-prev {
+        top: 50% !important;
+    
+}
+
+.blog-page-slider .slick-next {
+    right: 0px !important;
+    top: 50% !important;
+
+}
 .blog-main .slick-slide:not(.slick-current){
     /* Make slides other than the current one translucent */
     opacity: 1;
@@ -689,8 +719,11 @@ select{
     transform: scale(1.05) 
   }
 
-  
-  
+.last-section{
+    background: url(../images/wave-blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
 
 
 /* ------------------Blog Page----------------------- */
