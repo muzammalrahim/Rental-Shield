@@ -1,0 +1,96 @@
+.career__background{
+    background-image: url('../../assets/images/career-bg.png');
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* z-index: -1; */
+}
+.career__girl{
+   
+}
+.property__tech{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 70px;
+
+letter-spacing: -0.05em;
+
+color: #606060;
+}
+.property__techText{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.05em;
+
+color: #606060;
+}
+
+.career__head{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+text-align: right;
+
+/* verde escuro */
+
+color: #72C92A;
+}
+.career__text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height, or 120% */
+
+text-align: right;
+
+color: #606060;
+
+}
+.career__brand{
+    background-image: url('../../assets//images/brand.png');
+    height: 1300px;
+        background-position: center;
+        background-size: cover;
+}
+.brand__content{
+position: absolute;
+top: 2380px;
+left: 150px;
+
+
+}
+.brand__head{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 60px;
+text-align: left;
+/* identical to box height, or 100% */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+}
+.brand__text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+text-align: left;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+
+}
