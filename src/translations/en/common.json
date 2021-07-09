@@ -21,8 +21,10 @@
         "banner-details-2" : "the way you rent... forever",
         "readmore" : "Read more" ,
         "banner-Title-1" : "Frequently Asked Questions",
+        "banner-shop-Title-1" : "Product title",
         "banner-Heading-1" : "Welcome to the FAQ’s page",
-        "banner-Para-1" : "We believe that 99% of your questions will be answered in our table below. However if you truly feel that your question hasn't been listed below then kindly visit our contact us page here.  "
+        "banner-Para-1" : "We believe that 99% of your questions will be answered in our table below. However if you truly feel that your question hasn't been listed below then kindly visit our contact us page here.  ",
+        "banner-shop-Para-1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.   "
 
 
     },

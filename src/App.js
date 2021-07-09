@@ -14,11 +14,15 @@ import About from "../src/pages/About";
 import Faq from "../src/pages/Faq";
 import BlogPost from "../src/pages/BlogPost";
 import Blog from "../src/pages/Blog";
+
 import Investor from "../src/pages/Investor";
 
 
 
 
+
+
+import Shop from '../src/pages/Shop';
 
 
 // function HeaderComponent()
@@ -36,6 +40,8 @@ import Investor from "../src/pages/Investor";
 import { useParams } from "react-router-dom";
 import Contact from "./pages/Contact";
 import SearchResult from "./pages/SearchResult";
+import Career from "./pages/careers/Career";
+import Pricing from "./pages/pricing/Pricing";
 
 /*function BlogPage() {
     let { id } = useParams();
@@ -55,7 +61,6 @@ function App() {
           {/* <SearchResult /> */}
 
           <Switch>
-
             <Route exact path="/" component={Home}></Route>
 
             <Route exact path="/tanents" component={Tanents}></Route>
@@ -65,17 +70,25 @@ function App() {
             <Route exact path="/about" component={About}></Route>
 
             <Route exact path="/contact" component={Contact}></Route>
-            <Route exact path="/serach" component={SearchResult}></Route>
 
+            <Route exact path="/shop" component={Shop}></Route>
+
+            <Route exact path="/serach" component={SearchResult}></Route>
 
             <Route exact path="/faq" component={Faq}></Route>
             <Route exact path="/blog" component={Blog}></Route>
             <Route exact path="/search" component={SearchResult}></Route>
+
   
 
               <Route exact path="/blogpost" component={BlogPost}></Route>
               <Route exact path="/investor" component={Investor}></Route>  
 
+            <Route exact path="/careers" component={Career}></Route>
+
+
+            <Route exact path="/blogpost" component={BlogPost}></Route>
+            <Route exact path="/pricing" component={Pricing}></Route>
           </Switch>
         </Router>
       </section>

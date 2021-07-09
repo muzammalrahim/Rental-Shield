@@ -545,14 +545,15 @@ select{
     }
 }
 
-.slick-slide:not(.slick-current){
+.shopSlider.slick-slide:not(.slick-current){
     /* Make slides other than the current one translucent */
-    opacity: 0.4;
+    opacity: 1;
 }
-.slick-slide:not(.slick-current) img{
+.shopSlider.slick-slide:not(.slick-current) img{
     /* Make slides other than the current one translucent */
-    width: 80%;
+
 }
+
 .slick-slide:not(.slick-current) p{
     /* Make slides other than the current one translucent */
     padding-left: 0 !important;
@@ -578,6 +579,14 @@ select{
   }
   .slick-track {
     margin:auto;
+}
+.shop-page-slider .slick-next {
+       right: -50px !important;
+    top: 40% !important;
+}
+.shop-page-slider .slick-prev {
+    left: -50px !important;
+    top: 40% !important;
 }
 .slick-next {
     right: 32px !important;
@@ -650,6 +659,17 @@ select{
 }
   
 /* ------------------Blog Page----------------------- */
+
+.blog-page-slider .slick-prev {
+        top: 50% !important;
+    
+}
+
+.blog-page-slider .slick-next {
+    right: 0px !important;
+    top: 50% !important;
+
+}
 .blog-main .slick-slide:not(.slick-current){
     /* Make slides other than the current one translucent */
     opacity: 1;
@@ -698,6 +718,11 @@ select{
     top: 35%;
     width: 100%;
 }
+.shop-text-inner{
+    position: absolute;
+    top: 29%;
+    width: 100%;
+}
 
 /*.gradient {
     background: linear-gradient(
@@ -713,8 +738,11 @@ select{
     transform: scale(1.05) 
   }
 
-  
-  
+.last-section{
+    background: url(../images/wave-blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
 
 
 /* ------------------Blog Page----------------------- */

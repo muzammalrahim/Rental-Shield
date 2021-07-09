@@ -25,7 +25,7 @@ const Accordion = ({ title, content }) => {
             </span>
           </div>
           {isActive && (
-            <div className=" border-gray-500 shadow m-2 font-body text-2x p-4 ">
+            <div className=" border-gray-500 shadow m-2 font-body text-2x p-4 text-justify ">
               {content}
             </div>
           )}

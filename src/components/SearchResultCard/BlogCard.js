@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { FaHeart } from "react-icons/fa";
+import { FaHeart, FaRegStar } from "react-icons/fa";
 
 import About1 from "../../assets/images/about-1.png";
 import About2 from "../../assets/images/about-2.png";
@@ -40,7 +40,9 @@ function SearchResultCard({ rating, image }) {
                 {Array(rating)
                   .fill()
                   .map((_) => (
-                    <p>⭐</p>
+                    <p className="text-green-900">
+                      <FaRegStar />
+                    </p>
                   ))}
               </div>
 
