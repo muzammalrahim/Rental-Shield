@@ -14,6 +14,8 @@ import About from "../src/pages/About";
 import Faq from "../src/pages/Faq";
 import BlogPost from "../src/pages/BlogPost";
 import Blog from "../src/pages/Blog";
+import Investor from "../src/pages/Investor";
+
 
 
 
@@ -71,12 +73,8 @@ function App() {
             <Route exact path="/search" component={SearchResult}></Route>
   
 
-              <Route
-              exact
-                  path="/blogpost"
-                  component={BlogPost}
-              >
-              </Route> 
+              <Route exact path="/blogpost" component={BlogPost}></Route>
+              <Route exact path="/investor" component={Investor}></Route>  
 
           </Switch>
         </Router>
