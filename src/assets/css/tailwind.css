@@ -675,8 +675,11 @@ select{
     transform: scale(1.05) 
   }
 
-  
-  
+.last-section{
+    background: url(../images/wave-blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
 
 
 /* ------------------Blog Page----------------------- */

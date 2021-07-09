@@ -52,10 +52,10 @@ export default function Blog() {
                         <path d="M-6.49,2.47 C137.97,194.89 344.52,-128.78 518.90,75.48 L500.00,150.00 L0.00,150.00 Z" style={{stroke: "none", fill:"#DFF8C9"}}></path>
                     
                     </svg> */}
-                    <img className="w-full" src={BgTop} alt=""/>
-                    <div className="bg">
+                    {/* <img className="w-full" src={BgTop} alt=""/> */}
+                    
                     <BlogPostSlider/> 
-                    </div>
+                    
                   
 
                 </div>
