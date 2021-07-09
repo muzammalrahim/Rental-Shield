@@ -1,53 +1,66 @@
-import React, { Component } from 'react'
-import {Row, Col} from 'react-bootstrap'
-import logo from '../assets/images/logo.svg'
-import {Link} from 'react-router-dom'
+import React, { Component } from "react";
+import { Row, Col } from "react-bootstrap";
+import logo from "../assets/images/logo.svg";
+import { Link } from "react-router-dom";
 
 //Translation
-import { withTranslation } from 'react-i18next';
-
+import { withTranslation } from "react-i18next";
 
 class Footer extends Component {
-    render() {
-        const { t, i18n } = this.props;
-        return (
-            <div className="footer-main px-5 mt-5">
+  render() {
+    const { t, i18n } = this.props;
+    return (
+      <div className="footer-main px-5 mt-5">
+        {/* footer logo + Social Links */}
+        <div className="footer-top">
+          <Row>
+            <Col xl="6" md="12" xs="12" className="">
+              <img className="footer-logo" src={logo} alt="logo" />
+            </Col>
+            <Col xl="6" md="12" xs="12">
+              <div className="social-links">
+                <ul className="list-none md:text-center lg:text-right">
+                  <li className="pr-3">
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/twit.svg"}
+                      alt="twitter"
+                    />
+                  </li>
+                  <li className="pr-3">
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/youtube.svg"}
+                      alt="youtube"
+                    />
+                  </li>
+                  <li className="pr-3">
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/in.svg"}
+                      alt="insta"
+                    />
+                  </li>
+                  <li className="pr-3">
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/fb.svg"}
+                      alt="fb"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/ins.svg"}
+                      alt="insta"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </Col>
+          </Row>
+        </div>
+        {/* footer logo + Social Links */}
 
-                {/* footer logo + Social Links */}
-                <div className="footer-top">
-                    <Row>
-                        <Col xl="6" md="12" xs="12" className="">
-                            <img className="footer-logo" src={logo} alt="logo"/>
-                        </Col>
-                        <Col xl="6" md="12" xs="12">
-                            <div className="social-links">
-                                <ul className="list-none md:text-center lg:text-right">
-                                    <li className="pr-3">
-                                        <img src={process.env.PUBLIC_URL + '/img/twit.svg'} alt="twitter"/>
-                                    </li>
-                                    <li className="pr-3">
-                                        <img src={process.env.PUBLIC_URL + '/img/youtube.svg'} alt="youtube"/>
-                                    </li>
-                                    <li className="pr-3">
-                                        <img src={process.env.PUBLIC_URL + '/img/in.svg'} alt="insta"/>
-                                    </li>
-                                    <li className="pr-3">
-                                        <img src={process.env.PUBLIC_URL + '/img/fb.svg'} alt="fb"/>
-                                    </li>
-                                    <li>
-                                        <img src={process.env.PUBLIC_URL + '/img/ins.svg'} alt="insta"/>
-                                    </li>
-                                </ul>
-                            </div>
-                        </Col>
-                    </Row>
-                </div>
-                {/* footer logo + Social Links */}
+        <hr></hr>
 
-                <hr></hr>
-
-                <div className="footer-bottom pt-5">
-                    {/* <Row>
+        <div className="footer-bottom pt-5">
+          {/* <Row>
                         <Col md="6 text-left">
                             <ul className="text-left">
                                 <li>
@@ -115,7 +128,6 @@ class Footer extends Component {
                         </Col>
                     </Row> */}
 
-
           <div className="footer-inner grid">
             <div className="footer-adress text-left pb-3">
               <ul className="text-left">
@@ -151,14 +163,17 @@ class Footer extends Component {
                 <li className="text-sm text-gray-500 font-medium pb-1">
                   {t("footer.adjucicatiors")}
                 </li>
-                <li className="text-sm text-gray-500 font-medium pb-1">
-                  {t("footer.careers")}
-                </li>
+                <Link to="/careers">
+                  {" "}
+                  <li className="text-sm text-gray-500 font-medium pb-1">
+                    {t("footer.careers")}
+                  </li>
+                </Link>
                 <Link to="/contact">
                   <li className="text-sm text-gray-500 font-medium pb-1">
                     {t("footer.contactus")}
                   </li>
-                </Link> 
+                </Link>
                 <Link to="/search">
                   <li className="text-sm text-gray-500 font-medium pb-1">
                     {t("footer.investors")}
@@ -187,27 +202,27 @@ class Footer extends Component {
                   {" "}
                   Ternats
                 </li>
-                <li className="text-sm text-gray-500 font-medium ">More</li>
+                <Link to="/pricing">
+                  {" "}
+                  <li className="text-sm text-gray-500 font-medium ">More</li>
+                </Link>
               </ul>
             </div>
             <div className=" text-left pb-3">
               <h4 className="text-gray-500 text-base font-bold pb-4">Blog</h4>
               <ul>
-              <Link to="/blog">
-                <li className="text-sm text-gray-500 font-medium pb-3">
-                
-                  Latest
-                 
-                </li>
+                <Link to="/blog">
+                  <li className="text-sm text-gray-500 font-medium pb-3">
+                    Latest
+                  </li>
                 </Link>
-                
+
                 <Link to="/blogpost">
                   <li className="text-sm text-gray-500 font-medium ">
                     {" "}
                     Important
                   </li>
                 </Link>
-               
               </ul>
             </div>
             <div className=" text-left pb-3">
@@ -254,14 +269,11 @@ class Footer extends Component {
                 </li>
                 <li className="text-sm text-gray-500 font-medium">Site Map</li>
               </ul>
-
             </div>
-            </div>
-
-            </div>     
-            </div>
-            
-        )
-    }
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
-export default withTranslation(['common'])(Footer);
+export default withTranslation(["common"])(Footer);

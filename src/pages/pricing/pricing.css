@@ -1,0 +1,28 @@
+.pricing__banner{
+    background-image: url('../../assets/images/pricing-banner-2.png');
+    height: 1200px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+    
+}
+.pricing__heading{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+
+/* verde escuro */
+
+color: #72C92A;
+position: absolute;
+width: 439px;
+height: 140px;
+left: 193px;
+top: 280px;
+text-align: left;
+
+}

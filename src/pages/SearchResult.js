@@ -64,7 +64,7 @@ function SearchResult() {
               <BlogCard rating={5} image={blog1} />
             </div>
             <div className="col-md-4">
-              <BlogCard rating={3} image={blog2} />
+              <BlogCard rating={4} image={blog2} />
             </div>
             <div className="col-md-4">
               <BlogCard rating={4} image={blog3} />
