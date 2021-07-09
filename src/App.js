@@ -14,7 +14,16 @@ import About from "../src/pages/About";
 import Faq from "../src/pages/Faq";
 import BlogPost from "../src/pages/BlogPost";
 import Blog from "../src/pages/Blog";
+
+import Investor from "../src/pages/Investor";
+
+
+
+
+
+
 import Shop from '../src/pages/Shop';
+
 
 // function HeaderComponent()
 // {
@@ -69,7 +78,14 @@ function App() {
             <Route exact path="/faq" component={Faq}></Route>
             <Route exact path="/blog" component={Blog}></Route>
             <Route exact path="/search" component={SearchResult}></Route>
+
+  
+
+              <Route exact path="/blogpost" component={BlogPost}></Route>
+              <Route exact path="/investor" component={Investor}></Route>  
+
             <Route exact path="/careers" component={Career}></Route>
+
 
             <Route exact path="/blogpost" component={BlogPost}></Route>
             <Route exact path="/pricing" component={Pricing}></Route>

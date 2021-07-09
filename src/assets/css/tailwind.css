@@ -639,6 +639,25 @@ select{
     color: #000000;   
 }
 
+/*------------------------------------Blog Post------------------------------------ */
+
+/* Investors */
+.banner-invest{
+    
+    background-position: right top;
+    z-index: -1;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 42% auto;
+}
+.inner-position .inner-content{
+    left: 28rem;
+}
+.inner-position-r .inner-content{
+    left: 32rem;
+}
+  
 /* ------------------Blog Page----------------------- */
 
 .blog-page-slider .slick-prev {
