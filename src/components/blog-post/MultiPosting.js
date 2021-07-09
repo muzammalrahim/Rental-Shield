@@ -12,18 +12,19 @@ export default class MultiPosting extends Component {
         return (
             <div className="">
                 <img className="w-full" src={SliderBg} alt=""/>
-                <div className='posts-main bg-green-700'>
+                <div className='posts-main bg-green-700 mb-20'>
                     <Container>
                         <PostSlider/>
-                        <div>
-                            <h3 className="text-gray-500 font-body font-bold text-3xl text-left">
+                        <div className="pl-4 pt-3 relative bottom-12 text-left">
+                            <h3 className="text-gray-500 font-body font-bold text-3xl text-left pl-3 pb-3">
                                 Should I keep my A/C on if I am traveling for the summer?
                             </h3>
-                            <p className="text-gray-500 font-body font-normal text-lg text-left">
+                            <p className="text-gray-500 font-body font-normal text-lg text-left pl-3">
                                 It can be a tricky question here in the UAE and we hope to 
+                                <br/>
                                 give you some insider tips on how to preserve...
                             </p>
-                            <button className="bg-green-600 rounded-full px-4 py-2 text-lg text-white font-bold font-body header-btn">
+                            <button className="bg-green-600 rounded-full px-4 py-2 ml-3 mt-3 text-lg text-white font-bold font-body header-btn">
                                 View more
                             </button>
                         </div>
