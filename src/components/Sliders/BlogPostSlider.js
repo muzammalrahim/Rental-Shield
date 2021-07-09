@@ -10,7 +10,7 @@ import Slideimg from '../../assets/images/home.jpg';
 
 
 // Fontawsom
-import {FaHeart} from "react-icons/fa";
+import {FaHeart, FaArrowLeft} from "react-icons/fa";
 import {FaRegStar} from "react-icons/fa";
 //Translation
 import { withTranslation } from 'react-i18next';

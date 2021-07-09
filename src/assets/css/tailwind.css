@@ -639,6 +639,17 @@ select{
 
 
 /* ------------------Blog Page----------------------- */
+
+.blog-page-slider .slick-prev {
+        top: 50% !important;
+    
+}
+
+.blog-page-slider .slick-next {
+    right: 0px !important;
+    top: 50% !important;
+
+}
 .blog-main .slick-slide:not(.slick-current){
     /* Make slides other than the current one translucent */
     opacity: 1;
