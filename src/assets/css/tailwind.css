@@ -719,6 +719,10 @@ select{
     background-size: cover;
 }  
 
+.rental-shield-banner{
+    background-size: 50%;
+}
+
 
 /* ------------------Blog Page----------------------- */
 

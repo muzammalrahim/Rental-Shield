@@ -14,6 +14,7 @@ import About from "../src/pages/About";
 import Faq from "../src/pages/Faq";
 import BlogPost from "../src/pages/BlogPost";
 import Blog from "../src/pages/Blog";
+import RentalShield from "../src/pages/RentalShield";
 
 
 
@@ -77,6 +78,9 @@ function App() {
                   component={BlogPost}
               >
               </Route> 
+
+
+              <Route exact path="/rental-shield-investors" component={RentalShield}></Route> 
 
           </Switch>
         </Router>
