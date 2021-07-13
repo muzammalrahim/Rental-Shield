@@ -591,11 +591,11 @@ select{
 }
 .shop-page-slider .slick-next {
        right: -50px !important;
-    top: 40% !important;
+    top: 50% !important;
 }
 .shop-page-slider .slick-prev {
     left: -50px !important;
-    top: 40% !important;
+    top: 50% !important;
 }
 .slick-next {
     right: 32px !important;

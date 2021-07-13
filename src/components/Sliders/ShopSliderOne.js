@@ -93,7 +93,7 @@ class ShopSliderOne extends Component {
               Product category
             </p>
             <a href="" className="no-underline hover:no-underline">
-              <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={ShopSliderOneImg1} />
                 <div className="pl-2 text-left">
                   <div className="pt-4 text-3xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
@@ -158,7 +158,7 @@ class ShopSliderOne extends Component {
               Product category
             </p>
             <a href="" className="no-underline hover:no-underline">
-              <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={ShopSliderOneImg2} />
                 <div className="pl-2 text-left">
                 <div className="pt-4 text-3xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
@@ -222,7 +222,7 @@ class ShopSliderOne extends Component {
               Product category
             </p>
             <a href="" className="no-underline hover:no-underline">
-              <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={ShopSliderOneImg3} />
                 <div className=" pl-2 text-left">
                 <div className="pt-4 text-3xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
@@ -286,7 +286,7 @@ class ShopSliderOne extends Component {
               Product category
             </p>
             <a href="" className="no-underline hover:no-underline">
-              <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={ShopSliderOneImg1} />
                 <div className=" pl-2 text-left">
                 <div className="pt-4 text-3xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
