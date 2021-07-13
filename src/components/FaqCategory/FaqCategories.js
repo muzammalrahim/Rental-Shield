@@ -21,8 +21,8 @@ export default class FaqCategories extends Component {
                   Categories
                 </p>
                 <br /> <br />
-                <Row className="items-center py-16">
-                  <Col lg="4" md="4" sm="12" className="my-14">
+                <Row className="items-center">
+                  <Col lg="4" md="4" sm="12" className="mt-14 mb-4">
                     <div className="m-auto bg-no-repeat bg-contain bg-center faq-bg no-repeat relative">
                       <img
                         class="m-auto relative z-50"
@@ -32,7 +32,7 @@ export default class FaqCategories extends Component {
 
                       <div
                         className="text-3xl font-bold top-44 m-auto min-w-full z-10 left-0
-                        opacity-50 absolute bg-gradient-to-b from-silver-100 to-blue-500 p-24	
+                        opacity-50 absolute bg-gradient-to-b from-silver-600 to-blue-500 p-24	
                      hover:from-pink-500 hover:to-yellow-500 ..."
                       >
                         <p className="mt-7">Landlords</p>
@@ -45,7 +45,7 @@ export default class FaqCategories extends Component {
                       ></div>
                     </div>
                   </Col>
-                  <Col lg="4" md="4" sm="12" className="my-14">
+                  <Col lg="4" md="4" sm="12" className="mt-14 mb-4">
                     <div className="m-auto bg-contain bg-no-repeat bg-center faq-bg no-repeat relative">
                       <img
                         className="m-auto relative z-10"
@@ -55,7 +55,7 @@ export default class FaqCategories extends Component {
 
                       <div
                         className="text-3xl font-bold top-44 m-auto min-w-full z-10 left-0
-                        opacity-50 absolute bg-gradient-to-b from-silver-100 to-blue-500 p-24	
+                        opacity-50 absolute bg-gradient-to-b from-silver-600 to-blue-500 p-24	
                      hover:from-pink-500 hover:to-yellow-500 ..."
                       >
                         <p className="mt-7">Tenants</p>
@@ -69,7 +69,7 @@ export default class FaqCategories extends Component {
                     </div>
                   </Col>
 
-                  <Col lg="4" md="4" sm="12" className="my-14">
+                  <Col lg="4" md="4" sm="12" className="mt-14 mb-4">
                     <div className="m-auto bg-contain bg-no-repeat bg-center faq-bg no-repeat relative">
                       <img
                         className="m-auto relative z-50"
@@ -78,7 +78,7 @@ export default class FaqCategories extends Component {
                       />
                       <div
                         className="text-3xl font-bold top-44 m-auto min-w-full z-10 left-0
-                        opacity-50 absolute bg-gradient-to-b from-silver-100 to-blue-500 p-24	
+                        opacity-50 absolute bg-gradient-to-b from-silver-600 to-blue-500 p-24	
                      hover:from-pink-500 hover:to-yellow-500 ..."
                       >
                         <p className="mt-7">General</p>
