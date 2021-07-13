@@ -55,18 +55,35 @@ function SamplePrevArrow(props) {
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
                 slidesToScroll: 3,
                 infinite: true,
                 dots: true
               }
             },
             {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
+
+            {
               breakpoint: 600,
               settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                initialSlide: 3
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
               }
             },
             {
@@ -90,7 +107,7 @@ function SamplePrevArrow(props) {
 
           <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-8">
             <a href="" className="no-underline hover:no-underline">
-              <div class="bg-white rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={Slideimg} />
                 <div className="pt-4 pl-2 text-left">
                   <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
@@ -116,7 +133,7 @@ function SamplePrevArrow(props) {
 
           <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-8">
             <a href="" className="no-underline hover:no-underline">
-              <div class="bg-white rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={Slideimg} />
                 <div className="pt-4 pl-2 text-left">
                   <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
@@ -142,7 +159,7 @@ function SamplePrevArrow(props) {
 
           <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-8">
             <a href="" className="no-underline hover:no-underline">
-              <div class="bg-white rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={Slideimg} />
                 <div className="pt-4 pl-2 text-left">
                   <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
@@ -168,7 +185,7 @@ function SamplePrevArrow(props) {
 
           <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-8">
             <a href="" className="no-underline hover:no-underline">
-              <div class="bg-white rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={Slideimg} />
                 <div className="pt-4 pl-2 text-left">
                   <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
