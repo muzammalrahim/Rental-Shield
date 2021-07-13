@@ -40,12 +40,7 @@ class ShopBanner extends Component {
                 </button>
               </div>
             </div>
-         
-           
-      
           </Row>
-        
-          
         </div>
       </div>
     );

@@ -25,7 +25,8 @@ export default class ShopSearchBox extends Component {
             </div>
             <input
               type="text"
-              className="h-14 w-96 pl-16 pr-5 z-0 focus:outline-none border-2 border-gray-500 rounded-full"
+              style={{width:"540px"}}
+              className="h-14 pl-16 pr-5 z-0 focus:outline-none border-2 border-gray-500 rounded-full"
               placeholder="Search..."
             />
           </div>
