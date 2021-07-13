@@ -109,7 +109,7 @@ class ShopSliderOne extends Component {
                   </p>
                 </div>
                 {/* <div className="px-6 pt-4 pb-2"> */}
-                <div class="flex items-center justify-between leading-tight p-2 md:p-4">
+                <div class="flex items-center justify-between leading-tight p-2 md:p-4 float-left w-full">
                   <h1 class="text-lg">
                     <a class="no-underline text-black" href="#">
                       <div class="flex items-center text-sm ">
@@ -173,7 +173,7 @@ class ShopSliderOne extends Component {
                   </p>
                 </div>
                 {/* <div className="px-6 pt-4 pb-2"> */}
-                <div class="flex items-center justify-between leading-tight p-2 md:p-4">
+                <div class="flex items-center justify-between leading-tight p-2 md:p-4 float-left w-full">
                   <h1 class="text-lg">
                     <a class="no-underline text-black" href="#">
                       <div class="flex items-center text-sm ">
@@ -237,7 +237,7 @@ class ShopSliderOne extends Component {
                   </p>
                 </div>
                 {/* <div className="px-6 pt-4 pb-2"> */}
-                <div class="flex items-center justify-between leading-tight p-2 md:p-4">
+                <div class="flex items-center justify-between leading-tight p-2 md:p-4 float-left w-full">
                   <h1 class="text-lg">
                     <a class="no-underline text-black" href="#">
                       <div class="flex items-center text-sm ">
@@ -301,8 +301,8 @@ class ShopSliderOne extends Component {
                   </p>
                 </div>
                 {/* <div className="px-6 pt-4 pb-2"> */}
-                <div class="flex items-center justify-between leading-tight p-2 md:p-4">
-                  <h1 class="text-lg">
+                <div class="flex items-center justify-between leading-tight p-2 md:p-4 float-left w-full">
+                  <div class="text-lg">
                     <a class="no-underline text-black" href="#">
                       <div class="flex items-center text-sm ">
                         <FaRegStar
@@ -327,7 +327,7 @@ class ShopSliderOne extends Component {
                         />
                       </div>
                     </a>
-                  </h1>
+                  </div>
                   {/* <p class="text-grey-darker text-sm"> */}
                   <Link
                     href="#"
