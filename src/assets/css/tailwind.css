@@ -491,6 +491,12 @@ select{
     
 }
 @media (min-width: 640px) and (max-width: 991px) {
+    .mob-line{
+        display: none;
+    }
+    /* .h-content{
+        line-height: 40px;
+    } */
     .sm\:home-banner-main{
         display: block;
     }
@@ -533,6 +539,9 @@ select{
 }
 
 @media (max-width: 1280px) {
+    .h-content{
+        line-height: 40px;
+    }
     .lg\:left-side{
         height: 100%;
     }
@@ -744,7 +753,21 @@ select{
     background-size: cover;
 }  
 
+.rental-shield-banner{
+    background-size: 50%;
+}
 
+@media (max-width: 1100px) {
+    .blog-banner svg {
+        height: 80vh;
+    }
+}
+
+.custom-shadow{
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+-webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+}
 /* ------------------Blog Page----------------------- */
 
 

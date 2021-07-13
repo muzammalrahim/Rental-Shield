@@ -24,7 +24,7 @@ import { withTranslation } from 'react-i18next';
                                     {t('tanetb.to-future')}
                                 </span>
                             </h2>
-                            <p className="text-gray-500 text-lg font-body font-normal leading-7 mb-5 md:text-xl  lg:text-2xl ">
+                            <p className="text-gray-500 text-lg font-body font-normal leading-7 mb-5 md:text-xl  lg:text-2x ">
                                 {t('tanetb.tanetb-detail-1')}
                             <br/> 
                             {t('tanetb.tanetb-detail-2')}
