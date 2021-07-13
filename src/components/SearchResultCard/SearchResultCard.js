@@ -10,6 +10,7 @@ import BgTop from "../../assets/images/team-bg-top.png";
 import BgBottom from "../../assets/images/team-bg-bottom.png";
 
 import star from "../../assets/images/star.svg";
+import { FaRegStar } from "react-icons/fa";
 
 function SearchResultCard({ rating, image }) {
   return (
@@ -38,7 +39,9 @@ function SearchResultCard({ rating, image }) {
                 {Array(rating)
                   .fill()
                   .map((_) => (
-                    <p>⭐</p>
+                    <p className="text-green-900">
+                      <FaRegStar />
+                    </p>
                   ))}
               </div>
 

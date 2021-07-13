@@ -35,10 +35,10 @@ export default function Blog() {
 
                 <section class="bg-white">
                 <div className="md:container md:mx-auto px-0 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-                    <div className="flex w-full md:w-2/5 flex-wrap pt-5">
+                    <div className="flex lg:w-2/5 md:w-2/5 flex-wrap sm:py-5 lg:pt-5 lg:px-0">
                         <h2 className="float-left text-green-900 text-3xl font-normal">Most read</h2>
                     </div>
-                    <div className="w-full md:w-3/5 text-center">
+                    <div className="lg:w-3/5 md:w-3/5 text-center lg:pl-12">
                         <Search/>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ export default function Blog() {
                 </div>
 
 
-                <div className="mt-13">
+                <div className="mt-12">
                     <BlogPostSlider/>
                 </div>
 

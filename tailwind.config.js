@@ -86,6 +86,8 @@ module.exports = {
     'md': '768px',
     // => @media (min-width: 768px) { ... }
 
+    //'mid': {'min': '601px', 'max': '1023px'},
+
     'lg': '1024px',
     // => @media (min-width: 1024px) { ... }
 
@@ -94,9 +96,11 @@ module.exports = {
 
     '2xl': '1536px',
     // => @media (min-width: 1536px) { ... }
-  },
+    
+    },
   variants: {
     extend: {},
   },
   plugins: [],
 }
+

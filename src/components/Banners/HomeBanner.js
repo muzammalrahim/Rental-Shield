@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import {Row, Col} from 'react-bootstrap';
+
+
+// Images
 import Homebanner from '../../assets/images/home-banner1.png';
 import RightBg from '../../assets/images/bannerr-right.png';
 import { withTranslation } from 'react-i18next';

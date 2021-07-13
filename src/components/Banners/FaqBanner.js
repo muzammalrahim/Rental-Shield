@@ -9,16 +9,16 @@ class FaqBanner extends Component {
   render() {
     const { t } = this.props;
     return (
-      <div className="sm:home-banner-main   xs:home-banner-main">
-        <Row className="no-gutters">
+      <div className="">
+        <Row className="">
           <Col xs="3" sm="5" md="4" lg="4">
             <div
-              className="xs:left-side lg:left-side sm:left-side bg-local mt-56"
+              className="xs:left-side lg:left-side sm:left-side bg-local "
               style={{ backgroundImage: `url(${Homebanner})` }}
             ></div>
           </Col>
           <Col md="4" lg="4">
-            <div className="sm:inner xs:inner md:inner-pt-5 lg:inner  z-10 relative">
+            <div className=" mt-28 z-10 relative">
 
               <p className="m-auto text-green-500 pt-3 pb-2 lg:text-5xx md:text-4xl  font-bold 2xl font-body ">
               {t("banner.banner-Title-1")}
