@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button'
 import {Form} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
+
+
 // Images
 import logo from '../assets/images/logo.svg'
 import Enter from '../assets/images/enter.svg'
@@ -77,10 +79,11 @@ function Header({ t, i18n }) {
                                 </div>
                             </Link>
                             <img className="mx-3" src={Enter} alt="enter"></img>
-                            <select className="bg-gray" onChange={(e) => i18n.changeLanguage(e.target.value)}>
+                            {/* <ReactFlagsSelect/> */}
+                             <select className="bg-gray" onChange={(e) => i18n.changeLanguage(e.target.value)}>
                                 <option value="en">UK</option>
                                 <option value="ar">Ar</option>
-                            </select>
+                            </select> 
                         </Form>
                         {/* Right Options */}
                     </Navbar.Collapse>
