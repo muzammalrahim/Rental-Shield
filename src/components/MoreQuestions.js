@@ -13,7 +13,7 @@ import RightLine from '../assets/images/right-line.png';
 export default class MoreQuestions extends Component {
     render() {
         return (
-            <div className="more-query-main mb-4">
+            <div className="more-query-main mb-40">
                 <h1 className="text-gray-500 font-body text-6xl font-normal pt-5">
                     Still have more questions?
                 </h1>
