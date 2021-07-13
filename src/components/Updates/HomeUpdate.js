@@ -18,7 +18,7 @@ class HomeUpdate extends Component {
             <div className="update-main mt-5">
                
                 <Container>
-                    <Row  className=" main d-flex justify-content-center">
+                    <Row  className=" main-home d-flex justify-content-center">
                         <Col md="12">
                         <div>
                             <h4 className="text-6xl text-gray-500 font-body font-normal">

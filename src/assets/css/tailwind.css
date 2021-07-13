@@ -507,6 +507,12 @@ select{
     
 }
 @media (min-width: 640px) and (max-width: 991px) {
+    .mob-line{
+        display: none;
+    }
+    /* .h-content{
+        line-height: 40px;
+    } */
     .sm\:home-banner-main{
         display: block;
     }
@@ -549,6 +555,9 @@ select{
 }
 
 @media (max-width: 1280px) {
+    .h-content{
+        line-height: 40px;
+    }
     .lg\:left-side{
         height: 100%;
     }
