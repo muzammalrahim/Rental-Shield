@@ -3,10 +3,13 @@ import SearchBox from "../SearchBox/FaqSearchBox";
 import cardIcon from "../../assets/images/FaqcardIcon.png";
 import categoryTop from "../../assets/images/team-bg-top.png";
 import { Row, Col } from "react-bootstrap";
+import Doller from '../../assets/images/doller.png';
+
 
 export default class FaqCard extends Component {
   render() {
     return (
+      <>
       <div className="relative z-10">
           
         <div class="max-w-3xl  overflow-hidden px-4 py-4  mx-auto">
@@ -33,8 +36,10 @@ export default class FaqCard extends Component {
             <img style={{zIndex:"-9"}} className="w-full absolute bottom-6" src={categoryTop} alt=""/>
             </div>
          </div>
+           
   
         </div>
+     </>
     );
   }
 }

@@ -68,23 +68,29 @@ export default class FaqAccordion extends Component {
           <Row className="items-center mt-4">
             <Col lg="5" md="12" sm="12" className="m-auto">
               <br /> <br />
-              <h2>Frequently Akesd Questions</h2> <br /> <br /> <br />
+              <p className="text-6xl font-body text-gray-500 mb-7">
+                Frequently Akesd Questions
+                </p>
+                
+                <br /> <br /> <br />
               <div class="flex rounded-full border-grey-light border mx-4">
                 <button onClick={(e)=>this.TabchangeHandler(1)} 
                 className={`w-4/12  rounded-full py-3 px-6 ${TabValue === 1 ? "bg-green-900" : ""}`}
                >
-                 Landlords
+                <p className="text-xl font-bold font-body m-auto text-gray-500"> Landlords</p>
                 </button>
                 <button onClick={(e)=>this.TabchangeHandler(2)}  
                className={`w-4/12  rounded-full py-3 px-6 ${TabValue === 2 ? "bg-green-900" : ""}`}
                 
                 >
-                  Tenants
+                       <p className="text-xl font-bold font-body m-auto text-gray-500">    Tenants</p>
+               
                 </button>
                 <button onClick={(e)=>this.TabchangeHandler(3)}  
                 className={`w-4/12  rounded-full py-3 px-6 ${TabValue === 3 ? "bg-green-900" : ""}`}
                 >
-                  General
+                
+                  <p className="text-xl font-bold font-body m-auto text-gray-500">      General</p>
                 </button>
               </div>
             </Col>
