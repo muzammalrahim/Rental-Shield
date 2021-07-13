@@ -10,7 +10,23 @@
 body{
     overflow-x: hidden;
 }    
-   
+
+/* Recent changes */
+
+* {
+    outline: none;
+}
+
+.form-inline .nav-link {
+    padding: 0.63rem 1.51rem !important;
+}
+
+
+
+
+
+/* Recent changes */
+
 /* Headeer */
 .logins{
     color: #606060 !important;
@@ -759,6 +775,21 @@ select{
 -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
 -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
 }
+
+
+@media (max-width: 767px) {
+    .blog-page-slider .slick-next {
+        right: 30px !important;
+        top: 45% !important;
+    }
+    .blog-page-slider .slick-prev {
+        top: 45% !important;
+        left: 18px;
+        z-index: 999;
+    }
+
+}
+
 /* ------------------Blog Page----------------------- */
 
 
