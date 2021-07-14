@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 function ContactReg() {
+  const [isContinue, setisContinue] = useState(false);
+
+  function onChange(value) {
+    console.log("Captcha value:", value);
+
+    setisContinue(true);
+  }
   return (
     <div className="col-lg-6">
       <div className="from-main  ml-32 ">
@@ -60,8 +68,20 @@ function ContactReg() {
                 style={{ border: "none", borderRadius: "10px" }}
               />
             </div>
-
-            <button class="bg-black rounded-full px-5 mb-5 mt-3 py-1.5 text-xl text-white font-bold">
+            <div>
+              <ReCAPTCHA
+                sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                onChange={onChange}
+              />
+              ,
+            </div>
+            <button
+              disabled={!isContinue}
+              className={`bg-black rounded-full 
+            px-5 mb-5 mt-3 py-1.5 text-xl text-white font-bold ${
+              isContinue ? "bg-black" : "bg-gray-500"
+            }`}
+            >
               Continue
             </button>
           </form>

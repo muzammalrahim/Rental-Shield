@@ -2,18 +2,14 @@ import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 
 import {Container, Row, Col} from 'react-bootstrap'
-
+import HomeAccordion  from "../Accordion/HomeAccordion";
 
 // Images
 import FaqBgTop from '../../assets/images/faq-top.png';
 import FaqBgBottom from '../../assets/images/team-bg-bottom.png';
 
 
-
-
-const data = {
-    title: "",
-    rows: [
+const accordionData = [
         {
             title: "Should I use this service as a Landlord?",
             content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
@@ -49,28 +45,29 @@ const data = {
             title: "How does this benefit me?",
             content: <p>current version is 1.2.1</p>,
         },
-    ],
-};
+    ];
 
-const styles = {
-    // bgColor: 'white',
-    titleTextColor: "#606060",
-    rowTitleColor: "#606060",
-    rowContentColor:"#606060",
-    rowContentText:"left",
-    arrowIcon:"",
-    arrowColor:"#606060",
-    // rowContentColor: 'grey',
-    // arrowColor: "red",
-    rowContentText:'23'
-};
 
-const config = {
-    // animate: true,
-    arrowIcon: "+",
+// const styles = {
+//     // bgColor: 'white',
+//     titleTextColor: "#606060",
+//     rowTitleColor: "#606060",
+//     rowContentColor:"#606060",
+//     rowContentText:"left",
+//     arrowIcon:"",
+//     arrowColor:"#606060",
+//     // rowContentColor: 'grey',
+//     // arrowColor: "red",
+//     rowContentText:'23'
+// };
+
+// const config = {
+//     // animate: true,
+//     arrowIcon: "+",
     
-    // tabFocus: true
-};
+    
+//     // tabFocus: true
+// };
 
 export default function FAQMain() {
 
@@ -89,12 +86,12 @@ export default function FAQMain() {
                                 <h3 className="font-normal md:text-left text-lg lg:text-6xl">Questions</h3>
                             </div> 
                         </Col>
-                        <Col lg="6" md="12" sm="12" className="text-center pb-5 lg:text-left md:faq-content">
-                            <Faq
-                                data={data}
-                                styles={styles}
-                                config={config}
-                            />
+                        <Col lg="6" md="12" sm="12" className="text-center lg:text-left md:faq-content">
+                        <div  className="accordion">
+                {accordionData.map(({ title, content }) => (
+                  <HomeAccordion title={title} content={content} />
+                ))}
+              </div>
                         </Col>
                     </Row>
                 </Container>
