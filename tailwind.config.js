@@ -17,17 +17,17 @@ module.exports = {
     fontSize:{
       'sm': '0.875rem', //14px
       'base': '1rem', // 16px
-      'lg':'1.13rem', // 18px
+      'lg':'1.125rem', // 18px
       'xl':'1.25rem',  // 20px
       '2x': '1.4375rem', //23px
-      '2xl':'1.44rem', // 24px
+      '2xl':'1.5rem', // 24px
       '2lx': '1.5625rem', // 25px
       '2xx': '1.625rem', // 26px
       '3xl':'1.875rem', // 30px
       '4xl':'2.25rem', // 36px
       '5x': '2.5rem', //40px
       '5xx': '2.8125rem', //45px 
-      '5xl':'3.13rem', // 48px
+      '5xl':'3rem', // 48px
       '6xl':'3.75rem',// 60px
       'normal': '18px',
       
