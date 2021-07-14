@@ -21,8 +21,21 @@ body{
     padding: 0.63rem 1.51rem !important;
 }
 
+a:hover {
+    color: #72c92a;
+}
 
+.lh-70{
+    line-height: 4.38rem;
+}
 
+.lh-50{
+    line-height: 3.13rem;
+}
+
+.lh-27{
+    line-height: 1.69rem;
+}
 
 
 /* Recent changes */
@@ -126,10 +139,12 @@ select{
     height: 75px;
 }
 .step-row h3{
-    line-height: 50px;
+    line-height: 3.3rem;
+    letter-spacing: -0.05em;
 }
 .step-inner ul li{
     display: inline-block;
+    margin: 0 10px;
 }
 .step-inner ul{
     display: inline-flex;

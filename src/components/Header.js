@@ -67,7 +67,7 @@ function Header({ t, i18n }) {
                                 </div>
                                 </Nav.Link>
                             </Button>
-                            <Link className="logins">
+                            <Link className="logins ml-5">
                                 <div className="text-gray-500 font-body font-normal text-lg ml-3 mr-1">
                                     {t('header.login')}
                                 </div>
