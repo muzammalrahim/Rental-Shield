@@ -50,9 +50,9 @@ export default class KnowMore extends Component {
 
                         <div className="row2">
                         <div className="relative">
-                            <div className="para3 text-center absolute">
+                            <div className="para3 text-center absolute  w-1/4">
                                 <h1 className="text-gray-500 font-body  pb-2 font-bold text-3xl ">I'm an Agent</h1>
-                                <p className="text-gray-500  font-body text-lg font-normal pb-3 leading-5 w-1/4">
+                                <p className="text-gray-500  font-body text-lg font-normal pb-3 leading-5">
                                 Make this your. Add images, text and links, or
                                 connect data from your collection.
                                 </p>
