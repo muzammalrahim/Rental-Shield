@@ -51,7 +51,7 @@ class AccSteps extends Component {
                         </Col>
                         <Col lg={{span:6, order: 2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img className="relative" src={Step1} alt="step1"/>
-                            <div className="sing-up absolute left-80 top-16">
+                            <div className="sing-up absolute left-96 top-16">
                                 <div className="inline-flex">
                                     <img className="object-contain" src={Signup} alt=""/>
                                     <Link className="pl-3 text-gray-500 text-2xl font-body font-normal">Sign up</Link>
