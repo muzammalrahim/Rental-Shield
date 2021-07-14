@@ -11,7 +11,7 @@ import {FaRegStar} from "react-icons/fa";
 export default class Mostread extends Component {
     render() {
         return (
-            <div class="bg-white featured mx-4 p-10 md:mx-0 lg:mx-0 lg:w-full sm:w-full md:p-12 lg:p-12 h-auto rounded-2xl shadow-lg flex flex-col sm:flex-row gap-10 select-none">
+            <div class="bg-white featured mx-0 p-10 md:mx-0 lg:mx-0 lg:w-full sm:w-full md:p-12 lg:p-12 h-auto rounded-2xl shadow-lg flex flex-col sm:flex-row gap-10 select-none">
             {/* <div style={{ backgroundImage:`url(${Mostreadimg})` }} class="sm:w-6/12 rounded-xl bg-gray-100 bg-center bg-cover"> */}
             <div class="sm:w-6/12 rounded-xl bg-gray-100 bg-center bg-cover">
                 <img className="rounded-xl w-full" src={Mostreadimg} />

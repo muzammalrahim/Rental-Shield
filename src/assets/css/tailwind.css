@@ -10,7 +10,36 @@
 body{
     overflow-x: hidden;
 }    
-   
+
+/* Recent changes */
+
+* {
+    outline: none;
+}
+
+.form-inline .nav-link {
+    padding: 0.63rem 1.51rem !important;
+}
+
+a:hover {
+    color: #72c92a;
+}
+
+.lh-70{
+    line-height: 4.38rem;
+}
+
+.lh-50{
+    line-height: 3.13rem;
+}
+
+.lh-27{
+    line-height: 1.69rem;
+}
+
+
+/* Recent changes */
+
 /* Headeer */
 .logins{
     color: #606060 !important;
@@ -110,10 +139,12 @@ select{
     height: 75px;
 }
 .step-row h3{
-    line-height: 50px;
+    line-height: 3.3rem;
+    letter-spacing: -0.05em;
 }
 .step-inner ul li{
     display: inline-block;
+    margin: 0 10px;
 }
 .step-inner ul{
     display: inline-flex;
@@ -768,6 +799,21 @@ select{
 -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
 -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
 }
+
+
+@media (max-width: 767px) {
+    .blog-page-slider .slick-next {
+        right: 30px !important;
+        top: 45% !important;
+    }
+    .blog-page-slider .slick-prev {
+        top: 45% !important;
+        left: 18px;
+        z-index: 999;
+    }
+
+}
+
 /* ------------------Blog Page----------------------- */
 
 

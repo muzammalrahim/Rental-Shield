@@ -10,7 +10,7 @@ import YoutubeEmbed from '../YoutubeVideo/Video'
 export default class Video extends Component {
     render() {
         return (
-            <div className="update-main mt-5 mb-5">
+            <div className="update-main mt-20 mb-5">
                 <Container>
                     <Row  className=" 
                     d-flex justify-content-center">

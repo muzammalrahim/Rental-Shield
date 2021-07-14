@@ -21,7 +21,7 @@ class HomeUpdate extends Component {
                     <Row  className=" main-home d-flex justify-content-center">
                         <Col md="12">
                         <div>
-                            <h4 className="text-6xl text-gray-500 font-body font-normal">
+                            <h4 className="text-6xl text-gray-500 font-body font-normal lh-70">
                                 {t('homeupdate.detail-head')}
                             </h4>
                         </div>

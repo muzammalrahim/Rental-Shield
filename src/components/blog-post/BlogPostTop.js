@@ -12,8 +12,9 @@ import Blogmainicon from '../../assets/images/blog-heading-icon.png';
 export default class BlogPostTop extends Component {
     render() {
         return (
-            <div>
-                <Row className="px-16 items-center">
+            <div className="md:container md:mx-auto px-0 mx-auto flex flex-wrap flex-col">
+
+                <Row className="px- items-center">
                     <Col lg="8">
                         {/* banner */}
                 <div className="blog-post-inner">
@@ -34,6 +35,7 @@ export default class BlogPostTop extends Component {
                         <SearchBar/>
                     </Col>
                 </Row>
+
             </div>
         )
     }

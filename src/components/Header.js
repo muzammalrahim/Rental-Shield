@@ -24,7 +24,7 @@ function Header({ t, i18n }) {
             <div className="header-main px-5  pt-4 relative z-10">
                 <Navbar  expand="lg" className="p-0">
                     {/* logo */}
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand href="/" className="mr-0">
                         <img className="" src={logo} alt="logo"/>
                     </Navbar.Brand>
                     {/* logo */}
@@ -34,7 +34,7 @@ function Header({ t, i18n }) {
                         {/* Menu Links */}
                         <Nav className="mr-auto">
                             <Nav.Link href="/about">
-                                <div className="text-gray-500 font-body font-normal text-lg pl-3">
+                                <div className="text-gray-500 font-body font-normal text-lg pl-4">
                                     {t('header.about')}
                                 </div>
                             </Nav.Link>
@@ -53,7 +53,7 @@ function Header({ t, i18n }) {
 
                         {/* Right Options */}
                         <Form inline>
-                            <Button className="bttn mr-3 p-0">
+                            <Button className="bttn mr-4 p-0">
                                 <Nav.Link className="py-1.5" href="/landlord">
                                 <div className="text-gray-500 font-medium font-body">
                                     {t('header.landlord')}
@@ -67,7 +67,7 @@ function Header({ t, i18n }) {
                                 </div>
                                 </Nav.Link>
                             </Button>
-                            <Link className="logins">
+                            <Link className="logins ml-5">
                                 <div className="text-gray-500 font-body font-normal text-lg ml-3 mr-1">
                                     {t('header.login')}
                                 </div>
