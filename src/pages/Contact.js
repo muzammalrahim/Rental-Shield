@@ -2,11 +2,10 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./contact.css";
-
 import ContactBanner from "../components/Banners/ContactBanner";
 import ContactReg from "../components/RegistrationForm/ContactReg";
-
 function Contact() {
+ 
   return (
     <div>
       <Header />

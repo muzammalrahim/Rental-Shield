@@ -164,7 +164,8 @@ class ShopSliderOne extends Component {
                 <div className="pt-4 xl:text-3xl lg:text-xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
                     Name product
                   </div>
-                  <p className=" text-gray-500 pt-4 pb-2 text-lg md:text-5x leading-6 font-normal 2lx text-left font-body ">
+                  <p className=" text-gray-500 pt-4 pb-2 text-lg md:text-5x leading-6 font-normal 
+                  2lx text-left font-body ">
                   <sup>
                       {" "}
                       <span className="xl:text-lg lg:text-sm">$</span>
