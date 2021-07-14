@@ -44,14 +44,18 @@ class AccSteps extends Component {
                                         </h3>
                                     </li>
                                 </ul>
-                                <p className="text-left text-gray-500 font-light lg:text-2xl leading-7 font-body md:text-xl lg:pr-5 ">{t('ac-steps.create-detail-1')}<br/> 
-                                {t('ac-steps.create-detail-2')}<br/> 
-                                {t('ac-steps.create-detail-3')}</p>
+                                <p className="text-left pt-2  text-gray-500 font-light lg:text-2x leading-7 font-body md:text-xl lg:pr-5 ">
+                                    {t('ac-steps.create-detail-1')}
+                                <br/> 
+                                {t('ac-steps.create-detail-2')}
+                                <br/> 
+                                {t('ac-steps.create-detail-3')}
+                                </p>
                             </div>
                         </Col>
                         <Col lg={{span:6, order: 2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img className="relative" src={Step1} alt="step1"/>
-                            <div className="sing-up absolute left-96 top-16">
+                            <div className="sing-up absolute  top-16">
                                 <div className="inline-flex">
                                     <img className="object-contain" src={Signup} alt=""/>
                                     <Link className="pl-3 text-gray-500 text-2xl font-body font-normal">Sign up</Link>
@@ -89,7 +93,7 @@ class AccSteps extends Component {
                                         </h3>
                                     </li>
                                 </ul>
-                                <p className="text-gray-500 text-left font-body leading-7 font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-gray-500 pt-2 text-left font-body leading-7 font-light lg:text-2x md:text-xl lg:pr-5 ">
                                 {t('ac-steps.paperwork-detail-1')}<br/> 
                                 {t('ac-steps.paperwork-detail-2')}<br/> 
                                 {t('ac-steps.paperwork-detail-3')}<br/> 
@@ -117,7 +121,7 @@ class AccSteps extends Component {
                                         <h3 className="text-gray-500 font-light font-body text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.check-in')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-left text-gray-500 font-body leading-7 font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-left pt-2 text-gray-500 font-body leading-7 font-light lg:text-2x md:text-xl lg:pr-5 ">
                                     {t('ac-steps.check-in-details-1')}<br/> 
                                     {t('ac-steps.check-in-details-2')}<br/> 
                                     {t('ac-steps.check-in-details-3')} 
@@ -149,10 +153,10 @@ class AccSteps extends Component {
                                         <h3 className="text-gray-500 font-body font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.pom')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-left text-gray-500 font-light font-body leading-7 lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-left pt-2 text-gray-500 font-light font-body leading-7 lg:text-2x md:text-xl lg:pr-5 ">
                                 {t('ac-steps.pom-detail-1')}
                                 {t('ac-steps.pom-detail-2')}
-                                <br/> 
+                                
                                 {t('ac-steps.pom-detail-3')}
                                 </p>
                             </div>
@@ -177,7 +181,7 @@ class AccSteps extends Component {
                                         <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.check-out')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-left text-gray-500  font-body leading-7 font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-left pt-2 text-gray-500  font-body leading-7 font-light lg:text-2x md:text-xl lg:pr-5 ">
                                     {t('ac-steps.check-out-detail-1')}<br/>
                                     {t('ac-steps.check-out-detail-2')}<br/> 
                                     {t('ac-steps.check-out-detail-3')}
@@ -200,7 +204,7 @@ class AccSteps extends Component {
                             <div className="step-inner">
                                 <ul>
                                     <li>
-                                    <h4 className="text-gray-500 font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.six')}</h4>
+                                    <h4 className="text-gray-500  font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.six')}</h4>
                                     </li>
                                     <li>
                                         <img src={Line} alt="Line"/>
@@ -213,7 +217,7 @@ class AccSteps extends Component {
                                         </h3>
                                     </li>
                                 </ul>
-                                <p className="text-right text-gray-500 pl-36 font-body leading-7 font-light lg:text-2xl md:text-xl lg:pr-5 ">
+                                <p className="text-right pt-2 text-gray-500 pl-36 font-body leading-7 font-light lg:text-2x md:text-xl lg:pr-5 ">
                                     {t('ac-steps.receive-vour-detail')}
                                 </p>
                             </div>
