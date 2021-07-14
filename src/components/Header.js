@@ -1,23 +1,38 @@
-import React, { Component } from 'react'
+import React, {useState} from 'react'
 // import {Container, Row, Col} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 import {Form} from 'react-bootstrap'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom' 
+import { Dropdown } from "react-bootstrap";
 
 
 
 // Images
 import logo from '../assets/images/logo.svg'
 import Enter from '../assets/images/enter.svg'
+import DownArrow from '../assets/images/arrow-down.png'
 
 
 //Translation
 import { withTranslation } from 'react-i18next';
 
 
+
 function Header({ t, i18n }) {
+    const [isShow , setShow] = useState(false)
+    const [isUK , setUK] = useState(false)
+    const langHandler = (lang , truthy) =>{
+        setUK(truthy);
+        i18n.changeLanguage(lang);
+
+    }
+
+
+
+
+    
     // const {t, i18n} = useTranslation('common');
 
         return (
@@ -79,11 +94,43 @@ function Header({ t, i18n }) {
                                 </div>
                             </Link>
                             <img className="mx-3" src={Enter} alt="enter"></img>
-                            {/* <ReactFlagsSelect/> */}
-                             <select className="bg-gray" onChange={(e) => i18n.changeLanguage(e.target.value)}>
-                                <option value="en">UK</option>
-                                <option value="ar">Ar</option>
-                            </select> 
+                           
+                              {/* <select className="bg-gray" onChange={(e) => i18n.changeLanguage(e.target.value)}>
+                                 
+                                <option className="uk flag-icon flag-icon-us fas fa-flag " style={{backgroundImage:`url(${logo})`}}  value="en"> UK
+                                </option>
+                                <option value="ar"> Ar</option>
+                            </select>  */} 
+
+                           
+                                <div className="lang-main relative">
+                                    <div className="lang-header flex"  onClick={()=>setShow(!isShow)}>
+                                        {/* <p>Lang</p> */}
+                                        {!isUK?<div onClick={()=>langHandler('en' , false)} className="selected-lang uk eng-lan cursor-pointer flex leading-9">
+                                                UK
+                                            </div>: <div onClick={()=>langHandler('ar' , true)} className="selected-lang ae eng-lan cursor-pointer flex leading-9">
+                                                AE
+                                            </div>
+}
+                                        <span className="pl-2 pt-2 mt-2"><img src={DownArrow} alt="img"/></span>
+                                    </div>
+                                    
+                                    {
+                                        isShow && <div className="lang-list absolute">
+                                        <div onClick={()=>setUK(false)} className="selected-lang uk eng-lan cursor-pointer flex leading-9">
+                                                UK
+                                            </div>
+                                            <div onClick={()=>setUK(true)} className="selected-lang ae eng-lan cursor-pointer flex leading-9">
+                                                AE
+                                            </div>
+                                        </div> 
+                                       
+                                    }
+                                     </div>
+                                    
+                              
+                                
+                                
                         </Form>
                         {/* Right Options */}
                     </Navbar.Collapse>
