@@ -72,7 +72,8 @@ body{
 }
 
 a:hover {
-    color: #72c92a;
+    color: #72c92a !important;
+    text-decoration: none;
 }
 
 .lh-70{
