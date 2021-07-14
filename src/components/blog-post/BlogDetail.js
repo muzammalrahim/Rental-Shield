@@ -14,7 +14,11 @@ export default class BlogDetail extends Component {
     render() {
         return (
             <div className="blog-detail">
-                    <div className=""blog-content px-40>
+
+                    <div className="blog-content p-10 lg:px-64">
+
+
+
 
                         {/* Tag */}
                         <p className="text-green-500 font-body text-left font-normal text-lg pt-5">

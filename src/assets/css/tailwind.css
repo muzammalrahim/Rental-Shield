@@ -68,11 +68,11 @@ body{
 }
 
 .form-inline .nav-link {
-    padding: 0.63rem 1.51rem !important;
+    padding: 0.50rem 1.51rem !important;
 }
 
 a:hover {
-    color: #72c92a;
+    color: #72c92a !important;
 }
 
 .lh-70{
@@ -323,9 +323,9 @@ select{
     /* top: -127px; */
 }
 /* TenantsSteps */
-.tenant-main img{
+/* .tenant-main img{
     margin: 0 auto;
-}
+} */
 /* TenantsSteps */
 
  /* Youtube Video */
@@ -437,7 +437,7 @@ select{
 }
 .talent-bg-img{
     z-index: 1;
-    top: 15%;
+    top: 25%;
 }
 
 .banner-content {
@@ -723,12 +723,28 @@ select{
 .blog-review input{
     padding: 0; 
     margin-left: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .blog-review input::placeholder{
     color: #000000;   
 }
 
+.blog-review .form-control:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+svg:hover {
+    fill: #c3bfbf;
+}
+
+
+.leading-6 {
+    line-height: 1.83rem !important;
+}
 /*------------------------------------Blog Post------------------------------------ */
 
 /* Investors */
@@ -866,4 +882,6 @@ select{
 
 /* ------------------Blog Page----------------------- */
 
-
+.tanents-center{
+    top: -260px;
+}

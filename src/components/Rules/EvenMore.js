@@ -79,7 +79,7 @@ export default class EvenMore extends Component {
                             </div>
                         </Col>
                         <Col lg={{span:6, order:2}} md={{span:12, order:1}} sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50 lg:order-2">
-                            <img className="relative left-12" src={Talent1} alt="step1"/>
+                            <img className="tanents-center absolute right-0" src={Talent1} alt="step1"/>
                         </Col>
                     </Row>
                     {/* step1 */}
