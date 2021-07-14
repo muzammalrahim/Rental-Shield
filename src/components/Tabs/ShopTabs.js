@@ -17,7 +17,7 @@ export default class ShopTabs extends Component {
     return (
       <div>
         <Row className="items-center mt-7">
-          <Col lg="6" md="12" sm="12" className="m-auto flex">
+          <Col lg="6" md="9" sm="9" className="m-auto flex">
 
             <div class="w-full rounded-full border-grey-light border mx-4">
                 <button
