@@ -14,11 +14,11 @@ const HomeAccordion = ({ title, content }) => {
           >
        
 
-            <div className="font-body text-2x text-justify">
-              <p style={{width:"97%"}} className="border-b-2 border-gray-500  float-left  text-gray-500 font-body sm:text-lg lg:text-xl xl:text-2x"> {title}</p>
-              <p style={{width:"3%"}} className="border-b-2 border-gray-500 cursor-pointer  text-2x float-right text-gray-500 font-body text-right">
+            <div className="font-body text-2x text-justify border-b-2 border-gray-500  flex mb-3">
+              <p className="  text-gray-500 font-body sm:text-lg lg:text-xl xl:text-2x"> {title}</p>
+              <p className="ml-auto cursor-pointer text-2x  text-gray-500 font-body text-right">
                 {" "}
-                {isActive ? "-" : "+"}
+                {isActive ? <b>{"-"}</b>  : "+"}
               </p>
             </div>
           </div>
@@ -35,3 +35,5 @@ const HomeAccordion = ({ title, content }) => {
 };
 
 export default HomeAccordion;
+
+
