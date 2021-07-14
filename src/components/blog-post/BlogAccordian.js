@@ -11,9 +11,9 @@ function BlogAccordian() {
     setIsShow(!isShow);
   };
   return (
-    <div className="blog-acc-main">
-      <Container>
-        <div className="bg-white shadow-lg pt-4 px-5">
+    <div className="blog-acc-main p-10 lg:px-64">
+      {/* <Container> */}
+        <div className="bg-white shadow-lg py-3 px-3">
           <button className="flex items-center title" onClick={collapseHandler}>
             {isShow ? <FaAngleUp /> : <FaAngleDown />}
             <h3 className="text-green-500 text-bold text-3xl text-left pl-4">
@@ -81,7 +81,7 @@ function BlogAccordian() {
             </div>
           ) : null}
         </div>
-      </Container>
+      {/* </Container> */}
     </div>
   );
 }

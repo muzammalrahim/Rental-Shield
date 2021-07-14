@@ -15,7 +15,7 @@ export default class MultiPosting extends Component {
                 <div className='posts-main bg-green-700 mb-20'>
                     <Container>
                         <PostSlider/>
-                        <div className="pl-4 pt-3 relative bottom-12 text-left">
+                        <div className="pl-4 pt-3 relative bottom-12 items-center">
                             <h3 className="text-gray-500 font-body font-bold text-3xl text-left pl-3 pb-3">
                                 Should I keep my A/C on if I am traveling for the summer?
                             </h3>
