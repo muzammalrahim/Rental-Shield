@@ -16,9 +16,7 @@ class HomeUpdate extends Component {
         const { t, i18n } = this.props;
         return (
             <div className="update-main mt-5">
-               
-                <Container>
-                    <Row  className=" main-home d-flex justify-content-center">
+                    <Row  className=" main-home d-flex justify-content-center px-40">
                         <Col md="12">
                         <div>
                             <h4 className="text-6xl text-gray-500 font-body font-normal lh-70">
@@ -35,7 +33,6 @@ class HomeUpdate extends Component {
                         </Col>
                         
                     </Row>
-                </Container>
             </div>
         )
     }
