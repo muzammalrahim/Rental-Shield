@@ -9,7 +9,7 @@ export default class ShopTopBar extends Component {
       <div className="">
         <div className="">
           <div className="md:container md:mx-auto px-0 mx-auto flex  flex-col md:flex-row items-center">
-            <div className="flex w-full md:w-2/5  pt-24">
+            <div className="flex w-full md:w-2/5 pt-24 sm:pl-8">
               <h1 className="float-left text-green-900 text-6xl mr-5">Shop</h1>
               <img src={Blogmainicon} />
             </div>

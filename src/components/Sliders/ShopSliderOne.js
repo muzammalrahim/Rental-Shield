@@ -93,19 +93,19 @@ class ShopSliderOne extends Component {
               Product category
             </p>
             <a href="" className="no-underline hover:no-underline">
-              <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={ShopSliderOneImg1} />
                 <div className="pl-2 text-left">
-                  <div className="pt-4 text-3xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
+                  <div className="pt-4 xl:text-3xl lg:text-xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
                     Name product
                   </div>
-                  <p className=" text-gray-500 pt-3 pb-2 text-lg md:text-5x leading-6 font-normal 2lx text-left font-body ">
+                  <p className=" text-gray-500 pt-4 pb-2 text-lg md:text-5x leading-6 font-normal 2lx text-left font-body ">
                     <sup>
                       {" "}
-                      <span className="text-lg">$</span>
+                      <span className="xl:text-lg lg:text-sm">$</span>
                     </sup>{" "}
                    
-                    <span className="text-5xl"> 55</span>
+                    <span className="xl:text-5xl lg:text-3xl"> 55</span>
                   </p>
                 </div>
                 {/* <div className="px-6 pt-4 pb-2"> */}
@@ -158,18 +158,19 @@ class ShopSliderOne extends Component {
               Product category
             </p>
             <a href="" className="no-underline hover:no-underline">
-              <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={ShopSliderOneImg2} />
                 <div className="pl-2 text-left">
-                <div className="pt-4 text-3xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
+                <div className="pt-4 xl:text-3xl lg:text-xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
                     Name product
                   </div>
-                  <p className=" text-gray-500 pt-3 pb-2 text-lg md:text-5x leading-6 font-normal 2lx text-left font-body ">
-                    <sup>
+                  <p className=" text-gray-500 pt-4 pb-2 text-lg md:text-5x leading-6 font-normal 2lx text-left font-body ">
+                  <sup>
                       {" "}
-                      <span className="text-lg">$</span>
+                      <span className="xl:text-lg lg:text-sm">$</span>
                     </sup>{" "}
-                    55
+                   
+                    <span className="xl:text-5xl lg:text-3xl"> 55</span>
                   </p>
                 </div>
                 {/* <div className="px-6 pt-4 pb-2"> */}
@@ -222,18 +223,19 @@ class ShopSliderOne extends Component {
               Product category
             </p>
             <a href="" className="no-underline hover:no-underline">
-              <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={ShopSliderOneImg3} />
                 <div className=" pl-2 text-left">
-                <div className="pt-4 text-3xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
+                <div className="pt-4 xl:text-3xl lg:text-xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
                     Name product
                   </div>
-                  <p className=" text-gray-500 pt-3 pb-2 text-lg md:text-5x leading-6 font-normal 2lx text-left font-body ">
-                    <sup>
+                  <p className=" text-gray-500 pt-4 pb-2 text-lg md:text-5x leading-6 font-normal 2lx text-left font-body ">
+                  <sup>
                       {" "}
-                      <span className="text-lg">$</span>
+                      <span className="xl:text-lg lg:text-sm">$</span>
                     </sup>{" "}
-                    55
+                   
+                    <span className="xl:text-5xl lg:text-3xl"> 55</span>
                   </p>
                 </div>
                 {/* <div className="px-6 pt-4 pb-2"> */}
@@ -286,18 +288,19 @@ class ShopSliderOne extends Component {
               Product category
             </p>
             <a href="" className="no-underline hover:no-underline">
-              <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
                 <img className="w-full rounded-2xl" src={ShopSliderOneImg1} />
                 <div className=" pl-2 text-left">
-                <div className="pt-4 text-3xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
+                <div className="pt-4 xl:text-3xl lg:text-xl font-normal text-gray-500 mb-2 mr-2 w-9/12 float-left">
                     Name product
                   </div>
-                  <p className=" text-gray-500 pt-3 pb-2 text-lg md:text-5x leading-6 font-normal 2lx text-left font-body ">
-                    <sup>
+                  <p className=" text-gray-500 pt-4 pb-2 text-lg md:text-5x leading-6 font-normal 2lx text-left font-body ">
+                  <sup>
                       {" "}
-                      <span className="text-lg">$</span>
+                      <span className="xl:text-lg lg:text-sm">$</span>
                     </sup>{" "}
-                    55
+                   
+                    <span className="xl:text-5xl lg:text-3xl"> 55</span>
                   </p>
                 </div>
                 {/* <div className="px-6 pt-4 pb-2"> */}
