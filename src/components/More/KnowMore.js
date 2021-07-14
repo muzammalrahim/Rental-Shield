@@ -17,22 +17,22 @@ export default class KnowMore extends Component {
                     <div className="know-inner bg-no-repeat bg-center pt-100 bg-local" style={{ backgroundImage:`url(${KnowBg})` }}>
                         <div className="row1">
                             <div className="relative">
-                            <div className="para1 text-left absolute w-1/4">
-                                <h1 className="text-gray-500 font-body font-bold text-3xl">I'm a Landlord</h1>
-                                <p className="text-gray-500  font-body text-lg leading-5 pb-3 font-normal">
-                                    Why does this benefit me? Can I still protect
-                                    my interests? How do I ensure fairness? 
-                                    What if I want to dispute?
-                                </p>
-                                <button className="bg-green-500 font-body rounded-full mt-2 px-4 py-1.5 text-xl text-white font-bold">
-                                    View more
-                                </button>
-                            </div>
+                                <div className="para1 text-left absolute w-1/4">
+                                    <h1 className="text-gray-500 font-body font-bold pb-2 text-3xl">I'm a Landlord</h1>
+                                    <p className="text-gray-500  font-body text-lg leading-5 pb-2 font-normal">
+                                        Why does this benefit me? Can I still protect
+                                        my interests? How do I ensure fairness? 
+                                        What if I want to dispute?
+                                    </p>
+                                    <button className="bg-green-500 font-body rounded-full mt-2 px-4 py-1.5 text-xl text-white font-bold">
+                                        View more
+                                    </button>
+                                </div>
                             </div>
                             <div className="relative">
                                 <div className="para2 text-left absolute">
-                                    <h1 className="text-gray-500  font-body font-bold text-3xl">I'm a propert manager</h1>
-                                    <p className="text-gray-500  font-body text-lg font-normla  pb-3 leading-5">
+                                    <h1 className="text-gray-500  font-body font-bold pb-2 text-3xl">I'm a propert manager</h1>
+                                    <p className="text-gray-500  font-body text-lg font-normla  pb-2 leading-5">
                                         Make this yours. Add images, text 
                                         <br/>
                                         and links, or connect  data from your
@@ -45,11 +45,14 @@ export default class KnowMore extends Component {
                                 </div>
                             </div>
                         </div>
-                        <Row>
-                            <Col md="6">
-                            <div className="para3 text-center">
-                                <h1 className="text-gray-500 font-body  font-bold text-3xl ">I'm an Agent</h1>
-                                <p className="text-gray-500  font-body text-lg font-normal  leading-6">
+
+
+
+                        <div className="row2">
+                        <div className="relative">
+                            <div className="para3 text-center absolute">
+                                <h1 className="text-gray-500 font-body  pb-2 font-bold text-3xl ">I'm an Agent</h1>
+                                <p className="text-gray-500  font-body text-lg font-normal pb-2 leading-5">
                                 Make this your. Add images, text and links, or
                                 connect data from your collection.
                                 </p>
@@ -57,11 +60,11 @@ export default class KnowMore extends Component {
                                     View more
                                 </button>
                             </div>
-                            </Col>
-                            <Col md="6">
-                            <div className="para4 text-center">
-                                <h1 className="text-gray-500 font-body  font-bold text-3xl">I'm a Tenant</h1>
-                                <p className="text-gray-500 font-body text-lg font-normalt leading-6">
+                            </div>
+                            <div className="relative">
+                            <div className="para4 text-center absolute">
+                                <h1 className="text-gray-500 font-body  pb-2 font-bold text-3xl">I'm a Tenant</h1>
+                                <p className="text-gray-500 font-body text-lg font-normalt pb-2 leading-5">
                                     Make this your. Add images, text and links, or
                                     <br/>
                                     connect data from your collection.
@@ -70,8 +73,8 @@ export default class KnowMore extends Component {
                                     View more
                                 </button>
                             </div>
-                            </Col>
-                        </Row>
+                            </div>
+                        </div>
                         </div>
 
 
