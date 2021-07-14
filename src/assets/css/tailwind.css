@@ -62,7 +62,7 @@ body{
 }
 
 /* Recent changes */
-
+.
 * {
     outline: none;
 }
@@ -87,7 +87,9 @@ a:hover {
 .lh-27{
     line-height: 1.69rem;
 }
-
+.sing-up{
+    left: 25rem;
+}
 
 /* Recent changes */
 
