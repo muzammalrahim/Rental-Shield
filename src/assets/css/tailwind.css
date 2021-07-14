@@ -289,22 +289,22 @@ select{
 }
 .para1{
     position: absolute;
-    left: 45%;
+    left: 50%;
+    top:25px;
 }
-.para2{
-    position: absolute;
-    top: -40px;
-    left: 32%;
+.para2 {
+    top: -10px;
+    left: 23%;
 }
 .para3 {
     position: absolute;
     left: 53%;
     top: 519px;
 }
-.para4{
+.para4 {
     position: absolute;
-    top: 627px;
-    left: 23%;
+    top: 451px;
+    left: 19%;
 }
 
 /* Know More */

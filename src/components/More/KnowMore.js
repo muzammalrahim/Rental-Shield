@@ -107,11 +107,14 @@ export default class KnowMore extends Component {
                                 </div>
                             </div>
                         </div>
-                        {/* <Row>
-                            <Col md="6">
+
+
+                        {/* Row2 */}
+                        <div className="row2">
+                        <div className="relative">
                             <div className="para3 text-center">
                                 <h1 className="text-gray-500 font-body  font-bold text-3xl ">I'm an Agent</h1>
-                                <p className="text-gray-500  font-body text-lg font-normal  leading-6">
+                                <p className="text-gray-500  font-body text-lg font-normal  leading-5">
                                 Make this your. Add images, text and links, or
                                 connect data from your collection.
                                 </p>
@@ -119,11 +122,11 @@ export default class KnowMore extends Component {
                                     View more
                                 </button>
                             </div>
-                            </Col>
-                            <Col md="6">
+                            </div>
+                            <div className="relative">
                             <div className="para4 text-center">
                                 <h1 className="text-gray-500 font-body  font-bold text-3xl">I'm a Tenant</h1>
-                                <p className="text-gray-500 font-body text-lg font-normalt leading-6">
+                                <p className="text-gray-500 font-body text-lg font-normalt leading-5">
                                     Make this your. Add images, text and links, or
                                     <br/>
                                     connect data from your collection.
@@ -132,8 +135,8 @@ export default class KnowMore extends Component {
                                     View more
                                 </button>
                             </div>
-                            </Col>
-                        </Row> */}
+                            </div>
+                        </div>
                         </div>
                     </Container>
                     
