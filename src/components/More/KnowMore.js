@@ -19,7 +19,7 @@ export default class KnowMore extends Component {
                             <div className="relative">
                                 <div className="para1 text-left absolute w-1/4">
                                     <h1 className="text-gray-500 font-body font-bold pb-2 text-3xl">I'm a Landlord</h1>
-                                    <p className="text-gray-500  font-body text-lg leading-5 pb-2 font-normal">
+                                    <p className="text-gray-500  font-body text-lg leading-5 pb-3 font-normal">
                                         Why does this benefit me? Can I still protect
                                         my interests? How do I ensure fairness? 
                                         What if I want to dispute?
@@ -32,7 +32,7 @@ export default class KnowMore extends Component {
                             <div className="relative">
                                 <div className="para2 text-left absolute">
                                     <h1 className="text-gray-500  font-body font-bold pb-2 text-3xl">I'm a propert manager</h1>
-                                    <p className="text-gray-500  font-body text-lg font-normla  pb-2 leading-5">
+                                    <p className="text-gray-500  font-body text-lg font-normla  pb-3 leading-5">
                                         Make this yours. Add images, text 
                                         <br/>
                                         and links, or connect  data from your
@@ -52,7 +52,7 @@ export default class KnowMore extends Component {
                         <div className="relative">
                             <div className="para3 text-center absolute">
                                 <h1 className="text-gray-500 font-body  pb-2 font-bold text-3xl ">I'm an Agent</h1>
-                                <p className="text-gray-500  font-body text-lg font-normal pb-2 leading-5">
+                                <p className="text-gray-500  font-body text-lg font-normal pb-3 leading-5 w-1/4">
                                 Make this your. Add images, text and links, or
                                 connect data from your collection.
                                 </p>
@@ -64,7 +64,7 @@ export default class KnowMore extends Component {
                             <div className="relative">
                             <div className="para4 text-center absolute">
                                 <h1 className="text-gray-500 font-body  pb-2 font-bold text-3xl">I'm a Tenant</h1>
-                                <p className="text-gray-500 font-body text-lg font-normalt pb-2 leading-5">
+                                <p className="text-gray-500 font-body text-lg font-normalt pb-3 leading-5">
                                     Make this your. Add images, text and links, or
                                     <br/>
                                     connect data from your collection.
