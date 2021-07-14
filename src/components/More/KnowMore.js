@@ -13,13 +13,13 @@ export default class KnowMore extends Component {
                     Which category do you fall under. Click below to know more.
                 </p>
                 <div className="">
-                    <Container>
-                    {/* <div className="know-inner bg-no-repeat bg-center pt-100 bg-local" style={{ backgroundImage:`url(${KnowBg})` }}>
-                        <Row>
-                            <Col md="6" className="relative">
-                            <div className="para1 text-left">
+                    
+                    <div className="know-inner bg-no-repeat bg-center pt-100 bg-local" style={{ backgroundImage:`url(${KnowBg})` }}>
+                        <div className="row1">
+                            <div className="relative">
+                            <div className="para1 text-left absolute w-1/4">
                                 <h1 className="text-gray-500 font-body font-bold text-3xl">I'm a Landlord</h1>
-                                <p className="text-gray-500  font-body text-lg leading-5 font-normal">
+                                <p className="text-gray-500  font-body text-lg leading-5 pb-3 font-normal">
                                     Why does this benefit me? Can I still protect
                                     my interests? How do I ensure fairness? 
                                     What if I want to dispute?
@@ -28,11 +28,11 @@ export default class KnowMore extends Component {
                                     View more
                                 </button>
                             </div>
-                            </Col>
-                            <Col md="6"  className="relative">
-                                <div className="para2 text-left">
+                            </div>
+                            <div className="relative">
+                                <div className="para2 text-left absolute">
                                     <h1 className="text-gray-500  font-body font-bold text-3xl">I'm a propert manager</h1>
-                                    <p className="text-gray-500  font-body text-lg font-normla  leading-6">
+                                    <p className="text-gray-500  font-body text-lg font-normla  pb-3 leading-5">
                                         Make this yours. Add images, text 
                                         <br/>
                                         and links, or connect  data from your
@@ -43,8 +43,8 @@ export default class KnowMore extends Component {
                                         View more
                                     </button>
                                 </div>
-                            </Col>
-                        </Row>
+                            </div>
+                        </div>
                         <Row>
                             <Col md="6">
                             <div className="para3 text-center">
@@ -72,11 +72,11 @@ export default class KnowMore extends Component {
                             </div>
                             </Col>
                         </Row>
-                        </div> */}
+                        </div>
 
 
 
-<div className="know-inner bg-no-repeat bg-center pt-100 bg-local" style={{ backgroundImage:`url(${KnowBg})` }}>
+{/* <div className="know-inner bg-no-repeat bg-center pt-100 bg-local" style={{ backgroundImage:`url(${KnowBg})` }}>
                         <div className="row1 grid">
                             <div className="relative">
                             <div className="para1 text-left">
@@ -110,7 +110,7 @@ export default class KnowMore extends Component {
 
 
                         {/* Row2 */}
-                        <div className="row2">
+                        {/* <div className="row2">
                         <div className="relative">
                             <div className="para3 text-center">
                                 <h1 className="text-gray-500 font-body  font-bold text-3xl ">I'm an Agent</h1>
@@ -137,8 +137,8 @@ export default class KnowMore extends Component {
                             </div>
                             </div>
                         </div>
-                        </div>
-                    </Container>
+                        </div>  */}
+                   
                     
                     
                 </div>
