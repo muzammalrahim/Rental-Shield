@@ -22,7 +22,7 @@ class FaqBanner extends Component {
 
             <div className=" mt-28 float-left w-2/4 ">
 
-              <p className="m-auto text-green-500 pt-3 pb-2 lg:text-6xl md:text-4xl  font-bold 2xl font-body ">
+              <p className="m-auto text-green-500 pt-3 pb-2 lg:text-6xl md:text-4xl 2xl font-body ">
               {t("banner.banner-Title-1")}
               </p>
               <p className="text-gray-500 pt-3 pb-2 text-lg md:text-2xl leading-6 font-bold 3xl font-body">
