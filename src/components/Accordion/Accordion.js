@@ -27,7 +27,7 @@ const Accordion = ({ title, content }) => {
 
             <div className="font-body text-2x text-justify ">
               <p className="w-9/12 float-left ml-4 text-gray-500 font-body sm:text-lg lg:text-xl xl:text-2x"> {title}</p>
-              <p className="text-2x float-right text-gray-500 font-body text-right cursor-pointer">
+              <p className="text-4xl font-thin float-right text-gray-500 font-body text-right cursor-pointer">
                 {" "}
                 {isActive ? "-" : "+"}
               </p>
