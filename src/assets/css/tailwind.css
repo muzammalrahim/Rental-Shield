@@ -585,9 +585,9 @@ select{
     right: 32px !important;
     top: 67px !important;
 }
-.h-slider  .slick-prev {
-    right: 32px !important;
-    top: 67px !important;
+.h-slider .slick-next, .h-slider .slick-prev {
+    right: -15px!important;
+    top: 67px!important;
 }
 /* Home Testimonial Slider */
 
