@@ -24,13 +24,13 @@ class HomeBanner extends Component {
               style={{ backgroundImage: `url(${RightBg})` }}
             >
               <div className="sm:inner xs:inner md:inner-pt-5 lg:inner">
-                {/* <h2 className="h-content lh-70 text-green-600 text-xl md:text-4xl lg:text-6xl font-normal font-body">
+                <h2 className="h-content lh-70 text-green-600 text-xl md:text-4xl lg:text-6xl font-normal font-body">
                   {t("banner.pay")}
                   <br />
                   {t("banner.rent")}
                   <br />
                   {t("banner.monthly")}
-                </h2> */}
+                </h2>
                 <p className="text-gray-500 pt-3 pb-3 text-lg lg:text-2lx leading-7">
                   {t("banner.banner-details-1")}
                   <br />
