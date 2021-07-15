@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { Row, Col } from "react-bootstrap";
+import Collapse from "react-bootstrap/Collapse";
+
+
 const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
@@ -9,7 +12,10 @@ const Accordion = ({ title, content }) => {
         <Col md="12" lg="12">
           <div
             className=" border-gray-500 shadow m-2 pt-4 pb-16 pl-4 pr-7 w-full"
-            onClick={() => setIsActive(!isActive)}
+            onClick={(e) => {
+              e.preventDefault();
+              setIsActive(!isActive);
+            }}
           >
             <div
               class=" float-left 
@@ -26,11 +32,17 @@ const Accordion = ({ title, content }) => {
               </p>
             </div>
           </div>
-          {isActive && (
+          {/* {isActive && (
             <div className="float-left w-full pr- border-gray-500 shadow m-2 font-body text-lg font-normal p-4 text-justify ">
               {content}
             </div>
-          )}
+          )} */}
+           <Collapse in={isActive} >
+           <div 
+           className="float-left w-full pr- border-gray-500 shadow m-2 font-body text-lg font-normal p-4 text-justify ">
+              {content}
+            </div>
+          </Collapse>
         </Col>
       </Row>
     </div>
