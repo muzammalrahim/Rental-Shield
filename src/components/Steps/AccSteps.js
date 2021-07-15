@@ -23,7 +23,7 @@ class AccSteps extends Component {
         const { t, i18n } = this.props;
         return (
             <div className="acc-step-main pt-5">
-                <div className="px-44">
+                <div className="lg:px-44 px-5">
                     {/* step1 */}
                     <Row className="step-row pt-5 relative pb-28">
                         

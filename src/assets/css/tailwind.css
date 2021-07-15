@@ -627,9 +627,9 @@ select{
    .xs\:home-banner-main .row{
        background: #F3FDEA;
    }
-   .img-area img {
-    width: 95%;
-    }
+   .sing-up {
+    left: 22rem;
+}
     .xs\:right-inner {
         background-image: none !important;
         

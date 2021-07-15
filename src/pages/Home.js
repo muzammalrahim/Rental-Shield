@@ -45,7 +45,7 @@ class Home extends Component {
 
                     {/* Signup Steps */}
                     <div className="mt-5">
-                        {/* <AccSteps/> */}
+                        <AccSteps/>
                     </div>
                     {/* Signup Steps */}
 
