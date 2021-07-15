@@ -16,6 +16,7 @@ class AssociationFooter extends Component {
                         <p className="text-gray-500 text-5x pb-5 pt-3">
                             {t('association-footer.association-f')} 
                         </p>
+                        <div className="px-24">
                             <ul className="m-0 grid grid-cols-5 pl-3 px-5 pb-4">
                                 <li>
                                     <img src={process.env.PUBLIC_URL + '/img/fc1.png'} alt="client"/>
@@ -33,6 +34,8 @@ class AssociationFooter extends Component {
                                     <img src={process.env.PUBLIC_URL + '/img/fc5.png'} alt="client"/>
                                 </li>
                             </ul>
+                        </div>
+                            
                         </div>
             </div>
         )

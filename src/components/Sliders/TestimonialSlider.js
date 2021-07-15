@@ -72,25 +72,25 @@ class TestimonialSlide extends Component {
     
     return (
       <div className="h-slider pt-5 mt-20" style={{width:'90%', margin:'0 auto'}}>
-        <h2 className="text-6xl font-normal text-gray-500 py-5 font-body pt-5 mt-5">What people say</h2>
+        <h2 className="text-6xl font-normal text-gray-500 py-5 font-body pt-5 mt-5 mb-5">What people say</h2>
 
         <Slider {...settings}>
 
           {/* Slide 1 */}
-          <div className=" text-center">
-              <h3 className="text-gray-500 font-bold text-xl text-left">
+          <div className=" text-center slides">
+              <h3 className="text-gray-500 font-bold font-body text-2xx text-left">
             “The best experience 
-                <br/>
+                
                 to rent a house!”.
               </h3>
             <ul className="flex items-center">
-              <li>
+              <li className="">
                 <div className='img-wrap'>
                   <img className="rounded-full" src={Avatar} alt="avatar"/>
                 </div>
               </li>
-              <li>
-                <p className="text-gray-500 font-body text-base text-left pl-3 pt-3">Mohamed Kahled
+              <li className="">
+                <p className="text-gray-500 font-body font-medium text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
                   <br/>
                     Marketing
                 </p>
@@ -101,10 +101,10 @@ class TestimonialSlide extends Component {
 
 
           {/* Slide 2 */}
-          <div className="px-5 text-center">
-              <h3 className="text-gray-500 font-bold text-xl text-left">
+          <div className="text-center slides">
+              <h3 className="text-gray-500 font-bold font-body text-2xx text-left">
             “The best experience 
-                <br/>
+                
                 to rent a house!”.
               </h3>
             <ul className="flex items-center">
@@ -114,7 +114,7 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray-500 font-body  text-base text-left pl-3 pt-3">Mohamed Kahled
+                <p className="text-gray-500 font-body  font-medium text-lg text-left pl-3 pt-3 leading-5 test-title">Mohamed Kahled
                   <br/>
                     Marketing
                 </p>
@@ -124,10 +124,10 @@ class TestimonialSlide extends Component {
           {/* Slide 2 */}
 
           {/* Slide 3 */}
-          <div className="px-5 text-center">
-              <h3 className="text-gray-500 font-bold text-xl text-left">
+          <div className=" text-center slides">
+              <h3 className="text-gray-500 font-bold font-body text-2xx text-left">
             “The best experience 
-                <br/>
+                
                 to rent a house!”.
               </h3>
             <ul className="flex items-center">
@@ -137,7 +137,7 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray-500 font-body  text-base text-left pl-3 pt-3">Mohamed Kahled
+                <p className="text-gray-500 font-body  font-medium text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
                   <br/>
                     Marketing
                 </p>
@@ -146,10 +146,10 @@ class TestimonialSlide extends Component {
           </div>
 
           {/* Slide 4 */}
-          <div className="px-5 text-center">
-              <h3 className="text-gray-500 font-bold text-xl text-left">
+          <div className="text-center slides">
+              <h3 className="text-gray-500 font-bold font-body text-2xx text-left">
             “The best experience 
-                <br/>
+                
                 to rent a house!”.
               </h3>
             <ul className="flex items-center">
@@ -159,7 +159,7 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray-500 font-body  text-base text-left pl-3 pt-3">Mohamed Kahled
+                <p className="text-gray-500 font-body font-medium text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
                   <br/>
                     Marketing
                 </p>

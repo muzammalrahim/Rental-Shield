@@ -545,25 +545,41 @@ select{
 /* ------------------ About Page ------------------ */
 
 /* Home Testimonial Slider */
-.shopSlider.slick-slide:not(.slick-current){
-    /* Make slides other than the current one translucent */
-    opacity: 1;
-}
-.shopSlider.slick-slide:not(.slick-current) img{
-    /* Make slides other than the current one translucent */
 
+.h-slider .slides{
+    width: 60% !important;
+}
+
+.h-slider .slick-slide:not(.slick-current) img{
+    /* Make slides other than the current one translucent */
+    width: 70%;
 }
 
 .h-slider .slick-slide:not(.slick-current) p{
     /* Make slides other than the current one translucent */
     padding-left: 0 !important;
+
+}
+.h-slider .slick-slide:not(.slick-current) p{
+    position: relative;
+    left: -10px;
+}
+
+.slick-current .slides {
+    width: 100% !important;
+    padding: 0 !important;
 }
 
 .h-slider  .slick-current h3{
     /* Make slides other than the current one translucent */
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     text-align: center !important;
   }
+  .h-slider  .slick-current p{
+    /* Make slides other than the current one translucent */
+    font-weight: 700;
+  }
+  
 .h-slider  .slick-current ul{
     /* Make slides other than the current one translucent */
     padding-left: 70px;
@@ -589,6 +605,7 @@ select{
     right: -15px!important;
     top: 67px!important;
 }
+
 /* Home Testimonial Slider */
 
 
@@ -853,7 +870,14 @@ svg:hover {
             , #d53369 0%, #daae51 100%);
 }*/
 
+.shopSlider.slick-slide:not(.slick-current){
+    /* Make slides other than the current one translucent */
+    opacity: 1;
+}
+.shopSlider.slick-slide:not(.slick-current) img{
+    /* Make slides other than the current one translucent */
 
+}
   .c-card img{
     transition: transform .3s ease-in-out; 
   }
