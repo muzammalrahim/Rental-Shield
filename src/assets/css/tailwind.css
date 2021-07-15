@@ -11,6 +11,56 @@ body{
     overflow-x: hidden;
 }    
 
+/* Language menu */
+.lang-menu {
+    margin-top: 25px;
+
+}
+
+.lang-menu ul{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    border: 1px solid #f8f8f8;
+    display: block;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    width: 120px;
+}
+.lang-menu ul li{
+    display: inline-block;
+    
+}
+.lang-menu ul li a{
+    /* width: 130px; */
+    display: block;
+    padding: 5px 10px;
+}
+/* .lang-menu:hover .ul{
+    display: block;
+} */
+.selected-lang {
+    width: 45px;
+    justify-content: space-between;
+}
+.uk::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 26px;
+    background-image: url(https://www.countryflags.io/gb/flat/64.png);
+    background-repeat: no-repeat;
+
+}
+
+.ae::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 26px;
+    background-image: url(https://www.countryflags.io/ae/flat/64.png);
+    background-repeat: no-repeat;
+}
+
 /* Recent changes */
 
 * {
@@ -99,7 +149,7 @@ select{
     background-position: right top;
     z-index: -1;
     position: relative;
-     background-size: 55%;
+     background-size: 60%;
 }
 .lg\:inner{
     padding-top: 36%;
@@ -622,11 +672,11 @@ select{
 }
 .shop-page-slider .slick-next {
        right: -50px !important;
-    top: 40% !important;
+    top: 50% !important;
 }
 .shop-page-slider .slick-prev {
     left: -50px !important;
-    top: 40% !important;
+    top: 50% !important;
 }
 .slick-next {
     right: 32px !important;
