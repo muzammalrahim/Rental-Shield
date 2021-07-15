@@ -8,9 +8,10 @@ import Talent2 from '../../assets/images/talent-2.png';
 import Talent3 from '../../assets/images/talent-3.png';
 import BGLeft from '../../assets/images/l-line.png'; 
 // import BGLeft from '../../assets/images/even-more-top.png';
-import BGTop from '../../assets/images/even-more-top.png';
-import BGBottom from '../../assets/images/even-more-b.png'
-
+//import BGTop from '../../assets/images/even-more-top.png';
+import BGTop from '../../assets/images/tanents-steps-bg.png';
+//import BGBottom from '../../assets/images/even-more-b.png'
+import BGBottom from '../../assets/images/tanents-steps-bg-bottom.jpg'
 
 export default class EvenMore extends Component {
     render() {
@@ -29,7 +30,8 @@ export default class EvenMore extends Component {
                         <img className="g-line relative top-48" src={BGLeft} alt="img"></img>
                     </Container>
                     <img className="w-full even-more-t-bg" src={BGTop} alt="img"/>
-                    <div className="tenant-inner bg-gray-600 pb-36">
+
+                    <div className="tenant-inner bg-gray-600 pb-6
                         
                         <Row className="no-gutters">
                             <Col sm="12">
@@ -184,7 +186,7 @@ export default class EvenMore extends Component {
                     </div>
                     
                     
-                    {/* <img className="w-full" src={BGBottom} alt="img"/> */}
+                    <img className="w-full" src={BGBottom} alt="img"/>
                     
 
 
