@@ -29,7 +29,7 @@ export default class EvenMore extends Component {
                         <img className="g-line relative top-48" src={BGLeft} alt="img"></img>
                     </Container>
                     <img className="w-full even-more-t-bg" src={BGTop} alt="img"/>
-                    <div className="tenant-inner bg-gray-600 pb-5">
+                    <div className="tenant-inner bg-gray-600 pb-36">
                         
                         <Row className="no-gutters">
                             <Col sm="12">
@@ -176,7 +176,7 @@ export default class EvenMore extends Component {
                             </div>
                         </Col>
                         <Col lg={{span:6, order:2}} md={{span:12, order:1}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
-                            <img className="relative left-12" src={Talent3} alt="step1"/>
+                            <img className="tanents-center absolute right-0" src={Talent3} alt="step1"/>
                         </Col>
                     </Row>
                     {/* step3 */}
