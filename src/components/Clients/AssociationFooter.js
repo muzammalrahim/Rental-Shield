@@ -13,7 +13,7 @@ class AssociationFooter extends Component {
             <div className="Association-f-main">
                         
                         <div className="clients bg-no-repeat bg-cover" style={{ backgroundImage:`url(${ClientBg})` }}>
-                        <p className="text-gray-500 text-5x pb-5 pt-3">
+                        <p className="text-gray-500 text-5x pb-5 pt-5">
                             {t('association-footer.association-f')} 
                         </p>
                         <div className="px-24">

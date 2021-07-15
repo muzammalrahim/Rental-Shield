@@ -1,5 +1,5 @@
 import React from "react";
-import "./career.css";
+import styles from "./career.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import CareerBanner from "../../components/Banners/CareerBanner";

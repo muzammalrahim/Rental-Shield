@@ -63,7 +63,7 @@ body{
 
 /* Recent changes */
 .
-* {
+*{
     outline: none;
 }
 
@@ -925,4 +925,9 @@ svg:hover {
 
 .tanents-center{
     top: -260px;
+}
+
+a:hover, a:hover li {
+    color: #72c92a!important;
+    text-decoration: none;
 }

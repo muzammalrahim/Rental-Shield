@@ -125,9 +125,9 @@ export default class FaqAccordion extends Component {
               md="12"
               sm="12"
               className="text-center lg:text-left md:faq-content"
-            >  
-              <div style={{marginTop:"-10rem"}} className="accordion">
-                {accordionData.map(({ title, content}) => (
+            >
+              <div style={{ marginTop: "-10rem" }} className="accordion">
+                {accordionData.map(({ title, content }) => (
                   <Accordion title={title} content={content} />
                 ))}
               </div>
