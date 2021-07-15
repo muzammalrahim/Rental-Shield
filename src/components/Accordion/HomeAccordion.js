@@ -27,7 +27,7 @@ const HomeAccordion = ({ title, content }) => {
               </p>
               <p className="ml-auto mb-0 text-4xl font-thin cursor-pointer   text-gray-500 font-body text-right">
                 {" "}
-                {isActive ? <b>{"-"}</b> : "+"}
+                {isActive ? "-" : "+"}
               </p>
             </div>
           </div>
