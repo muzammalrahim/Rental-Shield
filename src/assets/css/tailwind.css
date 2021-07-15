@@ -75,6 +75,12 @@ a:hover {
     color: #72c92a !important;
     text-decoration: none;
 }
+.lh-21{
+    line-height: 21px;
+}
+.lh-60{
+    line-height: 60px;
+}
 
 .lh-70{
     line-height: 4.38rem;
@@ -369,7 +375,7 @@ select{
 }
 .from-main img{
     position: absolute;
-    left: 40%;
+    left: 30%;
     top: 0;
     height: 100%;
 }
