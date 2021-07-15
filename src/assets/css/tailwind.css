@@ -579,7 +579,11 @@ select{
     /* Make slides other than the current one translucent */
     font-weight: 700;
   }
-  
+  .h-slider  .slick-current img{
+    /* Make slides other than the current one translucent */
+    width: 100%;
+}
+
 .h-slider  .slick-current ul{
     /* Make slides other than the current one translucent */
     padding-left: 70px;

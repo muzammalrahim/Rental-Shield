@@ -78,7 +78,7 @@ class TestimonialSlide extends Component {
 
           {/* Slide 1 */}
           <div className=" text-center slides">
-              <h3 className="text-gray-500 font-bold font-body text-2xx text-left">
+              <h3 className="text-gray-500 font-bold font-body text-2xx text-left pb-3">
             “The best experience 
                 
                 to rent a house!”.
@@ -102,7 +102,7 @@ class TestimonialSlide extends Component {
 
           {/* Slide 2 */}
           <div className="text-center slides">
-              <h3 className="text-gray-500 font-bold font-body text-2xx text-left">
+              <h3 className="text-gray-500 font-bold font-body text-2xx text-left pb-3">
             “The best experience 
                 
                 to rent a house!”.
@@ -125,7 +125,7 @@ class TestimonialSlide extends Component {
 
           {/* Slide 3 */}
           <div className=" text-center slides">
-              <h3 className="text-gray-500 font-bold font-body text-2xx text-left">
+              <h3 className="text-gray-500 font-bold font-body text-2xx text-left pb-3">
             “The best experience 
                 
                 to rent a house!”.
@@ -147,7 +147,7 @@ class TestimonialSlide extends Component {
 
           {/* Slide 4 */}
           <div className="text-center slides">
-              <h3 className="text-gray-500 font-bold font-body text-2xx text-left">
+              <h3 className="text-gray-500 font-bold font-body text-2xx text-left pb-3">
             “The best experience 
                 
                 to rent a house!”.
