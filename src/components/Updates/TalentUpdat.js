@@ -19,7 +19,7 @@ import YoutubeEmbed from '../YoutubeVideo/Video'
 export default class TalentUpdat extends Component {
     render() {
         return (
-            <div className="update-main mt-5">
+            <div className="update-main -mt-40">
                 <Container>
                     <Row  className=" d-flex justify-content-center">
                         <Col md="12">
@@ -37,14 +37,14 @@ export default class TalentUpdat extends Component {
 
                 <div className=" update-inner-bg bg-no-repeat bg-cover"  style={{backgroundImage:`url(${Bg})`}}>
                     
-                            <div className="update-bg px-5">
-                                <div class="talent-cards mb-32">
+                            <div className="update-bg lg:px-36 pt-96">
+                                <div class="talent-cards pb-52">
                                     {/* Box1 */}
                                     <div class="order-1 mt-5 pt-5">
-                                        <div className="relative top-20">
+                                        <div className="relative top-20 z-10">
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Doller} alt="img"/>
                                         </div>
-                                        <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
+                                        <div class="p-8 tenent-gradient">
                                             <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
                                                 Fees
                                             </h1>
@@ -55,7 +55,7 @@ export default class TalentUpdat extends Component {
                                                 <br/> 
                                                 your services?
                                             </p>
-                                            <a href="#" class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full">
+                                            <a href="#" class="text-xl px-10 py-2 text-gray-500 border bg-white font-bold font-body rounded-full">
                                                 View More
                                             </a>
                                         </div>
@@ -65,10 +65,10 @@ export default class TalentUpdat extends Component {
 
                                     {/* Box2 */}
                                     <div class="order-1 mt-5 pt-5">
-                                        <div className="relative top-20">
+                                        <div className="relative top-20 z-10">
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Idea} alt="img"/>
                                         </div>
-                                        <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
+                                        <div class="p-8 tenent-gradient">
                                             <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
                                                 Fees
                                             </h1>
@@ -79,7 +79,7 @@ export default class TalentUpdat extends Component {
                                                 <br/> 
                                                 your services?
                                             </p>
-                                            <a href="#" class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full">View More</a>
+                                            <a href="#" class="text-xl px-10 py-2 text-gray-500 border bg-white font-bold font-body rounded-full">View More</a>
                                         </div>
                                         
                                     </div>
@@ -87,10 +87,10 @@ export default class TalentUpdat extends Component {
 
                                     {/* Box3 */}
                                     <div class="order-1 mt-5 pt-5">
-                                        <div className="relative top-20">
+                                        <div className="relative top-20 z-10">
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Pencil} alt="img"/>
                                         </div>
-                                        <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
+                                        <div class="p-8 tenent-gradient">
                                             <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
                                                 Fees
                                             </h1>
@@ -101,7 +101,7 @@ export default class TalentUpdat extends Component {
                                                 <br/> 
                                                 your services?
                                             </p>
-                                            <a href="#" class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full">View More</a>
+                                            <a href="#" class="text-xl px-10 py-2 text-gray-500 border bg-white font-bold font-body rounded-full">View More</a>
                                         </div>
                                         
                                     </div>
@@ -110,10 +110,11 @@ export default class TalentUpdat extends Component {
 
                                     {/* Box4 */}
                                     <div class="order-1 mt-5 pt-5">
-                                        <div className="relative top-20">
+                                        <div className="relative top-20 z-10">
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Chat} alt="img"/>
                                         </div>
-                                        <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
+                                        <div class="p-8 tenent-gradient">
+                                            <div className="wrp">
                                             <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
                                                 Fees
                                             </h1>
@@ -124,7 +125,8 @@ export default class TalentUpdat extends Component {
                                                 <br/> 
                                                 your services?
                                             </p>
-                                            <a href="#" class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full">View More</a>
+                                            <a href="#" class="text-xl px-10 py-2 text-gray-500 border bg-white font-bold font-body rounded-full">View More</a>
+                                            </div>
                                         </div>
                                         
                                     </div>
