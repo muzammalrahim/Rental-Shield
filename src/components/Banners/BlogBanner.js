@@ -10,7 +10,7 @@ export default class BlogBanner extends Component {
             <div className="blog-banner">
                 <div className="blog-text-inner">
                 <div className="md:container md:mx-auto px-0 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-                        <div className="flex w-full md:w-2/5 flex-wrap pt-5">
+                        <div className="flex lg:w-2/5 md:w-2/5 flex-wrap md:pt-5 lg:px-12 sm:pt-0">
                             <h1 className="float-left text-green-900 text-6xl mr-5">Blog</h1>
                             <img src={Blogmainicon} />
                         </div>

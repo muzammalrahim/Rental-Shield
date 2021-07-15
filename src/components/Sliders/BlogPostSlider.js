@@ -10,7 +10,7 @@ import Slideimg from '../../assets/images/home.jpg';
 
 
 // Fontawsom
-import {FaHeart} from "react-icons/fa";
+import {FaHeart, FaArrowLeft} from "react-icons/fa";
 import {FaRegStar} from "react-icons/fa";
 //Translation
 import { withTranslation } from 'react-i18next';
@@ -38,183 +38,182 @@ function SamplePrevArrow(props) {
   );
 }
 
-class BlogPostSlider extends Component {
-  render() {
-    const { t, i18n } = this.props;
-    const settings = {
-      dots: false,
-      centerMode: false,
-      centerPadding: '60px',
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      nextArrow: <SlickArrowLeft />,
-      prevArrow: <SamplePrevArrow />,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            initialSlide: 3
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    };
 
-    
-    return (
-      <div className="px-5 pt-5 mt-20">
-    
-        <Slider {...settings}>
+  class BlogPostSlider extends Component {
+      render() {
+        const { t, i18n } = this.props;
+        const settings = {
+          dots: false,
+          centerMode: false,
+          centerPadding: '60px',
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          nextArrow: <SlickArrowLeft />,
+          prevArrow: <SamplePrevArrow />,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
 
-          {/* Slide 1 */}
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        };
+      return (
+        // <div className="md:container md:mx-auto my-10">
+          <div className="md:container md:mx-auto my-10 blog-page-slider">
+          <Slider {...settings}>
+          {/* <div className="p-3"><img className="w-full rounded-2xl" src={Slideimg} /></div>
+          <div className="p-3"><img className="w-full rounded-2xl" src={Slideimg} /></div>
+          <div className="p-3"><img className="w-full rounded-2xl" src={Slideimg} /></div>
+          <div className="p-3"><img className="w-full rounded-2xl" src={Slideimg} /></div>
+          <div className="p-3"><img className="w-full rounded-2xl" src={Slideimg} /></div> */}
+
           <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-8">
             <a href="" className="no-underline hover:no-underline">
-                <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
-                    <img className="w-full rounded-2xl" src={Slideimg} />
-                    <div className="pt-4 pl-2 text-left">
-                    <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
-                        <div className="text-xl font-bold text-gray-500 mb-2">Should I keep my A/C on if I am traveling for the summer?</div>
-                        <p className="text-normal text-gray-500">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
+                <img className="w-full rounded-2xl" src={Slideimg} />
+                <div className="pt-4 pl-2 text-left">
+                  <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
+                  <div className="text-xl font-bold text-gray-500 mb-2">Should I keep my A/C on if I am traveling for the summer?</div>
+                  <p className="text-normal text-gray-500">
                         It can be a tricky question here in the UAE and we hope to give you some insider tips on how to preserve...
-                        </p>
-                    </div>
-                    {/* <div className="px-6 pt-4 pb-2"> */}
-                        <div class="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <h1 class="text-lg">
-                                <a class="no-underline text-black" href="#">
-                                    <div class="flex items-center text-sm text-green-900"><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/></div>
-                                </a>
-                            </h1>
-                            {/* <p class="text-grey-darker text-sm"> */}
-                            <Link href="#" class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block rounded-full">
-                                    <span class="hidden">Like</span>
-                                    <FaHeart/>
-                            </Link>
-                            {/* </p> */}
-                        </div>
-                    </div>
-                {/* </div> */}
+                  </p>
+                </div>
+                <div class="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 class="text-lg">
+                    <a class="no-underline text-black" href="#">
+                      <div class="flex items-center text-sm text-green-900"><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/></div>
+                    </a>
+                  </h1>
+                <Link href="#" class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block rounded-full">
+                <span class="hidden">Like</span>
+                <FaHeart/>
+                </Link>
+                </div>
+              </div>
             </a>
-      </div>
-          {/* Slide 1 */}
+          </div>
+
+          <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-8">
+            <a href="" className="no-underline hover:no-underline">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
+                <img className="w-full rounded-2xl" src={Slideimg} />
+                <div className="pt-4 pl-2 text-left">
+                  <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
+                  <div className="text-xl font-bold text-gray-500 mb-2">Should I keep my A/C on if I am traveling for the summer?</div>
+                  <p className="text-normal text-gray-500">
+                        It can be a tricky question here in the UAE and we hope to give you some insider tips on how to preserve...
+                  </p>
+                </div>
+                <div class="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 class="text-lg">
+                    <a class="no-underline text-black" href="#">
+                      <div class="flex items-center text-sm text-green-900"><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/></div>
+                    </a>
+                  </h1>
+                <Link href="#" class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block rounded-full">
+                <span class="hidden">Like</span>
+                <FaHeart/>
+                </Link>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-8">
+            <a href="" className="no-underline hover:no-underline">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
+                <img className="w-full rounded-2xl" src={Slideimg} />
+                <div className="pt-4 pl-2 text-left">
+                  <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
+                  <div className="text-xl font-bold text-gray-500 mb-2">Should I keep my A/C on if I am traveling for the summer?</div>
+                  <p className="text-normal text-gray-500">
+                        It can be a tricky question here in the UAE and we hope to give you some insider tips on how to preserve...
+                  </p>
+                </div>
+                <div class="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 class="text-lg">
+                    <a class="no-underline text-black" href="#">
+                      <div class="flex items-center text-sm text-green-900"><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/></div>
+                    </a>
+                  </h1>
+                <Link href="#" class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block rounded-full">
+                <span class="hidden">Like</span>
+                <FaHeart/>
+                </Link>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-8">
+            <a href="" className="no-underline hover:no-underline">
+              <div class="bg-white rounded-2xl overflow-hidden custom-shadow pl-4 pr-4 pt-3 pb-3">
+                <img className="w-full rounded-2xl" src={Slideimg} />
+                <div className="pt-4 pl-2 text-left">
+                  <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
+                  <div className="text-xl font-bold text-gray-500 mb-2">Should I keep my A/C on if I am traveling for the summer?</div>
+                  <p className="text-normal text-gray-500">
+                        It can be a tricky question here in the UAE and we hope to give you some insider tips on how to preserve...
+                  </p>
+                </div>
+                <div class="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 class="text-lg">
+                    <a class="no-underline text-black" href="#">
+                      <div class="flex items-center text-sm text-green-900"><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/></div>
+                    </a>
+                  </h1>
+                <Link href="#" class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block rounded-full">
+                <span class="hidden">Like</span>
+                <FaHeart/>
+                </Link>
+                </div>
+              </div>
+            </a>
+          </div>
 
 
-          {/* Slide 2 */}
-            <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
-                <a href="" className="no-underline hover:no-underline">
-                    <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
-                        <img className="w-full rounded-2xl" src={Slideimg} />
-                        <div className="pt-4 pl-2 text-left">
-                        <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
-                            <div className="text-xl font-bold text-gray-500 mb-2">Mountain</div>
-                            <p className="text-normal text-gray-500">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>
-                        {/* <div className="px-6 pt-4 pb-2"> */}
-                            <div class="flex items-center justify-between leading-tight p-2 md:p-4">
-                                <h1 class="text-lg">
-                                    <a class="no-underline text-black" href="#">
-                                    <div class="flex items-center text-sm text-green-900"><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/></div>
-                                    </a>
-                                </h1>
-                                {/* <p class="text-grey-darker text-sm"> */}
-                                <Link href="#" class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block rounded-full">
-                                    <span class="hidden">Like</span>
-                                    <FaHeart/>
-                                </Link>
-                                {/* </p> */}
-                            </div>
-                        </div>
-                    {/* </div> */}
-                </a>
+          </Slider>
+          
         </div>
-          {/* Slide 2 */}
-
-          {/* Slide 3 */}
-            <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
-                <a href="" className="no-underline hover:no-underline">
-                    <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
-                        <img className="w-full rounded-2xl" src={Slideimg} />
-                        <div className="pt-4 pl-2 text-left">
-                        <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
-                            <div className="text-xl font-bold text-gray-500 mb-2">Mountain</div>
-                            <p className="text-normal text-gray-500">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>
-                        {/* <div className="px-6 pt-4 pb-2"> */}
-                            <div class="flex items-center justify-between leading-tight p-2 md:p-4">
-                                <h1 class="text-lg">
-                                    <a class="no-underline text-black" href="#">
-                                    <div class="flex items-center text-sm text-green-900"><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/></div>
-                                    </a>
-                                </h1>
-                                {/* <p class="text-grey-darker text-sm"> */}
-                                <Link href="#" class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block rounded-full">
-                                    <span class="hidden">Like</span>
-                                    <FaHeart/>
-                                </Link>
-                                {/* </p> */}
-                            </div>
-                        </div>
-                    {/* </div> */}
-                </a>
-        </div>
-          {/* Slide 3 */}
-
-          {/* Slide 4 */}
-            <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
-                <a href="" className="no-underline hover:no-underline">
-                    <div class="rounded-2xl overflow-hidden shadow-lg pl-4 pr-4 pt-3 pb-3">
-                        <img className="w-full rounded-2xl" src={Slideimg} />
-                        <div className="pt-4 pl-2 text-left">
-                        <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
-                            <div className="text-xl font-bold text-gray-500 mb-2">Mountain</div>
-                            <p className="text-normal text-gray-500">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                            </p>
-                        </div>
-                        {/* <div className="px-6 pt-4 pb-2"> */}
-                            <div class="flex items-center justify-between leading-tight p-2 md:p-4">
-                                <h1 class="text-lg">
-                                    <a class="no-underline text-black" href="#">
-                                    <div class="flex items-center text-sm text-green-900"><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/><FaRegStar style={{ fontSize: 24 }}/></div>
-                                    </a>
-                                </h1>
-                                {/* <p class="text-grey-darker text-sm"> */}
-                                <Link href="#" class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block rounded-full">
-                                    <span class="hidden">Like</span>
-                                    <FaHeart/>
-                                </Link>
-                                {/* </p> */}
-                            </div>
-                        </div>
-                    {/* </div> */}
-                </a>
-        </div>
-          {/* Slide 4 */}
-        </Slider>
-      </div>
-    );
+      );
+    }
   }
-}
 export default withTranslation(['common'])(BlogPostSlider);

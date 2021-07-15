@@ -10,7 +10,95 @@
 body{
     overflow-x: hidden;
 }    
-   
+
+/* Language menu */
+.lang-menu {
+    margin-top: 25px;
+
+}
+
+.lang-menu ul{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    border: 1px solid #f8f8f8;
+    display: block;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    width: 120px;
+}
+.lang-menu ul li{
+    display: inline-block;
+    
+}
+.lang-menu ul li a{
+    /* width: 130px; */
+    display: block;
+    padding: 5px 10px;
+}
+/* .lang-menu:hover .ul{
+    display: block;
+} */
+.selected-lang {
+    width: 45px;
+    justify-content: space-between;
+}
+.uk::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 26px;
+    background-image: url(https://www.countryflags.io/gb/flat/64.png);
+    background-repeat: no-repeat;
+
+}
+
+.ae::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 26px;
+    background-image: url(https://www.countryflags.io/ae/flat/64.png);
+    background-repeat: no-repeat;
+}
+
+/* Recent changes */
+.
+* {
+    outline: none;
+}
+
+.form-inline .nav-link {
+    padding: 0.50rem 1.51rem !important;
+}
+
+a:hover {
+    color: #72c92a !important;
+    text-decoration: none;
+}
+.lh-21{
+    line-height: 21px;
+}
+.lh-60{
+    line-height: 60px;
+}
+
+.lh-70{
+    line-height: 4.38rem;
+}
+
+.lh-50{
+    line-height: 3.13rem;
+}
+
+.lh-27{
+    line-height: 1.69rem;
+}
+.sing-up{
+    left: 25.5rem;
+}
+
+/* Recent changes */
+
 /* Headeer */
 .logins{
     color: #606060 !important;
@@ -70,7 +158,7 @@ select{
     background-position: right top;
     z-index: -1;
     position: relative;
-     background-size: 55%;
+     background-size: 60%;
 }
 .lg\:inner{
     padding-top: 36%;
@@ -110,10 +198,12 @@ select{
     height: 75px;
 }
 .step-row h3{
-    line-height: 50px;
+    line-height: 3.3rem;
+    letter-spacing: -0.05em;
 }
 .step-inner ul li{
     display: inline-block;
+    margin: 0 10px;
 }
 .step-inner ul{
     display: inline-flex;
@@ -200,24 +290,25 @@ select{
 .know-inner{
     padding-bottom: 43em;
 }
+.row1{
+    grid-template-columns: 60% 40%;
+}
 .para1{
     position: absolute;
-    left: 53%;
-}
-.para2{
-    position: absolute;
-    top: -40px;
     left: 32%;
+    top:25px;
+}
+.para2 {
+    top: -31px;
+    left: 62%;
 }
 .para3 {
-    position: absolute;
-    left: 53%;
+    left: 27%;
     top: 519px;
 }
-.para4{
-    position: absolute;
-    top: 627px;
-    left: 23%;
+.para4 {
+    top: 610px;
+    left: 59%;
 }
 
 /* Know More */
@@ -242,9 +333,9 @@ select{
     /* top: -127px; */
 }
 /* TenantsSteps */
-.tenant-main img{
+/* .tenant-main img{
     margin: 0 auto;
-}
+} */
 /* TenantsSteps */
 
  /* Youtube Video */
@@ -284,7 +375,7 @@ select{
 }
 .from-main img{
     position: absolute;
-    left: 40%;
+    left: 30%;
     top: 0;
     height: 100%;
 }
@@ -356,7 +447,7 @@ select{
 }
 .talent-bg-img{
     z-index: 1;
-    top: 15%;
+    top: 25%;
 }
 
 .banner-content {
@@ -453,6 +544,52 @@ select{
 }
 /* ------------------ About Page ------------------ */
 
+/* Home Testimonial Slider */
+.shopSlider.slick-slide:not(.slick-current){
+    /* Make slides other than the current one translucent */
+    opacity: 1;
+}
+.shopSlider.slick-slide:not(.slick-current) img{
+    /* Make slides other than the current one translucent */
+
+}
+
+.h-slider .slick-slide:not(.slick-current) p{
+    /* Make slides other than the current one translucent */
+    padding-left: 0 !important;
+}
+
+.h-slider  .slick-current h3{
+    /* Make slides other than the current one translucent */
+    font-size: 2.5rem;
+    text-align: center !important;
+  }
+.h-slider  .slick-current ul{
+    /* Make slides other than the current one translucent */
+    padding-left: 70px;
+  }
+  .h-slider .slick-prev:before {
+    content: url(../images/prev-arrow.png);
+    font-size: 30px;
+  }
+  
+.h-slider  .slick-next:before {
+    content: url(../images/next-arrow.png);
+    font-size: 30px;
+  }
+.h-slider  .slick-track {
+    margin:auto;
+}
+
+.h-slider .slick-next {
+    right: 32px !important;
+    top: 67px !important;
+}
+.h-slider  .slick-prev {
+    right: 32px !important;
+    top: 67px !important;
+}
+/* Home Testimonial Slider */
 
 
 @media (min-width: 320px) and (max-width: 639px) {
@@ -491,6 +628,12 @@ select{
     
 }
 @media (min-width: 640px) and (max-width: 991px) {
+    .mob-line{
+        display: none;
+    }
+    /* .h-content{
+        line-height: 40px;
+    } */
     .sm\:home-banner-main{
         display: block;
     }
@@ -533,6 +676,9 @@ select{
 }
 
 @media (max-width: 1280px) {
+    .h-content{
+        line-height: 40px;
+    }
     .lg\:left-side{
         height: 100%;
     }
@@ -545,47 +691,17 @@ select{
     }
 }
 
-.slick-slide:not(.slick-current){
-    /* Make slides other than the current one translucent */
-    opacity: 0.4;
-}
-.slick-slide:not(.slick-current) img{
-    /* Make slides other than the current one translucent */
-    width: 80%;
-}
-.slick-slide:not(.slick-current) p{
-    /* Make slides other than the current one translucent */
-    padding-left: 0 !important;
-}
 
-  .slick-current h3{
-    /* Make slides other than the current one translucent */
-    font-size: 2.5rem;
-    text-align: center !important;
-  }
-  .slick-current ul{
-    /* Make slides other than the current one translucent */
-    padding-left: 70px;
-  }
-  .slick-prev:before {
-    content: url(../images/prev-arrow.png);
-    font-size: 30px;
-  }
-  
-  .slick-next:before {
-    content: url(../images/next-arrow.png);
-    font-size: 30px;
-  }
-  .slick-track {
-    margin:auto;
+
+
+
+.shop-page-slider .slick-next {
+    right: -50px !important;
+ top: 50% !important;
 }
-.slick-next {
-    right: 32px !important;
-    top: 67px !important;
-}
-.slick-prev {
-    right: 32px !important;
-    top: 67px !important;
+.shop-page-slider .slick-prev {
+ left: -50px !important;
+ top: 50% !important;
 }
 
 .from-main input:focus{
@@ -624,13 +740,59 @@ select{
 .blog-review input{
     padding: 0; 
     margin-left: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .blog-review input::placeholder{
     color: #000000;   
 }
 
+.blog-review .form-control:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+svg:hover {
+    fill: #c3bfbf;
+}
+
+
+.leading-6 {
+    line-height: 1.83rem !important;
+}
+/*------------------------------------Blog Post------------------------------------ */
+
+/* Investors */
+.banner-invest{
+    
+    background-position: right top;
+    z-index: -1;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 42% auto;
+}
+.inner-position .inner-content{
+    left: 28rem;
+}
+.inner-position-r .inner-content{
+    left: 32rem;
+}
+  
 /* ------------------Blog Page----------------------- */
+
+.blog-page-slider .slick-prev {
+        top: 50% !important;
+    
+}
+
+.blog-page-slider .slick-next {
+    right: 0px !important;
+    top: 50% !important;
+
+}
 .blog-main .slick-slide:not(.slick-current){
     /* Make slides other than the current one translucent */
     opacity: 1;
@@ -679,6 +841,11 @@ select{
     top: 35%;
     width: 100%;
 }
+.shop-text-inner{
+    position: absolute;
+    top: 29%;
+    width: 100%;
+}
 
 /*.gradient {
     background: linear-gradient(
@@ -694,10 +861,44 @@ select{
     transform: scale(1.05) 
   }
 
-  
-  
+.last-section{
+    background: url(../images/wave-blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
 
+.rental-shield-banner{
+    background-size: 50%;
+}
+
+@media (max-width: 1100px) {
+    .blog-banner svg {
+        height: 80vh;
+    }
+}
+
+.custom-shadow{
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+-webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+}
+
+
+@media (max-width: 767px) {
+    .blog-page-slider .slick-next {
+        right: 30px !important;
+        top: 45% !important;
+    }
+    .blog-page-slider .slick-prev {
+        top: 45% !important;
+        left: 18px;
+        z-index: 999;
+    }
+
+}
 
 /* ------------------Blog Page----------------------- */
 
-
+.tanents-center{
+    top: -260px;
+}

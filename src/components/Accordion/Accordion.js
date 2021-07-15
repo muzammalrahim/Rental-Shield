@@ -8,7 +8,7 @@ const Accordion = ({ title, content }) => {
       <Row>
         <Col md="12" lg="12">
           <div
-            className=" border-gray-500 shadow m-2 p-4"
+            className=" border-gray-500 shadow m-2 pt-4 pb-16 pl-4 pr-7 w-full"
             onClick={() => setIsActive(!isActive)}
           >
             <div
@@ -18,14 +18,16 @@ const Accordion = ({ title, content }) => {
                    border-green-200  "
             ></div>
 
-            <span className="font-body text-2x "> {title}</span>
-            <span className="font-body text-2x float-right  pr-4">
-              {" "}
-              {isActive ? "-" : "+"}
-            </span>
+            <div className="font-body text-2x text-justify">
+              <p className="w-9/12 float-left ml-4 text-gray-500 font-body sm:text-lg lg:text-xl xl:text-2x"> {title}</p>
+              <p className="text-2x float-right text-gray-500 font-body text-right cursor-pointer">
+                {" "}
+                {isActive ? "-" : "+"}
+              </p>
+            </div>
           </div>
           {isActive && (
-            <div className=" border-gray-500 shadow m-2 font-body text-2x p-4 ">
+            <div className="float-left w-full pr- border-gray-500 shadow m-2 font-body text-lg font-normal p-4 text-justify ">
               {content}
             </div>
           )}

@@ -12,12 +12,18 @@ module.exports = {
       '1/2': '50%',
       '3/4': '75%',
       'full': '100%',
+      '550':'550px',
      },
     fontSize:{
       'sm': '0.875rem', //14px
       'base': '1rem', // 16px
+
+      'lg':'1.13rem', // 18px
+      'xl':'1.44rem',  // 20px
+
       'lg':'1.125rem', // 18px
       'xl':'1.25rem',  // 20px
+
       '2x': '1.4375rem', //23px
       '2xl':'1.5rem', // 24px
       '2lx': '1.5625rem', // 25px
@@ -50,6 +56,7 @@ module.exports = {
 
       },
       gray:{
+        200:'#E5E5E5',
         400: '#8C8B8B',
         500: '#606060',
         600: '#F9F9F9',
@@ -64,7 +71,14 @@ module.exports = {
 
       }
     },
-   
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+       '50': '50%',
+       '16': '4rem',
+     },
+
     fontFamily: {
       'body': ['Roboto']
     },
@@ -78,6 +92,8 @@ module.exports = {
     'md': '768px',
     // => @media (min-width: 768px) { ... }
 
+    //'mid': {'min': '601px', 'max': '1023px'},
+
     'lg': '1024px',
     // => @media (min-width: 1024px) { ... }
 
@@ -86,9 +102,11 @@ module.exports = {
 
     '2xl': '1536px',
     // => @media (min-width: 1536px) { ... }
-  },
+    
+    },
   variants: {
     extend: {},
   },
   plugins: [],
 }
+

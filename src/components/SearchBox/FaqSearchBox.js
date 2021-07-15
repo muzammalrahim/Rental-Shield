@@ -4,8 +4,8 @@ export default class FaqSearchBox extends Component {
   render() {
     return (
       <div className="bg-gray-200">
-        <div className="flex">
-          <div class="relative m-auto">
+        <div className="flex px-5 bg-white">
+          <div class="relative m-auto w-full">
             <div className="absolute top-4 left-6">
               {" "}
               <svg
@@ -25,7 +25,7 @@ export default class FaqSearchBox extends Component {
             </div>
             <input
               type="text"
-              className="h-14 w-96 pl-16 pr-5 z-0 focus:outline-none border-2 border-gray-500 rounded-full"
+              className="h-14 w-full pl-16 pr-5 z-0 focus:outline-none border-2 border-gray-500 rounded-full"
               placeholder="Search..."
             />
           </div>

@@ -4,7 +4,7 @@ export default class SearchBar extends Component {
     render() {
         return (
             <div>
-                 <div class="flex rounded-full border-gray-500 border-2 mx-4">
+                 <div class="flex rounded-full border-gray-500 border-2 mx-0">
                     <button>
                     <span class="w-auto flex justify-end items-center text-grey-500  py-2 px-4">
                 

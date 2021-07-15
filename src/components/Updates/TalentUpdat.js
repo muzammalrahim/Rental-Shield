@@ -18,7 +18,7 @@ export default class TalentUpdat extends Component {
     return (
       <div className="update-main mt-5">
         <Container>
-          <Row className=" main d-flex justify-content-center">
+          <Row className=" d-flex justify-content-center">
             <Col md="12">
               <div>
                 <h4 className="text-5xl text-gray-500 font-body font-normal">
