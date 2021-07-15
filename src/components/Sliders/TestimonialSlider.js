@@ -37,6 +37,8 @@ class TestimonialSlide extends Component {
       centerMode: true,
       // centerPadding: '60px',
       infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
       slidesToShow: 3,
       slidesToScroll: 1,
       nextArrow: <SlickArrowLeft />,

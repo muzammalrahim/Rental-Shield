@@ -439,7 +439,7 @@ select{
 /* ------------------Talent Page----------------------- */
 .talent-bg{
     background-position: right;
-    padding-bottom: 99px;
+    padding-bottom: 155px;
 }
 .tanent-banner-main{
     background-position: right;
@@ -451,7 +451,9 @@ select{
     z-index: 1;
     top: 25%;
 }
-
+.update-bg{
+    padding-top: 18rem !important;
+}
 .banner-content {
     position: relative;
     top: 155px;

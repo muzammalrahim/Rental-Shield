@@ -19,7 +19,7 @@ export default class LandLordBanner extends Component {
                        <Container>
                            <Row>
                                <Col>
-                                    <p className="text-gray-500 text-6xl font-normal text-left">
+                                    <p className="text-gray-500 text-6xl font-normal text-left lh-70">
                                         Why is this so 
                                         <br/>
                                         important as a 

@@ -30,11 +30,11 @@ export default class FaqCard extends Component {
           <SearchBox />
         </div>
         </div>
-      
-         <div className="bg-green-700 mt- mt-64 p-8">
-         <div>
+        <div>
             <img style={{zIndex:"-9"}} className="w-full absolute bottom-6" src={categoryTop} alt=""/>
             </div>
+         <div className="bg-green-700 mt- mt-64 p-8">
+         
          </div>
            
   

@@ -20,23 +20,23 @@ class Footer extends Component {
             <Col xl="6" md="12" xs="12">
               <div className="social-links">
                 <ul className="list-none md:text-center lg:text-right">
-                  <Link to="#" className="hover:no-underline">  
+                  <a href="https://twitter.com/?lang=en" target="_blank" className="hover:no-underline">  
                     <li className="pr-3">
                       <img
                         src={process.env.PUBLIC_URL + "/img/twit.svg"}
                         alt="twitter"
                       />
                     </li>
-                  </Link>
+                  </a>
 
-                  <Link to="#" className="hover:no-underline">  
+                  <a to="#" className="hover:no-underline">  
                     <li className="pr-3">
                       <img
                         src={process.env.PUBLIC_URL + "/img/youtube.svg"}
                         alt="youtube"
                       />
                     </li>
-                  </Link>
+                  </a>
 
                   <Link to="#" className="hover:no-underline">  
                     <li className="pr-3">

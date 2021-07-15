@@ -106,37 +106,7 @@ export default class TalentUpdat extends Component {
                                     {/* Box3 */}
 
 
-              {/* Box2 */}
-              <div class="order-1 mt-5 pt-5">
-                <div className="relative top-20">
-                  <img
-                    className="bg-white p-5 rounded-full t-icon"
-                    width=""
-                    src={Idea}
-                    alt="img"
-                  />
-                </div>
-                <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
-                  <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
-                    Fees
-                  </h1>
-                  <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
-                    How much will it
-                    <br />
-                    cost me to use
-                    <br />
-                    your services?
-                  </p>
-                  <a
-                    href="#"
-                    class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full"
-                  >
-                    View More
-                  </a>
-                </div>
-              </div>
-              {/* Box2 */}
-
+            
 
                                     {/* Box4 */}
                                     <div class="order-1 mt-5 pt-5">
@@ -162,36 +132,7 @@ export default class TalentUpdat extends Component {
                                     </div>
                                     {/* Box4 */}
 
-              {/* Box4 */}
-              <div class="order-1 mt-5 pt-5">
-                <div className="relative top-20">
-                  <img
-                    className="bg-white p-5 rounded-full t-icon"
-                    width=""
-                    src={Chat}
-                    alt="img"
-                  />
-                </div>
-                <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
-                  <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
-                    Fees
-                  </h1>
-                  <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
-                    How much will it
-                    <br />
-                    cost me to use
-                    <br />
-                    your services?
-                  </p>
-                  <a
-                    href="#"
-                    class="text-xl px-14 py-2.5 text-gray-500 border bg-white font-bold font-body rounded-full"
-                  >
-                    View More
-                  </a>
-                </div>
-              </div>
-              {/* Box4 */}
+              
             </div>
           </div>
         </div>
