@@ -293,8 +293,8 @@ select{
     top:25px;
 }
 .para2 {
-    top: -10px;
-    left: 67%;
+    top: -31px;
+    left: 62%;
 }
 .para3 {
     left: 27%;
@@ -538,6 +538,52 @@ select{
 }
 /* ------------------ About Page ------------------ */
 
+/* Home Testimonial Slider */
+.shopSlider.slick-slide:not(.slick-current){
+    /* Make slides other than the current one translucent */
+    opacity: 1;
+}
+.shopSlider.slick-slide:not(.slick-current) img{
+    /* Make slides other than the current one translucent */
+
+}
+
+.h-slider .slick-slide:not(.slick-current) p{
+    /* Make slides other than the current one translucent */
+    padding-left: 0 !important;
+}
+
+.h-slider  .slick-current h3{
+    /* Make slides other than the current one translucent */
+    font-size: 2.5rem;
+    text-align: center !important;
+  }
+.h-slider  .slick-current ul{
+    /* Make slides other than the current one translucent */
+    padding-left: 70px;
+  }
+  .h-slider .slick-prev:before {
+    content: url(../images/prev-arrow.png);
+    font-size: 30px;
+  }
+  
+.h-slider  .slick-next:before {
+    content: url(../images/next-arrow.png);
+    font-size: 30px;
+  }
+.h-slider  .slick-track {
+    margin:auto;
+}
+
+.h-slider .slick-next {
+    right: 32px !important;
+    top: 67px !important;
+}
+.h-slider  .slick-prev {
+    right: 32px !important;
+    top: 67px !important;
+}
+/* Home Testimonial Slider */
 
 
 @media (min-width: 320px) and (max-width: 639px) {
@@ -639,56 +685,17 @@ select{
     }
 }
 
-.shopSlider.slick-slide:not(.slick-current){
-    /* Make slides other than the current one translucent */
-    opacity: 1;
-}
-.shopSlider.slick-slide:not(.slick-current) img{
-    /* Make slides other than the current one translucent */
 
-}
 
-.slick-slide:not(.slick-current) p{
-    /* Make slides other than the current one translucent */
-    padding-left: 0 !important;
-}
 
-  .slick-current h3{
-    /* Make slides other than the current one translucent */
-    font-size: 2.5rem;
-    text-align: center !important;
-  }
-  .slick-current ul{
-    /* Make slides other than the current one translucent */
-    padding-left: 70px;
-  }
-  .slick-prev:before {
-    content: url(../images/prev-arrow.png);
-    font-size: 30px;
-  }
-  
-  .slick-next:before {
-    content: url(../images/next-arrow.png);
-    font-size: 30px;
-  }
-  .slick-track {
-    margin:auto;
-}
+
 .shop-page-slider .slick-next {
-       right: -50px !important;
-    top: 50% !important;
+    right: -50px !important;
+ top: 50% !important;
 }
 .shop-page-slider .slick-prev {
-    left: -50px !important;
-    top: 50% !important;
-}
-.slick-next {
-    right: 32px !important;
-    top: 67px !important;
-}
-.slick-prev {
-    right: 32px !important;
-    top: 67px !important;
+ left: -50px !important;
+ top: 50% !important;
 }
 
 .from-main input:focus{

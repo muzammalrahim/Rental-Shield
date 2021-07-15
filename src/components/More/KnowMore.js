@@ -9,7 +9,7 @@ export default class KnowMore extends Component {
                 <h1 className="text-gray-500 font-body text-6xl font-normal pb-3 m-0">
                     I Still want to know more...
                 </h1>
-                <p className="text-gray-500  font-body text-2x font-normal pb-5 mb-5">
+                <p className="text-gray-500  font-body text-2x font-normal pb-5 mb-20">
                     Which category do you fall under. Click below to know more.
                 </p>
                 <div className="">

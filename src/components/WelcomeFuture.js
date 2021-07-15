@@ -18,7 +18,7 @@ import { withTranslation } from 'react-i18next';
                             <img className="text-right" src={FutureImg} alt="future-img"></img>
                         </Col>
                         <Col sm="12" md="12" lg="6" className="text-area lg:text-left md:text-center pt-5 mt-6 p-0">
-                            <h2 className="text-green-500 text-xl font-body font-normal mb-4 md:text-5xl lg:text-6xl lh-70">
+                            <h2 className="text-green-600 text-xl font-body font-normal mb-4 md:text-5xl lg:text-6xl lh-70">
                                 {t('tanetb.welcome')}
                                 <span className="font-black">
                                     {t('tanetb.to-future')}
@@ -30,7 +30,7 @@ import { withTranslation } from 'react-i18next';
                             {t('tanetb.tanetb-detail-2')}
                             <br/>
                             {t('tanetb.tanetb-detail-3')}</p>
-                            <button className="bg-green-500 rounded-full font-body px-4 py-1.5 text-xl text-white font-bold">
+                            <button className="bg-green-600 rounded-full font-body px-4 py-1.5 text-xl text-white font-normal">
                                 {t('tanetb.tanetb-detail-4')}
                             </button>
                         </Col>

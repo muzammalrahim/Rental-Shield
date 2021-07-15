@@ -24,7 +24,7 @@ class HomeUpdate extends Component {
                             </h4>
                         </div>
                         <br/>
-                        <p className=" text-gray-500 font-normal  font-body text-2x leading-7 pb-4">
+                        <p className=" text-gray-500 font-normal  font-body text-2x leading-7 pb-5">
                             {t('homeupdate.detail-1')}
                             <br/>
                             {t('homeupdate.detail-2')}
