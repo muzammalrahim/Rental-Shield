@@ -72,7 +72,7 @@ class TestimonialSlide extends Component {
     
     return (
       <div className="h-slider pt-5 mt-20" style={{width:'90%', margin:'0 auto'}}>
-        <h2 className="text-6xl font-normal text-gray-500 py-5 font-body pt-5 mt-5 mb-5">What people say</h2>
+        <h2 className="text-6xl font-normal text-gray-500 py-5 font-body pt-5 mt-32 mb-5">What people say</h2>
 
         <Slider {...settings}>
 
@@ -90,9 +90,9 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li className="">
-                <p className="text-gray-500 font-body font-medium text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
+                <p className="text-gray-500 font-body font-normal text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
                   <br/>
-                    Marketing
+                   <span>Marketing</span> 
                 </p>
               </li>  
             </ul>  
@@ -114,9 +114,9 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray-500 font-body  font-medium text-lg text-left pl-3 pt-3 leading-5 test-title">Mohamed Kahled
+                <p className="text-gray-500 font-body  font-normal text-lg text-left pl-3 pt-3 leading-5 test-title">Mohamed Kahled
                   <br/>
-                    Marketing
+                  <span>Marketing</span> 
                 </p>
               </li>  
             </ul>  
@@ -137,9 +137,9 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray-500 font-body  font-medium text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
+                <p className="text-gray-500 font-body  font-normal text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
                   <br/>
-                    Marketing
+                  <span>Marketing</span> 
                 </p>
               </li>  
             </ul>  
@@ -159,9 +159,9 @@ class TestimonialSlide extends Component {
                 </div>
               </li>
               <li>
-                <p className="text-gray-500 font-body font-medium text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
+                <p className="text-gray-500 font-body font-normal text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
                   <br/>
-                    Marketing
+                  <span>Marketing</span> 
                 </p>
               </li>  
             </ul>  

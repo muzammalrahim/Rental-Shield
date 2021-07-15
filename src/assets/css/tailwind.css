@@ -71,10 +71,11 @@ body{
     padding: 0.50rem 1.51rem !important;
 }
 
-a:hover {
+a:hover, a:hover li {
     color: #72c92a !important;
     text-decoration: none;
 }
+
 .lh-21{
     line-height: 21px;
 }
@@ -578,6 +579,11 @@ select{
   .h-slider  .slick-current p{
     /* Make slides other than the current one translucent */
     font-weight: 700;
+    padding-top: 0 !important;
+  }
+  .h-slider  .slick-current p span{
+    /* Make slides other than the current one translucent */
+    font-weight: 400;
     padding-top: 0 !important;
   }
   .h-slider  .slick-current img{

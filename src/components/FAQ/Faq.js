@@ -76,17 +76,17 @@ export default function FAQMain() {
             <div className="fag-bg w-full">
                 <img className="w-full" src={ FaqBgTop } alt="img"/>
             </div>
-            <div className="faq-inner bg-green-700">
-                <Container>
+            <div className="faq-inner bg-green-700 pt-4 pb-14">
+                <div className="px-40">
                     <Row className ="items-center">
-                        <Col lg="6" md="12" sm="12"  className="">
+                        <Col lg="5" md="12" sm="12"  className="">
                             <div className="text-gray-500 faq-heading md:faq-heading">
                                 <h3 className="font-normal md:text-left text-lg lg:text-6xl">Frequently</h3>
                                 <h3 className="font-normal md:text-left text-lg lg:text-6xl">Asked</h3>
                                 <h3 className="font-normal md:text-left text-lg lg:text-6xl">Questions</h3>
                             </div> 
                         </Col>
-                        <Col lg="6" md="12" sm="12" className="text-center lg:text-left md:faq-content">
+                        <Col lg="7" md="12" sm="12" className="text-center lg:text-left md:faq-content">
                         <div  className="accordion">
                 {accordionData.map(({ title, content }) => (
                   <HomeAccordion title={title} content={content} />
@@ -94,7 +94,7 @@ export default function FAQMain() {
               </div>
                         </Col>
                     </Row>
-                </Container>
+                </div>
                 
             </div>
             <div className="fag-bottom">
