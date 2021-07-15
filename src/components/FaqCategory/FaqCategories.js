@@ -23,17 +23,17 @@ export default class FaqCategories extends Component {
       <div>
         {/* <img className="w-full" src={SliderBg} alt=""/>  */}
 
-        <div className="relative">
+        <div className="relative FaqCategories">
           <div className="bg-green-700">
             <Container>
               <div className="z-30">
                 <br />
-                <p className="text-gray-500  lg:text-6xl md:text-4xl  font-normal  font-body ">
+                <p className="text-gray-500 lg:text-6xl md:text-4xl font-normal font-body xs_heading">
                   Categories
                 </p>
                 <br /> <br />
                 <Row className="items-center pb-9">
-                  <Col lg="4" md="6" sm="12" className=" mb-44">
+                  <Col lg="4" md="6" sm="12" className=" mb-44 xs_itemText">
                     <div className="m-auto bg-no-repeat bg-contain bg-center faq-bg no-repeat relative sm:pb-36 lg:pb-0">
                       <img
                         class="m-auto relative z-50"
@@ -61,7 +61,7 @@ export default class FaqCategories extends Component {
                     </div>
                   </Col>
 
-                  <Col lg="4" md="6" sm="12" className=" mb-44">
+                  <Col lg="4" md="6" sm="12" className=" mb-44 xs_itemText">
                     <div className="m-auto bg-contain bg-no-repeat bg-center faq-bg no-repeat relative sm:pb-36 lg:pb-0">
                       <img
                         className="m-auto relative z-50"
@@ -89,7 +89,7 @@ export default class FaqCategories extends Component {
                     </div>
                   </Col>
 
-                  <Col lg="4" md="6" sm="12" className=" mb-56">
+                  <Col lg="4" md="6" sm="12" className=" mb-56 xs_itemText">
                     <div className="m-auto bg-contain bg-no-repeat bg-center faq-bg no-repeat relative sm:pb-36 lg:pb-0">
                       <img
                         className="m-auto relative z-50"

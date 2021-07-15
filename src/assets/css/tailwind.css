@@ -624,6 +624,31 @@ select{
 
 
 @media (min-width: 320px) and (max-width: 639px) {
+
+    /* Faq page */
+
+    /* Faq Card */
+   .FaqCard .xs_cardIcon{
+       height: 6rem;
+       width: 6rem;
+   }
+   .FaqCard .xs_para{
+       font-size: 1rem;
+   }
+   .FaqBanner .xs_para{
+       font-size: 1rem;
+   }
+   .FaqCategories .xs_heading{
+       font-size: 2rem;
+   }
+   .FaqCategories .xs_itemText{
+    margin-bottom: 16rem;
+    padding: 0 3rem;
+   }
+   .FaqAccordions .xs_picSize .min-h-screen{
+       min-height: 70vh;
+   }
+
    .xs\:home-banner-main .row{
        background: #F3FDEA;
    }
