@@ -14,7 +14,7 @@ class Footer extends Component {
         {/* footer logo + Social Links */}
         <div className="footer-top">
           <Row className="items-center pb-4">
-            <Col xl="6" md="12" xs="12" className="">
+            <Col xl="6" md="12" xs="12" className="lg:text-left text-center">
               <img className="footer-logo" src={logo} alt="logo" />
             </Col>
             <Col xl="6" md="12" xs="12">

@@ -627,6 +627,9 @@ select{
    .xs\:home-banner-main .row{
        background: #F3FDEA;
    }
+   .img-area img {
+    width: 95%;
+    }
     .xs\:right-inner {
         background-image: none !important;
         
@@ -648,6 +651,9 @@ select{
     .md\:faq-content {
         padding-bottom: 52px;
     }
+    .banner-inner {
+        grid-template-columns: auto auto;
+    }
     
 }
 
@@ -662,11 +668,17 @@ select{
     .mob-line{
         display: none;
     }
-    /* .h-content{
+     .h-content{
         line-height: 40px;
     } */
     .sm\:home-banner-main{
         display: block;
+    }
+    .img-area img {
+        width: 30%;
+    }
+    .sing-up {
+        left: 17rem;
     }
     .sm\:inner{
         padding-top: 20% !important;
@@ -689,6 +701,9 @@ select{
         margin: 0 auto;
         /* margin-right: 0; */
         /* width: 50%; */
+    }
+    .img-area img {
+        width: 30%;
     }
     .md\:faq-heading {
         padding-top: 30px !important;

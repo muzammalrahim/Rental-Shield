@@ -11,20 +11,20 @@ import { withTranslation } from 'react-i18next';
     render() {
         const { t, i18n } = this.props;
         return (
-            <div className="future-mian px-5 mt-5">
+            <div className="future-mian px-5 lg:mt-5">
                 <Container>
                     <Row className="future-row items-center">
                         <Col sm="12" md="12" lg="6" className="img-area lg:text-right md:img-area p-0">
                             <img className="text-right" src={FutureImg} alt="future-img"></img>
                         </Col>
-                        <Col sm="12" md="12" lg="6" className="text-area lg:text-left md:text-center pt-5 mt-6 p-0">
-                            <h2 className="text-green-600 text-xl font-body font-normal mb-4 md:text-5xl lg:text-6xl lh-70">
+                        <Col sm="12" md="12" lg="6" className="text-area lg:text-left md:text-center lg:pt-5 lg:mt-6 p-0">
+                            <h2 className="text-green-600 text-xl font-body font-normal mb-0 lg:mb-5 md:text-5xl lg:text-6xl lh-70">
                                 {t('tanetb.welcome')}
                                 <span className="font-black">
                                     {t('tanetb.to-future')}
                                 </span>
                             </h2>
-                            <p className="text-gray-500 text-lg font-body font-normal leading-7 mb-5 md:text-xl  lg:text-2x ">
+                            <p className="text-gray-500 text-lg font-body font-normal leading-7 mb-2 lg:mb-5 md:text-xl  lg:text-2x ">
                                 {t('tanetb.tanetb-detail-1')}
                             <br/> 
                             {t('tanetb.tanetb-detail-2')}
