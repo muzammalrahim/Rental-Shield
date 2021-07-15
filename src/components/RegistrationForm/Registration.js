@@ -11,10 +11,10 @@ export default class Registration extends Component {
             <div className="registration-main" style={{ backgroundImage:`url(${RegBg})` }}>
                 <div className="px-24 pt-3">
                     <Row className="items-center">
-                        <Col className="form-text" lg={{span:9, order:1}} md={{span:12, order:2}} xs={{span:12, order:2}} className="lg:order-1">
+                        <Col className="form-text" lg={{span:8, order:1}} md={{span:12, order:2}} xs={{span:12, order:2}} className="lg:order-1">
                             <RegistrationForm/>
                         </Col>
-                        <Col lg={{span:3, order:2}} md={{span:12, order:1}} xs={{span:12, order:1}}>
+                        <Col lg={{span:4, order:2}} md={{span:12, order:1}} xs={{span:12, order:1}}>
                             <div className="reg-text text-right text-white py-5">
                                 <p className="text-3xl pb-2 font-bold font-body lg:text-right md:text-center">I,ve heard enough</p>
                                 <h3 className="text-6xl font-normal font-body lh-60 lg:text-right md:text-center pb-4">Sign me<br/> up now</h3>
