@@ -54,9 +54,9 @@ class TestimonialSlide extends Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            initialSlide: 3
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1
           }
         },
         {
@@ -71,7 +71,7 @@ class TestimonialSlide extends Component {
 
     
     return (
-      <div className="px-5 pt-5 mt-20" style={{width:'90%', margin:'0 auto'}}>
+      <div className="h-slider pt-5 mt-20" style={{width:'90%', margin:'0 auto'}}>
         <h2 className="text-6xl font-normal text-gray-500 py-5 font-body pt-5 mt-5">What people say</h2>
 
         <Slider {...settings}>

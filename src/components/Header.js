@@ -36,8 +36,8 @@ function Header({ t, i18n }) {
     // const {t, i18n} = useTranslation('common');
 
         return (
-            <div className="header-main px-5  pt-4 relative z-10">
-                <Navbar  expand="lg" className="p-0">
+            <div className="header-main px-5  pt-4  relative z-10">
+                <Navbar  expand="lg" className="p-0 relative top-3">
                     {/* logo */}
                     <Navbar.Brand href="/" className="mr-0">
                         <img className="" src={logo} alt="logo"/>
@@ -54,12 +54,12 @@ function Header({ t, i18n }) {
                                 </div>
                             </Nav.Link>
                             <Nav.Link href="/faq">
-                                <div className="text-gray-500 font-body font-normal text-lg pl-4">
+                                <div className="text-gray-500 font-body font-normal text-lg pl-3">
                                     {t('header.faqs')}
                                     </div>
                             </Nav.Link>
                             <Nav.Link href="#link">
-                                <div className="text-gray-500 font-body font-normal text-lg pl-4">
+                                <div className="text-gray-500 font-body font-normal text-lg pl-3">
                                     {t('header.more')}
                                 </div>
                             </Nav.Link>
@@ -69,15 +69,15 @@ function Header({ t, i18n }) {
                         {/* Right Options */}
                         <Form inline>
                             <Button className="bttn mr-4 p-0">
-                                <Nav.Link className="py-1.5" href="/landlord">
-                                <div className="text-gray-500 font-medium font-body">
+                                <Nav.Link className="" href="/landlord">
+                                <div className="text-gray-500 font-medium font-body text-lg">
                                     {t('header.landlord')}
                                 </div>
                                 </Nav.Link>
                             </Button>
                             <Button className="bttn px-3 p-0">
-                                <Nav.Link className="py-1.5" href="/tanents">
-                                <div className="text-gray-500 font-medium font-body">
+                                <Nav.Link className="" href="/tanents">
+                                <div className="text-gray-500 font-medium font-body text-lg">
                                     {t('header.tenat')}
                                 </div>
                                 </Nav.Link>

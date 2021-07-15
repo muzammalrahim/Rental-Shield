@@ -13,43 +13,57 @@ class Footer extends Component {
       <div className="footer-main px-5 mt-5">
         {/* footer logo + Social Links */}
         <div className="footer-top">
-          <Row>
+          <Row className="items-center pb-4">
             <Col xl="6" md="12" xs="12" className="">
               <img className="footer-logo" src={logo} alt="logo" />
             </Col>
             <Col xl="6" md="12" xs="12">
               <div className="social-links">
                 <ul className="list-none md:text-center lg:text-right">
-                  <li className="pr-3">
-                    <img
-                      src={process.env.PUBLIC_URL + "/img/twit.svg"}
-                      alt="twitter"
-                    />
-                  </li>
-                  <li className="pr-3">
-                    <img
-                      src={process.env.PUBLIC_URL + "/img/youtube.svg"}
-                      alt="youtube"
-                    />
-                  </li>
-                  <li className="pr-3">
-                    <img
-                      src={process.env.PUBLIC_URL + "/img/in.svg"}
-                      alt="insta"
-                    />
-                  </li>
+                  <Link to="#" className="hover:no-underline">  
+                    <li className="pr-3">
+                      <img
+                        src={process.env.PUBLIC_URL + "/img/twit.svg"}
+                        alt="twitter"
+                      />
+                    </li>
+                  </Link>
+
+                  <Link to="#" className="hover:no-underline">  
+                    <li className="pr-3">
+                      <img
+                        src={process.env.PUBLIC_URL + "/img/youtube.svg"}
+                        alt="youtube"
+                      />
+                    </li>
+                  </Link>
+
+                  <Link to="#" className="hover:no-underline">  
+                    <li className="pr-3">
+                      <img
+                        src={process.env.PUBLIC_URL + "/img/in.svg"}
+                        alt="insta"
+                      />
+                    </li>
+                  </Link>
+
+                  <Link to="#" className="hover:no-underline">  
                   <li className="pr-3">
                     <img
                       src={process.env.PUBLIC_URL + "/img/fb.svg"}
                       alt="fb"
                     />
                   </li>
+                  </Link>
+
+                  <Link to="#" className="hover:no-underline">  
                   <li>
                     <img
                       src={process.env.PUBLIC_URL + "/img/ins.svg"}
                       alt="insta"
                     />
                   </li>
+                  </Link>
                 </ul>
               </div>
             </Col>

@@ -57,7 +57,7 @@ export default class FaqAccordion extends Component {
     return (
       <div>
         <Container fluid>
-          <Row className="items-center mt-4">
+          {/* <Row className="items-center mt-4">
             <Col lg="5" md="12" sm="12" className="m-auto">
               <br /> <br />
               <p className="text-6xl font-body text-gray-500 mb-7">
@@ -112,11 +112,11 @@ export default class FaqAccordion extends Component {
                 </button>
               </div>
             </Col>
-          </Row>
-          <Row className="items-center p-11">
+          </Row> */}
+          <Row className="items-center px-11">
             <Col lg="5" md="12" sm="12" className="min-h-screen">
               <div
-                className="bg-contain bg-no-repeat bg-center faq-bg no-repeat min-h-screen"
+                className="bg-contain bg-no-repeat bg-top faq-bg no-repeat min-h-screen"
                 style={{ backgroundImage: `url(${FaqBg})` }}
               ></div>
             </Col>
@@ -125,9 +125,9 @@ export default class FaqAccordion extends Component {
               md="12"
               sm="12"
               className="text-center lg:text-left md:faq-content"
-            >
-              <div className="accordion">
-                {accordionData.map(({ title, content }) => (
+            >  
+              <div style={{marginTop:"-10rem"}} className="accordion">
+                {accordionData.map(({ title, content}) => (
                   <Accordion title={title} content={content} />
                 ))}
               </div>
