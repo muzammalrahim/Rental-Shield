@@ -11,21 +11,18 @@ export default class Video extends Component {
     render() {
         return (
             <div className="update-main mt-20 mb-5">
-                <Container>
-                    <Row  className=" 
-                    d-flex justify-content-center">
-                        <Col md="12">
+                <div className=" main-home px-48">
+                        <div className="h-video-main">
                         <div>
-                            <h4 className="text-5xl text-gray-500 font-normal"> ​How about a video..</h4>
+                            <h4 className="text-5xl text-gray-500 font-body font-normal"> ​How about a video..</h4>
                         </div>
-                        <p className="text-xl text-gray-500 font-normal pb-4">
-                            ​Here's a summary and more.
+                        <p className="text-xl text-gray-500 font-body  font-normal pb-4">
+                            W​Here's a summary and more. 
                         </p>
                         <YoutubeEmbed embedId="rokGy0huYEA" />
-                        </Col>
+                        </div>
                         
-                    </Row>
-                </Container>
+                    </div>
             </div>
         )
     }
