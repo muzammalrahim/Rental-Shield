@@ -244,10 +244,12 @@ select{
 }
 .bg-line-end {
     position: absolute;
-    top: 355px;
+    top: 281px;
     right: 31%;
     z-index: -1;
-    transform: rotate(350deg);
+    transform: rotate(
+2deg
+);
 }
 
 /* Acc Steps */
@@ -634,7 +636,8 @@ select{
     display: none;
     }
     .sing-up {
-        left: 11rem;
+        left: 9rem;
+        top: -3rem;
     }
     .xs\:right-inner {
         background-image: none !important;
@@ -663,7 +666,16 @@ select{
     .home-accsteps .step-img{
         width: 70%;
     }
-    
+    .mob-h-step{
+        padding: 0 30px;
+    }
+    .footer-inner {
+        grid-template-columns: auto;
+    }
+    .footer-logo{
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
 }
 
 
@@ -731,9 +743,12 @@ select{
     
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1280px) and (max-width: 1440px){
     .h-content{
         line-height: 40px;
+    }
+    .sing-up {
+        left: 23rem;
     }
     .home-accsteps{
         padding: 0 20px;

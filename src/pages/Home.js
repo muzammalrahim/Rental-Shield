@@ -50,7 +50,7 @@ class Home extends Component {
                     {/* Signup Steps */}
 
                     {/* Updates */}
-                    {/* <HomeUpdate/> */}
+                    <HomeUpdate/>
                     {/* Updates */}
 
                     {/* FAQ */}

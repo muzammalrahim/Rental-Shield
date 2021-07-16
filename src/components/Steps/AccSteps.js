@@ -70,7 +70,7 @@ class AccSteps extends Component {
                     {/* step1 */}
 
                     {/* step2 */}
-                    <Row className="step-row relative pb-28">
+                    <Row className="step-row relative pb-28 mob-h-step">
                         <Col lg="6" sm="12" className="d-flex justify-content-center">
                             <img className="step-img" src={Step2} alt="step1"/>
                         </Col>
@@ -107,7 +107,7 @@ class AccSteps extends Component {
 
 
                     {/* step3 */}
-                    <Row className="step-row relative pb-28">
+                    <Row className="step-row relative lg:pb-28 ">
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner text-left">
                                 <ul className="">
@@ -136,7 +136,7 @@ class AccSteps extends Component {
                     {/* step3 */}
 
                     {/* step4 */}
-                    <Row className="step-row relative pb-28">
+                    <Row className="step-row relative pb-28 mob-h-step">
                         <Col  lg="6" sm="12"  className="d-flex justify-content-center">
                             <img className="step-img" src={Step4} alt="step1"/>
                         </Col>
@@ -167,7 +167,7 @@ class AccSteps extends Component {
                     {/* step4 */}
 
                     {/* step5 */}
-                    <Row className="step-row relative pb-28">
+                    <Row className="step-row relative  mob-h-step">
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner text-left">
                                 <ul className="pr-28">
@@ -196,7 +196,7 @@ class AccSteps extends Component {
                     {/* step5 */}
 
                     {/* step6 */}
-                    <Row className="step-row ">
+                    <Row className="step-row  mob-h-step">
                         <Col lg="6" sm="12" className="d-flex justify-content-center">
                             <img className=" step-img" src={Step6} alt="step1"/>
                         </Col>
@@ -217,7 +217,7 @@ class AccSteps extends Component {
                                         </h3>
                                     </li>
                                 </ul>
-                                <p className="text-right pt-2 text-gray-500 pl-36 font-body leading-7 font-light lg:text-2x md:text-xl lg:pr-5 ">
+                                <p className="text-left pt-2 text-gray-500 lg:pl-36 font-body leading-7 font-light lg:text-2x md:text-xl lg:pr-5 ">
                                     {t('ac-steps.receive-vour-detail')}
                                 </p>
                             </div>

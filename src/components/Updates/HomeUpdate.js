@@ -16,7 +16,7 @@ class HomeUpdate extends Component {
         const { t, i18n } = this.props;
         return (
             <div className="update-main mt-5">
-                    <div className=" main-home px-48">
+                    <div className="px-3 main-home lg:px-48">
                         <div className="h-video-main">
                         <div>
                             <h4 className="text-6xl pt-5 text-gray-500 font-body font-normal lh-70">
