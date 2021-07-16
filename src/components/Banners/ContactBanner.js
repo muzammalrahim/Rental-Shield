@@ -7,7 +7,7 @@ import { FaLinkedinIn, FaTwitter, FaFacebookF, FaPhone } from "react-icons/fa";
 function ContactBanner() {
   return (
     <div className="lg:w-1/2 md:w-full sm:w-full mt-16">
-      <h2 className="description mt-8 mb-16 text-left">
+      <h2 className="description mt-8 mb-16 text-left lg:text-6xl lg:lh-70 text-green-600 font-body">
         For any inquiries, please call or email us.Alternatively you can fill in
         the following contact form.
       </h2>
