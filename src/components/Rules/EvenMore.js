@@ -30,7 +30,8 @@ export default class EvenMore extends Component {
                         <img className="g-line relative top-48" src={BGLeft} alt="img"></img>
                     </Container>
                     <img className="w-full even-more-t-bg" src={BGTop} alt="img"/>
-                    <div className="tenant-inner bg-gray-600 pb-64">
+
+                    <div className="tenant-inner bg-gray-600 pb-6
                         
                         <Row className="no-gutters">
                             <Col sm="12">

@@ -16,8 +16,8 @@ class HomeUpdate extends Component {
         const { t, i18n } = this.props;
         return (
             <div className="update-main mt-5">
-                    <Row  className=" main-home d-flex justify-content-center px-48">
-                        <Col md="12">
+                    <div className=" main-home px-48">
+                        <div className="h-video-main">
                         <div>
                             <h4 className="text-6xl pt-5 text-gray-500 font-body font-normal lh-70">
                                 {t('homeupdate.detail-head')}
@@ -30,9 +30,9 @@ class HomeUpdate extends Component {
                             {t('homeupdate.detail-2')}
                         </p>
                         <YoutubeEmbed embedId="rokGy0huYEA" />
-                        </Col>
+                        </div>
                         
-                    </Row>
+                    </div>
             </div>
         )
     }

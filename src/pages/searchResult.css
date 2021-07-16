@@ -17,10 +17,18 @@ color: #72C92A;
     margin:0 auto
 }
 .searchResult__accordion{
-    width: 55%;
+    width: 80%;
     margin: 0 auto;
     display:flex ;
+    font-family: Roboto;
+   
 }
+.searchResult__accordion button{
+    line-height: 25.78px;
+    letter-spacing: -1px;
+    color:  #606060;
+    font-weight: 700;
+} 
 .accordion{
     flex: 5;
 }
