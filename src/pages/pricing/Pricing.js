@@ -10,6 +10,7 @@ import PricingCard from "../../components/Cards/pricingCard";
 import Idea from "../../assets/images/Idea.png";
 import star from "../../assets/images/star.png";
 import diamond from "../../assets/images/diamond.png";
+import PricingBanner from "../../components/Banners/PricingBanner";
 
 function Pricing() {
   const [isYearly, setIsYearly] = useState(true);
@@ -19,14 +20,17 @@ function Pricing() {
   return (
     <div className="pricing">
       <Header />
+      <PricingBanner/>
       {/* banner starts */}
       <div className="pricing__banner container-fluid">
+   
         <h1 className="pricing__heading">
           Welcome to <strong>Future</strong>
         </h1>
       </div>
       {/* banner ends */}
       {/* pricing plan starts */}
+
       <div className="container pricing__plan m-32">
         <h2 className="pricng__planHead">Choose your pricing plan</h2>
         <p className="pricing__planText mt-8 mb-32">
