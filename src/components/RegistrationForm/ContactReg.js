@@ -10,19 +10,19 @@ function ContactReg() {
     setisContinue(true);
   }
   return (
-    <div className="col-lg-6">
-      <div className="from-main  ml-32 ">
+    <div className="lg:w-1/2 md:w-full sm:w-full mt-16">
+      <div className="from-main sm:ml-0 md:ml-0 lg:ml-40">
         <div
-          className=" col-12 col-lg-4 login-card hv-center bg-green-800 form-contact"
+          className="bg-green-800 form-contact"
           style={{
             backgroundColor: "#F3FDEA",
             border: "none",
             borderRadius: "10px",
             boxShadow: "-1px 6px 25px rgba(0, 0, 0, 0.14",
-            padding: "0 35px",
+            padding: "50px 50px 0",
           }}
         >
-          <h1 className="text-black font-weight-bold text-2xl text-left pt-5 py-4">
+          <h1 className="text-black font-weight-bold text-2xl text-left pt-2 py-4">
             Send Us a Message
           </h1>
           <form>
@@ -73,7 +73,7 @@ function ContactReg() {
                 sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
                 onChange={onChange}
               />
-              ,
+            
             </div>
             <button
               disabled={!isContinue}

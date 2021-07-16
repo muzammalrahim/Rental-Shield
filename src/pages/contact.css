@@ -32,49 +32,57 @@ color: #93D55E;
 .contact__input{
     background-color: #F3FDEA;
 }
-.from-main{
+/* .from-main{
     width: 1140px;
-}
+} */
 
 /* .contact__image{
     width: 100px;
 } */
-@media screen and (max-width:1032px){
+/* @media screen and (max-width:1032px){
     .from-main{
         width: 940px;
     }
-}
-@media screen and (max-width:993px){
+} */
+/* @media screen and (max-width:993px){
     .from-main{
         width: 840px;
         
     }
-}
-@media screen and (max-width:991px){
+} */
+/* @media screen and (max-width:991px){
     .from-main{
         width: 440px;
       
         
     }
-}
-@media screen and (max-width:768px){
+} */
+/* @media screen and (max-width:768px){
     .from-main{
         width: 340px;
       
         
     }
-}
-@media screen and (max-width:534px){
+} */
+/* @media screen and (max-width:534px){
     .from-main{
         width: 280px;
       
         
     }
-}
-@media screen and (max-width:487px){
-    .from-main{
-        width: 240px;
+} */
+ @media screen and (max-width:492px){
+    .form-contact{
+        padding: 50px 35px 0px !important;
       
         
     }
-}
+} 
+
+@media screen and (max-width:420px){
+    .form-contact{
+        padding: 50px 20px 0px !important;
+      
+        
+    }
+} 

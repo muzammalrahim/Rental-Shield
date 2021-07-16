@@ -20,7 +20,7 @@ class HomeBanner extends Component {
           </div>
           <div className="">
             <div
-              className="sm:right-inner pb-5  xs:right-inner inner bg-local"
+              className="sm:right-inner pb-0 lg:pb-5 md:pb-5  xs:right-inner inner bg-local"
               style={{ backgroundImage: `url(${RightBg})` }}
             >
               <div className="sm:inner xs:inner md:inner-pt-5 lg:inner">

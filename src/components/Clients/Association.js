@@ -8,10 +8,10 @@ class Association extends Component {
     render() {
         const { t, i18n } = this.props;
         return (
-            <div className="client-t-main px-5 pb-4">
+            <div className="client-t-main lg:px-5 md:px-5 sm:px-2 pb-4">
                 <Row className="client-row items-center">
                     <Col sm="12" md="12" lg="3">
-                        <p className="text-lg text-left font-body text-gray text-black font-normal">{t('association-slide.association')}</p>
+                        <p className="text-lg lg:pl-4 lg:text-left md:text-center font-body text-gray text-black font-normal">{t('association-slide.association')}</p>
                     </Col>
                     <Col sm="12" md="12" lg="9">
                         <div className="clients text-center">
