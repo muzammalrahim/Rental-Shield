@@ -193,6 +193,9 @@ select{
 /* Future Banner */
 
 /* Acc Steps */
+/* .home-accsteps{
+    padding: 0 176px;
+} */
 .step-row{
     align-items: center;
 }
@@ -627,9 +630,12 @@ select{
    .xs\:home-banner-main .row{
        background: #F3FDEA;
    }
-   .sing-up {
-    left: 22rem;
-}
+   .mob-line{
+    display: none;
+    }
+    .sing-up {
+        left: 11rem;
+    }
     .xs\:right-inner {
         background-image: none !important;
         
@@ -654,6 +660,9 @@ select{
     .banner-inner {
         grid-template-columns: auto auto;
     }
+    .home-accsteps .step-img{
+        width: 70%;
+    }
     
 }
 
@@ -668,6 +677,7 @@ select{
     .mob-line{
         display: none;
     }
+    
      .h-content{
         line-height: 40px;
     } */
@@ -724,6 +734,9 @@ select{
 @media (max-width: 1280px) {
     .h-content{
         line-height: 40px;
+    }
+    .home-accsteps{
+        padding: 0 20px;
     }
     .lg\:left-side{
         height: 100%;

@@ -23,9 +23,9 @@ class AccSteps extends Component {
         const { t, i18n } = this.props;
         return (
             <div className="acc-step-main pt-5">
-                <div className="lg:px-44 px-5">
+                <div className="home-accsteps lg:px-44 md:px-5 sm-px-5">
                     {/* step1 */}
-                    <Row className="step-row pt-5 relative pb-28">
+                    <Row className="step-row pt-5 relative lg:pb-28">
                         
                         <Col lg={{span:6, order:1}} sm={{span:12, order:2}}  xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner text-left">
@@ -54,7 +54,7 @@ class AccSteps extends Component {
                             </div>
                         </Col>
                         <Col lg={{span:6, order: 2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
-                            <img className="relative" src={Step1} alt="step1"/>
+                            <img className="relative step-img" src={Step1} alt="step1"/>
                             <div className="sing-up absolute  top-16">
                                 <div className="inline-flex">
                                     <img className="object-contain" src={Signup} alt=""/>
@@ -72,7 +72,7 @@ class AccSteps extends Component {
                     {/* step2 */}
                     <Row className="step-row relative pb-28">
                         <Col lg="6" sm="12" className="d-flex justify-content-center">
-                            <img src={Step2} alt="step1"/>
+                            <img className="step-img" src={Step2} alt="step1"/>
                         </Col>
                         <Col lg="6" sm="12" className="d-flex justify-content-center">
                             <div className="step-inner text-left">
@@ -129,7 +129,7 @@ class AccSteps extends Component {
                             </div>
                         </Col>
                         <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
-                            <img src={Step3} alt="step1"/>
+                            <img className="step-img" src={Step3} alt="step1"/>
                         </Col>
                         <img className="bg-line3 mob-line" src={LineBG}  alt="img"/>
                     </Row>
@@ -138,7 +138,7 @@ class AccSteps extends Component {
                     {/* step4 */}
                     <Row className="step-row relative pb-28">
                         <Col  lg="6" sm="12"  className="d-flex justify-content-center">
-                            <img src={Step4} alt="step1"/>
+                            <img className="step-img" src={Step4} alt="step1"/>
                         </Col>
                         <Col  lg="6" sm="12"  className="d-flex justify-content-center">
                             <div className="step-inner text-left">
@@ -189,7 +189,7 @@ class AccSteps extends Component {
                             </div>
                         </Col>
                         <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
-                            <img src={Step5} alt="step1"/>
+                            <img className="step-img" src={Step5} alt="step1"/>
                         </Col>
                         <img className="bg-line-end mob-line" src={LineBG}  alt="img"/>
                     </Row>
@@ -198,7 +198,7 @@ class AccSteps extends Component {
                     {/* step6 */}
                     <Row className="step-row ">
                         <Col lg="6" sm="12" className="d-flex justify-content-center">
-                            <img src={Step6} alt="step1"/>
+                            <img className=" step-img" src={Step6} alt="step1"/>
                         </Col>
                         <Col lg="6" sm="12"  className="d-flex justify-content-center">
                             <div className="step-inner">
