@@ -55,7 +55,7 @@ export default class FaqAccordion extends Component {
   render() {
     let { TabValue } = this.state;
     return (
-      <div>
+      <div className="FaqAccordions">
         <Container fluid>
           {/* <Row className="items-center mt-4">
             <Col lg="5" md="12" sm="12" className="m-auto">
@@ -114,9 +114,9 @@ export default class FaqAccordion extends Component {
             </Col>
           </Row> */}
           <Row className="items-center px-11">
-            <Col lg="5" md="12" sm="12" className="min-h-screen">
+            <Col lg="5" md="12" sm="12" className="xs_picSize lg_picSize">
               <div
-                className="bg-contain bg-no-repeat bg-top faq-bg no-repeat min-h-screen"
+                className="bg-contain bg-no-repeat bg-top faq-bg no-repeat min-h-screen "
                 style={{ backgroundImage: `url(${FaqBg})` }}
               ></div>
             </Col>
