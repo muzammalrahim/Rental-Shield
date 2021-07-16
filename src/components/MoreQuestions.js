@@ -20,7 +20,7 @@ export default class MoreQuestions extends Component {
                 <p className="text-gray-500 font-body text-2x font-normal mb-0">
                     See below, and then check out our FAQ's page
                 </p>
-                 <div class="grid grid-cols-4 py-10 px-20">
+                 <div class="landlord-queries grid grid-cols-4 py-10 px-20">
 
                      
                     {/* step 1 */}

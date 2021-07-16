@@ -77,13 +77,14 @@ export default function FAQMain() {
                 <img className="w-full" src={ FaqBgTop } alt="img"/>
             </div>
             <div className="faq-inner bg-green-700 pt-4 pb-14">
-                <div className="px-40">
+                <div className="faq-home">
+                {/* <div className="lg:px-40 md:px-5 sm:px-5"> */}
                     <Row className ="items-center">
                         <Col lg="5" md="12" sm="12"  className="">
                             <div className="text-gray-500 faq-heading md:faq-heading">
-                                <h3 className="font-normal md:text-left text-lg lg:text-6xl">Frequently</h3>
-                                <h3 className="font-normal md:text-left text-lg lg:text-6xl">Asked</h3>
-                                <h3 className="font-normal md:text-left text-lg lg:text-6xl">Questions</h3>
+                                <h3 className="font-normal md:text-left text-4xl lg:text-6xl">Frequently</h3>
+                                <h3 className="font-normal md:text-left text-4xl lg:text-6xl">Asked</h3>
+                                <h3 className="font-normal md:text-left text-4xl lg:text-6xl">Questions</h3>
                             </div> 
                         </Col>
                         <Col lg="7" md="12" sm="12" className="text-center lg:text-left md:faq-content">

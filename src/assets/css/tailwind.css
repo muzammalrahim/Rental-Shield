@@ -94,7 +94,7 @@ a:hover, a:hover li {
     line-height: 1.69rem;
 }
 .sing-up{
-    left: 25.5rem;
+    left: 20rem;
 }
 
 
@@ -252,7 +252,12 @@ select{
 }
 
 /* Acc Steps */
+ /* FAQ Home */
+.faq-home{
+    padding: 0 160px;
+}
 
+ /* FAQ Home */
 
 /* Updates */
 .main h4{
@@ -351,6 +356,9 @@ select{
 /* Youtube Video */
 
 /* Registration */
+.registration-comp{
+    padding: 0 96px;
+}
 .registration-main{
     padding-bottom: 35px;
 }
@@ -633,7 +641,7 @@ select{
         min-height: 50vh;
     }
 }
-@media (min-width: 376px) and (max-width: 639px) {
+@media (min-width: 320px) and (max-width: 639px) {
  /* add by tk */
  /* Faq page */
  /* Faq Card */
@@ -670,6 +678,34 @@ select{
 .FaqAccordionsItem .xs_ItemContent{
     font-size: 13px !important;
 }
+.h-slider  .slick-current ul{
+    /* Make slides other than the current one translucent */
+    padding-left: 10px;
+  }
+  .h-slider .slick-next, .slick-prev {
+      display: none !important;
+  }
+  .faq-home{
+    padding: 0 30px;
+  }
+  .faq-heading{
+      padding-bottom: 30px;
+  }
+  .faq-inner{
+    font-size: 16px;
+    line-height: 20px !important;
+    margin-bottom: 0 !important;
+  }
+  .talent-cards {
+    grid-template-columns: auto;
+}
+.landlord-queries {
+    grid-template-columns: auto;
+}
+.registration-comp{
+    padding: 0 30px;
+}
+  
 }
 
 @media(max-width: 375px) {
@@ -723,8 +759,9 @@ select{
     display: none;
     }
     .sing-up {
-        left: 9rem;
+        left: 2rem;
         top: -3rem;
+        right: 0;
     }
     .xs\:right-inner {
         background-image: none !important;
@@ -777,9 +814,9 @@ select{
         display: none;
     }
     
-     .h-content{
+  .h-content{
         line-height: 40px;
-    } */
+    }  
     .sm\:home-banner-main{
         display: block;
     }
@@ -831,12 +868,12 @@ select{
 }
 
 @media (min-width: 1280px) and (max-width: 1440px){
-    .h-content{
+    /* .h-content{
         line-height: 40px;
-    }
-    .sing-up {
-        left: 23rem;
-    }
+    } */
+    /* .sing-up {
+        left: 20rem;
+    } */
     .home-accsteps{
         padding: 0 20px;
     }
@@ -868,7 +905,15 @@ select{
 .from-main input:focus{
     background-color: #F3FDEA;
 }
-
+.slick-prev:before {
+    content: url(../images/prev-arrow.png);
+    font-size: 30px;
+  }
+  
+ .slick-next:before {
+    content: url(../images/next-arrow.png);
+    font-size: 30px;
+  }
 
 /* youtube */
 .video-responsive {
