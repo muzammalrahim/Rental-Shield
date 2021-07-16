@@ -622,7 +622,15 @@ select{
     top: 67px!important;
 }
 
+.RightBgImg{
+    max-width: max-content !important;
+}
 
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .FaqAccordions .lg_picSize .min-h-screen{
+        min-height: 50vh;
+    }
+}
 @media (min-width: 376px) and (max-width: 639px) {
  /* add by tk */
  /* Faq page */
@@ -648,6 +656,7 @@ select{
    .FaqAccordions .xs_picSize .min-h-screen{
        min-height: 70vh;
    }
+  
 .FaqAccordionsItem .xs_ItemTile{
     font-size: 13px;
     margin: auto !important;
