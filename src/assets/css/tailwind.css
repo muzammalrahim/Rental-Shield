@@ -944,3 +944,38 @@ a:hover, a:hover li {
 opacity: 0.65;
 border-radius: 10px;
 }
+
+/* ------------------Conatct Page----------------------- */
+
+.contact{
+    color:#7C7C7C;
+    font-weight: 600;
+}
+
+.form-contact{
+    border-radius: 20px;
+    /* margin-top: 60px; */
+}
+
+.contact__input{
+    background-color: #F3FDEA;
+}
+
+@media screen and (max-width:492px){
+    .form-contact{
+        padding: 50px 35px 0px !important;
+      
+        
+    }
+} 
+
+@media screen and (max-width:420px){
+    .form-contact{
+        padding: 50px 20px 0px !important;
+      
+        
+    }
+} 
+
+
+/* ------------------Contact Page----------------------- */
