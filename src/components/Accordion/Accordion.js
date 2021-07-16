@@ -7,7 +7,7 @@ const Accordion = ({ title, content }) => {
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
 
   return (
-    <div className="accordion-item">
+    <div className="accordion-item FaqAccordionsItem">
       <Row>
         <Col md="12" lg="12">
           <div
@@ -25,11 +25,11 @@ const Accordion = ({ title, content }) => {
             ></div>
 
             <div className="font-body text-2x text-justify ">
-              <p className="w-9/12 float-left ml-4 text-gray-500 font-body sm:text-lg lg:text-xl xl:text-2x">
+              <p className="w-9/12 float-left ml-4 text-gray-500 font-body sm:text-lg lg:text-xl xl:text-2x xs_ItemTile">
                 {" "}
                 {title}
               </p>
-              <p className="text-4xl font-thin float-right text-gray-500 font-body text-right cursor-pointer">
+              <p className="xs_ItemPara text-4xl font-thin float-right text-gray-500 font-body text-right cursor-pointer">
                 {" "}
                 {isExpanded ? "-" : "+"}
               </p>
@@ -39,7 +39,7 @@ const Accordion = ({ title, content }) => {
             <div
               id="example-collapse-text"
               style={{ borderRadius: "10px" }}
-              className="float-left w-full pr- border-gray-500 shadow m-2 font-body text-lg font-normal p-4 text-justify "
+              className="xs_ItemContent float-left w-full pr- border-gray-500 shadow m-2 font-body text-lg font-normal p-4 text-justify "
             >
               {content}
             </div>

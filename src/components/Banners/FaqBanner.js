@@ -9,7 +9,7 @@ class FaqBanner extends Component {
   render() {
     const { t } = this.props;
     return (
-      <div className="flex mt-28">
+      <div className="flex mt-28 FaqBanner">
             
 
        <div className=" bg-no-repeat  no-repeat w-1/4">
@@ -29,7 +29,7 @@ class FaqBanner extends Component {
                 {t("banner.banner-Heading-1")}
               </p>
 
-              <p className="text-gray-500 pt-3 pb-2 text-lg md:text-2xl leading-6 font-normal 2lx font-body w-4/5 m-auto">
+              <p className="text-gray-500 pt-3 pb-2 text-lg md:text-2xl leading-6 font-normal 2lx font-body w-4/5 m-auto xs_para">
                 {t("banner.banner-Para-1")}
               </p>
             </div>
