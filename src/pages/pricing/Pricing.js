@@ -46,7 +46,7 @@ function Pricing() {
                     border-8 border-solid  border-green-200 bg-white"></button>
           ) : (
             // <img className="pt-2 pl-32 TogleimgHeight" src={toggle} alt="" />
-            <button class="ml-32 lg:ml-56 lg:h-16 lg:w-16
+            <button class="ml-32 lg:ml-60 lg:h-16 lg:w-16 xl:ml-60
             rounded-full h-12 w-12 flex items-center justify-center
               border-8 border-solid  border-green-200 bg-white"></button>
           )}

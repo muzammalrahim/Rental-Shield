@@ -781,11 +781,11 @@ height: 22rem;
     padding: 1rem 0.5rem 0rem 0.5rem;
 }
 .toggle {
-    width: 298px;
-    height: 83px;
+    width: 187px;
+    height: 64px;
     background: #EEEEEE;
     border-radius: 50px;
-    padding: 10px 0px 10px 0px
+    padding: 8px 0px 10px 0px;
 }
 .xs_mRight{
    margin-right: 4rem;
