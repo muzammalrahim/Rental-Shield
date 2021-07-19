@@ -705,6 +705,26 @@ select{
  .FaqAccordionsItem .xs_ItemContent{
      font-size: 13px !important;
  }
+
+
+}
+@media(max-width: 440px) {
+   /* pricing page */
+
+   .PricingPageBanner .xs_heading{
+    top: 90px !important;
+    left:50px ;
+    width: 30%;
+    
+}
+   .PricingPage .xs_Head{
+    font-size: 20px;
+    
+}
+   .PricingPage .xs_para{
+    font-size: 16px;
+    
+}
 }
 
 /* Home Testimonial Slider */
