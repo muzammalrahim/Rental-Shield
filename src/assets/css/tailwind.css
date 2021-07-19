@@ -707,16 +707,37 @@ select{
  }
 
 
+.PricingPageBanner .xs_heading {
+    top: 107px !important;
+    left: 32px !important;
+    width: 38% !important;
+    font-size: 22px; 
+}
+
+.PricingPageBanner .xsBgImg{
+    height: 21rem;
+}
+
+
+.pricing__card {
+    padding: 0px 0;
+}
+
+.main{
+    margin: 3rem auto 0px auto;
+}
+
+}
+.PricingPageBanner .lineHeight{
+
+    line-height: 72px;
 }
 @media(max-width: 440px) {
    /* pricing page */
+   .PricingPageBanner .xs_marginTop{
+    margin-top: 1rem !important;
+ }
 
-   .PricingPageBanner .xs_heading{
-    top: 90px !important;
-    left:50px ;
-    width: 30%;
-    
-}
    .PricingPage .xs_Head{
     font-size: 20px;
     
@@ -725,6 +746,58 @@ select{
     font-size: 16px;
     
 }
+
+.PricingPageBanner .lineHeight {
+    line-height: 23px;
+}
+.pricing__card {
+  
+    padding: 0px 0;
+}
+
+.PricingPage .xs_font{
+    width: 51%;
+    text-align: justify;
+}
+.PricingPage .xs_Heading1{
+    font-size:24px;
+}
+
+.PricingPageBanner .xs_heading {
+    top: 107px !important;
+    left: 39px !important;
+    width: 38% !important;
+    font-size: 22px;
+}
+
+.PricingPageBanner .xsBgImg{
+height: 22rem;
+}
+
+.PricingPage .xs_Head {
+    font-size: 22px;
+}
+.xs_cardP{
+    padding: 1rem 0.5rem 0rem 0.5rem;
+}
+.toggle {
+    width: 298px;
+    height: 83px;
+    background: #EEEEEE;
+    border-radius: 50px;
+    padding: 10px 0px 10px 0px
+}
+.xs_mRight{
+   margin-right: 4rem;
+}
+.TogleimgHeight{
+  margin-top: 8rem;
+}
+
+.main{
+    margin: 3rem auto 0px auto;
+}
+
 }
 
 /* Home Testimonial Slider */
@@ -770,6 +843,8 @@ select{
     .home-accsteps .step-img{
         width: 70%;
     }
+
+ 
     
 }
 
@@ -781,6 +856,10 @@ select{
     
 }
 @media (min-width: 640px) and (max-width: 991px) {
+    .PricingPageBanner .lineHeight{
+
+        line-height: 50px;
+    }
     .mob-line{
         display: none;
     }

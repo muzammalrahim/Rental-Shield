@@ -1,9 +1,9 @@
 import { FcCheckmark } from "react-icons/fc";
 import React from "react";
 
-function PricingCard({ image }) {
+function PricingCard({ image,type,price }) {
   return (
-    <div class="order-1  pt-5 ">
+    <div class="order-1  pt-5 xs_cardP ">
       <div className="relative top-20 ml-28 top_icon">
         <img
           className="bg-white p-8 rounded-full t-icon  "
@@ -13,17 +13,17 @@ function PricingCard({ image }) {
         />
       </div>
       <div class="p-8 bg-gradient-to-bl from-gray-800 to-gray-900 bg-opacity-25">
-        <p class="font-semibold md:text-center mb-3.5 text-xl text-gray-500   mt-16 ">
-          Starter
+        <p class="md:text-center font-normal mb-3.5 font-body text-3xl text-gray-500   mt-16 ">
+         {type}
         </p>
-        <div className="d-flex justify-center">
-          <small className="product__currency  font-weight-bold">$</small>
-          <h1 class="md:text-center text-4xl mb-3.5 font-bold text-gray-500 font-body font-normal leading-7 ">
-            15
+        <div className="d-flex justify-center mt-3">
+          <small className="text-xl product__currency  font-weight-bold">$</small>
+          <h1 class="text-6xl md:text-center  mb-3.5 font-bold text-gray-500 font-body leading-7 ">
+           {price}
           </h1>
         </div>
 
-        <p class="md:text-center text-xl font-semibold text-gray-500">
+        <p class="md:text-center font-normal leading-7 text-gray-500 font-body text-2x">
           Explore the basics
           <br />
           with this
@@ -31,20 +31,20 @@ function PricingCard({ image }) {
           introductory course
         </p>
 
-        <div className="my-8">
-          <div className="d-flex justify-center text-xl font-semibold text-left text-gray-500">
+        <div className="my-8" style={{marginLeft:"20%"}}>
+          <div className="d-flex   text-left text-gray-500">
             <FcCheckmark className="mt-1 mr-2" />{" "}
-            <p className="text-left">Unlimeted files</p>
+            <p className="text-left text-lg">Unlimeted files</p>
           </div>
-          <div className="d-flex justify-center text-xl font-semibold text-gray-500">
-            <FcCheckmark className="mt-1 mr-2" /> <p> Unlimeted viewers</p>
+          <div className="d-flex   text-gray-500">
+            <FcCheckmark className="mt-1 mr-2 text-lg" /> <p> Unlimeted viewers</p>
           </div>
 
-          <div className="d-flex justify-center text-xl font-semibold text-gray-500">
-            <FcCheckmark className="mt-1 mr-2" /> <p> commenters</p>
+          <div className="d-flex   text-gray-500">
+            <FcCheckmark className="mt-1 mr-2 text-lg" /> <p> commenters</p>
           </div>
-          <div className="d-flex justify-center text-xl font-semibold text-gray-500">
-            <FcCheckmark className="mt-1 mr-2" /> <p> Team porject</p>
+          <div className="d-flex    text-gray-500">
+            <FcCheckmark className="mt-1 mr-2 text-lg" /> <p> Team porject</p>
           </div>
         </div>
 
