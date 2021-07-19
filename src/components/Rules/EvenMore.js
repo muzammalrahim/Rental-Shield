@@ -18,7 +18,7 @@ export default class EvenMore extends Component {
         return (
             <div className="even-more pt-5">
                 
-                <div className="even-inner">
+                <div className="t-even-inner">
                     
                     
                     
@@ -81,7 +81,7 @@ export default class EvenMore extends Component {
                             </div>
                         </Col>
                         <Col lg={{span:6, order:2}} md={{span:12, order:1}} sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50 lg:order-2">
-                            <img className="tanents-center absolute right-0" src={Talent1} alt="step1"/>
+                            <img className="t-img tanents-center absolute right-0" src={Talent1} alt="step1"/>
                         </Col>
                     </Row>
                     {/* step1 */}

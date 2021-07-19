@@ -11,10 +11,10 @@ import Reports from '../assets/images/reports.png';
 export default class TenantsSteps extends Component {
     render() {
         return (
-            <div className="tenant-main">
+            <div className="tenant-main tenant-steps">
                 <Container>
                     <Row>
-                        <Col className="mb-36">
+                        <Col className="t-top-heading mb-36">
                             <h2 className="talent-haeding text-gray-500 font-body text-6xl font-normal  pb-3">​
                                 Anything more?
                             </h2>
@@ -56,7 +56,7 @@ export default class TenantsSteps extends Component {
                         </Col>
                     </Row>
                     <Row>
-                        <img src={BGLeft} alt="img"></img>
+                        <img className="t-bglin" src={BGLeft} alt="img"></img>
                     </Row>
 
                     {/* step 2 */}
@@ -94,7 +94,7 @@ export default class TenantsSteps extends Component {
                     </Row>
 
                     <Row>
-                        <img src={BGRight} alt="img"></img>
+                        <img className="t-bglin" src={BGRight} alt="img"></img>
                     </Row>
 
                     {/* step 3 */}

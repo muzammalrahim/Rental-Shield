@@ -10,21 +10,21 @@ export default class TanentsBanner extends Component {
         return (
             <div className="tanent-banner-main bg-no-repeat right-0 top-0 relative">
                 <div className="absolute talent-bg-img">
-                    <img src={TanentBg2} alt="img"/>
+                    <img className="t-left-bg" src={TanentBg2} alt="img"/>
                 </div>
                 <Row className="no-gutters ">
-                    <Col md="2">
+                    <Col lg="2" md="0">
                         
                         
                     </Col>
-                    <Col md="10">
+                    <Col lg="10" md="12">
                         <div className=" talent-bg bg-no-repeat"  style={{backgroundImage:`url(${TanentBg1})`}}>
                             <Row className="no-gutters pl-5  relative top-16">
-                                <Col sm="6">
+                                <Col lg="6" md="12" sm="12">
                                 
                                 </Col>
-                                <Col sm="6" className="text-left banner-content pb-5">
-                                    <h3 className="text-green-500 text-6xl font-body font-normal lh-60">
+                                <Col lg="6" md="12" sm="12" className="text-left banner-content pb-5">
+                                    <h3 className="text-green-900 text-6xl font-body font-normal lh-60">
                                         Welcome 
                                         <br/>
                                         to Tenants

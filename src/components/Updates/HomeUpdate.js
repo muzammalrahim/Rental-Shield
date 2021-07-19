@@ -15,7 +15,7 @@ class HomeUpdate extends Component {
     render() {
         const { t, i18n } = this.props;
         return (
-            <div className="update-main mt-5 lg:w-10/12 md:10/12 mx-auto">
+            <div className="update-main mt-5 lg:w-8/12 md:10/12 mx-auto">
                     {/* <div className="main-home px-3 lg:px-48 md:px-28 sm:px-10"> */}
                     <div className="main-home px-3 lg:pl-48 lg:pr-48">
                         <div className="h-video-main">

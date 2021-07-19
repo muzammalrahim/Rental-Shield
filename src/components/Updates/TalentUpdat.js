@@ -18,12 +18,15 @@ export default class TalentUpdat extends Component {
     render() {
         return (
             <div className="update-main -mt-40">
-                
-                    <div className=" main-home px-48">
+
+                    <div className="main-home lg:w-8/12 md:10/12 mx-auto">
                         <div className="h-video-main">
                         <div>
-                            <h4 className="text-5xl text-gray-500 font-body font-normal"> ​How about a video..</h4>
+                            <h4 className="text-5xl text-gray-500 font-body font-normal">
+                                 ​How about a video..
+                            </h4>
                         </div>
+                        <br/>
                         <p className="text-xl text-gray-500 font-body  font-normal pb-4">
                             W​Here's a summary and more. 
                         </p>
@@ -31,6 +34,8 @@ export default class TalentUpdat extends Component {
                         </div>
                         
                     </div>
+                    
+                    
 
                 <div className=" update-inner-bg bg-no-repeat bg-cover"  style={{backgroundImage:`url(${Bg})`}}>
                     

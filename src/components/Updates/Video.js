@@ -11,7 +11,7 @@ export default class Video extends Component {
     render() {
         return (
             <div className="update-main mt-20 mb-5">
-                <div className=" main-home px-48">
+                <div className=" main-home lg:w-8/12 md:10/12 mx-auto">
                         <div className="h-video-main">
                         <div>
                             <h4 className="text-5xl text-gray-500 font-body font-normal"> ​How about a video..</h4>

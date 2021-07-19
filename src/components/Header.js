@@ -72,7 +72,7 @@ function Header({ t, i18n }) {
             <Button className="bttn px-3 p-0">
               <Nav.Link className="" href="/tanents">
                 <div className="text-gray-500 font-medium font-body text-lg">
-                  {t("header.tenat")}
+                  {t("header.tenant")}
                 </div>
               </Nav.Link>
             </Button>
@@ -122,6 +122,7 @@ function Header({ t, i18n }) {
                     className="selected-lang ae eng-lan cursor-pointer flex leading-9"
                   >
                     AE
+                    {/* العربية */}
                   </div>
                 )}
 
