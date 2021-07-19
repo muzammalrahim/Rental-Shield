@@ -18,28 +18,23 @@ function Pricing() {
     setIsYearly(!isYearly);
   };
   return (
-    <div className="pricing">
+    <div className="PricingPage">
+      <div>
       <Header />
-      <PricingBanner/>
-      {/* banner starts */}
-      <div className="pricing__banner container-fluid">
-   
-        <h1 className="pricing__heading">
-          Welcome to <strong>Future</strong>
-        </h1>
       </div>
-      {/* banner ends */}
-      {/* pricing plan starts */}
-
-      <div className="container pricing__plan m-32">
-        <h2 className="pricng__planHead">Choose your pricing plan</h2>
-        <p className="pricing__planText mt-8 mb-32">
-          We believe the key to aplying monthly rental payments, lies with the
-          management of the security rental deposits{" "}
-        </p>
+      <div>
+        <PricingBanner/>
+      </div>
+    
+      <div className="mt-24">
+        <br/>
+        <p className="xl:text-6xl lg:text-6xl md:text-5x text-gray-500 font-body font-normal xs_Head">Choose your pricing plan </p>
+        <p className="m-auto w-1/3 text-2x text-gray-500 font-body font-normal xs_para">    We believe the key to aplying monthly rental payments, lies with the
+          management of the security rental deposits{" "}</p>
       </div>
 
-      <div className="main mb-32">
+  
+      <div className="w-32 mt-24 main">
         <span className="mr-40">Yearly</span>
         <span>Monthly</span>
         <div className="toggle mt-2" onClick={toggleHandler}>
@@ -52,7 +47,7 @@ function Pricing() {
       </div>
       {/* pricing plan ends */}
 
-      <div className="pricing__card mt-64">
+      <div className="pricing__card">
         <div className="container pricing__container">
           <div className="row">
             <div className="col-md-4 ">
@@ -67,8 +62,8 @@ function Pricing() {
           </div>
         </div>
       </div>
-
-      <Footer />
+<div>   <Footer /></div>
+   
     </div>
   );
 }
