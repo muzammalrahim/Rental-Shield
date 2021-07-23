@@ -726,6 +726,13 @@ select{
 .main{
     margin: 3rem auto 0px auto;
 }
+.carrerTabs .xs_tabs_heading{
+    font-size:  10px !important;
+}
+.career .xs_left_bottom{
+    left: 1.5rem;
+    bottom: 0.9rem;
+}
 
 }
 .PricingPageBanner .lineHeight{
@@ -805,7 +812,7 @@ height: 22rem;
     font-size:  1rem;
 }
 .carrerTabs .xs_tabs_heading{
-    font-size:  12px;
+    font-size:  11px;
 }
 .searchResult__accordion {
     margin: auto;
@@ -848,6 +855,17 @@ height: 22rem;
 }
 }
 
+@media (min-width: 445px) and (max-width: 800px) {
+    .career .xs_left_bottom{
+        left: 4.5rem;
+        bottom: 8rem;
+    }
+    .carrerTabs .xs_tabs_heading {
+        font-size: 17px;
+        padding: 24px 5px;
+    }
+
+}
 /* Home Testimonial Slider */
 
 
