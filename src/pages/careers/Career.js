@@ -4,28 +4,18 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import CareerBanner from "../../components/Banners/CareerBanner";
 import phone from "../../assets/images/phone.png";
-import girl from "../../assets/images/career-girl.png";
 import brand from "../../assets/images/brand.png";
+import CareerBannerImg from "../../assets/images/CareerBanner.png";
 
 function Career() {
   return (
     <div className="career">
-      <div className="career__background xl:mb-32 lg:mb:mb-32 md:mb-32">
+      <div className="relative">
         <Header />
-        <div className="career__girl container">
-          {/* <div>
-            
-          <img
-             className="bg-no-repeat bg-center no-repeat w-full -mt-20 xsBgImg"
-              src={girl}
-              alt="RightBg"
-            />
-          </div> */}
-          <div className="row xl:mt-16 lg:mt-16 md:mt-16 ">
-            <div className="col-md-6">
-              <img src={girl} alt="" />
-            </div>
-            <div className="col-md-6  xl:mt-32 lg:mt-32 md:mt-32">
+        <img className="min-w-full -mt-20" src={CareerBannerImg} alt="" />
+        <div className="absolute top-64 right-0">
+         
+            <div className="w-4/6 float-right">
               {/* <h1 className=" career__head mb-8">Welcome to Our Careers Page</h1> */}
               <h1 className="xl:text-6xl lg:text-6xl md:text-5x 
  font-normal text-green-900 font-body 
@@ -35,7 +25,7 @@ function Career() {
  font-bold text-gray-500 font-body  
   xs_heading lineHeightt ">Join the Prop-Tech revolution</h6>
             </div>
-          </div>
+      
         </div>
       </div>
 
@@ -79,13 +69,13 @@ function Career() {
 
       {/* your brand section starts */}
 
-      <div className="xl:mt-16 lg:mt-16">
+      <div className="xl:mt-16 lg:mt-16 relative">
       <img
              className="bg-no-repeat bg-center no-repeat w-full "
               src={brand}
               alt="RightBg"
             />
-        <div className="container brand__content my-auto ">
+        <div className="absolute  left-44  bottom-80 ">
      
           <div className="row mt-4">
             <div className="col-lg-3 col-xl-3 col-6">
