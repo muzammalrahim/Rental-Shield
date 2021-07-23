@@ -13,13 +13,13 @@ function SearchResult() {
   };
 
   return (
-    <div className="searchResult mt-24">
+    <div className="searchResult mt-24 carrerTabs">
       <div className="searchResult__accordion mt-8 ">
         <div class="flex rounded-full border-grey-light border mx-4 accordion ">
           <button
             // style={{ color: activeColor }}
             onClick={(e) => TabchangeHandler(1)}
-            className={`w-4/12 career-tab font-bold font-body text-xll rounded-full py-3 px-6 ${
+            className={`w-4/12 career-tab font-bold font-body text-xll rounded-full py-3 px-6 xs_tabs_heading ${
               TabValue === 1 ? "bg-green-900 text-white" : ""
             }`}
           >
@@ -28,7 +28,7 @@ function SearchResult() {
           <button
             // style={{ color: activeColor }}
             onClick={(e) => TabchangeHandler(2)}
-            className={`w-4/12  rounded-full py-3 px-6 text-xll font-bold font-body ${
+            className={`w-4/12  rounded-full py-3 px-6 text-xll font-bold font-body xs_tabs_heading ${
               TabValue === 2 ? "bg-green-900 text-white" : ""
             }`}
           >
@@ -37,23 +37,26 @@ function SearchResult() {
           <button
             // style={{ color: activeColor }}
             onClick={(e) => TabchangeHandler(3)}
-            className={`w-4/12  rounded-full text-xll font-bold font-body py-3 px-6 ${
+            className={`w-4/12  rounded-full py-3 px-6 text-xll font-bold font-body xs_tabs_heading xs_tab_diver ${
               TabValue === 3 ? "bg-green-900 text-white" : ""
             }`}
           >
-            Diversification
+            Diversification 
           </button>
+       
           <button
             // style={{ color: activeColor }}
             onClick={(e) => TabchangeHandler(4)}
-            className={`w-4/12  rounded-full text-xll font-bold font-body py-3 px-6 ${
+            className={`w-4/12  rounded-full text-xll font-bold font-body py-3 px-6 xs_tabs_heading ${
               TabValue === 4 ? "bg-green-900 text-white" : ""
             }`}
           >
             Working from home
           </button>
         </div>
+        
       </div>
+      
     </div>
   );
 }

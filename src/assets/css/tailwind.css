@@ -798,6 +798,54 @@ height: 22rem;
     margin: 3rem auto 0px auto;
 }
 
+.career .xs_Title{
+    font-size: 1.5rem;
+}
+.career .xs_heading{
+    font-size:  1rem;
+}
+.carrerTabs .xs_tabs_heading{
+    font-size:  12px;
+}
+.searchResult__accordion {
+    margin: auto;
+    width: 100%;
+
+}
+.searchResult__accordion button{
+    line-height: 18px !important;
+}
+.carrerTabs .xs_tab_diver{
+ line-height: 14px;}
+
+ .career .brand__content{
+    left: 0px;
+    top: 2032px;
+ }
+ 
+ .career .xs_lineHeight{
+
+ }
+ 
+ .career .xs_para_size{
+  font-size: 12px;
+ }
+ .career__brand {
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.xs_head_size2{
+    
+    font-size: 25px;
+    margin-top: 7px;
+
+}
+.xs_text_size{
+    font-size: 11px;
+}
 }
 
 /* Home Testimonial Slider */
