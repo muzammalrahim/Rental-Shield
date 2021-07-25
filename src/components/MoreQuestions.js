@@ -20,13 +20,13 @@ export default class MoreQuestions extends Component {
                 <p className="text-gray-500 font-body text-2x font-normal mb-0">
                     See below, and then check out our FAQ's page
                 </p>
-                 <div class="grid grid-cols-4 py-10 px-20">
+                 <div class="landlord-queries grid grid-cols-4 py-10 px-20">
 
                      
                     {/* step 1 */}
                     <div class="order-1 relative"> 
                         <div className="more-border-1 absolute">
-                            <img src={LeftLine} alt="img"/>
+                            <img className="l-more-quries" src={LeftLine} alt="img"/>
                         </div>
                         <div class="mt-20 text-left pl-20">
                             <h1 class="text-5xx text-green-500 font-body font-normal text-left pb-4 m-0">
@@ -49,7 +49,7 @@ export default class MoreQuestions extends Component {
                     {/* step 2 */}
                     <div class="order-2 relative mt-72">
                         <div className="more-border-2 relative">
-                            <img className="absolute" src={RightLine} alt="img"/>
+                            <img className="absolute l-more-quries" src={RightLine} alt="img"/>
                         </div>
                         <div class="text-left pl-20">
                             <img class="block mt-4 lg:inline-block lg:mt-0  ml-5 text-teal-200 hover:text-white mr-4" width="60" src={Bulb}/>
@@ -79,7 +79,7 @@ export default class MoreQuestions extends Component {
                     {/* step 3*/}
                     <div class="order-3 relative">
                         <div className="more-border-1 absolute">
-                            <img src={LeftLine} alt="img"/>
+                            <img className="l-more-quries" src={LeftLine} alt="img"/>
                         </div>
                         <div className="text-left pl-20">
                             <h1 class="text-5xx text-green-500 font-body font-normal text-left pt-4 pb-4 m-0">
@@ -105,7 +105,7 @@ export default class MoreQuestions extends Component {
                     
                     <div class="order-4">
                         <div className="more-border-4 relative">
-                            <img className="absolute" src={RightLine} alt="img"/>
+                            <img className="absolute l-more-quries" src={RightLine} alt="img"/>
                         </div>
                         <div class="mt-52 text-left pl-20">
                             <img class="block mt-4 ml-5 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" width="60" src={Chat}/>

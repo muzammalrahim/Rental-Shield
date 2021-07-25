@@ -73,7 +73,7 @@ class Footer extends Component {
 
         <hr></hr>
 
-        <div className="footer-bottom pt-5">
+        <div className="footer-bottom pt-4">
          
           <div className="footer-inner grid">
             <div className="footer-adress text-left pb-3">

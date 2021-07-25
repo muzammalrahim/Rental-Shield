@@ -81,7 +81,9 @@ a:hover, a:hover li {
 .lh-60{
     line-height: 60px;
 }
-
+.lh-1{
+    line-height: 70px;
+}
 .lh-70{
     line-height: 4.38rem;
 }
@@ -94,7 +96,7 @@ a:hover, a:hover li {
     line-height: 1.69rem;
 }
 .sing-up{
-    left: 25.5rem;
+    left: 20rem;
 }
 
 
@@ -243,14 +245,21 @@ select{
 }
 .bg-line-end {
     position: absolute;
-    top: 355px;
+    top: 281px;
     right: 31%;
     z-index: -1;
-    transform: rotate(350deg);
+    transform: rotate(
+2deg
+);
 }
 
 /* Acc Steps */
+ /* FAQ Home */
+.faq-home{
+    padding: 0 160px;
+}
 
+ /* FAQ Home */
 
 /* Updates */
 .main h4{
@@ -349,6 +358,9 @@ select{
 /* Youtube Video */
 
 /* Registration */
+.registration-comp{
+    padding: 0 96px;
+}
 .registration-main{
     padding-bottom: 35px;
 }
@@ -379,7 +391,7 @@ select{
 }
 .from-main img{
     position: absolute;
-    left: 30%;
+    left: 40%;
     top: 0;
     height: 100%;
 }
@@ -391,6 +403,9 @@ select{
 }
 .footer-inner{
     grid-template-columns: 30% auto auto auto auto auto auto;
+}
+.home-footer-form{
+    min-width: 40% !important;
 }
 /* Footer */
 
@@ -631,7 +646,7 @@ select{
         min-height: 50vh;
     }
 }
-@media (min-width: 376px) and (max-width: 639px) {
+@media (min-width: 320px) and (max-width: 639px) {
  /* add by tk */
  /* Faq page */
  /* Faq Card */
@@ -668,6 +683,34 @@ select{
 .FaqAccordionsItem .xs_ItemContent{
     font-size: 13px !important;
 }
+.h-slider  .slick-current ul{
+    /* Make slides other than the current one translucent */
+    padding-left: 10px;
+  }
+  .h-slider .slick-next, .slick-prev {
+      display: none !important;
+  }
+  .faq-home{
+    padding: 0 30px;
+  }
+  .faq-heading{
+      padding-bottom: 30px;
+  }
+  .faq-inner{
+    font-size: 16px;
+    line-height: 20px !important;
+    margin-bottom: 0 !important;
+  }
+  .talent-cards {
+    grid-template-columns: auto;
+}
+.landlord-queries {
+    grid-template-columns: auto;
+}
+.registration-comp{
+    padding: 0 30px;
+}
+  
 }
 
 @media(max-width: 375px) {
@@ -870,9 +913,110 @@ height: 22rem;
 
 
 @media (min-width: 320px) and (max-width: 639px) {
+    .order-1 .absolute{
+        position: unset;
+    }
+    .order-1 .pl-20, .order-2 .pl-20, .order-3 .pl-20, .order-4 .pl-20{
+        padding-left: unset;
+    }
+    .order-2.relative.mt-72 {
+        margin-top: unset;
+    }
+    .order-3{
+        padding-top: 50px;
+    }
+    .order-4 .mt-52.text-left.pl-20 {
+        margin-top: unset;
+    }
+    img.l-more-quries{
+        display: none;
+    }
+    .landlord-bg{
+        display: block;
+        background-image: none !important;
+        background-color: #DFF8C9;
+        padding-bottom: 50px;
+    }
+    .landlord-para{
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .t-even-inner img.absolute{
+        position: unset !important;
+    }
+    .t-top-heading{
+        margin-bottom: 0;
+    }
+    .tenant-steps img{
+        margin-bottom: 30px;
+    }
+    .t-bglin{
+        display: none;
+    }
+    .t-bglin{
+        display: none;
+    }
+    .t-left-bg{
+        display: none;
+    }
+    .talent-bg {
+        margin-top: -51px;
+        height: 100%;
+        background: #f9f9f9;
+    }
+    .talent-haeding {
+        padding-top: 0;
+    }
+   .know-more-mian{
+       padding-top: 30px;
+   }
    
-
-   
+   .know-more-mian p{
+    margin: 0;
+    font-size: 20px;
+    line-height: 25px;
+    }
+    .know-inner{
+        background-image: none !important;
+        padding: 0 30px;
+    }
+    .para1 {
+        position: unset;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .para2 {
+        position: unset;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .para3 {
+        position: unset;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .para3.text-center{
+        text-align: left !important;
+    }
+    .para4.text-center{
+        text-align: left !important;
+    }
+    .para4 {
+        position: unset;
+        width: 100%;
+    }
+    .h-slider h2{
+        margin-top: 0;
+        font-size: 45px;
+        margin-bottom: 0 !important;
+    }
+   .home-banner .h-content{
+    line-height: 29px;
+    margin-top: 67px;
+   }
+   .h-video-main p{
+       font-size: 18px;
+   }
    .xs\:home-banner-main .row{
        background: #F3FDEA;
    }
@@ -880,7 +1024,12 @@ height: 22rem;
     display: none;
     }
     .sing-up {
-        left: 11rem;
+        left: 2rem;
+        top: -3rem;
+        right: 0;
+    }
+    .home-footer-form img{
+        display: none;
     }
     .xs\:right-inner {
         background-image: none !important;
@@ -910,8 +1059,16 @@ height: 22rem;
         width: 70%;
     }
 
- 
-    
+    .mob-h-step{
+        padding: 0 30px;
+    }
+    .footer-inner {
+        grid-template-columns: auto;
+    }
+    .footer-logo{
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
 }
 
 
@@ -930,9 +1087,13 @@ height: 22rem;
         display: none;
     }
     
-     .h-content{
+    
+    .t-left-bg{
+        display: none;
+    }
+  .h-content{
         line-height: 40px;
-    } */
+    }  
     .sm\:home-banner-main{
         display: block;
     }
@@ -980,13 +1141,19 @@ height: 22rem;
     .form-text{
         text-align: center;
     }
+    .footer-inner{
+        grid-template-columns: 100%;
+    }
     
 }
 
-@media (max-width: 1280px) {
-    .h-content{
+@media (min-width: 1280px) and (max-width: 1440px){
+    /* .h-content{
         line-height: 40px;
-    }
+    } */
+    /* .sing-up {
+        left: 20rem;
+    } */
     .home-accsteps{
         padding: 0 20px;
     }
@@ -997,9 +1164,7 @@ height: 22rem;
         padding-top: 50%;
         padding-bottom: 23%;
     }
-    .footer-inner{
-        grid-template-columns: 100%;
-    }
+    
 }
 
 
@@ -1018,7 +1183,15 @@ height: 22rem;
 .from-main input:focus{
     background-color: #F3FDEA;
 }
-
+.slick-prev:before {
+    content: url(../images/prev-arrow.png);
+    font-size: 30px;
+  }
+  
+ .slick-next:before {
+    content: url(../images/next-arrow.png);
+    font-size: 30px;
+  }
 
 /* youtube */
 .video-responsive {
@@ -1229,6 +1402,41 @@ a:hover, a:hover li {
 
 .tenent-gradient{
     background: linear-gradient(232.69deg, #F7F7F7 6.59%, #F4F4F4 71.21%, #E4E4E4 97.15%);
-opacity: 0.65;
+/* opacity: 0.65; */
 border-radius: 10px;
 }
+
+/* ------------------Conatct Page----------------------- */
+
+.contact{
+    color:#7C7C7C;
+    font-weight: 600;
+}
+
+.form-contact{
+    border-radius: 20px;
+    /* margin-top: 60px; */
+}
+
+.contact__input{
+    background-color: #F3FDEA;
+}
+
+@media screen and (max-width:492px){
+    .form-contact{
+        padding: 50px 35px 0px !important;
+      
+        
+    }
+} 
+
+@media screen and (max-width:420px){
+    .form-contact{
+        padding: 50px 20px 0px !important;
+      
+        
+    }
+} 
+
+
+/* ------------------Contact Page----------------------- */

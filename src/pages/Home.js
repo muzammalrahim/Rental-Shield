@@ -50,27 +50,27 @@ class Home extends Component {
                     {/* Signup Steps */}
 
                     {/* Updates */}
-                    {/* <HomeUpdate/> */}
+                    <HomeUpdate/>
                     {/* Updates */}
 
                     {/* FAQ */}
-                     {/* <Faq/> */}
+                     <Faq/>
                     {/* FAQ */}
 
                     {/* KnowMore */}
-                    {/* <KnowMore/> */}
+                    <KnowMore/>
                     
 
                     {/* Testimonal Slider */}
-                     {/* <TestimonialSlider/> */}
+                     <TestimonialSlider/>
                     {/* Testimonal Slider */}  
 
                     {/* Footer Clients */}
-                    {/* <AssociationFooter/> */}
+                    <AssociationFooter/>
                     {/* Footer Clients */}
 
                     {/* Registration */}
-                     {/* <Registration/> */}
+                     <Registration/>
                     {/* Registration */}
 
                     {/* Footer */}

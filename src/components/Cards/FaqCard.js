@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import SearchBox from "../SearchBox/FaqSearchBox";
 import cardIcon from "../../assets/images/FaqcardIcon.png";
 import categoryTop from "../../assets/images/team-bg-top.png";
-import { Row, Col } from "react-bootstrap";
-import Doller from '../../assets/images/doller.png';
+
 
 
 export default class FaqCard extends Component {

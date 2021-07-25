@@ -9,7 +9,7 @@ export default class Registration extends Component {
     render() {
         return (
             <div className="registration-main" style={{ backgroundImage:`url(${RegBg})` }}>
-                <div className="px-24 pt-3">
+                <div className=" registration-comp pt-3">
                     <Row className="items-center">
                         <Col className="form-text" lg={{span:8, order:1}} md={{span:12, order:2}} xs={{span:12, order:2}} className="lg:order-1">
                             <RegistrationForm/>
