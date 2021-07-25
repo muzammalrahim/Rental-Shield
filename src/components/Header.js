@@ -6,6 +6,8 @@ import Button from "react-bootstrap/Button";
 import { Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
+import SideBar from "../components/Sidebar"
+
 
 // import { Uk, Ae } from "react-flags-select";
 import ReactFlagsSelect from "react-flags-select";
@@ -38,8 +40,11 @@ function Header({ t, i18n }) {
         </Navbar.Brand>
         {/* logo */}
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+        <SideBar className="mob-nav"/>
+        
         <Navbar.Collapse id="basic-navbar-nav">
+        
           {/* Menu Links */}
           <Nav className="mr-auto">
             <Nav.Link href="/about">

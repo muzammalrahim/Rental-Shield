@@ -16,7 +16,9 @@ body{
     margin-top: 25px;
 
 }
-
+.mob-side-menue{
+    display: none;
+}
 .lang-menu ul{
     margin: 0;
     padding: 0;
@@ -774,6 +776,10 @@ select{
 
 
 @media (min-width: 320px) and (max-width: 639px) {
+    .mob-side-menue{
+        display: block;
+        float: right;
+    }
     .order-1 .absolute{
         position: unset;
     }
@@ -939,11 +945,17 @@ select{
     
 }
 @media (min-width: 640px) and (max-width: 991px) {
+    /* .mob-nav{
+        height: 500px;
+    } */
     .mob-line{
         display: none;
     }
     
-    
+    .mob-side-menue{
+        display: block;
+        float: right;
+    }
     .t-left-bg{
         display: none;
     }
