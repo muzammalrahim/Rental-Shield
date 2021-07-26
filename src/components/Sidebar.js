@@ -28,9 +28,9 @@ class SideBar extends React.Component {
  
   render() {
     return (
-      <Sidebar  className={'test'} 
+      <Sidebar
       rootClassName="mob-sidebar-main"
-      sidebarClassName="test"
+      sidebarClassName=""
       styles={{ 
         height:'300px',
         left: "-42px"
@@ -65,51 +65,28 @@ class SideBar extends React.Component {
 
 
             {/* Right Options */}
-          <Form inline>
-            <Button className="bttn mr-4 p-0">
-              <Nav.Link className="" href="/landlord">
-                <div className="text-gray-500 font-medium font-body text-lg">
-                  'm a Landlord
-                </div>
-              </Nav.Link>
-            </Button>
-            <Button className="bttn px-3 p-0">
-              <Nav.Link className="" href="/tanents">
-                <div className="text-gray-500 font-medium font-body text-lg">
-                  I'm a Tenant
-                </div>
-              </Nav.Link>
-            </Button>
-            <Link className="logins ml-5">
-              <div className="text-gray-500 font-body font-normal text-lg ml-3 mr-1">
-                Login 
-              </div>
-            </Link>
-            /
-            <Link className="logins">
-              <div className="text-gray-500 font-body font-normal text-lg ml-1">
-                Sign Up
-              </div>
-            </Link>
-            <img className="mx-3" src={Enter} alt="enter"></img>
-            {/* <select
-              className="bg-gray"
-              onChange={(e) => i18n.changeLanguage(e.target.value)}
-            >
-             <option
-                className="uk flag-icon flag-icon-us fas fa-flag "
-                style={{ backgroundImage: `url(${logo})` }}
-                value="en"
-              >
-                UK
-              </option>
-              <option value="ar"> Ar</option> 
-              {options.map((o) => {
-                return <option>{o}</option>;
-              })}
-            </select> */}
-            
-          </Form>
+            <ul className="mob-right-side">
+              <li className="mb-3">
+                <Button className="bttn mr-4 p-0">
+                  <Nav.Link className="" href="/landlord">
+                    <div className=" mob-btn text-gray-500 font-medium font-body text-base px-2">
+                      I'm a Landlord
+                    </div>
+                  </Nav.Link>
+                </Button>
+              </li>
+
+              <li>
+                <Button className="bttn px-3 p-0">
+                <Nav.Link className="" href="/tanents">
+                  <div className=" text-gray-500 font-medium font-body text-base">
+                    I'm a Tenant
+                  </div>
+                </Nav.Link>
+              </Button>
+              </li>
+            </ul>
+          
           {/* Right Options */}
         </div>
         

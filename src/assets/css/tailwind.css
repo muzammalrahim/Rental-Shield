@@ -1083,6 +1083,10 @@ height: 22rem;
         margin: 0 auto;
         padding-bottom: 30px;
     }
+    .mob-sidebar-main{
+        height: 200px;
+        left: -40px !important;
+    }
 }
 
 
@@ -1098,8 +1102,9 @@ height: 22rem;
     } */
     .mob-sidebar-main{
         height: 300px;
-        left: -5px !important;
+        left: -40px !important;
     }
+  
     .PricingPageBanner .lineHeight{
 
         line-height: 50px;
