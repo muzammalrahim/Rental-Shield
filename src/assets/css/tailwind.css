@@ -70,9 +70,7 @@ body{
     outline: none;
 }
 
-.form-inline .nav-link {
-    padding: 0.50rem 1.51rem !important;
-}
+
 
 a:hover, a:hover li {
     color: #72c92a !important;
@@ -509,6 +507,7 @@ select{
     height: 500px;
     margin-top: -68px;
     padding-bottom: 806px;
+    background-size: 100%;
 }
 .landlord-bg p{
     padding-top: 20%;  
@@ -535,9 +534,23 @@ select{
     right: 15%;
     z-index: -1;
 }
-.lanlord-lin1{
-    top: 428px;
-    left: 29%;
+.lanlord-lin1 {
+    top: 528px;
+    transform: rotate(
+8deg
+);
+    left: 20%;
+    z-index: 1;
+    height: 590px;
+}
+.lanlord-lin2 {
+    top: 485px;
+    transform: rotate( 
+293deg
+ );
+    left: 24%;
+    z-index: 1;
+    height: 530px;
 }
 
 /* More Questions */
@@ -1090,6 +1103,23 @@ height: 22rem;
         height: 200px;
         left: -40px !important;
     }
+    /* Landlored */
+    .landlord-bg {
+        padding-bottom: 315px;
+    }
+    .landlord-para{
+        line-height: 55px;
+        padding-top: 30px;
+    }
+    .step-inner.text-left{
+        text-align: center !important;
+    }
+    .step-inner p.text-left{
+        text-align: center !important;
+    }
+    
+    
+     /* Landlored */
 }
 
 
@@ -1165,6 +1195,113 @@ height: 22rem;
     .md\:faq-heading {
         padding-top: 30px !important;
     }
+
+    /* Landlored */
+    .landlord-bg {
+        padding-bottom: 315px;
+    }
+    .landlord-para{
+        line-height: 40px;
+        padding-top: 30px;
+    }
+    .step-inner.text-left{
+        text-align: center !important;
+    }
+    .step-inner p.text-left{
+        text-align: center !important;
+    }
+    .step-row h3 {
+        line-height: 2.3rem;
+        letter-spacing: -0.05em;
+    }
+    .step-row.pl-5{
+        padding-left: unset !important;
+    }
+    .land-even-inner{
+        padding: 0 80px;
+    }
+    .even-inner-img .left-12 {
+        left: 11rem;
+    }
+    .step-row1.pl-5{
+        padding-left: unset !important;
+    }
+    .head-line{
+        height: 50px;
+    }
+    .mob-spacing{
+        padding-top: 30px;
+    }
+
+    .order-1 {
+        position: unset;
+        padding-top: 10px;
+    }
+    .order-1 p{
+        padding-top: 25px;
+        padding-bottom: 55px !important;
+    }
+    .order-1 .pl-20, .order-2 .pl-20, .order-3 .pl-20, .order-4 .pl-20{
+        padding-left: unset;
+    }
+    .order-2{
+        padding-top: 11px !important;
+    }
+    .order-2 h1{
+        padding-top: 0 !important;
+    }
+    .order-2.relative.mt-72 {
+        margin-top: unset;
+    }
+    .order-2 .mt-4, .my-4 {
+        margin-top: unset !important;
+    }
+    .order-3{
+        padding-top: 50px;
+    }
+    .order-4 .mt-52.text-left.pl-20 {
+        margin-top: unset;
+    }
+    img.l-more-quries{
+        display: none;
+    }
+    .landlord-queries {
+        grid-gap: 15px;
+    }
+    .landlord-queries .text-left {
+        text-align: center !important;
+    }
+    .order1-inner img{
+        position: absolute;
+        top: -117px;
+        left: 19px;
+    }
+    .order-2 h1{
+        line-height: 22px !important;
+
+    }
+    .order3-inner img{
+        position: absolute;
+        top: -80px;
+        left: 19px;
+    }
+    .order3-inner h1{
+       padding-top: 42px !important;
+    }
+    .order-4 .mt-4, .my-4 {
+        margin-top: unset !important;
+    }
+    .order-4{
+        padding-top: 10px;
+    }
+    .order4-inner h1{
+        padding-top: 0px !important;
+     }
+    .more-orders{
+        max-height: 350px;
+        border: 1px solid #87ED31;
+    }
+     /* Landlored */
     .footer-inner{
         grid-template-columns: 100%;
     }

@@ -24,15 +24,15 @@ export default class MoreQuestions extends Component {
 
                      
                     {/* step 1 */}
-                    <div class="order-1 relative"> 
+                    <div class="order-1 relative more-orders"> 
                         <div className="more-border-1 absolute">
                             <img className="l-more-quries" src={LeftLine} alt="img"/>
                         </div>
-                        <div class="mt-20 text-left pl-20">
-                            <h1 class="text-5xx text-green-500 font-body font-normal text-left pb-4 m-0">
+                        <div class="order1-inner mt-20 text-left pl-20 relative">
+                            <h1 class="lg:text-5xx text-xl text-green-500 font-body font-normal text-left pb-4 m-0">
                                 Fees
                             </h1>
-                            <p class="text-2x mb-10 text-gray-500 font-body leading-7 text-left m-0 pb-4">
+                            <p class="text-base lg:text-2x mb-10 text-gray-500 font-body leading-7 text-left m-0 pb-4">
                                 How much will it cost me to use your services? 
                             </p>
                             <a href="#" class="text-xl px-4 py-2 font-body font-medium text-white border bg-green-500 rounded-full">
@@ -47,19 +47,19 @@ export default class MoreQuestions extends Component {
                     
 
                     {/* step 2 */}
-                    <div class="order-2 relative mt-72">
+                    <div class="order-2 relative mt-72 more-orders">
                         <div className="more-border-2 relative">
                             <img className="absolute l-more-quries" src={RightLine} alt="img"/>
                         </div>
                         <div class="text-left pl-20">
                             <img class="block mt-4 lg:inline-block lg:mt-0  ml-5 text-teal-200 hover:text-white mr-4" width="60" src={Bulb}/>
                             <br/>
-                            <h1 class="text-5xx text-green-500 font-body font-normal text-left leading-10 pt-4 pb-4 m-0">
+                            <h1 class="lg:text-5xx text-xl  text-green-500 font-body font-normal text-left leading-10 pt-4 pb-4 m-0">
                                 Existing 
                                 <br/>
                                 Tenant
                             </h1>
-                            <p class="text-2x mb-10 text-gray-500 font-body leading-7 text-left m-0 pb-4">
+                            <p class="lg:text-2x text-base mb-10 text-gray-500 font-body leading-7 text-left m-0 pb-4">
                                 How can I introduce
                                 <br/> 
                                 an exisitng tenant
@@ -77,16 +77,16 @@ export default class MoreQuestions extends Component {
                    
 
                     {/* step 3*/}
-                    <div class="order-3 relative">
+                    <div class="order-3 relative more-orders">
                         <div className="more-border-1 absolute">
                             <img className="l-more-quries" src={LeftLine} alt="img"/>
                         </div>
-                        <div className="text-left pl-20">
-                            <h1 class="text-5xx text-green-500 font-body font-normal text-left pt-4 pb-4 m-0">
+                        <div className="text-left pl-20 relative order3-inner">
+                            <h1 class="lg:text-5xx text-xl text-green-500 font-body font-normal text-left pt-4 pb-4 m-0">
                                 Ejari/<br/>
                                 Tawtheeq
                             </h1>
-                            <p class="text-2x mb-10 text-gray-500 font-body leading-7 text-left m-0 pb-4">
+                            <p class="lg:text-2x text-base mb-10 text-gray-500 font-body leading-7 text-left m-0 pb-4">
                                 Should I register these 
                                 <br/> 
                                 agreements with 
@@ -103,17 +103,17 @@ export default class MoreQuestions extends Component {
 
                     {/* step 4*/}
                     
-                    <div class="order-4">
+                    <div class="order-4 more-orders">
                         <div className="more-border-4 relative">
                             <img className="absolute l-more-quries" src={RightLine} alt="img"/>
                         </div>
-                        <div class="mt-52 text-left pl-20">
+                        <div class="mt-52 text-left pl-20 order4-inner">
                             <img class="block mt-4 ml-5 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" width="60" src={Chat}/>
                             <br/>
-                            <h1 class="text-5xx text-green-500 font-body font-normal leading-10 text-left pt-4 pb-4 m-0">
+                            <h1 class="lg:text-5xx text-xl text-green-500 font-body font-normal leading-10 text-left pt-4 pb-4 m-0">
                                 Consulting
                             </h1>
-                            <p class="text-2x mb-10 text-gray-500 font-body leading-7 text-left m-0 pb-4">
+                            <p class="lg:text-2x text-base mb-10 text-gray-500 font-body leading-7 text-left m-0 pb-4">
                                 Do I need a lawyer to check these agreements on my behalf?
                                 
                             </p>

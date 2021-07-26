@@ -13,13 +13,13 @@ export default class LandLordBanner extends Component {
     render() {
         return (
             <div>
-                 <div className="landlord-bg bg-cover bg-no-repeat" 
+                 <div className="landlord-bg  bg-no-repeat" 
                   style={{ backgroundImage:`url(${Bg})` }}
                   >
                        <Container>
                            <Row>
                                <Col>
-                                    <p className="landlord-para text-gray-500 text-6xl font-normal text-left lh-1">
+                                    <p className="landlord-para text-gray-500 text-4xl  lg:text-6xl font-normal text-left lh-1">
                                         Why is this so 
                                         <br/>
                                         important as a 
