@@ -70,14 +70,14 @@ function Header({ t, i18n }) {
 
           {/* Right Options */}
           <Form inline>
-            <Button className="bttn mr-4 p-0">
+            <Button className="bttn mr-3 p-0">
               <Nav.Link className="" href="/landlord">
                 <div className="text-gray-500 font-medium font-body text-lg">
                   {t("header.landlord")}
                 </div>
               </Nav.Link>
             </Button>
-            <Button className="bttn px-3 p-0">
+            <Button className="bttn px-3 p-0 mr-2">
               <Nav.Link className="" href="/tanents">
                 <div className="text-gray-500 font-medium font-body text-lg">
                   {t("header.tenant")}
