@@ -14,7 +14,9 @@ body{
 /* Language menu */
 .lang-menu {
     margin-top: 25px;
-
+}
+.mobile-side-menu{
+    display: none;
 }
 .mob-side-menue{
     display: none;
@@ -752,16 +754,44 @@ select{
  }
 
 
+.PricingPageBanner .xs_heading {
+    top: 107px !important;
+    left: 32px !important;
+    width: 38% !important;
+    font-size: 22px; 
+}
+
+.PricingPageBanner .xsBgImg{
+    height: 21rem;
+}
+
+
+.pricing__card {
+    padding: 0px 0;
+}
+
+.main{
+    margin: 3rem auto 0px auto;
+}
+.carrerTabs .xs_tabs_heading{
+    font-size:  10px !important;
+}
+.career .xs_left_bottom{
+    left: 1.5rem;
+    bottom: 0.9rem;
+}
+
+}
+.PricingPageBanner .lineHeight{
+
+    line-height: 72px;
 }
 @media(max-width: 440px) {
    /* pricing page */
+   .PricingPageBanner .xs_marginTop{
+    margin-top: 1rem !important;
+ }
 
-   .PricingPageBanner .xs_heading{
-    top: 90px !important;
-    left:50px ;
-    width: 30%;
-    
-}
    .PricingPage .xs_Head{
     font-size: 20px;
     
@@ -770,12 +800,129 @@ select{
     font-size: 16px;
     
 }
+
+.PricingPageBanner .lineHeight {
+    line-height: 23px;
+}
+.pricing__card {
+  
+    padding: 0px 0;
 }
 
+.PricingPage .xs_font{
+    width: 51%;
+    text-align: justify;
+}
+.PricingPage .xs_Heading1{
+    font-size:24px;
+}
+
+.PricingPageBanner .xs_heading {
+    top: 107px !important;
+    left: 39px !important;
+    width: 38% !important;
+    font-size: 22px;
+}
+
+.PricingPageBanner .xsBgImg{
+height: 22rem;
+}
+
+.PricingPage .xs_Head {
+    font-size: 22px;
+}
+.xs_cardP{
+    padding: 1rem 0.5rem 0rem 0.5rem;
+}
+.toggle {
+    width: 187px;
+    height: 64px;
+    background: #EEEEEE;
+    border-radius: 50px;
+    padding: 8px 0px 10px 0px;
+}
+.xs_mRight{
+   margin-right: 4rem;
+}
+.TogleimgHeight{
+  margin-top: 8rem;
+}
+
+.main{
+    margin: 3rem auto 0px auto;
+}
+
+.career .xs_Title{
+    font-size: 1.5rem;
+}
+.career .xs_heading{
+    font-size:  1rem;
+}
+.carrerTabs .xs_tabs_heading{
+    font-size:  11px;
+}
+.searchResult__accordion {
+    margin: auto;
+    width: 100%;
+
+}
+.searchResult__accordion button{
+    line-height: 18px !important;
+}
+.carrerTabs .xs_tab_diver{
+ line-height: 14px;}
+
+ .career .brand__content{
+    left: 0px;
+    top: 2032px;
+ }
+ 
+ .career .xs_lineHeight{
+
+ }
+ 
+ .career .xs_para_size{
+  font-size: 12px;
+ }
+ .career__brand {
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.xs_head_size2{
+    
+    font-size: 25px;
+    margin-top: 7px;
+
+}
+.xs_text_size{
+    font-size: 11px;
+}
+}
+
+@media (min-width: 445px) and (max-width: 800px) {
+    .career .xs_left_bottom{
+        left: 4.5rem;
+        bottom: 8rem;
+    }
+    .carrerTabs .xs_tabs_heading {
+        font-size: 17px;
+        padding: 24px 5px;
+    }
+
+}
 /* Home Testimonial Slider */
 
 
 @media (min-width: 320px) and (max-width: 639px) {
+    .mobile-side-menu{
+        display: block;
+    }
+    .mobile-side-menu .div{
+        height: 400px;
+    }
     .mob-side-menue{
         display: block;
         float: right;
@@ -925,6 +1072,7 @@ select{
     .home-accsteps .step-img{
         width: 70%;
     }
+
     .mob-h-step{
         padding: 0 30px;
     }
@@ -948,10 +1096,20 @@ select{
     /* .mob-nav{
         height: 500px;
     } */
+    .mob-sidebar-main{
+        height: 300px;
+        left: -5px !important;
+    }
+    .PricingPageBanner .lineHeight{
+
+        line-height: 50px;
+    }
     .mob-line{
         display: none;
     }
-    
+    .mobile-side-menu{
+        display: block;
+    }
     .mob-side-menue{
         display: block;
         float: right;

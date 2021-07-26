@@ -55,16 +55,11 @@ text-align: right;
 color: #606060;
 
 }
-.career__brand{
-    background-image: url('../../assets//images/brand.png');
-    height: 1300px;
-        background-position: center;
-        background-size: cover;
-}
+
 .brand__content{
 position: absolute;
-top: 2380px;
-left: 150px;
+top: 2200px;
+left: 50px;
 
 
 }

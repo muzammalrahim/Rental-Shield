@@ -41,7 +41,10 @@ function Header({ t, i18n }) {
         {/* logo */}
 
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-        <SideBar className="mob-nav"/>
+        <div className="mobile-side-menu">
+          <SideBar className="mob-nav"/>
+        </div>
+        
         
         <Navbar.Collapse id="basic-navbar-nav">
         
