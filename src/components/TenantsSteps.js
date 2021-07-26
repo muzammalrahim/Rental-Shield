@@ -99,10 +99,10 @@ export default class TenantsSteps extends Component {
 
                     {/* step 3 */}
                     <Row className="items-center">
-                        <Col lg="6" md="6" sm="12">
+                        <Col lg="6" md="12" sm="12">
                             <img src={Reports} alt="img"/>
                         </Col>
-                        <Col lg="6" md="6" sm="12">
+                        <Col lg="6" md="12" sm="12">
                             <h1 className="text-5xl text-gray-500 font-body font-light text-left pb-3">
                                 Check in/out reports
                             </h1>

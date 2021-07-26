@@ -14,10 +14,10 @@ export default class MoreQuestions extends Component {
     render() {
         return (
             <div className="more-query-main mb-40">
-                <h1 className="text-gray-500 font-body text-6xl font-normal pt-5">
+                <h1 className="text-gray-500 font-body text-3xl lg:text-6xl font-normal pt-5">
                     Still have more questions?
                 </h1>
-                <p className="text-gray-500 font-body text-2x font-normal mb-0">
+                <p className="text-gray-500 font-body text-lg lg:text-2x font-normal mb-0">
                     See below, and then check out our FAQ's page
                 </p>
                  <div class="landlord-queries grid grid-cols-4 py-10 px-20">

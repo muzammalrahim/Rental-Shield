@@ -22,10 +22,10 @@ export default class EvenMoreLandLard extends Component {
                     
                     <Row className="no-gutters">
                         <Col sm="12">
-                            <h1 className="text-gray-500 text-6xl font-normal font-body pt-5">
+                            <h1 className="text-gray-500 text-3xl lg:text-6xl font-normal font-body pt-5">
                             ​   Is that everything?
                             </h1>
-                            <p className="text-gray-500 text-2x font-normal font-body">​
+                            <p className="text-gray-500 text-lg lg:text-2x font-normal font-body">​
                                 No believe it or not there is more...
                             </p>
                         </Col>

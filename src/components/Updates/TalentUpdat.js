@@ -17,18 +17,17 @@ export default class TalentUpdat extends Component {
 
     render() {
         return (
-            <div className="update-main -mt-40">
+            <div className="tanent-update-main -mt-40">
 
                     <div className="main-home lg:w-8/12 md:10/12 mx-auto">
                         <div className="h-video-main">
                         <div>
-                            <h4 className="text-5xl text-gray-500 font-body font-normal">
+                            <h4 className="text-3xl lg:text-5xl text-gray-500 font-body font-normal">
                                  ​How about a video..
                             </h4>
                         </div>
-                        <br/>
                         <p className="text-xl text-gray-500 font-body  font-normal pb-4">
-                            W​Here's a summary and more. 
+                            W​here's a summary and more. 
                         </p>
                         <YoutubeEmbed embedId="rokGy0huYEA" />
                         </div>
@@ -47,7 +46,7 @@ export default class TalentUpdat extends Component {
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Doller} alt="img"/>
                                         </div>
                                         <div class="p-8 tenent-gradient">
-                                            <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
+                                            <h1 class="text-2xl text-gray-500 font-bold pb-1 mt-16 text-left">
                                                 Fees
                                             </h1>
                                             <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
@@ -71,8 +70,8 @@ export default class TalentUpdat extends Component {
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Idea} alt="img"/>
                                         </div>
                                         <div class="p-8 tenent-gradient">
-                                            <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
-                                                Fees
+                                            <h1 class="text-2xl text-gray-500 font-bold  pb-1  mt-16 text-left">
+                                            ​Existing Tenant
                                             </h1>
                                             <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
                                                 How much will it 
@@ -93,8 +92,8 @@ export default class TalentUpdat extends Component {
                                             <img className="bg-white p-5 rounded-full t-icon" width="" src={Pencil} alt="img"/>
                                         </div>
                                         <div class="p-8 tenent-gradient">
-                                            <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
-                                                Fees
+                                            <h1 class="text-2xl text-gray-500 font-bold  pb-1  mt-16 text-left">
+                                            Ejari/ Tawtheeq
                                             </h1>
                                             <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
                                                 How much will it 
@@ -119,8 +118,8 @@ export default class TalentUpdat extends Component {
                                         </div>
                                         <div class="p-8 tenent-gradient">
                                             <div className="wrp">
-                                            <h1 class="text-3xl text-gray-500 font-bold pb-3 mt-16 text-left">
-                                                Fees
+                                            <h1 class="text-2xl text-gray-500 font-bold pb-1 mt-16 text-left">
+                                            Consulting
                                             </h1>
                                             <p class="text-2x mb-11 text-gray-500 font-body font-normal leading-7 text-left">
                                                 How much will it 

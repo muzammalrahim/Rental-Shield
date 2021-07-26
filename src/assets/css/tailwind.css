@@ -500,6 +500,9 @@ select{
   width: 25px;
   display: inline-block;
 }
+.talent-cards img{
+    margin: 0 auto;
+}
 /* ------------------Talent Page----------------------- */
 
 /* ------------------LandLord Page----------------------- */
@@ -1117,9 +1120,146 @@ height: 22rem;
     .step-inner p.text-left{
         text-align: center !important;
     }
-    
+    .step-row.pl-5{
+        padding-left: unset !important;
+    }
+    .land-even-inner{
+        padding: 0 25px;
+    }
+    .step-row .right-40 {
+        right: 0rem;
+    }
+    /* .even-inner-img .left-12 {
+        left: 11rem;
+    } */
+    .step-row1.pl-5{
+        padding-left: unset !important;
+    }
+    .step-row h3 {
+        line-height: 29px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .step-inner {
+        padding-top: 20px;
+    }
+    .step-row h3 {
+        line-height: 29px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .step-row.pb-28 {
+        padding-bottom: 1rem;
+    }
+    .head-line{
+        height: 50px;
+    }
+    .more-query-main h1.pt-5{
+        padding-top: 0rem !important;
+    }
+    .more-query-main p{
+        padding: 0 10px;
+    }
+    .more-orders {
+        /* max-height: 350px; */
+        border: 1px solid #87ED31;
+        padding-bottom: 20px;
+    }
+    .landlord-queries.px-20{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .more-orders {
+        margin-bottom: 46px;
+    }
+    .order1-inner img {
+        position: absolute;
+        top: -117px;
+        left: 58px;
+    }
+    .order-2 .mt-4, .my-4 {
+        margin-top: unset !important;
+    }
+    .order3-inner img {
+        position: absolute;
+        top: -80px;
+        left: 19px;
+    }
+    .order-2  img {
+        position: absolute;
+        left: 58px;
+    }
+    .order-3  img {
+        position: absolute;
+        left: 58px;
+    }
+    .order-4  img {
+        position: absolute;
+        left: 110px;
+    }
+    .order-4 .mt-4, .my-4 {
+        margin-top: unset !important;
+    }
+    .landlord-queries .text-left {
+        text-align: center !important;
+    }
+    .landlord-queries .order-1{
+        padding: 10px 0 25px 0;
+    }
+    .landlord-queries .order-2{
+        padding: 10px 0 25px 0;
+    }
+    .landlord-queries .order-2 h1{
+        padding-top: 50px !important;
+        line-height: 25px;
+    }
+    .landlord-queries .order-4{
+        padding: 10px 0 25px 0;
+    }
+    .landlord-queries .order-4 h1{
+        padding-top: 50px !important;
+        line-height: 25px;
+    }
+    .more-query-main.mb-40{
+        margin-bottom: -3rem;
+    }
     
      /* Landlored */
+
+      /* Tanent */
+     .tenant-steps img{
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .g-line{
+        display: none;
+    }
+    .tenant-inner .order-2 img {
+        position: unset ;
+    }
+    .tanent-update-main.-mt-40{
+        margin-top: 0rem;
+    }
+    .talent-cards .t-icon {
+        margin: 0 auto;
+        width: 33%;
+    }
+    .talent-cards .text-left {
+        text-align: center !important;
+    }
+    .talent-cards .order-1.mt-5 {
+        margin-top: 1rem !important;
+    }
+    .talent-cards .order-1.pt-5 {
+        padding-top: 0rem !important;
+    }
+    .even-more-t-bg {
+        margin-top: -20px;
+    }
+    .t-even-inner h3{
+        font-size: 25px;
+    }
+     /* Tanent */
 }
 
 
@@ -1195,6 +1335,75 @@ height: 22rem;
     .md\:faq-heading {
         padding-top: 30px !important;
     }
+
+    /* Home Steps */
+    .para1 {
+        left: 23%;
+        top: 3px;
+    }
+    .para1 p{
+        margin: 0;
+    }
+    .para2 p{
+        margin: 0;
+    }
+    .para3 p{
+        margin: 0;
+    }
+    .para4 p{
+        margin: 0;
+    }
+    .para2 p.pb-3{
+        padding-bottom: 0.5rem !important;
+    }
+    .para3 {
+        left: 22%;
+    }
+    .home-step4{
+        width: 50%;
+        margin: 0 auto;
+    }
+    /* Home Steps */
+
+    /* Tanent */
+    .banner-content {
+        left: 34%;
+        top: 101px;
+    }
+    .tenant-steps img{
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    .t-bglin{
+        display: none;
+    }
+    .g-line{
+        display: none;
+    }
+    .tenant-steps img.float-right{
+        float: unset !important;
+    }
+    .tenant-inner .step-row1 .t-img{
+        float: right;
+    }
+    .tenant-inner .step-row .t-img{
+        float: right;
+    }
+    .talent-cards{
+        margin: 0 20px;
+    }
+    .talent-cards .p-8{
+        padding: 1rem;
+
+    }
+    .talent-cards h1{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    
+    
+    /* Tanent */
+
 
     /* Landlored */
     .landlord-bg {
@@ -1298,8 +1507,12 @@ height: 22rem;
         padding-top: 0px !important;
      }
     .more-orders{
-        max-height: 350px;
+        /* max-height: 350px; */
         border: 1px solid #87ED31;
+        padding-bottom: 20px;
+    }
+    .more-query-main.mb-40{
+        margin-bottom: 0rem;
     }
      /* Landlored */
     .footer-inner{
@@ -1334,6 +1547,7 @@ height: 22rem;
     .lg\:inner {
         padding-top: 50%;
         padding-bottom: 23%;
+        padding-left: 30px;
     }
     
 }

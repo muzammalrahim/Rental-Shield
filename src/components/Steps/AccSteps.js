@@ -153,7 +153,7 @@ class AccSteps extends Component {
                                         <h3 className="text-gray-500 font-body font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.pom')}</h3>
                                     </li>
                                 </ul>
-                                <p className="text-left pt-2 text-gray-500 font-light font-body leading-7 lg:text-2x md:text-xl lg:pr-5 ">
+                                <p className="home-step4 text-left pt-2 text-gray-500 font-light font-body leading-7 lg:text-2x md:text-xl lg:pr-5 ">
                                 {t('ac-steps.pom-detail-1')}
                                 {t('ac-steps.pom-detail-2')}
                                 
