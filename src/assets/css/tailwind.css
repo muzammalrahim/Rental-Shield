@@ -1324,6 +1324,60 @@ height: 22rem;
         font-size: 17px;
     }
     /* About */
+    /* Investor */
+    .banner-invest{
+        background-image: none !important;
+    }
+    .invest-banner-content h2 {
+        font-size: 30px;
+        line-height: 30px !important;
+    }
+    .investor-stpes-main .absolute {
+        position: unset;
+    }
+    .inner-position .text-left {
+        text-align: center !important;
+    }
+    .investor-mob-img{
+        padding-bottom: 20px;
+    }
+    /* .i-mob-para{
+        padding-bottom: 30px;
+    } */
+    .investor-stpes-main{
+        grid-template-columns: 100%;
+    }
+    .right-side.inner-position-r.pt-36 {
+        padding-top: 1rem;
+    }
+    .right-side .text-left {
+        text-align: center !important;
+    }
+    .right-side .w-8\/12 {
+        width: 100%;
+    }
+    .newsletter-inner{
+        background: #f3fdea;
+    }
+    img.absolute.input-arrow {
+        right: 10% !important;
+    }
+    .news-inner-top h3{
+        line-height: 35px !important;
+    }
+    .news-inner-top p.px-52 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .news-inner-top h3.pt-4, .py-4 {
+        padding-top: 4.5rem !important;
+    }
+    .news-inner-top p.mb-40 {
+        margin-bottom: 0;
+    }
+    .news-inner-bottom input.min-w-1\/2 {
+        min-width: 90%;
+    }
 }
 
 
@@ -1372,9 +1426,10 @@ height: 22rem;
         left: 17rem;
     }
     .sm\:inner{
-        padding-top: 20% !important;
+        padding-top: 50%;
         z-index: 99 !important;
     }
+    
     .sm\:left-side{
         background-position: top left;
         height: 39em;
@@ -1399,7 +1454,39 @@ height: 22rem;
     .md\:faq-heading {
         padding-top: 30px !important;
     }
+    /* Investor */
+    .l-inner-content2{
+        left: 16rem ;
+        top: 6rem ;
+    }
+    .invest-banner-content h2 {
+        line-height: 35px !important;
+    }
+    .inner-position .inner-content {
+        left: 18rem !important;
+        top: 8rem !important;
+    }
+    .inner-position .inner-content3 {
+        left: 18rem !important;
+        top: 7rem !important;
+    }
+    .inner-position-r .inner-content1 {
+        left: 5rem !important;
+        top: 10rem !important;
+    }
+    .inner-position-r .inner-content2 {
+        left: 6rem !important;
+        top: 8rem !important;
+    }
+    .inner-position-r .inner-content3 {
+        left: 6rem !important;
+        top: 7rem !important;
+    }
+    
+    /* Investor */
+
     /* About */
+    
     .about-banenr-mian img{
         min-height: 626px;
         margin-top: 20px;
@@ -1724,6 +1811,9 @@ svg:hover {
 /*------------------------------------Blog Post------------------------------------ */
 
 /* Investors */
+.investor-main .navbar-nav .nav-link .text-gray-500 {
+    color: white;
+}
 .banner-invest{
     
     background-position: right top;
@@ -1733,13 +1823,35 @@ svg:hover {
     display: grid;
     grid-template-columns: 42% auto;
 }
-.inner-position .inner-content{
-    left: 28rem;
+.invest-banner-content{
+    position: relative;
+    left: 20%;
+    top: 0;
 }
-.inner-position-r .inner-content{
-    left: 32rem;
+.invest-banner-content h2{
+    line-height: 60px;
+    padding-bottom: 20px;
 }
-  
+.inner-position .inner-content {
+    left: 25rem;
+    top: 14rem;
+}
+.inner-position .inner-content3 {
+    left: 23rem;
+    top: 12rem;
+}
+.inner-position-r .inner-content1 {
+    left: 9rem;
+    top: 15rem;
+}
+.inner-position-r .inner-content2 {
+    left: 9rem;
+    top: 12rem;
+}
+.inner-position-r .inner-content3{
+    left: 12rem;
+    top: 14rem;
+}
 /* ------------------Blog Page----------------------- */
 
 .blog-page-slider .slick-prev {

@@ -17,23 +17,24 @@ class InvestorsBanner extends Component {
                 <div className="banner-img">
                     <div className="xs:left-side lg:left-side sm:left-side bg-local" style={{ backgroundImage:`url(${Homebanner})` }}>
                     {/* inner text */}
-                        <div className="sm:inner xs:inner md:inner-pt-5 lg:inner">
-                                <h2 className="text-green-600 text-xl md:text-4xl lg:text-6xl font-normal le">
-                                    {t('banner.pay')}
-                                    <br/>
-                                    {t('banner.rent')}
-                                    <br/>
-                                    {t('banner.monthly')}
+                        <div className="invest-banner-content text-left sm:inner xs:inner md:inner-pt-5 lg:inner">
+                                <h2 className="text-green-600 text-xl md:text-4xl lg:text-6xl font-normal">
+                                Hello 
+                                <br/>
+                                Investors!    
                                 </h2>
+                                <h4 className="text-gray-500 font-body text-3xl">
+                                    We are Looking for the best
+                                </h4>
                                 <p className="text-gray-500 pt-3 pb-3 text-lg md:text-2lx leading-7">
-                                    {t('banner.banner-details-1')}
+                                    It has to be more than just 
                                     <br/>
-                                    {t('banner.banner-details-2')}
+                                    money. We are looking for people
+                                    <br/>
+                                     to join us in our long term vision. 
                                 </p>
                             
-                                <button className="bg-green-600 rounded-full px-4 py-2 text-lg text-white font-bold font-body header-btn">
-                                    {t('banner.readmore')}
-                                </button>
+                                
                             </div>
                         {/* inner text */}
 
