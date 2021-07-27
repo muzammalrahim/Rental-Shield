@@ -509,7 +509,7 @@ select{
 .landlord-bg{
     height: 500px;
     margin-top: -68px;
-    padding-bottom: 806px;
+    padding-bottom: 860px;
     background-size: 100%;
 }
 .landlord-bg p{
@@ -906,10 +906,16 @@ height: 22rem;
     left: 0px;
     top: 2032px;
  }
- 
- .career .xs_lineHeight{
-
+ .home-banner-main{
+    background: #DFF8C9;
+    padding-bottom: 30px;
  }
+ .home-accsteps .order-2 img {
+    position: unset;
+}
+.step-inner ul.pr-28 {
+    padding-right: 0rem;
+}
  
  .career .xs_para_size{
   font-size: 12px;
@@ -956,6 +962,9 @@ height: 22rem;
     .mob-side-menue{
         display: block;
         float: right;
+    }
+    .mob-side-menue svg{
+        font-size: 30px;
     }
     .order-1 {
         position: unset;
@@ -1114,7 +1123,7 @@ height: 22rem;
         padding-bottom: 30px;
     }
     .mob-sidebar-main{
-        height: 200px;
+        height: 500px;
         left: -40px !important;
     }
     /* Landlored */
@@ -1210,6 +1219,9 @@ height: 22rem;
     }
     .order-4 .mt-4, .my-4 {
         margin-top: unset !important;
+    }
+    .even-inner-img .left-12 {
+        left: 0rem;
     }
     .landlord-queries .text-left {
         text-align: center !important;
@@ -1378,6 +1390,16 @@ height: 22rem;
     .news-inner-bottom input.min-w-1\/2 {
         min-width: 90%;
     }
+    .registration-main{
+        background-image: none;
+        background: #4c594a !important;
+    }
+    .registration-main .login-card.card {
+        margin-top: 0px;
+    }
+    .registration-main .from-main {
+        top: 0;
+    }
 }
 
 
@@ -1392,7 +1414,7 @@ height: 22rem;
         height: 500px;
     } */
     .mob-sidebar-main{
-        height: 300px;
+        height: 500px;
         left: -40px !important;
     }
   
@@ -1409,6 +1431,9 @@ height: 22rem;
     .mob-side-menue{
         display: block;
         float: right;
+    }
+    .mob-side-menue svg{
+        font-size: 50px;
     }
     .t-left-bg{
         display: none;
@@ -1432,7 +1457,7 @@ height: 22rem;
     
     .sm\:left-side{
         background-position: top left;
-        height: 39em;
+        height: 30rem;
     }
     /* .sm\#basic-navbar-nav {
         background: #fff;
@@ -1512,6 +1537,12 @@ height: 22rem;
 
 
     /* Home Steps */
+    .lg\:inner {
+        padding-top: 30%;
+        padding-bottom: 2%;
+        padding-left: 30px;
+    }
+
     .para1 {
         left: 23%;
         top: 3px;
@@ -1722,7 +1753,7 @@ height: 22rem;
         height: 100%;
     }
     .lg\:inner {
-        padding-top: 50%;
+        padding-top: 40%;
         padding-bottom: 23%;
         padding-left: 30px;
     }
@@ -2027,3 +2058,5 @@ border-radius: 10px;
 
 
 /* ------------------Contact Page----------------------- */
+
+

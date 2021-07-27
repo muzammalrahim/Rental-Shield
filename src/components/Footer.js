@@ -268,6 +268,8 @@ class Footer extends Component {
             {/* Col 7 */}
           </div>
         </div>
+
+        
       </div>
     );
   }

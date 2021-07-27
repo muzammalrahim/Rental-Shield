@@ -34,7 +34,7 @@ class AccSteps extends Component {
                                         <h4 className="text-gray-500 font-light font-body lg:text-5xl md:text-3xl">{t('ac-steps.one')}</h4>
                                     </li>
                                     <li>
-                                        <img className="md:h-30 " src={Line} alt="Line"/>
+                                        <img className="md:h-30 head-line" src={Line} alt="Line"/>
                                     </li>
                                     <li>
                                         <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">
@@ -83,7 +83,7 @@ class AccSteps extends Component {
                                         </h4>
                                     </li>
                                     <li>
-                                        <img src={Line} alt="Line"/>
+                                        <img className="head-line" src={Line} alt="Line"/>
                                     </li>
                                     <li>
                                         <h3 className="text-gray-500 font-body font-light text-5xl lg:text-5xl md:text-3xl pl-3">
@@ -115,7 +115,7 @@ class AccSteps extends Component {
                                         <h4 className="text-gray-500 font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.three')}</h4>
                                     </li>
                                     <li>
-                                        <img src={Line} alt="Line"/>
+                                        <img className="head-line" src={Line} alt="Line"/>
                                     </li>
                                     <li>
                                         <h3 className="text-gray-500 font-light font-body text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.check-in')}</h3>
@@ -147,7 +147,7 @@ class AccSteps extends Component {
                                         <h4 className="text-gray-500 font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.four')}</h4>
                                     </li>
                                     <li>
-                                        <img src={Line} alt="Line"/>
+                                        <img className="head-line" src={Line} alt="Line"/>
                                     </li>
                                     <li>
                                         <h3 className="text-gray-500 font-body font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.pom')}</h3>
@@ -175,7 +175,7 @@ class AccSteps extends Component {
                                         <h4 className="text-gray-500 font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.five')}</h4>
                                     </li>
                                     <li>
-                                        <img src={Line} alt="Line"/>
+                                        <img className="head-line" src={Line} alt="Line"/>
                                     </li>
                                     <li>
                                         <h3 className="text-gray-500 font-light text-5xl lg:text-5xl md:text-3xl">{t('ac-steps.check-out')}</h3>
@@ -207,7 +207,7 @@ class AccSteps extends Component {
                                     <h4 className="text-gray-500  font-body font-light lg:text-5xl md:text-3xl">{t('ac-steps.six')}</h4>
                                     </li>
                                     <li>
-                                        <img src={Line} alt="Line"/>
+                                        <img className="head-line" src={Line} alt="Line"/>
                                     </li>
                                     <li>
                                         <h3 className="text-gray-500 font-body  font-light text-5xl lg:text-5xl md:text-3xl">
