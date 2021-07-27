@@ -1401,7 +1401,9 @@ height: 22rem;
         padding-top: 30px;
     }
     
-    
+    .tanent-banner-main{
+        overflow-x: hidden;
+    }
     /* Tanent */
 
 

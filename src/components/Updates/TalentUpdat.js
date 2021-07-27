@@ -43,7 +43,7 @@ export default class TalentUpdat extends Component {
                                     {/* Box1 */}
                                     <div class="order-1 mt-5 pt-5">
                                         <div className="relative top-20 z-10">
-                                            <img className="bg-white p-5 rounded-full t-icon" width="" src={Doller} alt="img"/>
+                                            <img className="bg-white p-4 rounded-full t-icon" width="" src={Doller} alt="img"/>
                                         </div>
                                         <div class="p-8 tenent-gradient">
                                             <h1 class="text-2xl text-gray-500 font-bold pb-1 mt-16 text-left">
@@ -67,7 +67,7 @@ export default class TalentUpdat extends Component {
                                     {/* Box2 */}
                                     <div class="order-1 mt-5 pt-5">
                                         <div className="relative top-20 z-10">
-                                            <img className="bg-white p-5 rounded-full t-icon" width="" src={Idea} alt="img"/>
+                                            <img className="bg-white p-4 rounded-full t-icon" width="" src={Idea} alt="img"/>
                                         </div>
                                         <div class="p-8 tenent-gradient">
                                             <h1 class="text-2xl text-gray-500 font-bold  pb-1  mt-16 text-left">
@@ -89,7 +89,7 @@ export default class TalentUpdat extends Component {
                                     {/* Box3 */}
                                     <div class="order-1 mt-5 pt-5">
                                         <div className="relative top-20 z-10">
-                                            <img className="bg-white p-5 rounded-full t-icon" width="" src={Pencil} alt="img"/>
+                                            <img className="bg-white p-4 rounded-full t-icon" width="" src={Pencil} alt="img"/>
                                         </div>
                                         <div class="p-8 tenent-gradient">
                                             <h1 class="text-2xl text-gray-500 font-bold  pb-1  mt-16 text-left">
@@ -114,7 +114,7 @@ export default class TalentUpdat extends Component {
                                     {/* Box4 */}
                                     <div class="order-1 mt-5 pt-5">
                                         <div className="relative top-20 z-10">
-                                            <img className="bg-white p-5 rounded-full t-icon" width="" src={Chat} alt="img"/>
+                                            <img className="bg-white p-4 rounded-full t-icon" width="" src={Chat} alt="img"/>
                                         </div>
                                         <div class="p-8 tenent-gradient">
                                             <div className="wrp">

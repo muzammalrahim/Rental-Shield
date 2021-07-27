@@ -187,7 +187,7 @@ export default class EvenMore extends Component {
                             </div>
                         </Col>
                         <Col lg={{span:6, order:2}} md={{span:12, order:1}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className=" md:h-50">
-                            <img className="tanents-center" src={Talent3} alt="step1"/>
+                            <img className="t-img tanents-center" src={Talent3} alt="step1"/>
                         </Col>
                     </Row>
                     {/* step3 */}
