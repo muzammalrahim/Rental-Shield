@@ -32,7 +32,9 @@ export default class About extends Component {
                     <Container>
                         <Row>
                             <Col xs="12">
-                                <h2 className="text-gray-500 text-6xl font-normal font-body pb-3">Our Story</h2>
+                                <h2 className="text-gray-500 text-4xl lg:text-6xl font-normal font-body pb-3">
+                                    Our Story
+                                </h2>
                                 <p className="text-gray-500 text-2x font-normal font-body leading-7">
                                     Born out of a practiced & proven concept. We've designed it to 
                                     <br/>
@@ -59,16 +61,16 @@ export default class About extends Component {
                 <div className="our-aim grid justify-items-center relative">
                     <img className="m-3 " src={OurAim} alt="img"/>
                     <div className="aim-inner">
-                        <p className="text-gray-500 font-body text-6xl font-normal text-left mb-0">
+                        <p className="text-gray-500 font-body text-3xl lg:text-6xl font-normal text-left mb-0">
                             Our aim&nbsp; 
-                            <span className="text-gray-500 font-body text-6xl font-black">
+                            <span className="text-gray-500 font-body text-3xl lg:text-6xl font-black">
                             is to...
                             </span>
                         </p>
-                        <p className="text-gray-500 font-body text-6xl font-normal mb-0">
+                        <p className="text-gray-500 font-body text-3xl lg:text-6xl font-normal mb-0">
                             Change renting
                         </p>
-                        <p className="text-gray-500 font-body text-6xl font-black text-left mb-0">
+                        <p className="text-gray-500 font-body text-3xl lg:text-6xl font-black text-left mb-0">
                              forever...
                         </p>
                     </div>

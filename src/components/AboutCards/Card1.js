@@ -11,7 +11,7 @@ export default class Card1 extends Component {
                             <h3 className="text-green-500 text-6xl font-normal font-body">Better Yet..</h3>
                         </Col>
                         <Col sm="5">
-                        <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 lg:ml-20">
+                        <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 lg:ml-20 about-card-inner">
                             <div>
                                 <h2 class="text-gray-500 text-5xl font-light font-body text-left pb-4 pt-3">
                                     Independent

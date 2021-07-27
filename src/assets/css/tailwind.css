@@ -583,8 +583,19 @@ select{
     top: 30%;
     left: 35%;
 }
+
 .aim-inner p{
     line-height: 70px;
+}
+.about-cards-main{
+    max-height: 550px;
+}
+.about-info-cards{
+    position: relative;
+    top: 5%;
+}
+.about-bottom-img{
+    margin-bottom: 10%;
 }
 /* ------------------ About Page ------------------ */
 
@@ -1260,6 +1271,59 @@ height: 22rem;
         font-size: 25px;
     }
      /* Tanent */
+
+     /* About */
+     .about-main{
+         overflow-x: hidden;
+     }
+     .about-banenr-mian {
+        background: #DFF8C9;
+     }
+     .about-inner {
+        position: unset; 
+    }
+    .about-inner .pl-5{
+        padding-left: 1rem !important;
+    }
+    .about-inner {
+        padding-right: 1rem;
+    }
+    .about-inner h3.pt-52 {
+        padding-top: 0rem !important;
+    }
+    .about-banenr-mian img{
+        display: none;
+    }
+    .timeline-main{
+        display: none;
+    }
+    .about-cards-main {
+        max-height: unset;
+        padding-bottom: 30px;
+    }
+    .about-main .head-section{
+        padding-top: 30px;
+    }
+    .about-main .head-section h2.pb-3{
+        padding-bottom: unset !important;
+    }
+    .about-card-inner.my-20 {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    .aim-inner p {
+        line-height: 25px;
+    }
+    .our-aim{
+        padding: 0 10px;
+    }
+    .aim-inner {
+        top: 30%;
+    }
+    .aim-inner .text-3xl {
+        font-size: 17px;
+    }
+    /* About */
 }
 
 
@@ -1335,6 +1399,30 @@ height: 22rem;
     .md\:faq-heading {
         padding-top: 30px !important;
     }
+    /* About */
+    .about-banenr-mian img{
+        min-height: 626px;
+        margin-top: 20px;
+    }
+    .about-inner{
+        width: 50%;
+    }
+    .about-inner.top-24 {
+        top: -8rem;
+    }
+    .our-aim{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .aim-inner p{
+        line-height: 40px;
+    }
+    .about-cards-main {
+        max-height: unset;
+        padding-bottom: 30px;
+    }
+    /* About */
+
 
     /* Home Steps */
     .para1 {
