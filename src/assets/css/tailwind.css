@@ -10,6 +10,13 @@
 body{
     overflow-x: hidden; 
 }  
+
+.mob-side-topbar img{
+    width: 20%;
+}
+.m-sidebar-inner{
+    position: fixed !important;
+}
 .home-mian {
     overflow: hidden;
 }  
@@ -821,7 +828,7 @@ select{
 }
 .PricingPageBanner .lineHeight{
 
-    line-height: 72px;
+    line-height: 60px;
 }
 @media(max-width: 440px) {
    /* pricing page */
@@ -1486,6 +1493,83 @@ height: 22rem;
     .b-mob-search input.w-96{
         width: 100%
     }
+    /* Blog */
+
+    /* Blog Post */
+    .bp-serach-area{
+        margin-bottom: 30px;
+    }
+    .social-links-main.-mt-8 {
+        margin-top: 0;
+    }
+    .blog-content h3{
+        font-size: 25px;
+    }
+    .blog-content p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .social-links-main.flex{
+        display: unset;
+    }
+    .social-links-main ul{
+        padding-left: 30px;
+    }
+    .social-links-main ul li{
+        display: inline-block;
+        padding-left: 15px;
+    }
+    
+    .social-links-main p{
+        padding: 10px 0 0 0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .blog-slider-main .slick-next{
+        display: none !important;
+    }
+    .b-p-slider h3{
+        font-size: 20px;
+    }
+    .blog-acc-main{
+        margin-bottom: 60px;
+    }
+    
+    .social-links-main svg.mr-36 {
+        margin-right: 3rem;
+    }
+    .bp-top-content.px-0.flex.items-center {
+        display: block;
+    }
+    .bp-img{
+        margin: 0 auto;
+    }
+    .bp-top-content h1{
+        padding-left: 10%;
+    }
+    .bp-serach-area.col-lg-4{
+        width: 90%;
+        margin: 30px auto;
+    }
+    .blog-post-main{
+        overflow: hidden;
+    }
+    /* Blog Post */
+    .pricing__card{
+        background: #dff8c9;
+        margin-top: 30px;
+        padding-bottom: 60px;
+    }
+    .mob-p-card.pt-5{
+        padding-top: 0 !important;
+    }
+    .pc-inner-h{
+        font-size: 20px;
+    }
+    .PricingPage .xs_font {
+        width: 51%;
+        text-align: center;
+    }
 }
 
 
@@ -1499,11 +1583,11 @@ height: 22rem;
     /* .mob-nav{
         height: 500px;
     } */
-    .mob-sidebar-main{
+    /* .mob-sidebar-main{
         height: 500px;
         left: -40px !important;
     }
-  
+   */
     .PricingPageBanner .lineHeight{
 
         line-height: 50px;
@@ -1860,6 +1944,23 @@ height: 22rem;
         top: 61px;
         height: auto !important;
     }
+
+    /* Blogpost */
+    .social-links-main.-mt-8 {
+        margin-top: 0;
+    } 
+   
+    .bp-top-content.px-0.flex.items-center {
+        display: block;
+    }
+    .bp-img{
+        margin: 0 auto;
+    }
+    .bp-top-content h1{
+        padding-left: 10%;
+    }
+    
+    /* Blogpost */
 }
 
 @media (min-width: 1280px) and (max-width: 1440px){
@@ -1879,6 +1980,23 @@ height: 22rem;
         padding-top: 40%;
         padding-bottom: 23%;
         padding-left: 30px;
+    }
+
+    /* Blog Post */
+    .blog-post-inner img{
+        width: 70%;
+    }
+    .bp-serach-area{
+        margin-top: 60px !important;
+    }
+    .blog-content h3{
+        line-height: 50px;
+    } 
+    /* Blog Post */
+
+    /* Contact */
+    .contact-desc{
+        line-height: 50px;
     }
     
 }
@@ -1975,12 +2093,14 @@ svg:hover {
     position: relative;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 42% auto;
+    grid-template-columns: 65% auto;
+    padding-bottom: 10%;
+    
 }
 .invest-banner-content{
     position: relative;
     left: 20%;
-    top: 0;
+    top: 10%;
 }
 .invest-banner-content h2{
     line-height: 60px;

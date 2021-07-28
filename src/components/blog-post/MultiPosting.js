@@ -12,7 +12,7 @@ export default class MultiPosting extends Component {
         return (
             <div className="">
                 <img className="w-full" src={SliderBg} alt=""/>
-                <div className='posts-main bg-green-700 mb-20'>
+                <div className='posts-main b-p-slider bg-green-700 mb-20'>
                     <Container>
                         <PostSlider/>
                         <div className="pl-4 pt-3 relative bottom-12 items-center">

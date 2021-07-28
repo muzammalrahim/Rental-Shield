@@ -12,7 +12,7 @@ from "react-icons/fa";
 export default class SocialLinks extends Component {
     render() {
         return (
-            <div className="social-links-main px-20 flex relative bottom-16 mt-20">
+            <div className="social-links-main px-20 flex relative bottom-16 -mt-8">
                 <ul className="text-left">
                     <li>
                         <Link  href="#" class="bg-gradient-to-t from-green-500 to-green-400 hover:bg-green-400 text-white p-2 inline-block mt-4 rounded-full">
@@ -36,7 +36,7 @@ export default class SocialLinks extends Component {
                     </li>   
                 </ul>
                 {/* <div class=" p-2 pl-5 pt-36 md:p-4"> */}
-                <div class="lg:pl-36 pl-10">
+                <div class="lg:px-8 pl-10">
                     <div>
                         <p className="text-left font-body pt-16 text-2xx text-gray-500 leading-8">
                             Was this article helpful?

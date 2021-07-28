@@ -18,21 +18,24 @@ export default class BlogPostTop extends Component {
                     <Col lg="8">
                         {/* banner */}
                 <div className="blog-post-inner">
-                    <div className="px-0 flex items-center">
+                    <div className="bp-top-content px-0 flex items-center">
                             <div className="">
                                 <h1 className="text-green-900 text-6xl mr-5">Blog</h1> 
                             </div>
                             <div className="pt-5">
-                                <img src={Blogmainicon} />
+                                <img className="bp-img" src={Blogmainicon} />
                             </div>
                     </div>
 
                 </div>
             {/* banner */}
                     </Col>
-                    <Col lg="4">
+                    <Col lg="4" className="bp-serach-area">
                         {/* Search Filter */}
-                        <SearchBar/>
+                        <div className="">
+                            <SearchBar className=""/>
+                        </div>
+                        
                     </Col>
                 </Row>
 

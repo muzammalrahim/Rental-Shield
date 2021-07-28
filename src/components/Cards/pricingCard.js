@@ -3,7 +3,7 @@ import React from "react";
 
 function PricingCard({ image,type,price }) {
   return (
-    <div class="order-1  pt-5 xs_cardP ">
+    <div class="order-1 mob-p-card pt-5 xs_cardP ">
       <div className="relative top-20 ml-28 top_icon">
         <img
           className="bg-white p-8 rounded-full t-icon  "
@@ -23,7 +23,7 @@ function PricingCard({ image,type,price }) {
           </h1>
         </div>
 
-        <p class="md:text-center font-normal leading-7 text-gray-500 font-body text-2x">
+        <p class="pc-inner-h md:text-center font-normal leading-7 text-gray-500 font-body text-2x">
           Explore the basics
           <br />
           with this

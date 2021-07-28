@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 // Images
 import Homebanner from '../../assets/images/invest-bg1.png';
-import RightBg from '../../assets/images/invest-bg2.png';
-import Bannerimg from '../../assets/images/invest-bg3.png';
+import RightBg from '../../assets/images/inv-full-bg.png';
+// import Bannerimg from '../../assets/images/invest-bg3.png';
 import { withTranslation } from 'react-i18next';
 
 
@@ -60,7 +60,7 @@ class InvestorsBanner extends Component {
                                 {t('banner.readmore')}
                             </button>
                         </div> */}
-                        <img className="invest-banner-img z-10 relative top-20" src={Bannerimg} alt="img"/>
+                        {/* <img className="invest-banner-img z-10 relative top-20" src={Bannerimg} alt="img"/> */}
                         
                     </div>
                     

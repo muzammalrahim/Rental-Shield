@@ -36,8 +36,8 @@ function Pricing() {
 
   
       <div className=" lg:w-32 xl:w-32 xl:mt-24 lg:mt-24 md:mt-24 main xs_marginTop">
-        <span className="xs_mRight lg:mr-40">Yearly</span>
-        <span>Monthly</span>
+        <span className="xs_mRight lg:mr-40 text-xl">Yearly</span>
+        <span className="text-xl">Monthly</span>
         <div className="toggle m-auto" onClick={toggleHandler}>
           {isYearly ? (
             // <img className="pt-2 pl-1 " src={toggle} alt="" />
