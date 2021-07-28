@@ -19,7 +19,7 @@ export default class KnowMore extends Component {
                             <div className="relative">
                                 <div className="para1 text-left absolute w-1/4">
                                     <h1 className="text-gray-500 font-body font-bold pb-2 text-3xl">I'm a Landlord</h1>
-                                    <p className="text-gray-500  font-body text-lg leading-5 pb-3 font-normal">
+                                    <p className="text-gray-500  font-body text-base lg:text-lg leading-5 pb-3 font-normal">
                                         Why does this benefit me? Can I still protect
                                         my interests? How do I ensure fairness? 
                                         What if I want to dispute?

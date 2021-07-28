@@ -13,7 +13,7 @@ export default class Card2 extends Component {
                         <Col sm="12">
                         <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 lg:ml-20 about-card-inner">
                             <div>
-                                <h2 class="text-gray-500 text-5xl font-light font-body text-left pb-3 pt-4">
+                                <h2 class="text-gray-500 text-3xl md:text-5xl lg:text-5xl font-light font-body text-left pb-3 pt-4">
                                     Culture Mix
                                 </h2>
                                 <p class="mt-2 text-gray-500 leading-7 text-left text-2x font-light font-body">

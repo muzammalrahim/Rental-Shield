@@ -8,8 +8,11 @@
 
 
 body{
-    overflow-x: hidden;
-}    
+    overflow-x: hidden; 
+}  
+.home-mian {
+    overflow: hidden;
+}  
 
 /* Language menu */
 .lang-menu {
@@ -365,6 +368,10 @@ select{
 }
 .registration-main{
     padding-bottom: 35px;
+    background-repeat: no-repeat;
+}
+.registration-main .reg-para2{
+    margin: 0;
 }
 .from-main input{
     border: 0;
@@ -1026,7 +1033,7 @@ height: 22rem;
    
    .know-more-mian p{
     margin: 0;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 25px;
     }
     .know-inner{
@@ -1060,7 +1067,7 @@ height: 22rem;
     }
     .h-slider h2{
         margin-top: 0;
-        font-size: 45px;
+        font-size: 35px;
         margin-bottom: 0 !important;
     }
    .home-banner .h-content{
@@ -1160,6 +1167,12 @@ height: 22rem;
         font-size: 25px;
         font-weight: 400;
     }
+    .step-row1 h3{
+        font-size: 25px;
+    }
+    .step-row h4 {
+        font-weight: 400;
+    }
     .step-inner {
         padding-top: 20px;
     }
@@ -1254,6 +1267,20 @@ height: 22rem;
         margin: 0 auto;
         padding-bottom: 30px;
     }
+    .tanent-b-text.pl-5{
+        padding-left: 2rem !important;
+    }
+    .t-top-heading h2{
+        font-size: 40px;
+    }
+    .tenant-main .t-steps-h{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .about-cards-main.px-5{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     .g-line{
         display: none;
     }
@@ -1285,9 +1312,7 @@ height: 22rem;
      /* Tanent */
 
      /* About */
-     .about-main{
-         overflow-x: hidden;
-     }
+     
      .about-banenr-mian {
         background: #DFF8C9;
      }
@@ -1400,6 +1425,29 @@ height: 22rem;
     .registration-main .from-main {
         top: 0;
     } 
+    .reg-text.py-5 {
+        padding-bottom: 0rem !important;
+        padding-top: 0rem !important;
+    }
+    .reg-text h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .reg-text .reg-top-para{
+        font-size: 25px;
+    }
+    .reg-text.text-left {
+        text-align: center !important;
+    }
+    .reg-text .w-9\/12 {
+        width: 100%;
+    }
+    .reg-text .w-6\/12 {
+        width: 100%;
+    }
+    .registration-main .from-main {
+        padding: 0;
+    }
 }
 
 
@@ -1650,33 +1698,33 @@ height: 22rem;
         padding-top: 30px;
     }
 
-    .order-1 {
+    .landlord-main .order-1 {
         position: unset;
         padding-top: 10px;
     }
-    .order-1 p{
+    .landlord-main .order-1 p{
         padding-top: 25px;
         padding-bottom: 55px !important;
     }
-    .order-1 .pl-20, .order-2 .pl-20, .order-3 .pl-20, .order-4 .pl-20{
+    .landlord-main .order-1 .pl-20, .order-2 .pl-20, .order-3 .pl-20, .order-4 .pl-20{
         padding-left: unset;
     }
-    .order-2{
+    .landlord-main .order-2{
         padding-top: 11px !important;
     }
-    .order-2 h1{
+    .landlord-main .order-2 h1{
         padding-top: 0 !important;
     }
-    .order-2.relative.mt-72 {
+    .landlord-main .order-2.relative.mt-72 {
         margin-top: unset;
     }
-    .order-2 .mt-4, .my-4 {
+    .landlord-main .order-2 .mt-4, .my-4 {
         margin-top: unset !important;
     }
-    .order-3{
+    .landlord-main .order-3{
         padding-top: 50px;
     }
-    .order-4 .mt-52.text-left.pl-20 {
+    .landlord-main .order-4 .mt-52.text-left.pl-20 {
         margin-top: unset;
     }
     img.l-more-quries{
@@ -1736,7 +1784,36 @@ height: 22rem;
     .footer-inner{
         grid-template-columns: 100%;
     }
-    
+    .registration-comp .card{
+        width: 50%;
+    }
+    .from-main img {
+        left: 46%;
+    }
+    .reg-text.py-5 {
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+    .reg-top-para{
+        padding: 20px 0 0 0 !important;
+    }
+    .reg-text h3 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .reg-text .w-9\/12 {
+        width: 100%;
+    }
+    .reg-text .w-6\/12 {
+        width: 100%;
+    }
+    .from-main {
+        top: -33px;
+    }
+    .from-main img {
+        top: 61px;
+        height: auto !important;
+    }
 }
 
 @media (min-width: 1280px) and (max-width: 1440px){

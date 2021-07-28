@@ -39,7 +39,7 @@ export default class Registration extends Component {
                             >
                                 <p 
                                     className=
-                                    "text-3xl pb-2 font-medium font-body lg:text-left md:text-center"       
+                                    "reg-top-para text-3xl pb-2 font-medium font-body lg:text-left md:text-center"       
                                 >
                                     I,ve heard enough
                                 </p>
@@ -53,7 +53,7 @@ export default class Registration extends Component {
                                 </h3>
                                 <p 
                                     className=
-                                    "text-lg pb-2 font-light md:text-center lg:text-left font-body lh-21 w-9/12">
+                                    "reg-para2 text-lg pb-2 font-light md:text-center lg:text-left font-body lh-21 w-9/12">
                                     Protect youself today. We can help your
                                     Landlords to sign up.
                                 </p>

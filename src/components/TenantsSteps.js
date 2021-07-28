@@ -31,7 +31,7 @@ export default class TenantsSteps extends Component {
                             <img src={MindPeace} alt="img"/>
                         </Col>
                         <Col lg="6" md="12" sm="12">
-                            <h1 className="text-5xl text-gray-500 font-body leading-7  font-light text-left pb-4">Peace of mind</h1>
+                            <h1 className="t-steps-h text-5xl text-gray-500 font-body leading-7  font-light text-left pb-4">Peace of mind</h1>
                             <p className="text-gray-500 font-body text-xl text-left font-light pb-3">
                             Ever worried about what this deposit money will be used for. 
                             With our scheme you have the highest chance ever of getting 
@@ -63,7 +63,7 @@ export default class TenantsSteps extends Component {
                     <Row className="items-center">
                         
                         <Col lg={{span:6, order:1}} md={{span:12, order:2}} sm={{span:12, order:2}} xs={{span:12, order:2}}  className="lg:order-1">
-                            <h1 className="text-5xl text-gray-500 font-body  font-light text-left pb-2">
+                            <h1 className="t-steps-h text-5xl text-gray-500 font-body  font-light text-left pb-2">
                                 Monhtly Payments 
                             </h1>
                             <p className="text-gray-500 font-body leading-7 text-xl text-left font-light pb-3">
@@ -103,7 +103,7 @@ export default class TenantsSteps extends Component {
                             <img src={Reports} alt="img"/>
                         </Col>
                         <Col lg="6" md="12" sm="12">
-                            <h1 className="text-5xl text-gray-500 font-body font-light text-left pb-3">
+                            <h1 className="t-steps-h text-5xl text-gray-500 font-body font-light text-left pb-3">
                                 Check in/out reports
                             </h1>
                             <p className="text-gray-500 leading-7 font-body text-xl text-left font-light pb-3">

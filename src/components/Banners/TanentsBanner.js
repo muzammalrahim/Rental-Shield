@@ -19,7 +19,7 @@ export default class TanentsBanner extends Component {
                     </Col>
                     <Col lg="10" md="12">
                         <div className=" talent-bg bg-no-repeat"  style={{backgroundImage:`url(${TanentBg1})`}}>
-                            <Row className="no-gutters pl-5  relative top-16">
+                            <Row className="tanent-b-text no-gutters pl-5  relative top-16">
                                 <Col lg="6" md="12" sm="12">
                                 
                                 </Col>
