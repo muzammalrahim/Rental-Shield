@@ -111,8 +111,8 @@ function SamplePrevArrow(props) {
                 <img className="w-full rounded-2xl" src={Slideimg} />
                 <div className="pt-4 pl-2 text-left">
                   <span className="inline-block text-green-900 text-normal font-normal">Tag</span>
-                  <div className="text-xl font-bold text-gray-500 mb-2">Should I keep my A/C on if I am traveling for the summer?</div>
-                  <p className="text-normal text-gray-500">
+                  <div className="blog-s-h text-xl font-bold text-gray-500 mb-2">Should I keep my A/C on if I am traveling for the summer?</div>
+                  <p className="blog-s-t text-normal text-gray-500">
                         It can be a tricky question here in the UAE and we hope to give you some insider tips on how to preserve...
                   </p>
                 </div>

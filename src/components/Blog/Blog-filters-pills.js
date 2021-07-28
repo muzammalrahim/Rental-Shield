@@ -24,20 +24,20 @@ export default class Blogfilter extends Component {
             <Row className="items-center">
               <Col lg="12" md="12" sm="12" className="m-auto">
               
-                <div class="flex rounded-full border-grey-500 border-2 mx-4 text-xl font-bold">
+                <div class="blog-filter-tab flex rounded-full border-grey-500 border-2 mx-4 text-base md:xl lg:text-xl font-bold">
                   <button onClick={(e)=>this.TabchangeHandler(1)} 
-                  className={`w-4/12  rounded-full py-3 px-6 ${TabValue === 1 ? "bg-green-900 text-white font-bold" : "text-xl font-bold"}`}
+                  className={`w-4/12  rounded-full py-3 px-6 ${TabValue === 1 ? "bg-green-900 text-white font-bold" : "text-base md:xl lg:text-xl  font-bold"}`}
                  >
                    Landlords
                   </button>
                   <button onClick={(e)=>this.TabchangeHandler(2)}  
-                 className={`w-4/12  rounded-full py-3 px-6 ${TabValue === 2 ? "bg-green-900 text-white font-bold" : "text-xl font-bold"}`}
+                 className={`w-4/12  rounded-full py-3 px-6 ${TabValue === 2 ? "bg-green-900 text-white font-bold" : "text-base md:xl lg:text-xl  font-bold"}`}
                   
                   >
                     Tenants
                   </button>
                   <button onClick={(e)=>this.TabchangeHandler(3)}  
-                  className={`w-4/12  rounded-full py-3 px-6 ${TabValue === 3 ? "bg-green-900 text-white font-bold" : "text-xl font-bold"}`}
+                  className={`w-4/12  rounded-full py-3 px-6 ${TabValue === 3 ? "bg-green-900 text-white font-bold" : "text-base md:xl lg:text-xl  font-bold"}`}
                   >
                     General
                   </button>

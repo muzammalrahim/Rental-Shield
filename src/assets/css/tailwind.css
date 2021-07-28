@@ -1448,6 +1448,44 @@ height: 22rem;
     .registration-main .from-main {
         padding: 0;
     }
+    /* Faq */
+    .faq-page-main .flex.mt-28.FaqBanner {
+        margin-top: 0rem;
+    }
+    /* Faq */
+    /* Blog */
+    .blog-filter-tab.mx-4{
+        margin-left: 0 !important;
+        margin-right: 0 !important;  
+    }
+    .blog-filter-tab button.py-3{
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+    .blog-view-btn.py-3{
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+
+    }
+    .blog-page-slider .slick-next{
+        display: none !important;
+    }
+    .blog-s-h{
+        font-size: 15px;
+    }
+    .blog-s-t{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .last-section.pt-96{
+        padding-top: 17rem;
+    }
+    .last-section.pb-32 {
+        padding-bottom: 0rem;
+    }
+    .b-mob-search input.w-96{
+        width: 100%
+    }
 }
 
 
@@ -1526,6 +1564,14 @@ height: 22rem;
     }
     .md\:faq-heading {
         padding-top: 30px !important;
+    }
+
+    /* Faq */
+    .faq-b-text.md\:mt-28 {
+        margin-top: 2rem;
+    }
+    .faq-page-main .accordion{
+        margin-top: 0 !important;
     }
     /* Investor */
     .l-inner-content2{

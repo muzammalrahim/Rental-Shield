@@ -14,7 +14,7 @@ class FaqBanner extends Component {
           <img class="" src={Homebanner} alt="Homebanner" />
         </div>
 
-        <div className="sm:mt-28 md:mt-28 lg:mt-28 xl:mt-28 float-left w-2/4 ">
+        <div className="faq-b-text sm:mt-28 md:mt-28 lg:mt-28 xl:mt-28 float-left w-2/4 ">
           <p className="m-auto text-green-500 pt-3 pb-2 lg:text-5x xl:text-6xl  md:text-4xl 2xl font-body z-20 relative ">
             {t("banner.banner-Title-1")}
           </p>
@@ -23,7 +23,7 @@ class FaqBanner extends Component {
           </p>
 
           <p
-            className="text-gray-500 pt-3 pb-2 text-lg md:text-2xl leading-6 font-normal 2lx font-body
+            className="faq-b-content text-gray-500 pt-3 pb-2 text-lg md:text-2xl leading-6 font-normal 2lx font-body
                w-4/5 m-auto xs_para sm:text-xl"
           >
             {t("banner.banner-Para-1")}
