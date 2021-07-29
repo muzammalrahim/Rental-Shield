@@ -9,7 +9,7 @@ export default class Registration extends Component {
     render() {
         return (
             <div 
-                className="registration-main bg-no-repeat" 
+                className="registration-main bg-no-repeat bg-cover" 
                 style=
                 {{ 
                     backgroundImage:`url(${RegBg})` 

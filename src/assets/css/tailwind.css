@@ -17,6 +17,7 @@ body{
 .m-sidebar-inner{
     position: fixed !important;
 }
+
 .home-mian {
     overflow: hidden;
 }  
@@ -375,6 +376,7 @@ select{
 }
 .registration-main{
     padding-bottom: 35px;
+    background-repeat: no-repeat;
     background-repeat: no-repeat;
 }
 .registration-main .reg-para2{
@@ -1102,10 +1104,11 @@ height: 22rem;
         background-image: none !important;
         
     }
-    .xs\:left-side{
+
+    /* .xs\:left-side{
         background-image: none !important;
         height:0;
-    }
+    } */
     .xs\:inner{
         padding-top: 20%;
         z-index: 99 !important;
@@ -1570,6 +1573,16 @@ height: 22rem;
         width: 51%;
         text-align: center;
     }
+    /* Investor */
+    .banner-invest{
+        background-image: none !important;
+        background-color: #DFF8C9;
+    }
+    .invest-banner-content {
+        left: 40% !important;
+    }
+    /* Investor */
+    
 }
 
 
@@ -1662,9 +1675,17 @@ height: 22rem;
         left: 16rem ;
         top: 6rem ;
     }
+    .banner-invest{
+        background-image: none !important;
+        background-color: #DFF8C9;
+    }
+    .invest-banner-content {
+        left: 50% !important;
+    }
     .invest-banner-content h2 {
         line-height: 35px !important;
     }
+    
     .inner-position .inner-content {
         left: 18rem !important;
         top: 8rem !important;
