@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.305d9ca5.chunk.css",
-    "main.js": "/static/js/main.6fff4c27.chunk.js",
-    "main.js.map": "/static/js/main.6fff4c27.chunk.js.map",
+    "main.js": "/static/js/main.d048bd84.chunk.js",
+    "main.js.map": "/static/js/main.d048bd84.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ea9aa137.js",
     "runtime-main.js.map": "/static/js/runtime-main.ea9aa137.js.map",
     "static/css/2.c75f0f19.chunk.css": "/static/css/2.c75f0f19.chunk.css",
@@ -58,7 +58,7 @@
     "static/media/home-banner1.31bc182f.png": "/static/media/home-banner1.31bc182f.png",
     "static/media/home.162c3b62.jpg": "/static/media/home.162c3b62.jpg",
     "static/media/i-icon.2cd65b2c.svg": "/static/media/i-icon.2cd65b2c.svg",
-    "static/media/inv-full-bg.e3126241.png": "/static/media/inv-full-bg.e3126241.png",
+    "static/media/inv-full-bg.2b03ade3.png": "/static/media/inv-full-bg.2b03ade3.png",
     "static/media/invest-bg1.9ddcacd7.png": "/static/media/invest-bg1.9ddcacd7.png",
     "static/media/investor1.4b3ace02.png": "/static/media/investor1.4b3ace02.png",
     "static/media/investor2.20a089f3.png": "/static/media/investor2.20a089f3.png",
@@ -116,6 +116,6 @@
     "static/css/2.c75f0f19.chunk.css",
     "static/js/2.02d21524.chunk.js",
     "static/css/main.305d9ca5.chunk.css",
-    "static/js/main.6fff4c27.chunk.js"
+    "static/js/main.d048bd84.chunk.js"
   ]
 }
