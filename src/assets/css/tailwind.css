@@ -1075,6 +1075,9 @@ height: 22rem;
     .mobile-side-menu{
         display: block;
     }
+    .h-video-main{
+        padding: 0 10px;
+    }
     .mobile-side-menu .div{
         height: 400px;
     }
@@ -1491,8 +1494,15 @@ height: 22rem;
       }
       .tanent-banner-main p{
           font-size: 16px;
-          line-height: 20px;
+          line-height: 20px !important;
       }
+      .circle {
+        height: 15px;
+        width: 15px;
+    }
+      .tanent-banner-main p ul li p{
+        line-height: 20px;
+    }
      .tenant-steps img{
         margin: 0 auto;
         padding-bottom: 30px;
@@ -1501,11 +1511,32 @@ height: 22rem;
         padding-left: 2rem !important;
     }
     .t-top-heading h2{
-        font-size: 40px;
+        font-size: 30px;
+        padding: 0 !important;
+    }
+    .tenant-steps{
+        padding: 0 20px;
+    }
+   
+    .tenant-steps img{
+        width: 50%;
+    }
+    .t-top-heading p{
+        font-size: 15px;
+        line-height: 20px;
     }
     .tenant-main .t-steps-h{
-        font-size: 30px;
+        line-height: 29px;
+        font-size: 20px;
+        margin: 0!important;
         font-weight: 400;
+    }
+    
+    .tenant-steps p{
+        font-size: 15px;
+    }
+    .tenant-steps p.pb-3{
+        padding-bottom: 0 !important;
     }
     .about-cards-main.px-5{
         padding-left: 0 !important;

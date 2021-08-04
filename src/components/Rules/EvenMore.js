@@ -41,7 +41,7 @@ export default class EvenMore extends Component {
                             
                             
                         </Row>
-                        <Row className="step-row1 pt-5 pl-5 items-center no-gutters">
+                        <Row className="step-row1 step-row  pt-5 pl-5 items-center no-gutters">
                         <Col lg={{span:6, order:1}}  md={{span:12, order:2}} xs={{span:12, order:2}} className="d-flex justify-content-center lg:order-1">
                             <div className="step-inner">
                                 <ul className="">
@@ -84,7 +84,7 @@ export default class EvenMore extends Component {
                             </div>
                         </Col>
                         <Col lg={{span:6, order:2}} md={{span:12, order:1}} sm={{span:12, order:1}}  xs={{span:12, order:1}}  className=" md:h-50 lg:order-2">
-                            <img className="t-img tanents-center  right-0" src={Talent1} alt="step1"/>
+                            <img className="step3-img t-img tanents-center  right-0" src={Talent1} alt="step1"/>
                         </Col>
                     </Row>
                     {/* step1 */}
@@ -93,7 +93,7 @@ export default class EvenMore extends Component {
                      {/* step2 */}
                      <Row className="step-row pt-5 pl-5 items-center no-gutters">
                         <Col lg="6"  sm="12"  xs="12" className="d-flex justify-content-center ">
-                            <img className="t-img relative right-40" src={Talent2} alt="step1"/>
+                            <img className="step1-img t-img relative right-40" src={Talent2} alt="step1"/>
                         </Col>
                         
                         <Col lg="6"  sm="12"  xs="12" xs="12" className="d-flex justify-content-center">
@@ -187,7 +187,7 @@ export default class EvenMore extends Component {
                             </div>
                         </Col>
                         <Col lg={{span:6, order:2}} md={{span:12, order:1}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className=" md:h-50">
-                            <img className="t-img tanents-center" src={Talent3} alt="step1"/>
+                            <img className="step2-img t-img tanents-center" src={Talent3} alt="step1"/>
                         </Col>
                     </Row>
                     {/* step3 */}
