@@ -29,7 +29,10 @@ body{
 .tc-slider{
     display: none;
 }
-
+.investor-b-m{
+    display: none;
+    margin-top: -70px;
+}
 /* Language menu */
 .lang-menu {
     margin-top: 25px;
@@ -688,7 +691,7 @@ select{
 
 .h-slider .slick-next {
     right: 32px !important;
-    top: 67px !important;
+    /* top: 67px !important; */
 }
 .btn-heading{
     font-size: 15px;
@@ -1656,12 +1659,48 @@ height: 22rem;
     }
     /* About */
     /* Investor */
-    .banner-invest{
-        background-image: none !important;
+    .investor-b-m{
+        display: block;
+    }
+    .investr-b-web{
+        display: none;
+    }
+    
+    .invest-banner-content {
+        position: unset !important;
+    }
+    /* .invest-banner-content {
+        left: 40% !important;
+    } */
+    .invest-banner-content.text-left{
+        text-align: center !important;
+        padding: 0 20px;
     }
     .invest-banner-content h2 {
-        font-size: 30px;
-        line-height: 30px !important;
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .invest-banner-content h2 br{
+        content: ' ';
+    }
+    .invest-banner-content h2 br::before{
+        content: ' ';
+    }
+    .invest-banner-content h4{
+        font-size: 18px;
+    }
+    .invest-banner-content p{
+        font-size: 17px;
+        line-height: 20px;
+        padding-top: 0 !important;
+    }
+    .invest-banner-content p br{
+        content: ' ';
+    }
+    .invest-banner-content p br::after{
+        content: ' ';
     }
     .investor-stpes-main .absolute {
         position: unset;
@@ -1876,11 +1915,37 @@ height: 22rem;
     }
     /* Investor */
     .banner-invest{
-        background-image: none !important;
+        /* background-image: none !important; */
         background-color: #DFF8C9;
     }
-    .invest-banner-content {
+    /* .invest-banner-content {
         left: 40% !important;
+    } */
+    .vision-main p.px-10{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .vision-main h3{
+        padding-bottom: 0 !important;
+        padding-top: 20px;
+    }
+    .vision-main p{
+        padding-bottom: 0 !important;
+        font-size: 16px;
+    }
+    .v-last-para.mb-5 {
+        margin-bottom: 1rem !important;
+    }
+    .investor-stpes-main h3{
+        font-size: 20px;
+    }
+    .investor-stpes-main p{
+        font-size: 16px;
+        line-height: 20px !important;
+    }
+    .investor-stpes-main img{
+        width: 80%;
+        margin: 0 auto;
     }
     /* Investor */
 
@@ -1976,6 +2041,9 @@ height: 22rem;
         left: -40px !important;
     }
    */
+   .investr-b-web{
+    display: none;
+}
     .PricingPageBanner .lineHeight{
 
         line-height: 50px;
@@ -2051,12 +2119,15 @@ height: 22rem;
         margin-top: 0 !important;
     }
     /* Investor */
+    .investor-b-m{
+        display: block;
+    }
     .l-inner-content2{
         left: 16rem ;
         top: 6rem ;
     }
     .banner-invest{
-        background-image: none !important;
+        background-image: url(../images/inv-full-bg-m.png);
         background-color: #DFF8C9;
     }
     .invest-banner-content {
@@ -2085,6 +2156,10 @@ height: 22rem;
     .inner-position-r .inner-content3 {
         left: 6rem !important;
         top: 7rem !important;
+    }
+    .vision-main p.px-10{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     
     /* Investor */
@@ -2362,6 +2437,12 @@ height: 22rem;
     }
     
     /* Blogpost */
+
+    /* Invest */
+    .invest-banner-content {
+        position: unset !important;
+    }
+    /* Invest */
 }
 
 @media (min-width: 1280px) and (max-width: 1440px){

@@ -23,11 +23,11 @@ export default class Vision extends Component {
 
                         
                     </p>
-                    <p className="font-body text-lg lg:text-2xl text-gray-500 font-normal leading-7 mb-5">
+                    <p className="v-last-para font-body text-lg lg:text-2xl text-gray-500 font-normal leading-7 mb-5">
                         Join us on our journey.... 
                     </p>
 
-                    <button className="bg-green-900 rounded-full font-body px-4 py-1.5 text-xl text-white font-bold">
+                    <button className="bg-green-900 rounded-full font-body px-4 py-1.5 text-base lg:text-xl md:text-xl text-white font-bold">
                         Read More
                     </button>
                          
