@@ -40,6 +40,7 @@ function ContactBanner() {
         <div className="w-1/6 md:w-12 lg:w-12">
           <img className="" src={location} alt="" />
         </div>
+        <div className="w-2/4 contact text-left	">1614 Crestview Terrace</div>
       </div>
       {/* social links */}
       <div className="text-left ml-1">

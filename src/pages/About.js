@@ -32,17 +32,20 @@ export default class About extends Component {
                     <Container>
                         <Row>
                             <Col xs="12">
-                                <h2 className="text-gray-500 text-3xl lg:text-6xl font-normal font-body pb-3">
-                                    Our Story
-                                </h2>
-                                <p className="text-gray-500 text-2x font-normal font-body leading-7">
-                                    Born out of a practiced & proven concept. We've designed it to 
-                                    <br/>
-                                    fit into this region perfectly. Our aim is to help landlords and
-                                    <br/>
-                                     tenants alike and provide an invaluable service.
+                                <div className="about-story">
+                                    <h2 className="text-gray-500 text-3xl lg:text-6xl font-normal font-body pb-3">
+                                        Our Story
+                                    </h2>
+                                    <p className="text-gray-500 text-2x font-normal font-body leading-7">
+                                        Born out of a practiced & proven concept. We've designed it to 
+                                        <br/>
+                                        fit into this region perfectly. Our aim is to help landlords and
+                                        <br/>
+                                        tenants alike and provide an invaluable service.
 
-                                </p>
+                                    </p>
+                                </div>
+                                
                             </Col>
                         </Row>
                     </Container>

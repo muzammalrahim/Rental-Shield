@@ -1613,13 +1613,46 @@ height: 22rem;
         line-height: 25px;
     }
     .our-aim{
-        padding: 0 10px;
+        padding: 0 30px;
+    }
+    .our-aim img{
+        width: 80%;
     }
     .aim-inner {
         top: 30%;
     }
+    .about-story{
+        padding: 0 10px;
+    }
+    .about-story p{
+        font-size: 18px;
+    }
+    .about-story p br{
+        content: ' ';
+    }
+    .about-story p br::after{
+        content: ' ';
+    }
     .aim-inner .text-3xl {
         font-size: 17px;
+    }
+    .card1-mian{
+        padding: 0 30px;
+    }
+    .card1-mian h2{
+        font-weight: 400;
+    }
+    .card1-mian p{
+        font-size: 20px;
+    }
+    .about-info-cards h5{
+        padding-bottom: 0 !important;
+    }
+    .about-info-cards p{
+        font-size: 15px;
+    }
+    .about-info-cards a{
+        font-size: 15px;
     }
     /* About */
     /* Investor */
@@ -1920,6 +1953,11 @@ height: 22rem;
         padding-bottom: 20px;
     }
     /* Home top Client */
+
+    /* Contact */
+    .contact-desc {
+        font-size: 20px;
+    }
 }
 
 
