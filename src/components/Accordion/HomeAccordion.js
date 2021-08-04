@@ -16,7 +16,7 @@ const HomeAccordion = ({ title, content }) => {
             })}
           >
             <div
-              className={`font-body text-2x text-justify   flex mb-3 ${
+              className={`font-body text-2x text-left  flex mb-3 ${
                 isExpanded ? "border-none" : "border-b-2 border-gray-500"
               }`}
             >

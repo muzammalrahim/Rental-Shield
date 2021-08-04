@@ -24,7 +24,7 @@ export default class TanentsBanner extends Component {
                                 
                                 </Col>
                                 <Col lg="6" md="12" sm="12" className="text-left banner-content pb-5">
-                                    <h3 className="text-green-900 text-6xl font-body font-normal lh-60">
+                                    <h3 className="t-main-heading text-green-900 text-6xl font-body font-normal lh-60">
                                         Welcome 
                                         <br/>
                                         to Tenants

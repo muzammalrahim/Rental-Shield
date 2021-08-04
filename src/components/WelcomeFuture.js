@@ -18,18 +18,18 @@ import { withTranslation } from 'react-i18next';
                             <img className="text-right" src={FutureImg} alt="future-img"></img>
                         </Col>
                         <Col sm="12" md="12" lg="6" className="text-area lg:text-left md:text-center lg:pt-5 lg:mt-6 p-0">
-                            <h2 className="text-green-600 text-xl font-body font-normal mb-0 lg:mb-5 md:text-5xl lg:text-6xl lh-70">
+                            <h2 className="text-green-600 text-3xl font-body font-normal mb-0 lg:mb-5 md:text-5xl lg:text-6xl lh-70">
                                 {t('tanetb.welcome')}
                                 <span className="font-black">
                                     {t('tanetb.to-future')}
                                 </span>
                             </h2>
                             <p className="text-gray-500 text-lg font-body font-normal leading-7 mb-3 lg:mb-5 md:text-xl  lg:text-2x ">
-                                {t('tanetb.tanetb-detail-1')}
-                            <br/> 
-                            {t('tanetb.tanetb-detail-2')}
-                            <br/>
-                            {t('tanetb.tanetb-detail-3')}</p>
+                                {t('tanetb.tanetb-detail-1')}&nbsp;   
+                                {t('tanetb.tanetb-detail-2')}
+                                {t('tanetb.tanetb-detail-3')}
+                                {t('tanetb.tanetb-detail-3')}
+                            </p>
                             <button className="bg-green-600 rounded-full font-body px-4 py-1.5 text-xl text-white font-normal">
                                 {t('tanetb.tanetb-detail-4')}
                             </button>

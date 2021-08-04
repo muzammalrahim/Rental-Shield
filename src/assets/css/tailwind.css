@@ -17,10 +17,18 @@ body{
 .m-sidebar-inner{
     position: fixed !important;
 }
-
+.h-mob-banner {
+    display: none;
+}
 .home-mian {
     overflow: hidden;
 }  
+.ass-mslider{
+    display: none;
+}
+.tc-slider{
+    display: none;
+}
 
 /* Language menu */
 .lang-menu {
@@ -682,24 +690,63 @@ select{
     right: 32px !important;
     top: 67px !important;
 }
-.h-slider .slick-next, .h-slider .slick-prev {
-    right: -15px!important;
-    top: 67px!important;
+.btn-heading{
+    font-size: 15px;
+}
+.bttn .nav-link {
+    padding: 0.5rem 0.5rem;
 }
 
 .RightBgImg{
     max-width: max-content !important;
 }
 
+
+
+/*------------------- Media Quries----------------------------- */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-main.px-5{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;  
+    }
+    .header-main.pt-4{
+        padding-top: 1rem !important;
+    }
+    a.logins.ml-5 {
+        margin-left: 0rem !important;
+    }
+    .h-slider .slick-next, .h-slider .slick-prev {
+        right: -15px!important;
+        top: 67px!important;
+    }
+    .menu-name{
+        font-size: 15px;
+    }
+    /* home banner */
+    .hr-content  .lh-70{
+        line-height: 3.5rem;
+    }
+
+}
+@media (min-width: 639px) and (max-width: 1023px) {
+    .hr-content  .lh-70{
+        line-height: 35px;
+    }
+}
 @media (min-width: 1000px) and (max-width: 1100px) {
     .FaqAccordions .lg_picSize .min-h-screen{
         min-height: 50vh;
     }
 }
-@media (min-width: 320px) and (max-width: 639px) {
+
+
+
+@media (min-width: 300px) and (max-width: 639px) {
  /* add by tk */
  /* Faq page */
  /* Faq Card */
+
    .FaqCard .xs_cardIcon{
        height: 6rem;
        width: 6rem;
@@ -744,12 +791,13 @@ select{
     padding: 0 30px;
   }
   .faq-heading{
-      padding-bottom: 30px;
+      padding-bottom: 10px;
   }
   .faq-inner{
-    font-size: 16px;
+    font-size: 15px;
     line-height: 20px !important;
     margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
   }
   .talent-cards {
     grid-template-columns: auto;
@@ -760,10 +808,65 @@ select{
 .registration-comp{
     padding: 0 30px;
 }
-  
+  /* Home */
+ .h-web-banner{
+     display: none;
+ }
+ .h-mob-banner {
+     display: block;
+ }
+ .h-mob-banner{
+     width: 100%;
+ }
+ .mb-text{
+     padding: 20px 0 35px 0;
+ }
+ .mb-text p {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 !important;
+}
+ .m-header-btn{
+     width: 110px;
+     font-size: 15px;
+ }
+ .m-img-area img {
+     width: 50%;
+     margin: 0 auto;
+     position: relative;
+     top: 30px;
+ }
+
+ /* welcome future */
+ .future-mian.px-5{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+ }
+
+ /* Association Clients */
+ .hc-webdiv{
+    display: none
+}
+.ass-mslider{
+    display: block;
+}
+.client-t-main{
+    display: none;
+}
+.tc-slider{
+    display: block;
+}
+
 }
 
 @media(max-width: 375px) {
+    .h-web-banner{
+        display: none;
+    }
+    .h-mob-banner {
+        display: block;
+        background: #dff8c9;
+    }
     .FaqCard .xs_cardIcon{
         height: 6rem;
         width: 6rem;
@@ -968,7 +1071,7 @@ height: 22rem;
 /* Home Testimonial Slider */
 
 
-@media (min-width: 320px) and (max-width: 639px) {
+@media (min-width: 300px) and (max-width: 639px) {
     .mobile-side-menu{
         display: block;
     }
@@ -979,8 +1082,25 @@ height: 22rem;
         display: block;
         float: right;
     }
+    .mob-down-area ul li .nav-link{
+        padding: 0 !important;
+    }
     .mob-side-menue svg{
-        font-size: 30px;
+        font-size: 35px;
+        color: #606060;
+        position: relative;
+        top: 5px;
+    }
+    .header-main.px-5{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .header-main.pt-4{
+       
+        padding-top: 0.75rem !important;
+    }
+    .navbar-brand{
+        padding-top: 0 !important;
     }
     .order-1 {
         position: unset;
@@ -1000,15 +1120,40 @@ height: 22rem;
     img.l-more-quries{
         display: none;
     }
+
+    /* Landlord */
     .landlord-bg{
         display: block;
         background-image: none !important;
         background-color: #DFF8C9;
         padding-bottom: 50px;
+        height: 250px;
     }
     .landlord-para{
-        font-size: 50px;
-        margin-top: 100px;
+        font-size: 30px;
+        margin-top: 50px;
+        line-height: 35px;
+    }
+    .landlord-main .acc-step-main.pt-5{
+        padding-top: 0 !important;
+    }
+    .l-even2{
+        position: unset !important;
+    }
+    .landlord-main .acc-step-main img{
+        width: 50%;
+    }
+    .landlord-main .step-inner {
+        padding: 0 15px;
+    }
+    .landlord-para.text-left{
+        text-align: center !important;
+    }
+    .landlord-main .even-more.pt-5{
+        padding-top: 0 !important;
+    }
+    .mob-spacing{
+        padding-top: 25px;
     }
     .t-even-inner img.absolute{
         position: unset !important;
@@ -1037,32 +1182,39 @@ height: 22rem;
         padding-top: 0;
     }
    .know-more-mian{
-       padding-top: 30px;
+       padding: 30px;
    }
-   
+   .know-more-mian h4{
+       font-weight: 500;
+       padding-bottom: 5px !important;
+   }
+   .know-more-head{
+       padding-bottom: 20px;
+   }
    .know-more-mian p{
     margin: 0;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 25px;
+    padding-bottom: 2px !important;
     }
     .know-inner{
-        background-image: none !important;
-        padding: 0 30px;
+        background-image: none !important;  
+        padding-bottom: 0px;
     }
     .para1 {
         position: unset;
         width: 100%;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
     .para2 {
         position: unset;
         width: 100%;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
     .para3 {
         position: unset;
         width: 100%;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
     .para3.text-center{
         text-align: left !important;
@@ -1074,18 +1226,42 @@ height: 22rem;
         position: unset;
         width: 100%;
     }
-    .h-slider h2{
-        margin-top: 0;
-        font-size: 35px;
-        margin-bottom: 0 !important;
+    .update-main .{
+        padding: 0 10px;
     }
    .home-banner .h-content{
     line-height: 29px;
     margin-top: 67px;
    }
    .h-video-main p{
-       font-size: 18px;
+       font-size: 16px;
+       line-height: 20px;
    }
+   .h-video-main p br{
+       content:' ';
+    }
+    .h-video-main h4{
+       padding-top: 0 !important;
+       padding-bottom: 20px;
+       font-weight: 500;
+    }
+    .h-video-main h4.lh-70{
+        line-height: 0 !important;
+    }
+    .h-video-main p br:after{
+        content:' ';
+    }
+    .faq-home h3{
+        display: inline-block;
+        font-weight: 600;
+    }
+    .faq-home h3{
+        padding-left: 5px;
+    }
+    .faq-heading {
+        padding-top: 58px !important;
+    }
+    
    .xs\:home-banner-main .row{
        background: #F3FDEA;
    }
@@ -1116,17 +1292,18 @@ height: 22rem;
     .xs\:right-inner {
         z-index: 9;
     }
-    .md\:faq-heading {
-        padding-top: 100px !important;
-    }
+
     .md\:faq-content {
-        padding-bottom: 52px;
+        padding-bottom: 20px;
     }
     .banner-inner {
         grid-template-columns: auto auto;
     }
+    .future-row .img-area img {
+        width: 40%;
+    }
     .home-accsteps .step-img{
-        width: 70%;
+        width: 50%;
     }
 
     .mob-h-step{
@@ -1147,10 +1324,16 @@ height: 22rem;
     .landlord-bg {
         padding-bottom: 315px;
     }
-    .landlord-para{
-        line-height: 55px;
-        padding-top: 30px;
+    .step2-img{
+        padding-left: 60px;
     }
+    .step3-img{
+        padding-right: 50px;
+    }
+    .l-video-main{
+        padding: 0 30px;
+    }
+    
     .step-inner.text-left{
         text-align: center !important;
     }
@@ -1161,7 +1344,7 @@ height: 22rem;
         padding-left: unset !important;
     }
     .land-even-inner{
-        padding: 0 25px;
+        padding: 0 10px;
     }
     .step-row .right-40 {
         right: 0rem;
@@ -1172,10 +1355,42 @@ height: 22rem;
     .step-row1.pl-5{
         padding-left: unset !important;
     }
+    .step-row h3 br{
+        content:' ';
+    }
+    .step-row h3 br:after{
+        content:' ';
+    }
     .step-row h3 {
         line-height: 29px;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 400;
+        margin: 0 !important;
+    }
+    .step-row h4 {
+        line-height: 29px;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 !important;
+    }
+    .step-inner{
+        padding: 0 30px;
+    }
+    
+    .step-inner p{
+        line-height: 25px;
+    }
+    .step-inner p br{
+        content:' ';
+    }
+    .step-inner p br:after{
+        content:' ';
+    }
+   
+    .step-inner ul li{
+        margin: 0 !important;
+        display: flex;
+        align-items: center;
     }
     .step-row1 h3{
         font-size: 25px;
@@ -1186,11 +1401,7 @@ height: 22rem;
     .step-inner {
         padding-top: 20px;
     }
-    .step-row h3 {
-        line-height: 29px;
-        font-size: 25px;
-        font-weight: 400;
-    }
+    
     .step-row.pb-28 {
         padding-bottom: 1rem;
     }
@@ -1218,7 +1429,7 @@ height: 22rem;
     .order1-inner img {
         position: absolute;
         top: -117px;
-        left: 58px;
+        left: 84px;
     }
     .order-2 .mt-4, .my-4 {
         margin-top: unset !important;
@@ -1230,15 +1441,15 @@ height: 22rem;
     }
     .order-2  img {
         position: absolute;
-        left: 58px;
+        left: 84px;
     }
     .order-3  img {
         position: absolute;
-        left: 58px;
+        left: 84px;
     }
     .order-4  img {
         position: absolute;
-        left: 110px;
+        left: 140px;
     }
     .order-4 .mt-4, .my-4 {
         margin-top: unset !important;
@@ -1273,6 +1484,15 @@ height: 22rem;
      /* Landlored */
 
       /* Tanent */
+      .tanent-banner-main .t-main-heading{
+          font-size: 30px;
+          line-height: 30px !important;
+          font-weight: 500 !important;
+      }
+      .tanent-banner-main p{
+          font-size: 16px;
+          line-height: 20px;
+      }
      .tenant-steps img{
         margin: 0 auto;
         padding-bottom: 30px;
@@ -1425,6 +1645,12 @@ height: 22rem;
     .news-inner-bottom input.min-w-1\/2 {
         min-width: 90%;
     }
+    .reg-card{
+        background: #F3FDEA !important;
+    }
+    .reg-card input{
+        background: #F3FDEA !important;
+    }
     .registration-main{
         background-image: none;
         background: #4c594a !important;
@@ -1435,13 +1661,24 @@ height: 22rem;
     .registration-main .from-main {
         top: 0;
     } 
+    .reg-top-para {
+        margin: 0;
+    }
     .reg-text.py-5 {
         padding-bottom: 0rem !important;
         padding-top: 0rem !important;
     }
     .reg-text h3{
-        font-size: 30px;
+        font-size: 20px;
         line-height: 30px;
+        font-weight: 500;
+        padding-bottom: 5px !important;
+    }
+    .reg-text h3 br{
+        content: ' ';
+    }
+    .reg-text h3 br::after{
+        content: ' ';
     }
     .reg-text .reg-top-para{
         font-size: 25px;
@@ -1582,7 +1819,76 @@ height: 22rem;
         left: 40% !important;
     }
     /* Investor */
+
+    /* Home Testimonial Slider */
+    .h-slider {
+        width: 100% !important;
+    }
+    .h-slider.pt-5{
+        padding-top: 0 !important;
+    }
+    .h-slider h2{
+        margin-top: 0;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 0 !important;
+        padding-bottom: 20px !important;
+    }
     
+    .h-slider  .slick-current h3{
+        /* Make slides other than the current one translucent */
+        font-size: 1.25rem;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+    
+    .h-slider .slick-slide:not(.slick-current) h3{
+        /* Make slides other than the current one translucent */
+        font-size: 1.25rem;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+    .h-slider .slick-slide:not(.slick-current) img{
+        width: 25%;
+        margin: 0 auto;
+    }
+    
+    .h-slider  .slick-current img{
+        width: 25%;
+        margin: 0 auto;
+    }
+    .h-slider  ul{
+        display: block;
+    }
+    .h-slider  ul .user-info {
+        display: flex;
+        justify-content: center;
+    }
+    .h-slider  ul .user-info p{
+        text-align: center !important;
+        font-size: 15px;
+        padding-top: 10px !important;
+    }
+      /* Home Testimonial Slider */
+
+
+
+    /* Home-top-Client, Home-Bottom-Client */
+    .c-slider img{
+        margin: 0 auto;
+        width: 70%;
+    }
+    .c-slider .slick-next {
+        display: none !important;
+    }
+    /* Home-top-Client, Home-Bottom-Client */
+
+     /* Home top Client */
+    .tc-slider{
+        margin-top: -3rem !important;
+        padding-bottom: 20px;
+    }
+    /* Home top Client */
 }
 
 
@@ -1621,9 +1927,14 @@ height: 22rem;
     .t-left-bg{
         display: none;
     }
-  .h-content{
+    
+  .h-banner .h-content{
         line-height: 40px;
+        font-size: 2.25rem;
     }  
+    .hr-content p.leading-7{
+        line-height: 20px;
+    }
     .sm\:home-banner-main{
         display: block;
     }

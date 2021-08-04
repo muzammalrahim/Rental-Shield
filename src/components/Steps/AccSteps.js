@@ -58,7 +58,7 @@ class AccSteps extends Component {
                             <div className="sing-up absolute top-16 right-0">
                                 <div className="inline-flex">
                                     <img className="object-contain" src={Signup} alt=""/>
-                                    <Link className="pl-3 text-gray-500 text-2xl font-body font-normal">Sign up</Link>
+                                    <Link className="pl-3 text-gray-500 text-xl font-body font-normal">Sign up</Link>
                                 </div>  
                             </div>
                         </Col>
@@ -71,10 +71,10 @@ class AccSteps extends Component {
 
                     {/* step2 */}
                     <Row className="step-row relative pb-28 mob-h-step">
-                        <Col lg="6" sm="12" className="d-flex justify-content-center">
+                        <Col lg="6" sm="12" xs="12" className="d-flex justify-content-center">
                             <img className="step-img" src={Step2} alt="step1"/>
                         </Col>
-                        <Col lg="6" sm="12" className="d-flex justify-content-center">
+                        <Col lg="6" sm="12" xs="12" className="d-flex justify-content-center">
                             <div className="step-inner text-left">
                                 <ul>
                                     <li>
@@ -93,11 +93,14 @@ class AccSteps extends Component {
                                         </h3>
                                     </li>
                                 </ul>
-                                <p className="text-gray-500 pt-2 text-left font-body leading-7 font-light lg:text-2x md:text-xl lg:pr-5 ">
-                                {t('ac-steps.paperwork-detail-1')}<br/> 
-                                {t('ac-steps.paperwork-detail-2')}<br/> 
-                                {t('ac-steps.paperwork-detail-3')}<br/> 
-                                {t('ac-steps.paperwork-detail-4')}
+                                <p className="mob-kpara text-gray-500 pt-2 text-left font-body leading-7 font-light lg:text-2x md:text-xl lg:pr-5 ">
+                                    {t('ac-steps.paperwork-detail-1')}
+                                    <br/> 
+                                    {t('ac-steps.paperwork-detail-2')}
+                                    <br/> 
+                                    {t('ac-steps.paperwork-detail-3')}
+                                    <br/> 
+                                    {t('ac-steps.paperwork-detail-4')}
                                 </p>
                             </div>
                         </Col>

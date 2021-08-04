@@ -12,7 +12,7 @@ import Button from "react-bootstrap/Button";
 
 // Images
 import Enter from "../assets/images/enter.svg";
-import User from "../assets/images/mob-avatar.png";
+import User from "../assets/images/logo.svg";
 
 
 
@@ -38,47 +38,97 @@ class SideBar extends React.Component {
         sidebar={ 
         <div className="main-area">
           <div className="mob-side-topbar bg-green-700 py-2 text-center">
-              <img className="mx-auto" src={User} alt="img"/>
-              <p className="text-gray-500 text-base font-medium m-0">Sarah Jozaph</p>
+            <Nav.Link href="/" className="">
+            <img className="mx-auto" src={User} alt="logo" />
+          </Nav.Link>
+              {/* <p className="text-gray-500 text-base font-medium m-0">Sarah Jozaph</p> */}
           </div>
           <div className="mob-down-area pl-4">
           <ul className="">
               <li>
-                    <Link>
-                    <div className="text-gray-500 pt-5 pb-3 font-body font-normal text-lg">
+                <Nav.Link className="" href="/landlord">
+                    <div className="text-gray-500 pt-5 pb-2 font-body font-normal text-base">
                        I'm a Landlord
                     </div>
-                    </Link>
+                    </Nav.Link>
                 </li>
                 <li>
-                    <Link>
-                    <div className="text-gray-500 pb-3 font-body font-normal text-lg">
+                  <Nav.Link className="" href="/tanents">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
                       I'm a Tanent
                     </div>
-                    </Link>
+                    </Nav.Link>
                 </li>
                 <li>
-                    <Link>
-                    <div className="text-gray-500 pb-3 font-body font-normal text-lg">
+                  <Nav.Link href="/about">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
                         About
                     </div>
-                    </Link>
+                    </Nav.Link>
                 </li>
 
                 <li>
-                    <Link>
-                    <div className="text-gray-500 pb-3 font-body font-normal text-lg">
+                  <Nav.Link href="/faq">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
                         FAQ's
                     </div>
-                    </Link>
+                    </Nav.Link>
                 </li>
 
                 <li>
-                    <Link>
-                    <div className="text-gray-500 font-body font-normal text-lg">
-                        More
+                  <Nav.Link href="/blog">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
+                        Blog
                     </div>
-                    </Link>
+                    </Nav.Link>
+                </li>
+
+                <li>
+                  <Nav.Link href="/blogpost">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
+                        Blog Post
+                    </div>
+                    </Nav.Link>
+                </li>
+
+                <li>
+                  <Nav.Link href="/pricing">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
+                        Pricing
+                    </div>
+                    </Nav.Link>
+                </li>
+
+                <li>
+                  <Nav.Link href="/contact">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
+                        Contact
+                    </div>
+                    </Nav.Link>
+                </li>
+
+                <li>
+                  <Nav.Link href="/investor">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
+                        Investors
+                    </div>
+                    </Nav.Link>
+                </li>
+
+                <li>
+                  <Nav.Link href="/careers">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
+                        Careers
+                    </div>
+                    </Nav.Link>
+                </li>
+
+                <li>
+                  <Nav.Link href="/pricing">
+                    <div className="text-gray-500 pb-2 font-body font-normal text-base">
+                        Pricing
+                    </div>
+                    </Nav.Link>
                 </li>
             </ul>
 

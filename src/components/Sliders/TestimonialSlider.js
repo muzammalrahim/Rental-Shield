@@ -38,12 +38,13 @@ class TestimonialSlide extends Component {
       // centerPadding: '60px',
       infinite: true,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3000,
       slidesToShow: 3,
       slidesToScroll: 1,
       nextArrow: <SlickArrowLeft />,
       prevArrow: <SamplePrevArrow />,
       responsive: [
+        
         {
           breakpoint: 1024,
           settings: {
@@ -91,7 +92,7 @@ class TestimonialSlide extends Component {
                   <img className="rounded-full" src={Avatar} alt="avatar"/>
                 </div>
               </li>
-              <li className="">
+              <li className="user-info">
                 <p className="text-gray-500 font-body font-normal text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
                   <br/>
                    <span>Marketing</span> 
@@ -115,7 +116,7 @@ class TestimonialSlide extends Component {
                   <img className="rounded-full" src={Avatar} alt="avatar"/>
                 </div>
               </li>
-              <li>
+              <li className="user-info">
                 <p className="text-gray-500 font-body  font-normal text-lg text-left pl-3 pt-3 leading-5 test-title">Mohamed Kahled
                   <br/>
                   <span>Marketing</span> 
@@ -138,7 +139,7 @@ class TestimonialSlide extends Component {
                   <img className="rounded-full" src={Avatar} alt="avatar"/>
                 </div>
               </li>
-              <li>
+              <li className="user-info">
                 <p className="text-gray-500 font-body  font-normal text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
                   <br/>
                   <span>Marketing</span> 
@@ -160,7 +161,7 @@ class TestimonialSlide extends Component {
                   <img className="rounded-full" src={Avatar} alt="avatar"/>
                 </div>
               </li>
-              <li>
+              <li className="user-info">
                 <p className="text-gray-500 font-body font-normal text-lg text-left pl-3 pt-3 leading-5">Mohamed Kahled
                   <br/>
                   <span>Marketing</span> 

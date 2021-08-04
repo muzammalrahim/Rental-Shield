@@ -9,7 +9,7 @@ function RegistrationForm(props) {
             <div className="from-main home-footer-form bg-no-repeat">
             <img src={GirlImg} alt="bg-img"/>
             
-            <div className="card col-12 col-lg-4 login-card hv-center px-5 bg-green-800 rounded-lg" 
+            <div className="card reg-card col-12 col-lg-4 login-card hv-center px-5 bg-green-800 rounded-lg" 
             
             >
                 <h1 className="text-black  text-3xl text-left pt-5 py-4">Registration</h1>

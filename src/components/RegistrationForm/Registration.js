@@ -39,7 +39,7 @@ export default class Registration extends Component {
                             >
                                 <p 
                                     className=
-                                    "reg-top-para text-3xl pb-2 font-medium font-body lg:text-left md:text-center"       
+                                    "reg-top-para text-2xl pb-2 font-medium font-body lg:text-left md:text-center"       
                                 >
                                     I,ve heard enough
                                 </p>
@@ -53,13 +53,13 @@ export default class Registration extends Component {
                                 </h3>
                                 <p 
                                     className=
-                                    "reg-para2 text-lg pb-2 font-light md:text-center lg:text-left font-body lh-21 w-9/12">
+                                    "reg-para2 text-f15 pb-2 font-light md:text-center lg:text-left font-body lh-21 w-9/12">
                                     Protect youself today. We can help your
                                     Landlords to sign up.
                                 </p>
                                 <p 
                                     className=
-                                    "text-lg  font-light lh-21  font-body leading-5  md:text-center lg:text-left w-6/12"
+                                    "text-f15 font-light lh-21  font-body leading-5  md:text-center lg:text-left w-6/12"
                                 > 
                                     Our services are 
                                     regulated by the financial authorities. This is a win/win 
