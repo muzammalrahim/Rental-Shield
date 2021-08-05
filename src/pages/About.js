@@ -55,7 +55,7 @@ export default class About extends Component {
 
                 {/* Crad Section */}
                 <Card1/>
-                {/* <Timeline/> */}
+                <Timeline/>
 
                 <Card2/>
                 {/* Crad Section */}

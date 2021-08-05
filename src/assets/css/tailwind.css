@@ -6,7 +6,13 @@
  
 /* @tailwind utilities; */
 
-
+.timeline-main {
+    overflow: hidden;
+    height: 825px;
+}
+.card1-mian{
+    margin-top: -35%;
+}
 body{
     overflow-x: hidden; 
 }  
@@ -298,7 +304,9 @@ select{
 
 /* FAQ */
 
-
+.FaqBanner {
+    margin-top: -35%;
+}
 .faq-main{
     margin-top: -120px;
 }
@@ -749,10 +757,16 @@ select{
  /* add by tk */
  /* Faq page */
  /* Faq Card */
+ .card1-mian{
+    margin-top: 0;
+}
 
    .FaqCard .xs_cardIcon{
        height: 6rem;
        width: 6rem;
+   }
+   .faq-p2 {
+       padding-top: 0 !important;
    }
    .FaqCard .xs_para{
        font-size: 1rem;
@@ -760,6 +774,10 @@ select{
    .FaqBanner .xs_para{
        font-size: 1rem;
    }
+   .FaqBanner {
+    margin-top: -140%;
+    padding: 20px;
+}
    .FaqCategories .xs_heading{
        font-size: 2rem;
    }
@@ -767,6 +785,9 @@ select{
     margin-bottom: 16rem;
     padding: 0 3rem;
    }
+   .faq-b-content.w-6\/12 {
+    width: 100%;
+}
    
    .FaqAccordions .xs_picSize .min-h-screen{
        min-height: 70vh;
@@ -2041,6 +2062,9 @@ height: 22rem;
         left: -40px !important;
     }
    */
+   .card1-mian{
+    margin-top: 0;
+}
    .investr-b-web{
     display: none;
 }
