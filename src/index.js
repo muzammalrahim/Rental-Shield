@@ -13,6 +13,9 @@ import { initReactI18next } from "react-i18next";
 
 import '../src/assets/css/tailwind.css';
 import 'bootstrap/dist/css/bootstrap.css';
+console.log( 'getter', localStorage.getItem('selected_language') );
+
+
 
 if ( localStorage.getItem('selected_language') ) {
   i18next.use(initReactI18next)

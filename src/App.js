@@ -20,22 +20,68 @@ import Investor from "../src/pages/Investor";
 import Career from "./pages/careers/Career";
 
 
+if ( localStorage.getItem('selected_language') == 'en' ) {
+  
+  if ( !(window.location.href.indexOf("/en") > -1) ) {
+    window.history.pushState('en', 'en', window.location.href+'/en');
+  } 
+  
+}
+else {
+  if ( !(window.location.href.indexOf("/ar") > -1) ) {
+    window.history.pushState('ar', 'ar', window.location.href+'/ar');
+  }
+}
+
+if ( (window.location.href.indexOf("//en") > -1) ) {
+  window.history.pushState('en', 'en', '/en');
+} 
+else if ( (window.location.href.indexOf("//ar") > -1) ) {
+  window.history.pushState('ar', 'ar', '/ar');
+} 
+
+
 //Routing
 function App() {
   return (
     <div className="App">
-
+      
       <section className="route-section">
         <Router>
 
           <Switch>
             <Route exact path="/" component={Home}/>
+            <Route exact path="/en" component={Home}/>
+            <Route exact path="/ar" component={Home}/>
+            <Route exact path="//en" component={Home}/>
+            <Route exact path="//ar" component={Home}/>
+            
+
             <Route exact path="/landlord" component={LandLord}/>
+            <Route exact path="/landlord/en" component={LandLord}/>
+            <Route exact path="/landlord/ar" component={LandLord}/>
+
             <Route exact path="/tanents" component={Tanents}/>
+            <Route exact path="/tanents/en" component={Tanents}/>
+            <Route exact path="/tanents/ar" component={Tanents}/>
+
+
             <Route exact path="/about" component={About}/>
+            <Route exact path="/about/en" component={About}/>
+            <Route exact path="/about/ar" component={About}/>
+
             <Route exact path="/faq" component={Faq}/>
+            <Route exact path="/faq/en" component={Faq}/>
+            <Route exact path="/faq/ar" component={Faq}/>
+
             <Route exact path="/blog" component={Blog}/>
+            <Route exact path="/blog/en" component={Blog}/>
+            <Route exact path="/blog/ar" component={Blog}/>
+
             <Route exact path="/blogpost" component={BlogPost}/>
+            <Route exact path="/blogpost/en" component={BlogPost}/>
+            <Route exact path="/blogpost/ar" component={BlogPost}/>
+
             <Route exact path="/serach" component={SearchResult}></Route>
             <Route exact path="/pricing" component={Pricing}></Route>
             <Route exact path="/shop" component={Shop}></Route>

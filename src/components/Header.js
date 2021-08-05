@@ -24,8 +24,8 @@ function Header({ t, i18n }) {
   const [isShow, setShow] = useState(false);
   const [isUK, setUK] = useState(false);
   const langHandler = (lang, truthy) => {
-    localStorage.setItem('selected_language', lang);
     
+    localStorage.setItem('selected_language', lang);
     if( localStorage.getItem('selected_language') ) {
       i18n.changeLanguage( localStorage.getItem('selected_language') );
     }
@@ -33,6 +33,13 @@ function Header({ t, i18n }) {
       i18n.changeLanguage(lang);
     }
     
+    if ( localStorage.getItem('selected_language') == 'en' ) {
+      window.history.pushState('en', 'en', '/en');
+    }
+    else {
+      window.history.pushState('ar', 'ar', '/ar');
+    }
+
     
     setUK(truthy);
     setShow(!isShow);
