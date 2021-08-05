@@ -14,22 +14,40 @@ import { initReactI18next } from "react-i18next";
 import '../src/assets/css/tailwind.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
+if ( localStorage.getItem('selected_language') ) {
+  i18next.use(initReactI18next)
+  .init({
+    interpolation: { 
+      escapeValue: false 
+    },  // React already does escaping
+    lng: localStorage.getItem('selected_language'),                              // language to use
+    resources: {
+        en: {
+            common: common_en               // 'common' is our custom namespace
+        },
+        ar: {
+            common: common_ar
+        },
+    },
+  });
+} else {
+  i18next.use(initReactI18next)
+  .init({
+    interpolation: { 
+      escapeValue: false 
+    },  // React already does escaping
+    lng: 'en',                              // language to use
+    resources: {
+        en: {
+            common: common_en               // 'common' is our custom namespace
+        },
+        ar: {
+            common: common_ar
+        },
+    },
+  }); 
+}
 
-i18next.use(initReactI18next)
-.init({
-  interpolation: { 
-    escapeValue: false 
-  },  // React already does escaping
-  lng: 'en',                              // language to use
-  resources: {
-      en: {
-          common: common_en               // 'common' is our custom namespace
-      },
-      ar: {
-          common: common_ar
-      },
-  },
-});
 
 
 

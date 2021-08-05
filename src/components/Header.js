@@ -24,10 +24,21 @@ function Header({ t, i18n }) {
   const [isShow, setShow] = useState(false);
   const [isUK, setUK] = useState(false);
   const langHandler = (lang, truthy) => {
-    i18n.changeLanguage(lang);
+    localStorage.setItem('selected_language', lang);
+    
+    if( localStorage.getItem('selected_language') ) {
+      i18n.changeLanguage( localStorage.getItem('selected_language') );
+    }
+    else {
+      i18n.changeLanguage(lang);
+    }
+    
+    
     setUK(truthy);
     setShow(!isShow);
   };
+
+  
 
   // const {t, i18n} = useTranslation('common');
 
