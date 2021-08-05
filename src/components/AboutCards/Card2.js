@@ -5,7 +5,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 export default class Card2 extends Component {
     render() {
         return (
-            <div className="card1-mian">
+            <div className="card1-mian a-cards2">
                     <Row className="items-center no-gutters">
                         {/* <Col sm="7">
                             <h3 className="text-green text-6xl font-normal font-body">Better Yet..</h3>

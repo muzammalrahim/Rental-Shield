@@ -10,7 +10,7 @@
     overflow: hidden;
     height: 825px;
 }
-.card1-mian{
+.a-cards2{
     margin-top: -35%;
 }
 body{
@@ -757,7 +757,7 @@ select{
  /* add by tk */
  /* Faq page */
  /* Faq Card */
- .card1-mian{
+ .a-cards2{
     margin-top: 0;
 }
 
@@ -2062,7 +2062,7 @@ height: 22rem;
         left: -40px !important;
     }
    */
-   .card1-mian{
+   .a-cards2{
     margin-top: 0;
 }
    .investr-b-web{
