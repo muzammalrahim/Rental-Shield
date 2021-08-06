@@ -35,7 +35,7 @@ function Pricing() {
         </p>
       </div>
 
-      <div className="main mb-32">
+      <div className="main ">
         <span className="mr-40">Yearly</span>
         <span>Monthly</span>
         <div className="toggle mt-2" onClick={toggleHandler}>
@@ -48,7 +48,7 @@ function Pricing() {
       </div>
       {/* pricing plan ends */}
 
-      <div className="pricing__card mt-64">
+      <div className="pricing__card ">
         <div className="container pricing__container">
           <div className="row">
             <div className="col-md-4 ">

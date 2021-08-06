@@ -65,10 +65,10 @@ margin: 0 auto;
 }
 .pricing__card{
 background-image: url('../../assets/images/Frame.png');
-/* height:1250px; */
+height:1123.01px;
 background-position: center;
 background-size: cover;
-padding: 250px 0;
+padding: 130px 0;
 
 
 }
@@ -104,6 +104,8 @@ padding: 250px 0;
 } */
 .product__currency{
     margin-top: -8px;
+    font-weight: bold;
+    font-size: 20px;
 }
 /* .center-card{
     display: flex;
