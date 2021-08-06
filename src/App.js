@@ -19,7 +19,7 @@ import Contact from "./pages/Contact";
 import Investor from "../src/pages/Investor";
 import Career from "./pages/careers/Career";
 
-
+// var language = localStorage.getItem('selected_language');
 if ( localStorage.getItem('selected_language') == 'en' ) {
   
   if ( !(window.location.href.indexOf("/en") > -1) ) {
@@ -53,8 +53,6 @@ function App() {
             <Route exact path="/" component={Home}/>
             <Route exact path="/en" component={Home}/>
             <Route exact path="/ar" component={Home}/>
-            <Route exact path="//en" component={Home}/>
-            <Route exact path="//ar" component={Home}/>
             
 
             <Route exact path="/landlord" component={LandLord}/>
