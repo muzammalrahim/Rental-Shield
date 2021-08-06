@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import {Container, Row, Col} from 'react-bootstrap';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -6,8 +6,7 @@ import Button from "react-bootstrap/Button";
 import { Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
-import SideBar from "../components/Sidebar"
-
+import SideBar from "../components/Sidebar";
 
 // import { Uk, Ae } from "react-flags-select";
 import ReactFlagsSelect from "react-flags-select";
@@ -21,31 +20,38 @@ import DownArrow from "../assets/images/arrow-down.png";
 import { withTranslation } from "react-i18next";
 
 function Header({ t, i18n }) {
-  const [isShow, setShow] = useState(false);
-  const [isUK, setUK] = useState(false);
+  const [isShow, setShow] = useState(
+    localStorage.getItem("selected_Flag") === "false"
+  );
+  // const [isUK, setUK] = useState(false);
+
   const langHandler = (lang, truthy) => {
-    
-    localStorage.setItem('selected_language', lang);
-    if( localStorage.getItem('selected_language') ) {
-      i18n.changeLanguage( localStorage.getItem('selected_language') );
-    }
-    else {
-      i18n.changeLanguage(lang);
-    }
-    
-    if ( localStorage.getItem('selected_language') == 'en' ) {
-      window.history.pushState('en', 'en', '/en');
-    }
-    else {
-      window.history.pushState('ar', 'ar', '/ar');
+    localStorage.setItem("selected_language", lang);
+
+    localStorage.setItem("selected_Flag", isShow);
+
+    i18n.changeLanguage(lang);
+    // if (localStorage.getItem("selected_language")) {
+    //   i18n.changeLanguage(localStorage.getItem("selected_language"));
+    //   if (localStorage.getItem("selected_Flag")) {
+
+    //   }
+    // } else {
+    //   i18n.changeLanguage(lang);
+    // }
+
+    if (localStorage.getItem("selected_language") == "en") {
+      window.history.pushState("en", "en", "/en");
+    } else {
+      window.history.pushState("ar", "ar", "/ar");
     }
 
-    
-    setUK(truthy);
+    // setUK(truthy);
     setShow(!isShow);
   };
-
-  
+  // useEffect(() => {
+  //   langHandler();
+  // }, [isShow]);
 
   // const {t, i18n} = useTranslation('common');
 
@@ -60,12 +66,10 @@ function Header({ t, i18n }) {
 
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <div className="mobile-side-menu">
-          <SideBar className="mob-nav"/>
+          <SideBar className="mob-nav" />
         </div>
-        
-        
+
         <Navbar.Collapse id="basic-navbar-nav">
-        
           {/* Menu Links */}
           <Nav className="mr-auto">
             <Nav.Link href="/about">
@@ -135,16 +139,16 @@ function Header({ t, i18n }) {
                 className="lang-header flex"
                 // onClick={() => setShow(!isShow)}
               >
-                {isShow ? (
+                {!isShow ? (
                   <div
-                    onClick={() => langHandler("en", setShow(!isShow))}
+                    onClick={() => langHandler("en")}
                     className="btn-heading selected-lang uk eng-lan cursor-pointer flex leading-9"
                   >
                     UK
                   </div>
                 ) : (
                   <div
-                    onClick={() => langHandler("ar", setShow(!isShow))}
+                    onClick={() => langHandler("ar")}
                     className="btn-heading selected-lang ae eng-lan cursor-pointer flex leading-9"
                   >
                     AE
