@@ -9,6 +9,9 @@ import Slide1 from '../../assets/images/slid1.png';
 export default class PostSlider extends Component {
   render() {
     const settings = {
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
       dots: false,
       infinite: true,
       speed: 500,

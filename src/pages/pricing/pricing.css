@@ -1,5 +1,5 @@
 .pricing__banner{
-    background-image: url('../../assets/images/pricing-banner-2.png');
+
     height: 1200px;
     background-position: center;
     background-size: cover;
@@ -52,16 +52,14 @@ margin: 0 auto;
     
 }
 .toggle{
-    width: 306px;
-    height: 78px;
-   
+    width: 312px;
+    height: 67px;
     background: #EEEEEE;
     border-radius: 50px;
-  
 }
 .main{
     width: 306px;
-    margin: 0 auto;
+    margin: 5.8rem auto 0px auto;
 }
 .pricing__card{
 background-image: url('../../assets/images/Frame.png');

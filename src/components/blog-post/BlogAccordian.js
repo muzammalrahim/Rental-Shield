@@ -11,7 +11,7 @@ function BlogAccordian() {
     setIsShow(!isShow);
   };
   return (
-    <div className="blog-acc-main p-10 lg:px-64">
+    <div className="blog-acc-main px-10 lg:px-64">
       {/* <Container> */}
         <div className="bg-white shadow-lg py-3 px-3">
           <button className="flex items-center title" onClick={collapseHandler}>

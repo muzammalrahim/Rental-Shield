@@ -21,18 +21,18 @@ export default class TeamCards extends Component {
                 <Row>
                     <img className="w-full" src={BgTop} alt=""/>
                 </Row>
-                <Row className="px-5 bg-green-700">
+                <Row className="px-5 bg-green-700 about-cards-main">
                     <Col xs="12">
-                        <h1 className="text-gray-500 font-body font-normal text-6xl">Our Team</h1>
-                        <p className="text-gray-500 font-body font-normal text-2x">​No believe it or not there is more...</p>
+                        <h1 className="text-gray-500 font-body font-normal text-3xl lg:text-6xl">Our Team</h1>
+                        <p className="text-gray-500 font-body font-normal text-lg lg:text-2x">​No believe it or not there is more...</p>
                     </Col>
                     
                     {/* Card 1 */}
                     <Col lg="4">
-                        <div class="mx-4 my-4">
+                        <div class="mx-4 my-4 about-info-cards">
                             <div class="w-full rounded-md shadow-md bg-white">
                                 {/* Image */}
-                                <img src={About1} class="h-64 lg:h-full object-cove object-center  w-full rounded-lg p-4" alt="..."/>
+                                <img src={About1} class=" lg:h-full object-cove object-center  w-full rounded-lg p-4" alt="..."/>
                                 {/* Image */}
 
                                 <div class="p-4">
@@ -79,10 +79,10 @@ export default class TeamCards extends Component {
 
                     {/* Card 2 */}
                     <Col lg="4">
-                        <div class=" mx-4 my-4">
+                        <div class=" mx-4 my-4 about-info-cards">
                             <div class="w-full rounded-md shadow-md bg-white">
                                 {/* Image */}
-                                <img src={About2} class="h-64 lg:h-full object-cover object-center w-full p-4" alt="..."/>
+                                <img src={About2} class="lg:h-full object-cover object-center w-full p-4" alt="..."/>
                                 {/* Image */}
 
                                 <div class="p-4">
@@ -130,10 +130,10 @@ export default class TeamCards extends Component {
 
                     {/* Card 3 */}
                     <Col lg="4">
-                        <div class=" mx-4 my-4">
+                        <div class=" mx-4 my-4 about-info-cards">
                             <div class="w-full rounded-md shadow-md bg-white">
                                 {/* Image */}
-                                <img src={About3} class="h-64 lg:h-full object-cover object-center w-full p-4" alt="..."/>
+                                <img src={About3} class="lg:h-full object-cover object-center w-full p-4" alt="..."/>
                                 {/* Image */}
 
                                 <div class="p-4">
@@ -179,7 +179,7 @@ export default class TeamCards extends Component {
                     {/* Card 3 */}
                 </Row>
                 <Row>
-                    <img className="w-full" src={BgBottom} alt="img"/>
+                    <img className="w-full about-bottom-img" src={BgBottom} alt="img"/>
                 </Row>
                 
             </div>

@@ -14,29 +14,29 @@ class Footer extends Component {
         {/* footer logo + Social Links */}
         <div className="footer-top">
           <Row className="items-center pb-4">
-            <Col xl="6" md="12" xs="12" className="">
+            <Col xl="6" md="12" xs="12" className="lg:text-left text-center">
               <img className="footer-logo" src={logo} alt="logo" />
             </Col>
             <Col xl="6" md="12" xs="12">
               <div className="social-links">
                 <ul className="list-none md:text-center lg:text-right">
-                  <Link to="#" className="hover:no-underline">  
+                  <a href="https://twitter.com/?lang=en" target="_blank" className="hover:no-underline">  
                     <li className="pr-3">
                       <img
                         src={process.env.PUBLIC_URL + "/img/twit.svg"}
                         alt="twitter"
                       />
                     </li>
-                  </Link>
+                  </a>
 
-                  <Link to="#" className="hover:no-underline">  
+                  <a to="#" className="hover:no-underline">  
                     <li className="pr-3">
                       <img
                         src={process.env.PUBLIC_URL + "/img/youtube.svg"}
                         alt="youtube"
                       />
                     </li>
-                  </Link>
+                  </a>
 
                   <Link to="#" className="hover:no-underline">  
                     <li className="pr-3">
@@ -73,7 +73,7 @@ class Footer extends Component {
 
         <hr></hr>
 
-        <div className="footer-bottom pt-5">
+        <div className="footer-bottom pt-4">
          
           <div className="footer-inner grid">
             <div className="footer-adress text-left pb-3">
@@ -268,6 +268,8 @@ class Footer extends Component {
             {/* Col 7 */}
           </div>
         </div>
+
+        
       </div>
     );
   }

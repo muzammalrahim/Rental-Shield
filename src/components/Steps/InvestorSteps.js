@@ -19,14 +19,13 @@ export default class InvestorSteps extends Component {
                 <div className="left-side inner-position">
                     {/* step1 */}
                     <div className="text-left  relative">
-                        <img className="w-full" src={Img1} alt="img"/>
+                        <img className="w-full investor-mob-img" src={Img1} alt="img"/>
                         <div className="inner-content absolute bottom-20">
                             <h3 className="text-3xl font-bold font-body text-gray-500">
                                 About Us
                             </h3>
-                            <p className="text-lg font-normal font-body text-gray-500 leading-6">
+                            <p className="text-lg font-normal font-body text-gray-500 leading-5">
                                 Learn more about us, what is our
-                                <br/> 
                                 long term strategy
                             </p>
                         </div>
@@ -36,8 +35,8 @@ export default class InvestorSteps extends Component {
 
                         {/* step2 */}
                         <div className="text-left relative">
-                            <img  className="w-full" src={Img2} alt="img"/>
-                            <div className="inner-content absolute bottom-20">
+                            <img  className="w-full investor-mob-img" src={Img2} alt="img"/>
+                            <div className="inner-content l-inner-content2 absolute bottom-20">
                                 <h3 className="text-3xl font-bold font-body text-gray-500">
                                     Awards
                                 </h3>
@@ -50,14 +49,13 @@ export default class InvestorSteps extends Component {
 
                         {/* step3 */}
                         <div className="text-left relative">
-                            <img  className="w-full"  src={Img3} alt="img"/>
-                            <div className="inner-content absolute  bottom-20">
+                            <img  className="w-full investor-mob-img"  src={Img3} alt="img"/>
+                            <div className="inner-content3 absolute  bottom-20">
                                 <h3 className="text-3xl font-bold font-body text-gray-500">
                                     Contact US
                                 </h3>
                                 <p className="text-lg font-normal font-body text-gray-500 leading-6">
                                     Get in touch today to find out more 
-                                    <br/> 
                                     details
                                 </p>
                             </div>
@@ -69,17 +67,16 @@ export default class InvestorSteps extends Component {
 
 
                 {/* ----------------------------Right Side--------------------------- */}
-                <div className="right-side inner-position-r pt-20">
+                <div className="right-side inner-position-r pt-36">
                     {/* step1 */}
                     <div className="text-left relative">
-                        <img className="w-full"  src={Img4} alt="img"/>
-                        <div className="inner-content absolute bottom-20">
+                        <img className="w-full investor-mob-img"  src={Img4} alt="img"/>
+                        <div className="inner-content1 absolute bottom-20">
                             <h3 className="text-3xl font-bold font-body text-gray-500">
                                 Projects
                             </h3>
-                            <p className="text-lg font-normal font-body text-gray-500 leading-6">
-                                Some of our projects that we 
-                                <br/> 
+                            <p className="i-mob-para text-lg font-normal font-body text-gray-500 leading-5 w-8/12">
+                                Some of our projects that we  
                                 have experience in 
                             </p>
                         </div>
@@ -89,12 +86,12 @@ export default class InvestorSteps extends Component {
 
                         {/* step2 */}
                         <div className="text-left relative">
-                            <img  className="w-full"  src={Img5} alt="img"/>
-                            <div className="inner-content absolute  bottom-20">
+                            <img  className="w-full investor-mob-img"  src={Img5} alt="img"/>
+                            <div className="inner-content2 absolute  bottom-20">
                                 <h3 className="text-3xl font-bold font-body text-gray-500">
                                     Team
                                 </h3>
-                                <p className="text-lg font-normal font-body text-gray-500 leading-6">
+                                <p className="text-lg font-normal font-body text-gray-500 leading-5 w-8/12">
                                     Find out about our fantastic team
                                 </p>
                             </div>
@@ -103,12 +100,12 @@ export default class InvestorSteps extends Component {
 
                         {/* step3 */}
                         <div className="text-left relative">
-                            <img  className="w-full"  src={Img6} alt="img"/>
-                            <div className="inner-content absolute  bottom-20">
+                            <img  className="w-full investor-mob-img"  src={Img6} alt="img"/>
+                            <div className="inner-content3 absolute  bottom-20">
                                 <h3 className="text-3xl font-bold font-body text-gray-500">
                                     Clients
                                 </h3>
-                                <p className="text-lg font-normal font-body text-gray-500 leading-6">
+                                <p className="text-lg font-normal font-body text-gray-500 leading-5 w-8/12">
                                     Some of our prestigious clients 
                                 </p>
                             </div>

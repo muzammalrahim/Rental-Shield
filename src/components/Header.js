@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import {Container, Row, Col} from 'react-bootstrap';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import { Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
+import SideBar from "../components/Sidebar";
 
 // import { Uk, Ae } from "react-flags-select";
 import ReactFlagsSelect from "react-flags-select";
@@ -19,13 +20,38 @@ import DownArrow from "../assets/images/arrow-down.png";
 import { withTranslation } from "react-i18next";
 
 function Header({ t, i18n }) {
-  const [isShow, setShow] = useState(false);
-  const [isUK, setUK] = useState(false);
+  const [isShow, setShow] = useState(
+    localStorage.getItem("selected_Flag") === "false"
+  );
+  // const [isUK, setUK] = useState(false);
+
   const langHandler = (lang, truthy) => {
+    localStorage.setItem("selected_language", lang);
+
+    localStorage.setItem("selected_Flag", isShow);
+
     i18n.changeLanguage(lang);
-    setUK(truthy);
+    // if (localStorage.getItem("selected_language")) {
+    //   i18n.changeLanguage(localStorage.getItem("selected_language"));
+    //   if (localStorage.getItem("selected_Flag")) {
+
+    //   }
+    // } else {
+    //   i18n.changeLanguage(lang);
+    // }
+
+    if (localStorage.getItem("selected_language") == "en") {
+      window.history.pushState("en", "en", "/en");
+    } else {
+      window.history.pushState("ar", "ar", "/ar");
+    }
+
+    // setUK(truthy);
     setShow(!isShow);
   };
+  // useEffect(() => {
+  //   langHandler();
+  // }, [isShow]);
 
   // const {t, i18n} = useTranslation('common');
 
@@ -38,22 +64,26 @@ function Header({ t, i18n }) {
         </Navbar.Brand>
         {/* logo */}
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+        <div className="mobile-side-menu">
+          <SideBar className="mob-nav" />
+        </div>
+
         <Navbar.Collapse id="basic-navbar-nav">
           {/* Menu Links */}
           <Nav className="mr-auto">
             <Nav.Link href="/about">
-              <div className="text-gray-500 font-body font-normal text-lg pl-4">
+              <div className="menu-name text-gray-500 font-body font-normal text-lg pl-4">
                 {t("header.about")}
               </div>
             </Nav.Link>
             <Nav.Link href="/faq">
-              <div className="text-gray-500 font-body font-normal text-lg pl-3">
+              <div className="menu-name text-gray-500 font-body font-normal text-lg pl-3">
                 {t("header.faqs")}
               </div>
             </Nav.Link>
             <Nav.Link href="#link">
-              <div className="text-gray-500 font-body font-normal text-lg pl-3">
+              <div className="menu-name text-gray-500 font-body font-normal text-lg pl-3">
                 {t("header.more")}
               </div>
             </Nav.Link>
@@ -62,28 +92,28 @@ function Header({ t, i18n }) {
 
           {/* Right Options */}
           <Form inline>
-            <Button className="bttn mr-4 p-0">
+            <Button className="bttn mr-3 p-0">
               <Nav.Link className="" href="/landlord">
-                <div className="text-gray-500 font-medium font-body text-lg">
+                <div className="btn-heading text-gray-500 font-medium font-body text-base px-2">
                   {t("header.landlord")}
                 </div>
               </Nav.Link>
             </Button>
-            <Button className="bttn px-3 p-0">
+            <Button className="bttn px-3 p-0 mr-2">
               <Nav.Link className="" href="/tanents">
-                <div className="text-gray-500 font-medium font-body text-lg">
-                  {t("header.tenat")}
+                <div className="btn-heading text-gray-500 font-medium font-body text-base">
+                  {t("header.tenant")}
                 </div>
               </Nav.Link>
             </Button>
             <Link className="logins ml-5">
-              <div className="text-gray-500 font-body font-normal text-lg ml-3 mr-1">
+              <div className="btn-heading text-gray-500 font-body font-normal text-lg ml-3 mr-1">
                 {t("header.login")}
               </div>
             </Link>
             /
             <Link className="logins">
-              <div className="text-gray-500 font-body font-normal text-lg ml-1">
+              <div className="btn-heading text-gray-500 font-body font-normal text-lg ml-1">
                 {t("header.signup")}
               </div>
             </Link>
@@ -109,19 +139,20 @@ function Header({ t, i18n }) {
                 className="lang-header flex"
                 // onClick={() => setShow(!isShow)}
               >
-                {isShow ? (
+                {!isShow ? (
                   <div
-                    onClick={() => langHandler("en", setShow(!isShow))}
-                    className="selected-lang uk eng-lan cursor-pointer flex leading-9"
+                    onClick={() => langHandler("en")}
+                    className="btn-heading selected-lang uk eng-lan cursor-pointer flex leading-9"
                   >
                     UK
                   </div>
                 ) : (
                   <div
-                    onClick={() => langHandler("ar", setShow(!isShow))}
-                    className="selected-lang ae eng-lan cursor-pointer flex leading-9"
+                    onClick={() => langHandler("ar")}
+                    className="btn-heading selected-lang ae eng-lan cursor-pointer flex leading-9"
                   >
                     AE
+                    {/* العربية */}
                   </div>
                 )}
 

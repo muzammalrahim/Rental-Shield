@@ -4,9 +4,14 @@ import GirlImg from '../../assets/images/girl1-bg.png'
 
 function RegistrationForm(props) {
   return(
-        <div className="from-main">
+        // <div className="from-main home-footer-form bg-no-repeat"
+        // style={{ backgroundImage: `url(${GirlImg})` }}>
+            <div className="from-main home-footer-form bg-no-repeat">
             <img src={GirlImg} alt="bg-img"/>
-            <div className="h-card col-12 col-lg-4 login-card hv-center px-5 bg-green-800">
+            
+            <div className="card reg-card col-12 col-lg-4 login-card hv-center px-5 bg-green-800 rounded-lg" 
+            
+            >
                 <h1 className="text-black  text-3xl text-left pt-5 py-4">Registration</h1>
                 <form>
                     <div className="form-group text-left">

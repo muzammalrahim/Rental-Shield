@@ -10,21 +10,21 @@ export default class TanentsBanner extends Component {
         return (
             <div className="tanent-banner-main bg-no-repeat right-0 top-0 relative">
                 <div className="absolute talent-bg-img">
-                    <img src={TanentBg2} alt="img"/>
+                    <img className="t-left-bg" src={TanentBg2} alt="img"/>
                 </div>
                 <Row className="no-gutters ">
-                    <Col md="2">
+                    <Col lg="2" md="0">
                         
                         
                     </Col>
-                    <Col md="10">
+                    <Col lg="10" md="12">
                         <div className=" talent-bg bg-no-repeat"  style={{backgroundImage:`url(${TanentBg1})`}}>
-                            <Row className="no-gutters pl-5">
-                                <Col sm="6">
+                            <Row className="tanent-b-text no-gutters pl-5  relative top-16">
+                                <Col lg="6" md="12" sm="12">
                                 
                                 </Col>
-                                <Col sm="6" className="text-left banner-content pb-5">
-                                    <h3 className="text-green-500 text-6xl font-body font-normal">
+                                <Col lg="6" md="12" sm="12" className="text-left banner-content pb-5">
+                                    <h3 className="t-main-heading text-green-900 text-6xl font-body font-normal lh-60">
                                         Welcome 
                                         <br/>
                                         to Tenants
@@ -32,7 +32,7 @@ export default class TanentsBanner extends Component {
                                     <h3 className="text-2xl text-gray-500 font-bold font-body  py-3">
                                         To the future of renting...
                                     </h3>
-                                    <p className="text-gray-500 text-2x font-normal font-body">
+                                    <p className="text-gray-500 text-2x font-normal font-body leading-7">
                                         Join us today on the real estate revolution
                                         <br/>
                                          to change the way you rent today.  We 
@@ -40,10 +40,10 @@ export default class TanentsBanner extends Component {
                                          believe you will find answers to all of the
                                          <br/>
                                           questions you may have below.
-                                          <ul className="text-left">
+                                          <ul className="text-left leading-none">
                                               <li className="flex items-center pt-4">
                                                 <span className="circle bg-gradient-to-r from-green-400 to-green-500  mr-3 rounded-full"></span>
-                                                <p className="text-gray-500 font-body leading-7 pt-3">
+                                                <p className="text-gray-500 font-body leading-6 pt-3">
                                                     
                                                   What if my landlord doesn't want 
                                                   <br/>

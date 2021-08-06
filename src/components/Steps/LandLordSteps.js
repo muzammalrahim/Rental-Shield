@@ -34,7 +34,7 @@ export default class LandLordSteps extends Component {
                                     </li>
 
                                     <li>
-                                        <img className="md:h-30 " src={Line2} alt="Line"/>
+                                        <img className="md:h-30 mob-line" src={Line2} alt="Line"/>
                                     </li>
                                 </ul>
                                 <p className="text-left leading-7 font-body text-gray-500 font-light lg:text-2xl md:text-xl lg:pr-5 ">
@@ -59,16 +59,16 @@ export default class LandLordSteps extends Component {
                         {/* <div className="bg-line">
                             
                         </div> */}
-                        <img className="bg-line5" src={LineBG}  alt="img"/>
+                        <img className="bg-line5 mob-line" src={LineBG}  alt="img"/>
                     </Row>
                     {/* step1 */}
 
                     {/* step2 */}
                     <Row className="step-row relative pb-28">
-                        <Col sm="6" className="d-flex justify-content-center">
+                        <Col lg="6" sm="12" className="d-flex justify-content-center">
                             <img src={Step2} alt="step1"/>
                         </Col>
-                        <Col sm="6" className="d-flex justify-content-center">
+                        <Col  lg="6" sm="12" className="d-flex justify-content-center">
                             <div className="step-inner text-left">
                                 <ul>
                                     <li>
@@ -79,7 +79,7 @@ export default class LandLordSteps extends Component {
                                         <h3 className="text-gray-500 leading-10 font-light text-5xl lg:text-5xl md:text-3xl">Furnish <br/> the Flats</h3>
                                     </li>
                                     <li>
-                                        <img src={Line2} alt="Line"/>
+                                        <img className="mob-line" src={Line2} alt="Line"/>
                                     </li>
                                 </ul>
                                 <p className="text-left font-body pb-3 leading-7 text-gray-500 font-light lg:text-2xl md:text-xl lg:pr-5">
@@ -97,7 +97,7 @@ export default class LandLordSteps extends Component {
                                 </p>
                             </div>
                         </Col>
-                        <img className="bg-line6" src={LineBG2}  alt="img"/>
+                        <img className="bg-line6 mob-line" src={LineBG2}  alt="img"/>
                     </Row>
                     {/* step2 */}
 
@@ -116,7 +116,7 @@ export default class LandLordSteps extends Component {
                                     </li>
 
                                     <li>
-                                        <img src={Line2} alt="Line"/>
+                                        <img className="mob-line" src={Line2} alt="Line"/>
                                     </li>
                                 </ul>
                                 <p className="text-left font-body leading-7 text-gray-500 font-light lg:text-2xl md:text-xl lg:pr-5 ">
@@ -129,7 +129,7 @@ export default class LandLordSteps extends Component {
                         <Col lg={{span:6, order:2}}  sm={{span:12, order:1}}  xs={{span:12, order:1}}  className="d-flex justify-content-center md:h-50">
                             <img src={Step3} alt="step1"/>
                         </Col>
-                        <img className="bg-line7 pb-5 mb-" src={LineBG}  alt="img"/>
+                        <img className="bg-line7 pb-5 mob-line" src={LineBG}  alt="img"/>
                     </Row>
                     {/* step3 */}
 

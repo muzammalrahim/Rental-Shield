@@ -17,11 +17,11 @@ export default class Newsletter extends Component {
                     <div className="newsletter-inner shadow-lg pb-20 my-28 bg-no-repeat" style={{backgroundImage: `url(${Bg})`}}>
                         
                         <div className="news-inner-top mb-11">
-                            <h3 className="text-gray-500 font-body text-5xl text-center font-normal px-5 pt-4"
+                            <h3 className="text-gray-500 font-body text-3xl lg:text-5xl text-center font-normal px-5 pt-4"
                             style={{lineHeight:'55px'}}>
                                 Or sign up to our newsletter for updates
                             </h3>
-                            <p className="text-center text-gray-500 font-body font-normal px-52  mt-4 mb-40 text-2lx leading-7">
+                            <p className="text-center text-gray-500 font-body font-normal px-52  mt-4 mb-40 text-lg lg:text-2lx leading-7">
                                 Still want to keep updated on our progress, then please sign up 
                                 to our monthly newsletter that will show you were we've reached on our 
                                 journey. Join us
@@ -35,7 +35,7 @@ export default class Newsletter extends Component {
                             placeholder="Email adress here..."
                             />
                             <button>
-                                <img className="absolute" src={NewsIcon} alt="img" style={{right:'27%', top:'10px'}}/>
+                                <img className="absolute input-arrow" src={NewsIcon} alt="img" style={{right:'27%', top:'10px'}}/>
                             </button>
                         </div>
                         
