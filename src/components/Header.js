@@ -19,11 +19,19 @@ import DownArrow from "../assets/images/arrow-down.png";
 //Translation
 import { withTranslation } from "react-i18next";
 
-function Header({ t, i18n }) {
+function Header({ t, i18n, ...props }) {
   const [isShow, setShow] = useState(
     localStorage.getItem("selected_Flag") === "false"
   );
+  // console.log("Header_parameter", props.lang);
   // const [isUK, setUK] = useState(false);
+  if (
+    props.lang &&
+    props.lang != null &&
+    localStorage.getItem("selected_language") != props.lang
+  ) {
+    i18n.changeLanguage(props.lang);
+  }
 
   const langHandler = (lang, truthy) => {
     localStorage.setItem("selected_language", lang);
@@ -31,20 +39,20 @@ function Header({ t, i18n }) {
     localStorage.setItem("selected_Flag", isShow);
 
     i18n.changeLanguage(lang);
+
     // if (localStorage.getItem("selected_language")) {
     //   i18n.changeLanguage(localStorage.getItem("selected_language"));
     //   if (localStorage.getItem("selected_Flag")) {
-
     //   }
     // } else {
     //   i18n.changeLanguage(lang);
     // }
 
-    if (localStorage.getItem("selected_language") == "en") {
-      window.history.pushState("en", "en", "/en");
-    } else {
-      window.history.pushState("ar", "ar", "/ar");
-    }
+    // if (localStorage.getItem("selected_language") == "en") {
+    //   window.history.pushState("en", "en", "/en");
+    // } else {
+    //   window.history.pushState("ar", "ar", "/ar");
+    // }
 
     // setUK(truthy);
     setShow(!isShow);
