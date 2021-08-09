@@ -19,6 +19,7 @@ import Contact from "./pages/Contact";
 import Investor from "../src/pages/Investor";
 import Career from "./pages/careers/Career";
 
+
 // if (localStorage.getItem("selected_language") == "en") {
 //   if (!(window.location.href.indexOf("/en") > -1)) {
 //     window.history.pushState("en", "en", window.location.href + "/en");
@@ -35,6 +36,29 @@ import Career from "./pages/careers/Career";
 //   window.history.pushState("ar", "ar", "/ar");
 // }
 
+// var language = localStorage.getItem('selected_language');
+if ( localStorage.getItem('selected_language') == 'en' ) {
+  
+  if ( !(window.location.href.indexOf("/en") > -1) ) {
+    window.history.pushState('en', 'en', window.location.href+'/en');
+  } 
+  
+}
+else {
+  if ( !(window.location.href.indexOf("/ar") > -1) ) {
+    window.history.pushState('ar', 'ar', window.location.href+'/ar');
+  }
+}
+
+if ( (window.location.href.indexOf("//en") > -1) ) {
+  window.history.pushState('en', 'en', '/en');
+} 
+else if ( (window.location.href.indexOf("//ar") > -1) ) {
+  window.history.pushState('ar', 'ar', '/ar');
+} 
+
+
+
 //Routing
 function App() {
   return (
@@ -45,8 +69,19 @@ function App() {
 
 <Route exact path="/" component={Home} /> */}
           <Switch>
+
             {/* <Route path="/:lang" component={Home} /> */}
             <Route exact path="/" component={Home} />
+
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/en" component={Home}/>
+            <Route exact path="/ar" component={Home}/>
+            
+
+            <Route exact path="/landlord" component={LandLord}/>
+            <Route exact path="/landlord/en" component={LandLord}/>
+            <Route exact path="/landlord/ar" component={LandLord}/>
+
 
             <Route exact path="/landlord" component={LandLord} />
             <Route exact path="/landlord/:lang" component={LandLord} />
