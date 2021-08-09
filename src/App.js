@@ -46,7 +46,7 @@ function App() {
 <Route exact path="/" component={Home} /> */}
           <Switch>
             {/* {/ <Route path="/:lang" component={Home} /> } */}
-            <Route exact path="/" component={Home} /> 
+            <Route exact path="/" component={Home} />  
 
             <Route exact path="/landlord" component={LandLord} />
             <Route exact path="/landlord/:lang" component={LandLord} />
