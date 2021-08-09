@@ -2808,4 +2808,5 @@ border-radius: 10px;
 
 /* ------------------Contact Page----------------------- */
 
+.test{ display: inline; border: 0px solid red; }
 

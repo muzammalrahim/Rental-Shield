@@ -41,9 +41,7 @@ function App() {
     <div className="App">
       <section className="route-section">
         <Router>
-          {/* <Route exact path="/:lang" component={Home} />
-
-<Route exact path="/" component={Home} /> */}
+          {}
           <Switch>
             {/* {/ <Route path="/:lang" component={Home} /> } */}
             <Route exact path="/" component={Home} />  
