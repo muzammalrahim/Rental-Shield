@@ -1,0 +1,88 @@
+/* .description{
+    font-family: Roboto;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+color: #93D55E;
+
+} */
+.contact{
+    color:#7C7C7C;
+    font-weight: 600;
+    /* margin-right: 360px; */
+}
+/* .contact_archit{
+    width: 250px;
+} */
+/* .contact__img{
+    margin-right: 10px;
+   
+} */
+
+.form-contact{
+
+ 
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.contact__input{
+    background-color: #F3FDEA;
+}
+/* .from-main{
+    width: 1140px;
+} */
+
+/* .contact__image{
+    width: 100px;
+} */
+/* @media screen and (max-width:1032px){
+    .from-main{
+        width: 940px;
+    }
+} */
+/* @media screen and (max-width:993px){
+    .from-main{
+        width: 840px;
+        
+    }
+} */
+/* @media screen and (max-width:991px){
+    .from-main{
+        width: 440px;
+      
+        
+    }
+} */
+/* @media screen and (max-width:768px){
+    .from-main{
+        width: 340px;
+      
+        
+    }
+} */
+/* @media screen and (max-width:534px){
+    .from-main{
+        width: 280px;
+      
+        
+    }
+} */
+ @media screen and (max-width:492px){
+    .form-contact{
+        padding: 50px 35px 0px !important;
+      
+        
+    }
+} 
+
+@media screen and (max-width:420px){
+    .form-contact{
+        padding: 50px 20px 0px !important;
+      
+        
+    }
+} 

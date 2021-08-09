@@ -8,12 +8,12 @@ export default class Card1 extends Component {
             <div className="card1-mian">
                     <Row className="items-center no-gutters">
                         <Col sm="7">
-                            <h3 className="text-green-500 text-6xl font-normal font-body">Better Yet..</h3>
+                            <h3 className="text-green-500 text-4xl md:5xl lg:text-6xl font-normal font-body">Better Yet..</h3>
                         </Col>
                         <Col sm="5">
-                        <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 lg:ml-20">
+                        <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 lg:ml-20 about-card-inner">
                             <div>
-                                <h2 class="text-gray-500 text-5xl font-light font-body text-left pb-4 pt-3">
+                                <h2 class="text-gray-500 text-3xl md:text-5xl lg:text-5xl font-light font-body text-left pb-4 pt-3">
                                     Independent
                                 </h2>
                                 <p class="mt-2 text-gray-500 text-left text-2x font-light leading-7 font-body">

@@ -1,0 +1,149 @@
+/* .career__background{
+    background-image: url('../../assets/images/career-bg.png');
+    height: 130vh;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+/* .c-h-screen{
+    height: 130vh;
+} */
+.sec-side{
+    position: absolute;
+    top: 34%;
+    right: 16px;
+}
+
+.sec-side h1{
+    margin-bottom: 0 !important;
+}
+.c-banner-text{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.property__tech{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 70px;
+
+letter-spacing: -0.05em;
+
+color: #606060;
+}
+.property__techText{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.05em;
+
+color: #606060;
+}
+
+.career__head{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+text-align: right;
+
+/* verde escuro */
+
+color: #72C92A;
+}
+.career__text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height, or 120% */
+
+text-align: right;
+
+color: #606060;
+
+}
+
+.brand__content{
+position: absolute;
+top: 2200px;
+left: 50px;
+
+
+}
+.brand__head{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 60px;
+text-align: left;
+/* identical to box height, or 100% */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+}
+.brand__text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+
+}
+
+@media (max-width: 991px) {
+    .sec-side h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .sec-side h1{
+        font-size: 20px;
+    }
+}
+@media (max-width: 479px) {
+    .cb-img{
+        display: none;
+    }
+    .c-h-screen{
+        background: #f6f6f6;
+        padding-bottom: 120px;
+    }
+    .cm-bg{
+        background: url(../../assets/images/career-mb.png);
+        height:200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+    .c-banner-text {
+        position: relative;
+        left: -60px;
+    }
+    .searchResult.mt-24.carrerTabs{
+        margin-top: 2rem;
+    }
+    .career__tech.mt-32{
+        margin-top: 2rem;
+        padding: 0 30px;
+    }
+    .property__techText p{
+        margin: 0;
+        font-size: 15px;
+    }
+    .mt-8.property__techText{
+        margin-top: 0rem;
+    }
+}
