@@ -7,12 +7,13 @@ import FaqAccordion from "../components/Accordion/FaqAccordion";
 import Footer from "../components/Footer";
 
 export default class Faq extends Component {
+  language = this.props.match.params.lang;
   render() {
     return (
       <div className="faq-page-main">
         {/* header */}
         <div className="header">
-          <Header />
+          <Header lang={this.language} />
         </div>
         {/* header */}
 

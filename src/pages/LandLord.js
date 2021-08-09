@@ -1,50 +1,48 @@
-import React, { Component } from 'react'
-import Header from '../components/Header';
-import LandLordBanner from '../components/Banners/LandLordBanner';
-import EvenMoreLandLard from '../components/Rules/EvenMoreLandLard';
-import LandLordSteps from '../components/Steps/LandLordSteps';
-import Video from '../components/Updates/Video';
-import MoreQuestions from '../components/MoreQuestions';
-import Registration from '../components/RegistrationForm/Registration';
-import Footer  from '../components/Footer';
-
-
+import React, { Component } from "react";
+import Header from "../components/Header";
+import LandLordBanner from "../components/Banners/LandLordBanner";
+import EvenMoreLandLard from "../components/Rules/EvenMoreLandLard";
+import LandLordSteps from "../components/Steps/LandLordSteps";
+import Video from "../components/Updates/Video";
+import MoreQuestions from "../components/MoreQuestions";
+import Registration from "../components/RegistrationForm/Registration";
+import Footer from "../components/Footer";
 
 export default class LandLord extends Component {
-    render() {
-        return (
-            <div className="landlord-main">
-                 {/* header */}
-                 <div className="header">
-                         <Header/>
-                </div>   
-                {/* header */}
-              
-                {/* Banner */}
-                <LandLordBanner/>
-                 {/* Banner */}
+  language = this.props.match.params.lang;
+  render() {
+    // console.log("parameter", this.props.match.params.lang);
 
-                <LandLordSteps/>
-                 <EvenMoreLandLard/>
+    return (
+      <div className="landlord-main">
+        {/* header */}
+        <div className="header">
+          <Header lang={this.language} />
+          {/* <Header /> */}
+        </div>
+        {/* header */}
 
-                 <Video/>
+        {/* Banner */}
+        <LandLordBanner />
+        {/* Banner */}
 
-                <MoreQuestions/>
+        <LandLordSteps />
+        <EvenMoreLandLard />
 
-                {/* Registration */}
-                <Registration/>
-                {/* Registration */}
+        <Video />
 
-                {/* Footer */}
-                <div className="footer">
-                    <Footer/>
-                {/* Footer */}
-                </div>
-            </div>
+        <MoreQuestions />
 
+        {/* Registration */}
+        <Registration />
+        {/* Registration */}
 
-
-
-        )
-    }
+        {/* Footer */}
+        <div className="footer">
+          <Footer />
+          {/* Footer */}
+        </div>
+      </div>
+    );
+  }
 }
