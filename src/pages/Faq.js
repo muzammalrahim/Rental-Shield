@@ -8,12 +8,13 @@ import Footer from "../components/Footer";
 
 export default class Faq extends Component {
   language = this.props.match.params.lang;
+  url = this.props.match.url;
   render() {
     return (
       <div className="faq-page-main">
         {/* header */}
         <div className="header">
-          <Header lang={this.language} />
+          <Header lang={this.language} url={this.url} />
         </div>
         {/* header */}
 

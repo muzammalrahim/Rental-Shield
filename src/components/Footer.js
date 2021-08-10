@@ -20,7 +20,11 @@ class Footer extends Component {
             <Col xl="6" md="12" xs="12">
               <div className="social-links">
                 <ul className="list-none md:text-center lg:text-right">
-                  <a href="https://twitter.com/?lang=en" target="_blank" className="hover:no-underline">  
+                  <a
+                    href="https://twitter.com/?lang=en"
+                    target="_blank"
+                    className="hover:no-underline"
+                  >
                     <li className="pr-3">
                       <img
                         src={process.env.PUBLIC_URL + "/img/twit.svg"}
@@ -29,7 +33,7 @@ class Footer extends Component {
                     </li>
                   </a>
 
-                  <a to="#" className="hover:no-underline">  
+                  <a to="#" className="hover:no-underline">
                     <li className="pr-3">
                       <img
                         src={process.env.PUBLIC_URL + "/img/youtube.svg"}
@@ -38,7 +42,7 @@ class Footer extends Component {
                     </li>
                   </a>
 
-                  <Link to="#" className="hover:no-underline">  
+                  <Link to="#" className="hover:no-underline">
                     <li className="pr-3">
                       <img
                         src={process.env.PUBLIC_URL + "/img/in.svg"}
@@ -47,22 +51,22 @@ class Footer extends Component {
                     </li>
                   </Link>
 
-                  <Link to="#" className="hover:no-underline">  
-                  <li className="pr-3">
-                    <img
-                      src={process.env.PUBLIC_URL + "/img/fb.svg"}
-                      alt="fb"
-                    />
-                  </li>
+                  <Link to="#" className="hover:no-underline">
+                    <li className="pr-3">
+                      <img
+                        src={process.env.PUBLIC_URL + "/img/fb.svg"}
+                        alt="fb"
+                      />
+                    </li>
                   </Link>
 
-                  <Link to="#" className="hover:no-underline">  
-                  <li>
-                    <img
-                      src={process.env.PUBLIC_URL + "/img/ins.svg"}
-                      alt="insta"
-                    />
-                  </li>
+                  <Link to="#" className="hover:no-underline">
+                    <li>
+                      <img
+                        src={process.env.PUBLIC_URL + "/img/ins.svg"}
+                        alt="insta"
+                      />
+                    </li>
                   </Link>
                 </ul>
               </div>
@@ -74,7 +78,6 @@ class Footer extends Component {
         <hr></hr>
 
         <div className="footer-bottom pt-4">
-         
           <div className="footer-inner grid">
             <div className="footer-adress text-left pb-3">
               <ul className="text-left">
@@ -112,36 +115,54 @@ class Footer extends Component {
                 {/* <li className="text-sm text-gray-500 font-medium pb-1">
                   {t("footer.adjucicatiors")}
                 </li> */}
-                <Link to="/serach" className="hover:no-underline">
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/search`}
+                  className="hover:no-underline"
+                >
                   {" "}
                   <li className="text-sm text-gray-500 font-medium pb-1">
                     Search
                   </li>
                 </Link>
-                <Link to="/pricing" className="hover:no-underline">
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/pricing`}
+                  className="hover:no-underline"
+                >
                   {" "}
                   <li className="text-sm text-gray-500 font-medium pb-1">
                     Plan & Pricing
                   </li>
                 </Link>
-                <Link to="/shop" className="hover:no-underline">
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/shop`}
+                  className="hover:no-underline"
+                >
                   {" "}
                   <li className="text-sm text-gray-500 font-medium pb-1">
                     Shop
                   </li>
                 </Link>
-                
-                <Link to="/contact" className="hover:no-underline">
+
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/contact`}
+                  className="hover:no-underline"
+                >
                   <li className="text-sm text-gray-500 font-medium pb-1">
                     {t("footer.contactus")}
                   </li>
                 </Link>
-                <Link to="/investor"  className="hover:no-underline">
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/investor`}
+                  className="hover:no-underline"
+                >
                   <li className="text-sm text-gray-500 font-medium pb-1">
                     {t("footer.investors")}
                   </li>
                 </Link>
-                <Link to="/careers" className="hover:no-underline">
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/careers`}
+                  className="hover:no-underline"
+                >
                   {" "}
                   <li className="text-sm text-gray-500 font-medium pb-4">
                     {t("footer.careers")}
@@ -150,24 +171,29 @@ class Footer extends Component {
                 {/* <li className="text-sm text-gray-500 font-medium pb-4">
                   {t("footer.csr")}
                 </li> */}
-                 <Link to="/faq" className="hover:no-underline">
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/faq`}
+                  className="hover:no-underline"
+                >
                   {" "}
                   <li className="text-sm text-gray-500 font-medium pb-4">
                     {t("footer.faqs")}
                   </li>
                 </Link>
-                
               </ul>
             </div>
             {/* Col 2 */}
-                
+
             {/* Col 3 */}
             <div className=" text-left pb-3">
               <h4 className="text-gray-500 text-base font-bold pb-4">
                 I'm a Landlord
               </h4>
               <ul>
-                <Link to="/landlord" className="hover:no-underline">
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/landlord`}
+                  className="hover:no-underline"
+                >
                   <li className="text-sm text-gray-500 font-medium pb-3">
                     Landlords
                   </li>
@@ -178,13 +204,16 @@ class Footer extends Component {
                     Agents
                   </li>
                 </Link> */}
-                
-                <Link to="/tanents" className="hover:no-underline">
+
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/tanents`}
+                  className="hover:no-underline"
+                >
                   <li className="text-sm text-gray-500 font-medium pb-3">
-                  Ternats
+                    Ternats
                   </li>
                 </Link>
-                <Link to="">
+                <Link>
                   {" "}
                   <li className="text-sm text-gray-500 font-medium ">More</li>
                 </Link>
@@ -192,18 +221,23 @@ class Footer extends Component {
             </div>
             {/* Col 3 */}
 
-
             {/* Col 4 */}
             <div className=" text-left pb-3">
               <h4 className="text-gray-500 text-base font-bold pb-4">Blog</h4>
               <ul>
-                <Link to="/blog" className="hover:no-underline">
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/blog`}
+                  className="hover:no-underline"
+                >
                   <li className="text-sm text-gray-500 font-medium pb-3">
                     Latest
                   </li>
                 </Link>
 
-                <Link to="/blogpost" className="hover:no-underline">
+                <Link
+                  to={`/${localStorage.getItem("selected_language")}/blogpost`}
+                  className="hover:no-underline"
+                >
                   <li className="text-sm text-gray-500 font-medium ">
                     {" "}
                     Important
@@ -268,8 +302,6 @@ class Footer extends Component {
             {/* Col 7 */}
           </div>
         </div>
-
-        
       </div>
     );
   }
