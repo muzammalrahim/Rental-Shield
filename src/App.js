@@ -37,6 +37,8 @@ import Career from "./pages/careers/Career";
 
 //Routing
 function App() {
+  // let langu = localStorage.getItem("selected_language");
+  // let language = langu == 'en' ? '/en/land'
   return (
     <div className="App">
       <section className="route-section">
@@ -46,32 +48,43 @@ function App() {
 <Route exact path="/" component={Home} /> */}
           <Switch>
             {/* {/ <Route path="/:lang" component={Home} /> } */}
-            <Route exact path="/" component={Home} />  
+            {/* <Route exact path="/" component={Home} /> */}
 
-            <Route exact path="/landlord" component={LandLord} />
-            <Route exact path="/landlord/:lang" component={LandLord} />
+            <Route exact path="/:lang" component={LandLord} />
 
-            <Route exact path="/tanents/:lang" component={Tanents} />
-            <Route exact path="/tanents" component={Tanents} />
+            {/* <Route exact path={`/${langu}/landlord`} component={LandLord} /> */}
+            {/* <Route exact path="/ar/landlord" component={LandLord} /> */}
+            {/* <Route
+              exact
+              path={`${langu == "en" ? "/en/landlord" : "/ar/landlord"}`}
+              component={LandLord}
+            /> */}
 
-            <Route exact path="/about/:lang" component={About} />
-            <Route exact path="/about" component={About} />
+            {/* <Route exact path="/landlord" component={LandLord} /> */}
+            <Route exact path="/:lang/landlord" component={LandLord} />
 
-            <Route exact path="/faq/:lang" component={Faq} />
-            <Route exact path="/faq" component={Faq} />
+            {/* <Route exact path="/tanents" component={Tanents} /> */}
+            <Route exact path="/:lang/tanents" component={Tanents} />
 
-            <Route exact path="/blog/:lang" component={Blog} />
-            <Route exact path="/blog" component={Blog} />
+            {/* <Route exact path="/about" component={About} /> */}
+            <Route exact path="/:lang/about" component={About} />
 
-            <Route exact path="/blogpost/:lang" component={BlogPost} />
-            <Route exact path="/blogpost" component={BlogPost} />
+            {/* <Route exact path="/faq" component={Faq} /> */}
+            <Route exact path="/:lang/faq" component={Faq} />
 
-            <Route exact path="/serach" component={SearchResult}></Route>
-            <Route exact path="/pricing" component={Pricing}></Route>
-            <Route exact path="/shop" component={Shop}></Route>
-            <Route exact path="/contact" component={Contact}></Route>
-            <Route exact path="/investor" component={Investor}></Route>
-            <Route exact path="/careers" component={Career}></Route>
+            {/* <Route exact path="/blog/:lang" component={Blog} /> */}
+            <Route exact path="/:lang/blog" component={Blog} />
+
+            {/* <Route exact path="/blogpost/:lang" component={BlogPost} /> */}
+            <Route exact path="/:lang/blogpost" component={BlogPost} />
+
+            <Route exact path="/:lang/search" component={SearchResult}></Route>
+            {/* <Route exact path="/pricing" component={Pricing}></Route> */}
+            <Route exact path="/:lang/pricing" component={Pricing}></Route>
+            <Route exact path="/:lang/shop" component={Shop}></Route>
+            <Route exact path="/:lang/contact" component={Contact}></Route>
+            <Route exact path="/:lang/investor" component={Investor}></Route>
+            <Route exact path="/:lang/careers" component={Career}></Route>
           </Switch>
         </Router>
       </section>

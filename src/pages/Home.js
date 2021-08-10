@@ -16,12 +16,13 @@ import Footer from "../components/Footer";
 
 class Home extends Component {
   language = this.props.match.params.lang;
+  url = this.props.match.url;
   render() {
     return (
       <div className="home-mian">
         {/* header */}
         <div className="header">
-          <Header lang={this.language} />
+          <Header lang={this.language} url={this.url} />
           {/* <Header /> */}
         </div>
         {/* header */}

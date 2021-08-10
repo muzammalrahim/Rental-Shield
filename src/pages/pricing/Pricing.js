@@ -12,15 +12,17 @@ import star from "../../assets/images/star.png";
 import diamond from "../../assets/images/diamond.png";
 import PricingBanner from "../../components/Banners/PricingBanner";
 
-function Pricing() {
+function Pricing(props) {
   const [isYearly, setIsYearly] = useState(true);
   const toggleHandler = () => {
     setIsYearly(!isYearly);
   };
+  let language = props.match.params.lang;
+  let url = props.match.url;
   return (
     <div className="PricingPage">
       <div>
-        <Header />
+        <Header lang={language} url={url} />
       </div>
       <div>
         <PricingBanner />

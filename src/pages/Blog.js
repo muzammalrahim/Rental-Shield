@@ -19,13 +19,14 @@ export default function Blog(props) {
   let { id } = useParams();
   var body = document.body;
   const language = props.match.params.lang;
+  let url = props.match.url;
 
   body.classList.add("gradient");
 
   return (
     <div className="blog-main">
       <div className="header">
-        <Header lang={language} />
+        <Header lang={language} url={url} />
       </div>
       <BlogBanner />
 

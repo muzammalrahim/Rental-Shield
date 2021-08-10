@@ -9,26 +9,25 @@ import CareerBannerImg from "../../assets/images/CareerBanner.png";
 // import CBImg from "../../assets/images/career-banner.jpg";
 import CBImg from "../../assets/images/career-banner2.jpg";
 
-
-function Career() {
+function Career(props) {
+  const language = props.match.params.lang;
+  let url = props.match.url;
   return (
     <div className="career">
       {/* <div
         className="relative c-h-screen bg-no-repeat"
         style={{ backgroundImage: `url(${CBImg})` }}
       > */}
-      <div
-        className="relative c-h-screen bg-no-repeat">
-         
+      <div className="relative c-h-screen bg-no-repeat">
         {/* <div> */}
         <div className="">
-        <Header />
+          <Header lang={language} url={url} />
         </div>
-        
+
         {/* <img className="min-w-full -mt-20" src={CareerBannerImg} alt="" /> */}
         <div className="relative caree-b-main">
           <div className="cm-bg"></div>
-          <img className="cb-img w-full -mt-20" src={CBImg} alt=""/>
+          <img className="cb-img w-full -mt-20" src={CBImg} alt="" />
           <div className="c-banner-text">
             <div className="first-side"></div>
             <div className="sec-side w-8/12">
@@ -51,7 +50,6 @@ function Career() {
             </div>
           </div>
         </div>
-        
       </div>
 
       <CareerBanner />
@@ -69,10 +67,10 @@ function Career() {
             <p>Simple...</p>
             <br />
             <p>
-              It is well known that around the world technology is developing very
-              fast. However, we believe there is a lag in Property Technology. In
-              many "developed" nations property is very years old, and expensive
-              to change. 
+              It is well known that around the world technology is developing
+              very fast. However, we believe there is a lag in Property
+              Technology. In many "developed" nations property is very years
+              old, and expensive to change. 
             </p>
 
             <p>
@@ -84,9 +82,7 @@ function Career() {
               branch out into other fields and truly use technology to shake up
               the industry as it needs.
             </p>
-            <p>
-              What are you waiting for.... Fill out an application below. 
-            </p>
+            <p>What are you waiting for.... Fill out an application below. </p>
           </div>
           <div className="col-md-6 right">
             <img src={phone} alt="" className="phone" />

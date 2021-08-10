@@ -18,10 +18,12 @@ import page1 from "../assets/images/page-img1.svg";
 import page2 from "../assets/images/page-img2.svg";
 import page3 from "../assets/images/page-img3.svg";
 
-function SearchResult() {
+function SearchResult(props) {
+  let language = props.match.params.lang;
+  let url = props.match.url;
   return (
     <div>
-      <Header />
+      <Header lang={language} url={url} />
       <SearchResultBanner />
 
       <div className="results">
