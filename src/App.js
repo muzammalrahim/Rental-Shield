@@ -2,7 +2,12 @@ import "./App.css";
 import "tailwindcss/tailwind.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 //Import Component
 import Home from "../src/pages/Home";
@@ -18,6 +23,8 @@ import Shop from "../src/pages/Shop";
 import Contact from "./pages/Contact";
 import Investor from "../src/pages/Investor";
 import Career from "./pages/careers/Career";
+//Translation
+import { withTranslation } from "react-i18next";
 
 // if (localStorage.getItem("selected_language") == "en") {
 //   if (!(window.location.href.indexOf("/en") > -1)) {
@@ -31,12 +38,13 @@ import Career from "./pages/careers/Career";
 
 // if (window.location.href.indexOf("//en") > -1) {
 //   window.history.pushState("en", "en", "/en");
-// } else if (window.location.href.indexOf("//ar") > -1) {
+// } else if (window.location.href.indexOf("/ar") > -1) {
 //   window.history.pushState("ar", "ar", "/ar");
 // }
 
 //Routing
-function App() {
+function App(props) {
+  console.log("jk lang", window.location.pathname);
   // let langu = localStorage.getItem("selected_language");
   // let language = langu == 'en' ? '/en/land'
   return (
@@ -49,9 +57,8 @@ function App() {
           <Switch>
             {/* {/ <Route path="/:lang" component={Home} /> } */}
             {/* <Route exact path="/" component={Home} /> */}
-
+            {/* <Route exact path="/" component={Home} /> */}
             <Route exact path="/:lang" component={Home} />
-            <Route exact path="/" component={Home} />
 
             {/* <Route exact path={`/${langu}/landlord`} component={LandLord} /> */}
             {/* <Route exact path="/ar/landlord" component={LandLord} /> */}
@@ -86,6 +93,7 @@ function App() {
             <Route exact path="/:lang/contact" component={Contact}></Route>
             <Route exact path="/:lang/investor" component={Investor}></Route>
             <Route exact path="/:lang/careers" component={Career}></Route>
+            <Redirect exact from="/" to="/en" />
           </Switch>
         </Router>
       </section>

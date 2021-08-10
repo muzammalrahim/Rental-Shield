@@ -12,8 +12,8 @@ export default class LandLord extends Component {
   language = this.props.match.params.lang;
   url = this.props.match.url;
   render() {
-    console.log(this.props.match);
-    // console.log("parameter", this.props.match.params.lang);
+    console.log(this.url);
+    console.log("parameter", this.props.match.params.lang);
 
     return (
       <div className="landlord-main">

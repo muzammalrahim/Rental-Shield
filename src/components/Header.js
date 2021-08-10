@@ -28,21 +28,36 @@ function Header({ t, i18n, ...props }) {
   // const [isUK, setUK] = useState(false);
 
   // i18n.changeLanguage(props.lang);
+  console.log("props url", props.url);
+  console.log("props lang", props.lang);
+
+  useEffect(() => {
+    console.log("coming");
+    if (props.url.indexOf("/ar") > -1) {
+      console.log("ar");
+      langHandler("ar");
+    } else {
+      langHandler("en");
+    }
+  }, [props.url]);
 
   const langHandler = (lang, truthy) => {
+    console.log("my url is urljdkjkaf");
     localStorage.setItem("selected_language", lang);
 
     localStorage.setItem("selected_Flag", isShow);
 
     // i18n.changeLanguage(props.lang);
-    console.log("header" + props);
 
     if (props.lang && props.url) {
       var currentUrl = props.url;
       currentUrl = currentUrl.replace(`/${props.lang}`, `${lang}`);
-      i18n.changeLanguage(props.lang);
+      // i18n.changeLanguage(props.lang);
+      console.log("current_ur", currentUrl);
       history.push(`/${currentUrl}`);
     }
+
+    console.log("else");
     i18n.changeLanguage(lang);
 
     // if (localStorage.getItem("selected_language")) {
