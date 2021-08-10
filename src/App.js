@@ -47,8 +47,8 @@ function App() {
           <Switch>
             {/* {/ <Route path="/:lang" component={Home} /> } */}
             {/* <Route exact path="/" component={Home} /> */}
-
-            <Route exact path="/:lang" component={LandLord} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/:lang" component={Home} />
 
             {/* <Route exact path={`/${langu}/landlord`} component={LandLord} /> */}
             {/* <Route exact path="/ar/landlord" component={LandLord} /> */}
