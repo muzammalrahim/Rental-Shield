@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import { Form } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import SideBar from "../components/Sidebar";
 
@@ -20,24 +20,29 @@ import DownArrow from "../assets/images/arrow-down.png";
 import { withTranslation } from "react-i18next";
 
 function Header({ t, i18n, ...props }) {
+  const history = useHistory();
   const [isShow, setShow] = useState(
     localStorage.getItem("selected_Flag") === "false"
   );
   // console.log("Header_parameter", props.lang);
   // const [isUK, setUK] = useState(false);
-  if (
-    props.lang &&
-    props.lang != null &&
-    localStorage.getItem("selected_language") != props.lang
-  ) {
-    i18n.changeLanguage(props.lang);
-  }
+
+  // i18n.changeLanguage(props.lang);
 
   const langHandler = (lang, truthy) => {
     localStorage.setItem("selected_language", lang);
 
     localStorage.setItem("selected_Flag", isShow);
 
+    // i18n.changeLanguage(props.lang);
+    console.log("header" + props);
+
+    if (props.lang && props.url) {
+      var currentUrl = props.url;
+      currentUrl = currentUrl.replace(`/${props.lang}`, `${lang}`);
+      i18n.changeLanguage(props.lang);
+      history.push(`/${currentUrl}`);
+    }
     i18n.changeLanguage(lang);
 
     // if (localStorage.getItem("selected_language")) {
@@ -58,7 +63,8 @@ function Header({ t, i18n, ...props }) {
     setShow(!isShow);
   };
   // useEffect(() => {
-  //   langHandler();
+  //   localStorage.setItem("selected_language", props.lang);
+  //   localStorage.setItem("selected_Flag", isShow);
   // }, [isShow]);
 
   // const {t, i18n} = useTranslation('common');
@@ -67,7 +73,10 @@ function Header({ t, i18n, ...props }) {
     <div className="header-main px-5  pt-4  relative z-10">
       <Navbar expand="lg" className="p-0 relative top-3">
         {/* logo */}
-        <Navbar.Brand href="/" className="mr-0">
+        <Navbar.Brand
+          href={`/${localStorage.getItem("selected_language")}`}
+          className="mr-0"
+        >
           <img className="" src={logo} alt="logo" />
         </Navbar.Brand>
         {/* logo */}
@@ -80,12 +89,16 @@ function Header({ t, i18n, ...props }) {
         <Navbar.Collapse id="basic-navbar-nav">
           {/* Menu Links */}
           <Nav className="mr-auto">
-            <Nav.Link href="/about">
+            <Nav.Link
+              href={`/${localStorage.getItem("selected_language")}/about`}
+            >
               <div className="menu-name text-gray-500 font-body font-normal text-lg pl-4">
                 {t("header.about")}
               </div>
             </Nav.Link>
-            <Nav.Link href="/faq">
+            <Nav.Link
+              href={`/${localStorage.getItem("selected_language")}/faq`}
+            >
               <div className="menu-name text-gray-500 font-body font-normal text-lg pl-3">
                 {t("header.faqs")}
               </div>
@@ -101,14 +114,37 @@ function Header({ t, i18n, ...props }) {
           {/* Right Options */}
           <Form inline>
             <Button className="bttn mr-3 p-0">
-              <Nav.Link className="" href="/landlord">
+              <Nav.Link
+                className=""
+                href={`/${localStorage.getItem("selected_language")}/landlord`}
+              >
                 <div className="btn-heading text-gray-500 font-medium font-body text-base px-2">
                   {t("header.landlord")}
                 </div>
               </Nav.Link>
             </Button>
+            {/* {localStorage.getItem("selected_Flag") == "en" ? (
+              <Button className="bttn mr-3 p-0">
+                <Nav.Link className="" href="/en/landlord">
+                  <div className="btn-heading text-gray-500 font-medium font-body text-base px-2">
+                    {t("header.landlord")}
+                  </div>
+                </Nav.Link>
+              </Button>
+            ) : (
+              <Button className="bttn mr-3 p-0">
+                <Nav.Link className="" href="/ar/landlord">
+                  <div className="btn-heading text-gray-500 font-medium font-body text-base px-2">
+                    {t("header.landlord")}
+                  </div>
+                </Nav.Link>
+              </Button>
+            )} */}
             <Button className="bttn px-3 p-0 mr-2">
-              <Nav.Link className="" href="/tanents">
+              <Nav.Link
+                className=""
+                href={`/${localStorage.getItem("selected_language")}/tanents`}
+              >
                 <div className="btn-heading text-gray-500 font-medium font-body text-base">
                   {t("header.tenant")}
                 </div>

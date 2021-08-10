@@ -15,12 +15,13 @@ import OurAim from "../assets/images/about3.png";
 
 export default class About extends Component {
   language = this.props.match.params.lang;
+  url = this.props.match.url;
   render() {
     return (
       <div className="about-main">
         {/* header */}
         <div className="header">
-          <Header lang={this.language} />
+          <Header lang={this.language} url={this.url} />
         </div>
         {/* header */}
 

@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 import Faq from "react-faq-component";
 import { Container, Row, Col } from "react-bootstrap";
-<<<<<<< HEAD
-// import FaqBg from "../../assets/images/FaqAccordion.png";
-=======
 import FaqBg from "../../assets/images/FaqAccordion.png";
->>>>>>> ca367c56e9c6569e7a0d751b1c004ad893ddc035
 import Accordion from "./Accordion";
 
 const accordionData = [

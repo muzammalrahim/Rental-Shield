@@ -10,14 +10,16 @@ import Footer from "../components/Footer";
 
 export default class LandLord extends Component {
   language = this.props.match.params.lang;
+  url = this.props.match.url;
   render() {
+    console.log(this.props.match);
     // console.log("parameter", this.props.match.params.lang);
 
     return (
       <div className="landlord-main">
         {/* header */}
         <div className="header">
-          <Header lang={this.language} />
+          <Header lang={this.language} url={this.url} />
           {/* <Header /> */}
         </div>
         {/* header */}
